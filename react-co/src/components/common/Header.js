@@ -3,35 +3,60 @@ import React from 'react';
 class Header extends React.Component {
     render() {
       return (
-        <div>
-        <div className="col-lg-9">
-          <ul className="head-contact text-lg-right text-center">
-            <li>
-              <i className="fa fa-phone" />
-              +123-456-7890
-            </li>
-            <li>
-              <i className="fa fa-envelope" />
-              info@company.com
-            </li>
-            <li className="language-drop">
-              <div className="dropdown">
-                <a href="/" className="dropdown-toggle text-capitalize" data-toggle="dropdown">
-                  english
-                </a>
-                <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/">hindi</a>
-                  <a className="dropdown-item" href="/">urdu</a>
-                  <a className="dropdown-item" href="/">english</a>
+        <header className="header">
+        <div className="head-top head-top-one d-none d-lg-block">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-3">
+                <div className="socials socials-header text-lg-left text-center">
+                  <a href="/">
+                    <i className="fab fa-facebook-f" />
+                  </a>
+                  <a href="/">
+                    <i className="fab fa-google-plus-g" />
+                  </a>
+                  <a href="/">
+                    <i className="fab fa-instagram" />
+                  </a>
+                  <a href="/">
+                    <i className="fab fa-linkedin-in" />
+                  </a>
+                  <a href="/">
+                    <i className="fab fa-twitter" />
+                  </a>
                 </div>
               </div>
-            </li>
-            <li className="ad-list">
-              <a href="add-list.html" className="btn btn-two btn-anim">
-                <i className="fa fa-plus-circle" /> add listing
-              </a>
-            </li>
-          </ul>
+              <div className="col-lg-9">
+                <ul className="head-contact text-lg-right text-center">
+                  <li>
+                    <i className="fa fa-phone" />
+                    +123-456-7890
+                  </li>
+                  <li>
+                    <i className="fa fa-envelope" />
+                    info@company.com
+                  </li>
+                  <li className="language-drop">
+                    <div className="dropdown">
+                      <a href="/" className="dropdown-toggle text-capitalize" data-toggle="dropdown">
+                        english
+                      </a>
+                      <div className="dropdown-menu">
+                        <a className="dropdown-item" href="/">hindi</a>
+                        <a className="dropdown-item" href="/">urdu</a>
+                        <a className="dropdown-item" href="/">english</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="ad-list">
+                    <a href="add-list.html" className="btn btn-two btn-anim">
+                      <i className="fa fa-plus-circle" /> add listing
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="theme-header-one affix">
           <div className="container">
@@ -53,6 +78,7 @@ class Header extends React.Component {
                       <span className="navbar-toggler-icon bar2" />
                       <span className="navbar-toggler-icon bar3" />
                     </button>
+                    {/* Links */}
                     <div className="main-menu collapse navbar-collapse" id="nav-content">
                       <ul className="navbar-nav ml-auto">
                         <li className="nav-item dropdown">
@@ -207,7 +233,7 @@ class Header extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </header>
       );
     }
 }
