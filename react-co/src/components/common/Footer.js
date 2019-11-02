@@ -15,19 +15,19 @@ class Footer extends React.Component {
                       partur monte na et ridiculu onec quam felis. castei efte tuerg scn kt isceding elit ende
                       cd magum socadaiis nato ipsf.</p>
                     <div className="socials mt-4">
-                      <a href="#">
+                      <a href="/">
                         <i className="fab fa-facebook-f" />
                       </a>
-                      <a href="#">
+                      <a href="/">
                         <i className="fab fa-google-plus-g" />
                       </a>
-                      <a href="#">
+                      <a href="/">
                         <i className="fab fa-instagram" />
                       </a>
-                      <a href="#">
+                      <a href="/">
                         <i className="fab fa-linkedin-in" />
                       </a>
-                      <a href="#">
+                      <a href="/">
                         <i className="fab fa-twitter" />
                       </a>
                     </div>
@@ -67,16 +67,16 @@ class Footer extends React.Component {
                         <a href="login.html">create account</a>
                       </li>
                       <li>
-                        <a href="#">dashboard</a>
+                        <a href="/">dashboard</a>
                       </li>
                       <li>
-                        <a href="#">profile</a>
+                        <a href="/">profile</a>
                       </li>
                       <li>
-                        <a href="#">my listing</a>
+                        <a href="/">my listing</a>
                       </li>
                       <li>
-                        <a href="#">favorites</a>
+                        <a href="/">favorites</a>
                       </li>
                     </ul>
                   </div>
@@ -88,19 +88,19 @@ class Footer extends React.Component {
                     </div>
                     <ul className="quick-link">
                       <li>
-                        <a href="#">Restaurants</a>
+                        <a href="/">Restaurants</a>
                       </li>
                       <li>
-                        <a href="#">Shopping</a>
+                        <a href="/">Shopping</a>
                       </li>
                       <li>
-                        <a href="#">Hotels</a>
+                        <a href="/">Hotels</a>
                       </li>
                       <li>
-                        <a href="#">Destinations</a>
+                        <a href="/">Destinations</a>
                       </li>
                       <li>
-                        <a href="#">Nightlife</a>
+                        <a href="/">Nightlife</a>
                       </li>
                     </ul>
                   </div>
@@ -121,10 +121,10 @@ class Footer extends React.Component {
                         <a href="blog-grid.html">Blogs</a>
                       </li>
                       <li>
-                        <a href="#">Testimonials</a>
+                        <a href="/">Testimonials</a>
                       </li>
                       <li>
-                        <a href="#">Our Partners</a>
+                        <a href="/">Our Partners</a>
                       </li>
                     </ul>
                   </div>
@@ -137,7 +137,7 @@ class Footer extends React.Component {
               <div className="row">
                 <div className="col-sm-12">
                   <p className="text-capitalize">Copyright © 2019, All rights Reserved. Created by
-                    <a href="#">Clickrstop software solutions PVT. LTD.</a>
+                    <a href="/">Clickrstop software solutions PVT. LTD.</a>
                   </p>
                 </div>
               </div>

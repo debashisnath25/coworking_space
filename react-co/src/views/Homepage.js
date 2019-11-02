@@ -82,7 +82,7 @@ class Homepage extends React.Component {
                             <i className="flaticon-find" />
                           </div>
                           <h5 className="mb-0">
-                            <a href="#">destination</a>
+                            <a href="/">destination</a>
                           </h5>
                         </div>
                       </div>
@@ -92,7 +92,7 @@ class Homepage extends React.Component {
                             <i className="flaticon-spa" />
                           </div>
                           <h5 className="mb-0">
-                            <a href="#">beauty &amp; spa</a>
+                            <a href="/">beauty &amp; spa</a>
                           </h5>
                         </div>
                       </div>
@@ -102,7 +102,7 @@ class Homepage extends React.Component {
                             <i className="flaticon-cheers" />
                           </div>
                           <h5 className="mb-0">
-                            <a href="#">nightlife</a>
+                            <a href="/">nightlife</a>
                           </h5>
                         </div>
                       </div>
@@ -112,7 +112,7 @@ class Homepage extends React.Component {
                             <i className="flaticon-hotel" />
                           </div>
                           <h5 className="mb-0">
-                            <a href="#">hotels</a>
+                            <a href="/">hotels</a>
                           </h5>
                         </div>
                       </div>
@@ -122,7 +122,7 @@ class Homepage extends React.Component {
                             <i className="flaticon-cutlery" />
                           </div>
                           <h5 className="mb-0">
-                            <a href="#">restaurants</a>
+                            <a href="/">restaurants</a>
                           </h5>
                         </div>
                       </div>
@@ -132,7 +132,7 @@ class Homepage extends React.Component {
                             <i className="flaticon-shop" />
                           </div>
                           <h5 className="mb-0">
-                            <a href="#">shopping</a>
+                            <a href="/">shopping</a>
                           </h5>
                         </div>
                       </div>
@@ -175,7 +175,7 @@ class Homepage extends React.Component {
                               <i className="far fa-star" />
                               <i className="far fa-star" />
                             </div>
-                            <a className="likes" href="#">
+                            <a className="likes" href="/">
                               <i className="far fa-heart" /> 4
                             </a>
                           </div>
@@ -183,7 +183,7 @@ class Homepage extends React.Component {
                         <div className="list-content p-2">
                           <ul className="ctg-info py-2 mb-3">
                             <li>
-                              <a href="#">
+                              <a href="/">
                                 <i className="flaticon-cutlery mr-2" /> restaurants</a>
                             </li>
                             <li>
@@ -196,11 +196,11 @@ class Homepage extends React.Component {
                           <p>Donec pede justo, fringilla vel, aliquet nectior</p>
                           <ul className="ctg-info2 pt-2 mt-3 centering justify-content-between">
                             <li className="mt-1">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fa fa-map-marker-alt mr-2" />San Francisco, USA</a>
                             </li>
                             <li className="mt-1">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fa fa-phone mr-2" />0123-456-789</a>
                             </li>
                           </ul>
@@ -219,7 +219,7 @@ class Homepage extends React.Component {
                               <i className="far fa-star" />
                               <i className="far fa-star" />
                             </div>
-                            <a className="likes" href="#">
+                            <a className="likes" href="/">
                               <i className="far fa-heart" />3
                             </a>
                           </div>
@@ -227,7 +227,7 @@ class Homepage extends React.Component {
                         <div className="list-content p-2">
                           <ul className="ctg-info py-2 mb-3">
                             <li>
-                              <a href="#">
+                              <a href="/">
                                 <i className="flaticon-shop mr-2" />shopping</a>
                             </li>
                             <li>
@@ -240,11 +240,11 @@ class Homepage extends React.Component {
                           <p>Donec pede justo, fringilla vel, aliquet nectior</p>
                           <ul className="ctg-info2 pt-2 mt-3 centering justify-content-between">
                             <li className="mt-1">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fa fa-map-marker-alt mr-2" />San Francisco, USA</a>
                             </li>
                             <li className="mt-1">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fa fa-phone mr-2" />0123-456-789</a>
                             </li>
                           </ul>
@@ -263,7 +263,7 @@ class Homepage extends React.Component {
                               <i className="fa fa-star" />
                               <i className="far fa-star" />
                             </div>
-                            <a className="likes" href="#">
+                            <a className="likes" href="/">
                               <i className="far fa-heart" />6
                             </a>
                           </div>
@@ -271,7 +271,7 @@ class Homepage extends React.Component {
                         <div className="list-content p-2">
                           <ul className="ctg-info py-2 mb-3">
                             <li>
-                              <a href="#">
+                              <a href="/">
                                 <i className="flaticon-cheers mr-2" />nightlife</a>
                             </li>
                             <li>
@@ -284,11 +284,11 @@ class Homepage extends React.Component {
                           <p>Donec pede justo, fringilla vel, aliquet nectior</p>
                           <ul className="ctg-info2 pt-2 mt-3 centering justify-content-between">
                             <li className="mt-1">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fa fa-map-marker-alt mr-2" />San Francisco, USA</a>
                             </li>
                             <li className="mt-1">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fa fa-phone mr-2" />0123-456-789</a>
                             </li>
                           </ul>
@@ -307,7 +307,7 @@ class Homepage extends React.Component {
                               <i className="far fa-star" />
                               <i className="far fa-star" />
                             </div>
-                            <a className="likes" href="#">
+                            <a className="likes" href="/">
                               <i className="far fa-heart" /> 9
                             </a>
                           </div>
@@ -315,7 +315,7 @@ class Homepage extends React.Component {
                         <div className="list-content p-2">
                           <ul className="ctg-info py-2 mb-3">
                             <li>
-                              <a href="#">
+                              <a href="/">
                                 <i className="flaticon-spa mr-2" />beauty &amp; spa</a>
                             </li>
                             <li>
@@ -328,11 +328,11 @@ class Homepage extends React.Component {
                           <p>Donec pede justo, fringilla vel, aliquet nectior</p>
                           <ul className="ctg-info2 pt-2 mt-3 centering justify-content-between">
                             <li className="mt-1">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fa fa-map-marker-alt mr-2" />San Francisco, USA</a>
                             </li>
                             <li className="mt-1">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fa fa-phone mr-2" />0123-456-789</a>
                             </li>
                           </ul>
@@ -351,7 +351,7 @@ class Homepage extends React.Component {
                               <i className="fa fa-star" />
                               <i className="fa fa-star" />
                             </div>
-                            <a className="likes" href="#">
+                            <a className="likes" href="/">
                               <i className="far fa-heart" /> 14
                             </a>
                           </div>
@@ -359,7 +359,7 @@ class Homepage extends React.Component {
                         <div className="list-content p-2">
                           <ul className="ctg-info py-2 mb-3">
                             <li>
-                              <a href="#">
+                              <a href="/">
                                 <i className="flaticon-find mr-2" />desitination</a>
                             </li>
                             <li>
@@ -372,11 +372,11 @@ class Homepage extends React.Component {
                           <p>Donec pede justo, fringilla vel, aliquet nectior</p>
                           <ul className="ctg-info2 pt-2 mt-3 centering justify-content-between">
                             <li className="mt-1">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fa fa-map-marker-alt mr-2" />San Francisco, USA</a>
                             </li>
                             <li className="mt-1">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fa fa-phone mr-2" />0123-456-789</a>
                             </li>
                           </ul>
@@ -456,7 +456,7 @@ class Homepage extends React.Component {
                   </div>
                   <div className="col-lg-6 d-lg-block d-none">
                     <div className="cta-img mt-4">
-                      <img src="img/cta-bg.png" alt="image" />
+                      <img src="img/cta-bg.png" alt="alternate" />
                     </div>
                   </div>
                 </div>
@@ -751,10 +751,10 @@ class Homepage extends React.Component {
                             <span className="mr-1">
                               <img src="img/aut-1.png" alt="#" />
                             </span>
-                            <a href="#">Johnathan Doe</a>
+                            <a href="/">Johnathan Doe</a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="/">
                               <i className="fa fa-eye mr-1" />
                               20
                             </a>
@@ -777,10 +777,10 @@ class Homepage extends React.Component {
                             <span className="mr-1">
                               <img src="img/aut-2.png" alt="#" />
                             </span>
-                            <a href="#">Alicia Thomas</a>
+                            <a href="/">Alicia Thomas</a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="/">
                               <i className="fa fa-eye mr-1" />
                               20
                             </a>
@@ -803,10 +803,10 @@ class Homepage extends React.Component {
                             <span className="mr-1">
                               <img src="img/aut-3.png" alt="#" />
                             </span>
-                            <a href="#">Johnis Doe</a>
+                            <a href="/">Johnis Doe</a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="/">
                               <i className="fa fa-eye mr-1" />
                               20
                             </a>
@@ -829,10 +829,10 @@ class Homepage extends React.Component {
                             <span className="mr-1">
                               <img src="img/aut-1.png" alt="#" />
                             </span>
-                            <a href="#">Johnas Doe</a>
+                            <a href="/">Johnas Doe</a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="/">
                               <i className="fa fa-eye mr-1" />
                               20
                             </a>
@@ -855,10 +855,10 @@ class Homepage extends React.Component {
                             <span className="mr-1">
                               <img src="img/aut-3.png" alt="#" />
                             </span>
-                            <a href="#">Alexi Johnas </a>
+                            <a href="/">Alexi Johnas </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="/">
                               <i className="fa fa-eye mr-1" />
                               20
                             </a>
@@ -881,10 +881,10 @@ class Homepage extends React.Component {
                             <span className="mr-1">
                               <img src="img/aut-2.png" alt="#" />
                             </span>
-                            <a href="#">sehny Doe</a>
+                            <a href="/">sehny Doe</a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="/">
                               <i className="fa fa-eye mr-1" />
                               20
                             </a>
@@ -894,7 +894,7 @@ class Homepage extends React.Component {
                     </div>
                   </div>
                   <div className="col-12 text-center mt-30">
-                    <a href="#" className="btn btn-one btn-anim">view all</a>
+                    <a href="/" className="btn btn-one btn-anim">view all</a>
                   </div>
                 </div>
               </div>
