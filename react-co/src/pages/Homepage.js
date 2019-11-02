@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeItemSlider from './../components/HomeItemSlider';
+import HomeItemSlider from './../components/homepage/HomeItemSlider';
 class Homepage extends React.Component {
     render() {
       return (
