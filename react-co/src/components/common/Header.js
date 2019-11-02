@@ -16,13 +16,13 @@ class Header extends React.Component {
             </li>
             <li className="language-drop">
               <div className="dropdown">
-                <a href="#" className="dropdown-toggle text-capitalize" data-toggle="dropdown">
+                <a href="/" className="dropdown-toggle text-capitalize" data-toggle="dropdown">
                   english
                 </a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="#">hindi</a>
-                  <a className="dropdown-item" href="#">urdu</a>
-                  <a className="dropdown-item" href="#">english</a>
+                  <a className="dropdown-item" href="/">hindi</a>
+                  <a className="dropdown-item" href="/">urdu</a>
+                  <a className="dropdown-item" href="/">english</a>
                 </div>
               </div>
             </li>
@@ -56,7 +56,7 @@ class Header extends React.Component {
                     <div className="main-menu collapse navbar-collapse" id="nav-content">
                       <ul className="navbar-nav ml-auto">
                         <li className="nav-item dropdown">
-                          <a href="#" className="nav-link dropdown-toggle current" data-toggle="dropdown">home</a>
+                          <a href="/" className="nav-link dropdown-toggle current" data-toggle="dropdown">home</a>
                           <ul className="dropdown-menu">
                             <li className="dropdown-item dropdown">
                               <a href="index.html">home 1</a>
