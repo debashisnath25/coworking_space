@@ -1,39 +1,15 @@
 
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <?php include 'metalinks.php';?>
-
 </head>
 
 <body>
-
-    <!-- ====== Go to top ====== -->
-    <a id="toTop" title="Go to top" href="javascript:void(0)">
-        <span id="toTopHover"></span>TOP
-    </a>
-
-    <!-- Preloader start-->
-    <div class="preloader">
-        <div class="loader-inner">
-            <div class="dash one">
-                <i class="fa fa-map-marker-alt"></i>
-            </div>
-            <div class="dash two">
-                <i class="fa fa-map-marker-alt"></i>
-            </div>
-            <div class="dash three">
-                <i class="fa fa-map-marker-alt"></i>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader end -->
-
     <!-- Header start-->
     <?php include 'header.php';?>
     <!-- Header end -->
