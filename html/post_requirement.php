@@ -436,8 +436,6 @@
     <!-- add-list end -->
     <!-- footer starts -->
     <?php include 'common/footer.php';?>
-	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM&callback=initMap">
-    </script>
     <!-- footer end -->
   </body>
 </html>

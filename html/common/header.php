@@ -62,7 +62,7 @@
         <div class="col-lg-3 col-md-12">
           <div class="logo-one logo-wrap">
             <div class="logo my-1">
-              <a href="index.html">
+              <a href="index.php">
                 <img src="img/logo.png" alt="logo">
               </a>
             </div>

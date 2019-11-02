@@ -932,10 +932,6 @@
                     </a>
                   </div>
                 </div>
-                <div class="map map-sidebar">
-                  <div id="theme-map">
-                  </div>
-                </div>
               </div>
               <div class="widget">
                 <h4 class="title-sep2 mb-30">Opening Hours
@@ -1164,7 +1160,5 @@
     <!-- footer starts -->
     <?php include 'common/footer.php';?>
     <!-- footer end -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM&callback=initMap">
-    </script>
   </body>
 </html>
