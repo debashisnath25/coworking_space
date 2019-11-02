@@ -84,184 +84,25 @@
               <div class="main-menu collapse navbar-collapse" id="nav-content">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle current" data-toggle="dropdown">home
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-item dropdown">
-                        <a href="index.html">home 1
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">about us
-                    </a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">listing
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-item">
-                        <a href="listing.html">all listings
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a href="listing-sidebar.html">listing with sidebar
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a href="listing-with-map.html">listing with map
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a href="listing-detail.html">listing detail
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">blogs
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-item">
-                        <a href="blog-page.html">blog page
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a href="blog-right-sidebar.html">blog rightbar
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a href="blog-left-sidebar.html">blog leftbar
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a href="blog-detail.html">blog detail
-                        </a>
-                      </li>
-                      <li class="dropdown-item dropdown">
-                        <a class="dropdown-toggle" href="javascript:void(0)">level 1
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li class="dropdown-item">
-                            <a href="javascript:void(0)">level 2
-                            </a>
-                          </li>
-                          <li class="dropdown-item dropdown">
-                            <a href="javascript:void(0)" class="dropdown-toggle">level 2
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li class="dropdown-item">
-                                <a href="javascript:void(0)">level 3
-                                </a>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown has-mega">
-                    <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      pages
-                    </a>
-                    <ul class="dropdown-menu mega-dropdown">
-                      <li>
-                        <ul>
-                          <li class="dropdown-item">
-                            <a href="about.html">about us
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="faq.html">faq
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="service.html">service
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="pricing.html">pricing
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <ul>
-                          <li class="dropdown-item">
-                            <a href="error-page.html">error page
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="add-list.html">add list
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="contact.html">contact us
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="login.html">login / signup
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <ul>
-                          <li class="dropdown-item">
-                            <a href="listing.html">all listings
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="listing-sidebar.html">listing with sidebar
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="listing-with-map.html">listing with map
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="listing-detail.html">listing detail
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <ul>
-                          <li class="dropdown-item">
-                            <a href="blog-page.html">blog page
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="blog-right-sidebar.html">blog rightbar
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="blog-left-sidebar.html">blog leftbar
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a href="blog-detail.html">blog detail
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">contact us
+                    <a href="post_requirement.php" class="nav-link current">Post Requirement
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#search">
-                      <i class="fa fa-search">
-                      </i>
+                    <a class="nav-link" href="javascript:void(0);">Add workspace
+                    </a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);">Lead Dashboard
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about_us.php">About Us
                     </a>
                   </li>
                   <li class="nav-item join-nav d-lg-block d-none">
-                    <a class="nav-link" href="login.html">
+                    <a class="nav-link" href="login.php">
                       <i class="fa fa-user c-theme mr-2">
-                      </i> join us
+                      </i> Login/Signup
                     </a>
                   </li>
                 </ul>
