@@ -1,5 +1,24 @@
 import React,{Component} from 'react';
 class HomeItemSlider extends Component{
+  
+  constructor(props){
+    super(props);
+    this.state = {
+      items: [],
+      isLoaded: false,
+    }
+  }
+
+  componentDidMount(){
+    fetch('http://localhost:4000/api/category')
+      .then(res => res.json())
+      .then(json => {
+        this.setState({
+          isLoaded: true,
+          items: json,
+        });
+      })
+  }
   render(){
   return(
     <section className="popular-list sp-100 bg-w">
