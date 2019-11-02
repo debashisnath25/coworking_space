@@ -6,7 +6,7 @@ import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 
 // Other components to render
-import Homepage from './views/Homepage';
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
