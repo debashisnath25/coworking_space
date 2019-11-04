@@ -164,8 +164,7 @@
                 <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
                       />
               </svg>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor penatibus
-                ean massa. Cum sociis natoqu penatibus et magnis dis parturient montes.
+              <p>Enhance your work experience to a notch and reimagine coworking with our all-encompassing workspace features.
               </p>
             </div>
           </div>
@@ -513,14 +512,13 @@
           <div class="col-12">
             <div class="all-title">
               <h3 class="sec-title">
-                top categories
+                Choose your Needs
               </h3>
               <svg class="title-sep">
                 <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
                       />
               </svg>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor penatibus
-                ean massa. Cum sociis natoqu penatibus et magnis dis parturient montes.
+              <p>We reinvents existing cafes, lounges, coworking and office spaces to give you the perfect affordable space to work, network and co-create from.
               </p>
             </div>
           </div>
