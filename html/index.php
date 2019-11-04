@@ -35,29 +35,30 @@
           <div class="banner-content">
             <div class="row">
               <div class="col-12">
-                <h2>Find The Best Place In Your City
+                <h2>Find The Best Office Place In Your City
                 </h2>
-                <p class="mt-4">Lorem ipsum dolor sit amet, consecws eftetuer adscnki iscedring elit aendea cdefom ameodo lorem
-                  ipsf dolor sit amet conscsec tsetuer.
-                </p>
               </div>
             </div>
             <form action="#" class="banner-form mt-5">
               <div class="row justify-content-md-center">
                 <div class="col-lg-3 col-md-6">
-                  <input type="text" class="form-control mb-lg-0" placeholder="What are you looking for?">
+                  <input type="text" class="form-control mb-lg-0" placeholder="Enter city or Locality name">
                 </div>
                 <div class="col-lg-3 col-md-6">
                   <select class="form-control mb-lg-0 custom-select" id="service2">
                     <option>all categories
                     </option>
-                    <option>hotel
+                    <option>Meeting Room
                     </option>
-                    <option>tour
+                    <option>Coworking Space
                     </option>
-                    <option>pharmacy
+                    <option>Private Office
                     </option>
-                    <option>shops
+                    <option>Training Room
+                    </option>
+					<option>Virtual Office
+                    </option>
+					<option>Coworking Cafes
                     </option>
                   </select>
                 </div>
@@ -75,11 +76,11 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <i class="flaticon-find">
+                    <i class="fa fa-users">
                     </i>
                   </div>
                   <h5 class="mb-0">
-                    <a href="#">destination
+                    <a href="#">Meeting Room
                     </a>
                   </h5>
                 </div>
@@ -91,7 +92,7 @@
                     </i>
                   </div>
                   <h5 class="mb-0">
-                    <a href="#">beauty & spa
+                    <a href="#">Coworking Space
                     </a>
                   </h5>
                 </div>
@@ -103,7 +104,7 @@
                     </i>
                   </div>
                   <h5 class="mb-0">
-                    <a href="#">nightlife
+                    <a href="#">Private Office
                     </a>
                   </h5>
                 </div>
@@ -115,7 +116,7 @@
                     </i>
                   </div>
                   <h5 class="mb-0">
-                    <a href="#">hotels
+                    <a href="#">Training Room
                     </a>
                   </h5>
                 </div>
@@ -127,7 +128,7 @@
                     </i>
                   </div>
                   <h5 class="mb-0">
-                    <a href="#">restaurants
+                    <a href="#">Virtual Office
                     </a>
                   </h5>
                 </div>
@@ -139,7 +140,7 @@
                     </i>
                   </div>
                   <h5 class="mb-0">
-                    <a href="#">shopping
+                    <a href="#">Coworking Cafes
                     </a>
                   </h5>
                 </div>
@@ -174,52 +175,23 @@
             <div class="popular-list-slider mb-0">
               <div class="listing-item p-2">
                 <div class="img-holder">
-                  <span class="offer">save 49%
-                  </span>
-                  <img src="img/pl-slide1.jpg" alt="list">
-                  <div class="rate-like centering justify-content-between">
-                    <div class="rating">
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                    </div>
-                    <a class="likes" href="#">
-                      <i class="far fa-heart">
-                      </i> 4
-                    </a>
-                  </div>
+
+                  <img src="img/l-1.png" alt="list">
+                  
                 </div>
                 <div class="list-content p-2">
-                  <ul class="ctg-info py-2 mb-3">
-                    <li>
-                      <a href="#">
-                        <i class="flaticon-cutlery mr-2">
-                        </i> restaurants
-                      </a>
-                    </li>
-                    <li>
-                      <span class="c-theme"> open now
-                      </span>
-                    </li>
-                  </ul>
+                 
                   <h5 class="mb-2">
-                    <a href="listing-detail.html">the lounge & bar
+                    <a href="listing-detail.html">Work with us
                     </a>
                   </h5>
-                  <p>Donec pede justo, fringilla vel, aliquet nectior
+                  <p>Work Cafe
                   </p>
                   <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
                     <li class="mt-1">
                       <a href="#">
                         <i class="fa fa-map-marker-alt mr-2">
-                        </i>San Francisco, USA
+                        </i>Dwarka,New Delhi
                       </a>
                     </li>
                     <li class="mt-1">
@@ -233,52 +205,23 @@
               </div>
               <div class="listing-item p-2">
                 <div class="img-holder">
-                  <span class="offer">save 30%
-                  </span>
-                  <img src="img/pl-slide2.jpg" alt="list">
-                  <div class="rate-like centering justify-content-between">
-                    <div class="rating">
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                    </div>
-                    <a class="likes" href="#">
-                      <i class="far fa-heart">
-                      </i>3
-                    </a>
-                  </div>
+
+                  <img src="img/l-2.png" alt="list">
+            
                 </div>
                 <div class="list-content p-2">
-                  <ul class="ctg-info py-2 mb-3">
-                    <li>
-                      <a href="#">
-                        <i class="flaticon-shop mr-2">
-                        </i>shopping
-                      </a>
-                    </li>
-                    <li>
-                      <span class="c-theme"> open now
-                      </span>
-                    </li>
-                  </ul>
+             
                   <h5 class="mb-2">
-                    <a href="listing-detail.html">the best shop in city
+                    <a href="listing-detail.html">Work with us
                     </a>
                   </h5>
-                  <p>Donec pede justo, fringilla vel, aliquet nectior
+                  <p>Co-working space
                   </p>
                   <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
                     <li class="mt-1">
                       <a href="#">
                         <i class="fa fa-map-marker-alt mr-2">
-                        </i>San Francisco, USA
+                        </i>noida,Delhi
                       </a>
                     </li>
                     <li class="mt-1">
@@ -292,52 +235,23 @@
               </div>
               <div class="listing-item p-2">
                 <div class="img-holder">
-                  <span class="offer">save 19%
-                  </span>
-                  <img src="img/pl-slide3.jpg" alt="list">
-                  <div class="rate-like centering justify-content-between">
-                    <div class="rating">
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                    </div>
-                    <a class="likes" href="#">
-                      <i class="far fa-heart">
-                      </i>6
-                    </a>
-                  </div>
+
+                  <img src="img/l-3.png" alt="list">
+
                 </div>
                 <div class="list-content p-2">
-                  <ul class="ctg-info py-2 mb-3">
-                    <li>
-                      <a href="#">
-                        <i class="flaticon-cheers mr-2">
-                        </i>nightlife
-                      </a>
-                    </li>
-                    <li>
-                      <span class="c-theme"> open now
-                      </span>
-                    </li>
-                  </ul>
+
                   <h5 class="mb-2">
-                    <a href="listing-detail.html">enjoy best nightlife
+                    <a href="listing-detail.html">Execube
                     </a>
                   </h5>
-                  <p>Donec pede justo, fringilla vel, aliquet nectior
+                  <p>Co-working space
                   </p>
                   <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
                     <li class="mt-1">
                       <a href="#">
                         <i class="fa fa-map-marker-alt mr-2">
-                        </i>San Francisco, USA
+                        </i>Chattisnagar,New Delhi
                       </a>
                     </li>
                     <li class="mt-1">
@@ -351,52 +265,23 @@
               </div>
               <div class="listing-item p-2">
                 <div class="img-holder">
-                  <span class="offer">save 59%
-                  </span>
-                  <img src="img/pl-slide4.jpg" alt="list">
-                  <div class="rate-like centering justify-content-between">
-                    <div class="rating">
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                    </div>
-                    <a class="likes" href="#">
-                      <i class="far fa-heart">
-                      </i> 9
-                    </a>
-                  </div>
+
+                  <img src="img/l-1.png" alt="list">
+                 
                 </div>
                 <div class="list-content p-2">
-                  <ul class="ctg-info py-2 mb-3">
-                    <li>
-                      <a href="#">
-                        <i class="flaticon-spa mr-2">
-                        </i>beauty & spa
-                      </a>
-                    </li>
-                    <li>
-                      <span class="c-theme"> open now
-                      </span>
-                    </li>
-                  </ul>
+
                   <h5 class="mb-2">
-                    <a href="listing-detail.html">best beauty & spa services
+                    <a href="listing-detail.html">Boulder box
                     </a>
                   </h5>
-                  <p>Donec pede justo, fringilla vel, aliquet nectior
+                  <p>Co-working Space
                   </p>
                   <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
                     <li class="mt-1">
                       <a href="#">
                         <i class="fa fa-map-marker-alt mr-2">
-                        </i>San Francisco, USA
+                        </i>Vasant kunj,New Delhi
                       </a>
                     </li>
                     <li class="mt-1">
@@ -410,52 +295,23 @@
               </div>
               <div class="listing-item p-2">
                 <div class="img-holder">
-                  <span class="offer">save 20%
-                  </span>
-                  <img src="img/pl-slide5.jpg" alt="list">
-                  <div class="rate-like centering justify-content-between">
-                    <div class="rating">
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                    </div>
-                    <a class="likes" href="#">
-                      <i class="far fa-heart">
-                      </i> 14
-                    </a>
-                  </div>
+
+                  <img src="img/l-2.png" alt="list">
+                 
                 </div>
                 <div class="list-content p-2">
-                  <ul class="ctg-info py-2 mb-3">
-                    <li>
-                      <a href="#">
-                        <i class="flaticon-find mr-2">
-                        </i>desitination
-                      </a>
-                    </li>
-                    <li>
-                      <span class="c-theme"> open now
-                      </span>
-                    </li>
-                  </ul>
+
                   <h5 class="mb-2">
-                    <a href="listing-detail.html">best destinations in city
+                    <a href="listing-detail.html">Cafe more life
                     </a>
                   </h5>
-                  <p>Donec pede justo, fringilla vel, aliquet nectior
+                  <p>Work Cafe
                   </p>
                   <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
                     <li class="mt-1">
                       <a href="#">
                         <i class="fa fa-map-marker-alt mr-2">
-                        </i>San Francisco, USA
+                        </i>Chitpur,Noida
                       </a>
                     </li>
                     <li class="mt-1">
@@ -480,15 +336,13 @@
           <div class="col-12">
             <div class="all-title">
               <h3 class="sec-title">
-                fitness programs
+                Simple steps to find your perfect workspace
               </h3>
               <svg class="title-sep">
                 <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
                       />
               </svg>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor penatibus
-                ean massa. Cum sociis natoqu penatibus et magnis dis parturient montes.
-              </p>
+              <p>Search the market, shortlist options and request viewing.Our local experts will arrange and confirm viewing.Choose your perfect and we'll help negotiate the best deal</p>
             </div>
           </div>
         </div>
@@ -501,9 +355,9 @@
               </div>
               <h5>
                 <span class="c-theme">1. 
-                </span> Choose a Category
+                </span> New Day, New Workspace
               </h5>
-              <p class="mb-0">Lorem ipsum dolor sit amet, consec rcqui adipiscing elit socada como ligaui.
+              <p class="mb-0">Over 100+ locations and still counting; this is a quest to bring you a work space closer to wherever you are.
               </p>
             </div>
           </div>
@@ -515,9 +369,9 @@
               </div>
               <h5>
                 <span class="c-theme">2. 
-                </span> Find What You Want
+                </span>Work more, Pay less
               </h5>
-              <p class="mb-0">Lorem ipsum dolor sit amet, consec rcqui adipiscing elit socada como ligaui.
+              <p class="mb-0">With super-flexi myHQ subscription, enjoy the freedom of no monthly rental, no deposit, no lock-in, no expiry.
               </p>
             </div>
           </div>
@@ -529,9 +383,9 @@
               </div>
               <h5>
                 <span class="c-theme">3. 
-                </span> go Out & Explore
+                </span>Meet new People
               </h5>
-              <p class="mb-0">Lorem ipsum dolor sit amet, consec rcqui adipiscing elit socada como ligaui.
+              <p class="mb-0">Connect with over 10000+ like-minded individuals. Get professional help, find your next client or perhaps, a buddy for life!
               </p>
             </div>
           </div>
@@ -547,8 +401,7 @@
             <div class="cta-content">
               <h3>Sign Up To Get Special Offers Every Day
               </h3>
-              <p>Lorem ipsum dolor sit amet, consectadetudzdae rcquisc adipiscing elit. Aenean socada commodo ligaui
-                egets dolor. 
+              <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
               </p>
               <a href="login.html" class="btn btn-two btn-anim mt-2">
                 sign up
@@ -577,8 +430,7 @@
                 <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
                       />
               </svg>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor penatibus
-                ean massa. Cum sociis natoqu penatibus et magnis dis parturient montes.
+              <p>In this new-age of emerging collaborative businesses, one needs an all encompassing creative ecosystem to boost their productivity, motivation and networks.we reprograms existing vacant spaces in urban cities to give you exactly that.
               </p>
             </div>
           </div>
@@ -590,11 +442,9 @@
                 <i class="flaticon-rising">
                 </i>
               </div>
-              <h5>our vision
+              <h5>Ready to move-in Office
               </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
+              
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12 mb-30">
@@ -603,11 +453,9 @@
                 <i class="flaticon-list">
                 </i>
               </div>
-              <h5>missions
+              <h5>No Booking/Broker Fee
               </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
+              
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12 mb-30">
@@ -616,11 +464,9 @@
                 <i class="flaticon-medal">
                 </i>
               </div>
-              <h5>our value
+              <h5>Hassle Free Working
               </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
+            
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12 mb-30">
@@ -629,11 +475,9 @@
                 <i class="flaticon-find-1">
                 </i>
               </div>
-              <h5>find your listing
+              <h5>Safe And Trusted
               </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
+            
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12 mb-30">
@@ -642,11 +486,9 @@
                 <i class="flaticon-map">
                 </i>
               </div>
-              <h5>find the way
+              <h5>Verified Venues
               </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
+              
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-12 mb-30">
@@ -657,9 +499,7 @@
               </div>
               <h5>24/7 support
               </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
+             
             </div>
           </div>
         </div>
@@ -686,7 +526,7 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box" style="background-image:url('img/cat1.jpg')">
                 <i class="flaticon-map">
@@ -694,7 +534,7 @@
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html">destination
+                  <a href="listing.html">Meeting Room
                   </a>
                 </h5>
                 <p class="mb-0">35 Listing
@@ -702,7 +542,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box" style="background-image:url('img/cat2.jpg')">
                 <i class="flaticon-cutlery">
@@ -710,7 +550,7 @@
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html">restaurants
+                  <a href="listing.html">Coworking Space
                   </a>
                 </h5>
                 <p class="mb-0">20 Listing
@@ -718,7 +558,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box" style="background-image:url('img/cat3.jpg')">
                 <i class="flaticon-shop">
@@ -726,7 +566,7 @@
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html"> shopping
+                  <a href="listing.html"> Private Office
                   </a>
                 </h5>
                 <p class="mb-0">15 Listing
@@ -734,7 +574,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box" style="background-image:url('img/cat4.jpg')">
                 <i class="flaticon-hotel">
@@ -742,7 +582,7 @@
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html"> hotels
+                  <a href="listing.html"> Training Room
                   </a>
                 </h5>
                 <p class="mb-0">12 Listing
@@ -750,7 +590,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box" style="background-image:url('img/cat5.jpg')">
                 <i class="flaticon-spa">
@@ -758,7 +598,7 @@
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html"> Beauty & Spa
+                  <a href="listing.html"> Virtual Office
                   </a>
                 </h5>
                 <p class="mb-0">18 Listing
@@ -766,7 +606,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box" style="background-image:url('img/cat6.jpg')">
                 <i class="flaticon-drama">
@@ -774,7 +614,7 @@
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html"> events
+                  <a href="listing.html"> Coworking Cafes
                   </a>
                 </h5>
                 <p class="mb-0">14 Listing
@@ -782,38 +622,8 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
-            <div class="ctg-item">
-              <div class="icon-box" style="background-image:url('img/cat7.jpg')">
-                <i class="flaticon-cheers">
-                </i>
-              </div>
-              <div class="content-box p-4">
-                <h5 class="mb-1">
-                  <a href="listing.html"> nightlie
-                  </a>
-                </h5>
-                <p class="mb-0">25 Listing
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
-            <div class="ctg-item">
-              <div class="icon-box" style="background-image:url('img/cat8.jpg')">
-                <i class="flaticon-fast-food">
-                </i>
-              </div>
-              <div class="content-box p-4">
-                <h5 class="mb-1">
-                  <a href="listing.html"> Beauty & Spa
-                  </a>
-                </h5>
-                <p class="mb-0">10 Listing
-                </p>
-              </div>
-            </div>
-          </div>
+
+
         </div>
       </div>
     </section>
