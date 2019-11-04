@@ -88,7 +88,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);">Add workspace
+                    <a class="nav-link" href="add_workspace.php">Add workspace
                     </a>
                   </li>
                    <li class="nav-item">
