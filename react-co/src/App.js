@@ -2,12 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 // Common js files
-import Header from './components/common/Header';
-import Footer from './components/common/Footer';
+// import Header from './components/common/Header';
+// import Footer from './components/common/Footer';
+import Component from './components';
+import {Header,Footer} from Component;
 
 // Other components to render
 import Homepage from './pages/Homepage';
-import About_us from './pages/About_us';
+import About_us from './pages/about';
 import Listing from './pages/Listing';
 function App() {
   return (
