@@ -65,7 +65,7 @@
 		</div>
 	</section>
     <!-- listing slider start-->
-    <div class="bg-w sp-100">
+    <div class="bg-w">
       <div class="container">
 	  	<div class="row">
           <div class="col-12">
@@ -85,7 +85,7 @@
     </div>
     <!-- listing slider end -->
     <!-- listing detail start-->
-    <div class="bg-w sp-100 pt-0">
+    <div class="bg-w">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-12">
