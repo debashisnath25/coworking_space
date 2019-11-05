@@ -5,29 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php include 'common/metalinks.php';?>
+	<style>
+		.icon-height{
+			height:170px;
+		}
+		.theme-header-one{
+			background-color: rgba(0, 0, 0, 0.5) !important;
+		}
+	</style>
   </head>
   <body>
     <!-- Header start-->
     <?php include 'common/header.php';?>
     <!-- Header end -->
-    <!-- Search Form -->
-    <div id="search" class="top-search d-flex">
-      <span class="close">
-        <i class="fa fa-times">
-        </i>
-      </span>
-      <div class="w-100 text-center mt-4">
-        <h3 class="c-white fw-5">search here
-        </h3>
-        <form role="search" id="searchform" action="#" method="get" class="search-bar">
-          <input value="" name="q" type="search" placeholder="type to search..." class="form-control">
-          <button type="submit" class="submit-btn">
-            <i class="fa fa-search">
-            </i>
-          </button>
-        </form>
-      </div>
-    </div>
     <!-- banner start -->
     <div class="main-banner">
       <div class="banner-image" data-jarallax='{"videoStartTime": 4300}' data-jarallax-video="https://youtu.be/y1Alop4LhYI">
@@ -56,7 +46,7 @@
                     </option>
                     <option>Training Room
                     </option>
-					<option>Virtual Office
+					<option>Business Center
                     </option>
 					<option>Coworking Cafes
                     </option>
@@ -128,7 +118,7 @@
                     </i>
                   </div>
                   <h5 class="mb-0">
-                    <a href="#">Virtual Office
+                    <a href="#">Business Center
                     </a>
                   </h5>
                 </div>
@@ -174,12 +164,9 @@
             <div class="popular-list-slider mb-0">
               <div class="listing-item p-2">
                 <div class="img-holder">
-
                   <img src="img/l-1.png" alt="list">
-                  
                 </div>
                 <div class="list-content p-2">
-                 
                   <h5 class="mb-2">
                     <a href="listing-detail.html">Work with us
                     </a>
@@ -518,7 +505,7 @@
                 <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
                       />
               </svg>
-              <p>We reinvents existing cafes, lounges, coworking and office spaces to give you the perfect affordable space to work, network and co-create from.
+              <p>We reinvent existing cafes, lounges, coworking and office spaces to give you the perfect affordable space to work, network and co-create from.
               </p>
             </div>
           </div>
@@ -526,9 +513,7 @@
         <div class="row justify-content-center">
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
-              <div class="icon-box" style="background-image:url('img/cat1.jpg')">
-                <i class="flaticon-map">
-                </i>
+              <div class="icon-box icon-height" style="background-image:url('img/banner-meeting-room.jpg')">
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
@@ -542,9 +527,7 @@
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
-              <div class="icon-box" style="background-image:url('img/cat2.jpg')">
-                <i class="flaticon-cutlery">
-                </i>
+              <div class="icon-box icon-height" style="background-image:url('img/Daily-Digest-Image-2019-06-03T112659.066.png')">
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
@@ -558,9 +541,7 @@
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
-              <div class="icon-box" style="background-image:url('img/cat3.jpg')">
-                <i class="flaticon-shop">
-                </i>
+              <div class="icon-box icon-height" style="background-image:url('img/Private-Office-Dedicated-Desk.png')">
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
@@ -574,9 +555,7 @@
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
-              <div class="icon-box" style="background-image:url('img/cat4.jpg')">
-                <i class="flaticon-hotel">
-                </i>
+              <div class="icon-box icon-height" style="background-image:url('img/944390254ed4fd2b9fb33ad76b37d9a1.png')">
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
@@ -590,13 +569,11 @@
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
-              <div class="icon-box" style="background-image:url('img/cat5.jpg')">
-                <i class="flaticon-spa">
-                </i>
+              <div class="icon-box icon-height" style="background-image:url('img/sala-900x600.png')">
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html"> Virtual Office
+                  <a href="listing.html"> Business Center
                   </a>
                 </h5>
                 <p class="mb-0">18 Listing
@@ -606,9 +583,7 @@
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
-              <div class="icon-box" style="background-image:url('img/cat6.jpg')">
-                <i class="flaticon-drama">
-                </i>
+              <div class="icon-box icon-height" style="background-image:url('img/180504_Spacious_Crave_66.jpg')">
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
