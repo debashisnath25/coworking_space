@@ -5,101 +5,98 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php include 'common/metalinks.php';?>
+	<style>
+		.abt-listing{
+			border:1px solid #ddd;
+		}
+		.btn-two{
+			border:1px solid #ccc;
+			background-color: #f2f2f2;
+		}
+		.carousel-inner{
+			text-align: center;
+		}
+		.blog-slider .carousel-inner .carousel-item img{
+			height:450px;
+			padding-top:10px;
+			border-radius:0px;
+		}
+		.page-banner{
+			padding: 90px 0;
+		}
+	</style>
   </head>
   <body>
     <!-- Header start-->
     <?php include 'common/header.php';?>
     <!-- Header end -->
-    <!-- Search Form -->
-    <div id="search" class="top-search d-flex">
-      <span class="close">
-        <i class="fa fa-times">
-        </i>
-      </span>
-      <div class="w-100 text-center mt-4">
-        <h3 class="c-white fw-5">search here
-        </h3>
-        <form role="search" id="searchform" action="#" method="get" class="search-bar">
-          <input value="" name="q" type="search" placeholder="type to search..." class="form-control">
-          <button type="submit" class="submit-btn">
-            <i class="fa fa-search">
-            </i>
-          </button>
-        </form>
-      </div>
-    </div>
-    <!-- page-banner start-->
-    <section class="page-banner">
+	<section class="page-banner">
+		<div class="container-fluid">
+			<div id="blog-slider2" class="carousel blog-slider slide " data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/180504_Spacious_Crave_66.jpg" alt="listing">
+					</div>
+					<div class="carousel-item">
+						<img src="img/sala-900x600.png" alt="listing">
+					</div>
+					<div class="carousel-item">
+						<img src="img/944390254ed4fd2b9fb33ad76b37d9a1.png" alt="listing">
+					</div>
+					<div class="carousel-item">
+						<img src="img/Daily-Digest-Image-2019-06-03T112659.066.png" alt="listing">
+					</div>
+				</div>
+				<div class="carousel-nav">
+					<a class="carousel-control-prev" href="#blog-slider2" data-slide="prev">
+						<i class="fa fa-angle-left"></i>
+					</a>
+					<a class="carousel-control-next" href="#blog-slider2" data-slide="next">
+						<i class="fa fa-angle-right"></i>
+					</a>
+				</div>
+				<ul class="carousel-indicators">
+					<li data-target="#blog-slider2" data-slide-to="0" class="active"></li>
+					<li data-target="#blog-slider2" data-slide-to="1"></li>
+					<li data-target="#blog-slider2" data-slide-to="2"></li>
+					<li data-target="#blog-slider2" data-slide-to="3"></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+    <!-- listing slider start-->
+    <div class="bg-w">
       <div class="container">
-        <div class="row">
+	  	<div class="row">
           <div class="col-12">
-            <h3>listing detail
-            </h3>
-            <ul class="banner-link text-center">
+            <ul class="banner-link ">
               <li>
-                <a href="index.html">Home
+                <a href="index.php">Home
                 </a>
               </li>
               <li>
-                <a href="javascript:void(0)">listing
-                </a>
-              </li>
-              <li>
-                <span class="active">listing detail
-                </span>
+                <span class="active">our workspaces details
+                </span> 
               </li>
             </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- page-banner ends-->
-    <!-- listing slider start-->
-    <div class="bg-w sp-100">
-      <div class="container-fluid">
-        <div class="listing-detail-slider owl-carousel owl-theme px-4">
-          <div class="list-slide">
-            <img src="img/list-slide1.jpg" alt="listing">
-          </div>
-          <div class="list-slide">
-            <img src="img/list-slide2.jpg" alt="listing">
-          </div>
-          <div class="list-slide">
-            <img src="img/list-slide3.jpg" alt="listing">
-          </div>
-          <div class="list-slide">
-            <img src="img/list-slide4.jpg" alt="listing">
-          </div>
-          <div class="list-slide">
-            <img src="img/list-slide1.jpg" alt="listing">
-          </div>
-          <div class="list-slide">
-            <img src="img/list-slide2.jpg" alt="listing">
-          </div>
-          <div class="list-slide">
-            <img src="img/list-slide3.jpg" alt="listing">
-          </div>
-          <div class="list-slide">
-            <img src="img/list-slide4.jpg" alt="listing">
           </div>
         </div>
       </div>
     </div>
     <!-- listing slider end -->
     <!-- listing detail start-->
-    <div class="bg-w sp-100 pt-0">
+    <div class="bg-w">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-12">
             <div class="listing-detail mb-60">
-              <h3 class="mb-30">grand heritage hotel
+              <h3 class="mb-30">Co-Working Space
               </h3>
-              <div class="abt-listing">
                 <ul class="ctg-info centering justify-content-start">
                   <li>
                     <a href="#">
                       <i class="fa fa-map-marker-alt mr-2">
-                      </i>345 Canal St, New York, USA
+                      </i>KT Nagar, Nagpur
                     </a>
                   </li>
                   <li class="my-1">
@@ -108,374 +105,82 @@
                       </i> 0123-456-789
                     </a>
                   </li>
-                  <li class="my-1">
-                    <span> open now
-                    </span>
-                  </li>
                 </ul>
-              </div>
             </div>
-            <div class="mb-60">
+            <div class="mb-60 abt-listing">
               <h4 class="title-sep3 mb-30">
                 description
               </h4>
-              <p>Officia irure in pariatur deserunt proident Lorem. Non ullamco ipsum adipisicing nisi do. Excepteur
-                ea amet ex dolor nisi laborum non anim non velit aute culpa nisi. Officia nostrud enim aliquip
-                ea ad occaecat. Irure magna consectetur eiusmod eu officia voluptate duis pariatur quis et. Incididunt
-                in deserunt duis adipisicing commodo sit in voluptate.
+              <p>From being a well-known hub or just starting up, Nagpur is evolving to embrace shared workstations. Qdesq offers you a co-working space in KT Nagar, Nagpur. Offering single workstations in a shared office environment, Qdesq is a verified branded workspace provider. These spaces are well equipped with AC with power backup, Meeting rooms, free WiFi, clean toilet, for you to enjoy just working.
               </p>
-              <p>Velit cupidatat voluptate eu do ullamco est incididunt deserunt. Duis ut aliquip quis nostrud laboris
-                labore irure fugiat non ea pariatur. Nostrud culpa Lorem nulla excepteur et ut eu amet qui consequat
-                adipisicing nulla tesquwdfe eu, pr etium quis, sem.
+              <p>The cost-effective way of collaborative working space also comes with free tea/coffee for your recharge. These workstations can be rented on a monthly basis and offer to you an environment where work isn't just working, it is learning and growing.
               </p>
             </div>
-            <div class="mb-60">
+            <div class="mb-60 abt-listing">
               <h4 class="title-sep3 mb-30">
                 facilities
               </h4>
               <div class="row minus-pad">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id6" value="value">
                     <label for="checkbox_id6">Card Payment
                     </label>
                   </div>
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id7" value="value">
                     <label for="checkbox_id7">Free Parking
                     </label>
                   </div>
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id8" value="value">
                     <label for="checkbox_id8">Free Wi-Fi
                     </label>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id9" value="value">
                     <label for="checkbox_id9">Family Friendly
                     </label>
                   </div>
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id10" value="value">
                     <label for="checkbox_id10">Wheelchair
                     </label>
                   </div>
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id11" value="value">
                     <label for="checkbox_id11">Air Conditioning
                     </label>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id12" value="value">
                     <label for="checkbox_id12">Fitness Center
                     </label>
                   </div>
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id13" value="value">
                     <label for="checkbox_id13">Reservations
                     </label>
                   </div>
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id14" value="value">
                     <label for="checkbox_id14">Smoking Allowed
                     </label>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id15" value="value">
                     <label for="checkbox_id15">Swimming Pool
                     </label>
                   </div>
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id16" value="value">
                     <label for="checkbox_id16">Coupons
                     </label>
                   </div>
                   <div class="w-100 mb-2">
-                    <input type="checkbox" name="checkbox" id="checkbox_id17" value="value">
                     <label for="checkbox_id17">Pet Friendly
                     </label>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="mb-30">
-              <h4 class="title-sep3 mb-30">
-                available rooms
-              </h4>
-              <div class="row">
-                <div class="col-12">
-                  <div class="general-listing">
-                    <div class="img-list">
-                      <div class="image-holder">
-                        <img src="img/pl-slide1.jpg" alt="listing">
-                      </div>
-                    </div>
-                    <div class="listing-content">
-                      <h5>standard single room
-                      </h5>
-                      <div class="centering justify-content-start">
-                        <p class="mr-4">Price Range :
-                          <span class="c-theme">60$ - 80$
-                          </span>
-                        </p>
-                        <p>Max Person :
-                          <span class="c-theme">3
-                          </span>
-                        </p>
-                      </div>
-                      <p> Mollit ullamco laborum laborum Lorem magna ipsum duis exercitation proident officia.
-                      </p>
-                      <div class="row minus-pad">
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-bed-1">
-                            </i>
-                            <span>single bad
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-computer-screen">
-                            </i>
-                            <span>Tv Inside
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-shower">
-                            </i>
-                            <span>Shower
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-air-conditioner">
-                            </i>
-                            <span>Air Condition
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-wifi">
-                            </i>
-                            <span>Free Wifi
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-meal">
-                            </i>
-                            <span>Breakfast
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="general-listing">
-                    <div class="img-list">
-                      <div class="image-holder">
-                        <img src="img/pl-slide2.jpg" alt="listing">
-                      </div>
-                    </div>
-                    <div class="listing-content">
-                      <h5>Deluxe Double Room
-                      </h5>
-                      <div class="centering justify-content-start">
-                        <p class="mr-4">Price Range :
-                          <span class="c-theme">70$ - 110$
-                          </span>
-                        </p>
-                        <p>Max Person :
-                          <span class="c-theme">6
-                          </span>
-                        </p>
-                      </div>
-                      <p> Mollit ullamco laborum laborum Lorem magna ipsum duis exercitation proident officia.
-                      </p>
-                      <div class="row minus-pad">
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-bed-1">
-                            </i>
-                            <span>double bad
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-computer-screen">
-                            </i>
-                            <span>Tv Inside
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-shower">
-                            </i>
-                            <span>Shower
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-air-conditioner">
-                            </i>
-                            <span>Air Condition
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-wifi">
-                            </i>
-                            <span>Free Wifi
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-meal">
-                            </i>
-                            <span>Breakfast
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="general-listing">
-                    <div class="img-list">
-                      <div class="image-holder">
-                        <img src="img/pl-slide3.jpg" alt="listing">
-                      </div>
-                    </div>
-                    <div class="listing-content">
-                      <h5>Superior Family Room
-                      </h5>
-                      <div class="centering justify-content-start">
-                        <p class="mr-4">Price Range :
-                          <span class="c-theme">100$ - 150$
-                          </span>
-                        </p>
-                        <p>Max Person :
-                          <span class="c-theme">9
-                          </span>
-                        </p>
-                      </div>
-                      <p> Mollit ullamco laborum laborum Lorem magna ipsum duis exercitation proident officia.
-                      </p>
-                      <div class="row minus-pad">
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-bed">
-                            </i>
-                            <span>double Bed
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-computer-screen">
-                            </i>
-                            <span>Tv Inside
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-bathtub">
-                            </i>
-                            <span>bathtub
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-air-conditioner">
-                            </i>
-                            <span>Air Condition
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-wifi">
-                            </i>
-                            <span>Free Wifi
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-xl-4 col-sm-6 col-12">
-                          <div class="aminities">
-                            <i class="flaticon-meal">
-                            </i>
-                            <span>Breakfast
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="mb-30">
-              <h4 class="title-sep3 mb-30">
-                Statistic
-              </h4>
-              <div class="row">
-                <div class="col-md-3 col-sm-6 col-12">
-                  <div class="stat-box">
-                    <i class="fa fa-eye">
-                    </i>
-                    <h5>540 Views
-                    </h5>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12">
-                  <div class="stat-box">
-                    <i class="fa fa-star">
-                    </i>
-                    <h5>5 ratings
-                    </h5>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12">
-                  <div class="stat-box">
-                    <i class="fa fa-share-alt">
-                    </i>
-                    <h5>10 shares
-                    </h5>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12">
-                  <div class="stat-box">
-                    <i class="fa fa-heart">
-                    </i>
-                    <h5>7 favourites
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="mb-30">
+            
+            <div class="mb-30 abt-listing">
               <h4 class="title-sep3 mb-30">
                 tags
               </h4>
@@ -566,7 +271,7 @@
                 </div>
               </div>
             </div>
-            <div class="mb-30">
+            <div class="mb-30 abt-listing">
               <h4 class="title-sep3 mb-30">
                 3 Reviews
               </h4>
@@ -684,7 +389,7 @@
                 </div>
               </div>
             </div>
-            <div class="mb-0">
+            <div class="mb-0 abt-listing">
               <h4 class="title-sep3 mb-30">
                 add review
               </h4>
@@ -791,86 +496,12 @@
           <div class="col-lg-4 col-12">
             <aside class="sidebar">
               <div class="widget">
-                <h4 class="title-sep2 mb-30">booking
-                </h4>
+                
                 <div class="booking-form">
                   <div class="row">
                     <div class="col-12">
-                      <label>room type
-                      </label>
-                      <select class="form-control custom-select" id="room">
-                        <option>select room
-                        </option>
-                        <option>standard room
-                        </option>
-                        <option>Deluxe room
-                        </option>
-                        <option>suite room
-                        </option>
-                        <option>Superior Family Room
-                        </option>
-                      </select>
-                    </div>
-                    <div class="col-12">
-                      <label>when to book
-                      </label>
-                      <input class="form-control custom-select" type="date" name="dateinout">
-                    </div>
-                    <div class="col-6">
-                      <label>adults
-                      </label>
-                      <div class="add-person form-control px-1">
-                        <div class="inc-dec-contain centering">
-                          <div class="inc-dec-control">
-                            <button class="cart-qty-plus" type="button" value="+">
-                              <i class="fa fa-plus">
-                              </i>
-                            </button>
-                          </div>
-                          <input type="text" name="qty" maxlength="12" value="0" class="input-text qty" />
-                          <div class="inc-dec-control">
-                            <button class="cart-qty-minus" type="button" value="-">
-                              <i class="fa fa-minus">
-                              </i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <label>children
-                      </label>
-                      <div class="add-person form-control px-1">
-                        <div class="inc-dec-contain centering">
-                          <div class="inc-dec-control">
-                            <button class="cart-qty-plus" type="button" value="+">
-                              <i class="fa fa-plus">
-                              </i>
-                            </button>
-                          </div>
-                          <input type="text" name="qty" maxlength="12" value="0" class="input-text qty" />
-                          <div class="inc-dec-control">
-                            <button class="cart-qty-minus" type="button" value="-">
-                              <i class="fa fa-minus">
-                              </i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12 mb-30">
-                      <div class="centering total-cost justify-content-between">
-                        <p>total cost
-                        </p>
-                        <span class="c-theme">0.00$
-                        </span>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-one btn-anim w-100" id="submit2" name="submit2">
-                        <i class="fa fa-paper-plane">
-                        </i> submit
-                      </button>
+                      <a href="post_requirement.php" class="btn btn-one btn-anim w-100">Request a Callback</a>
+					  <a href="javascript:void(0);" class="btn btn-two btn-anim w-100 mt-2">Visit Now</a>
                     </div>
                   </div>
                 </div>
@@ -949,42 +580,22 @@
                 <div class="sidebar-listing-slider owl-carousel owl-theme">
                   <div class="listing-item p-2">
                     <div class="img-holder">
-                      <span class="offer">save 49%
-                      </span>
-                      <img src="img/pl-slide1.jpg" alt="list">
-                      <div class="rate-like centering justify-content-between">
-                        <div class="rating">
-                          <i class="fa fa-star">
-                          </i>
-                          <i class="fa fa-star">
-                          </i>
-                          <i class="fa fa-star">
-                          </i>
-                          <i class="far fa-star">
-                          </i>
-                          <i class="far fa-star">
-                          </i>
-                        </div>
-                        <a class="likes" href="#">
-                          <i class="far fa-heart">
-                          </i> 41
-                        </a>
-                      </div>
+                      <img src="img/l-3.png" alt="list">
                     </div>
                     <div class="list-content p-2">
                       <h5 class="mt-3 mb-2">
-                        <a href="#">the lounge &amp; bar
+                        <a href="listing_details.php">Co-working Space
                         </a>
                       </h5>
                       <ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                         <li class="mt-1">
-                          <a href="#">
+                          <a href="listing_details.php">
                             <i class="fa fa-map-marker-alt mr-2">
-                            </i>San Francisco
+                            </i>Delhi
                           </a>
                         </li>
                         <li class="mt-1">
-                          <a href="#">
+                          <a href="listing_details.php">
                             <i class="fa fa-phone mr-2">
                             </i>0123-456-789
                           </a>
@@ -994,42 +605,22 @@
                   </div>
                   <div class="listing-item p-2">
                     <div class="img-holder">
-                      <span class="offer">save 30%
-                      </span>
-                      <img src="img/pl-slide2.jpg" alt="list">
-                      <div class="rate-like centering justify-content-between">
-                        <div class="rating">
-                          <i class="fa fa-star">
-                          </i>
-                          <i class="fa fa-star">
-                          </i>
-                          <i class="far fa-star">
-                          </i>
-                          <i class="far fa-star">
-                          </i>
-                          <i class="far fa-star">
-                          </i>
-                        </div>
-                        <a class="likes" href="#">
-                          <i class="far fa-heart">
-                          </i> 22
-                        </a>
-                      </div>
+                      <img src="img/l-2.png" alt="list">
                     </div>
                     <div class="list-content p-2">
                       <h5 class="mt-3 mb-2">
-                        <a href="#">the best shop in city
+                        <a href="listing_details.php">Co-working Space
                         </a>
                       </h5>
                       <ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                         <li class="mt-1">
-                          <a href="#">
+                          <a href="listing_details.php">
                             <i class="fa fa-map-marker-alt mr-2">
-                            </i>San Francisco
+                            </i>Mumbai
                           </a>
                         </li>
                         <li class="mt-1">
-                          <a href="#">
+                          <a href="listing_details.php">
                             <i class="fa fa-phone mr-2">
                             </i>0123-456-789
                           </a>
@@ -1039,90 +630,28 @@
                   </div>
                   <div class="listing-item p-2">
                     <div class="img-holder">
-                      <span class="offer">save 19%
-                      </span>
-                      <img src="img/pl-slide3.jpg" alt="list">
-                      <div class="rate-like centering justify-content-between">
-                        <div class="rating">
-                          <i class="fa fa-star">
-                          </i>
-                          <i class="fa fa-star">
-                          </i>
-                          <i class="fa fa-star">
-                          </i>
-                          <i class="fa fa-star">
-                          </i>
-                          <i class="far fa-star">
-                          </i>
-                        </div>
-                        <a class="likes" href="#">
-                          <i class="far fa-heart">
-                          </i> 06
-                        </a>
-                      </div>
+                      <img src="img/l-1.png" alt="list">
                     </div>
                     <div class="list-content p-2">
                       <h5 class="mt-3 mb-2">
-                        <a href="#">enjoy best nightlife
+                        <a href="listing_details.php">Co-working Space
                         </a>
                       </h5>
                       <ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                         <li class="mt-1">
-                          <a href="#">
+                          <a href="listing_details.php">
                             <i class="fa fa-map-marker-alt mr-2">
-                            </i>San Francisco
+                            </i>Kolkata
                           </a>
                         </li>
                         <li class="mt-1">
-                          <a href="#">
+                          <a href="listing_details.php">
                             <i class="fa fa-phone mr-2">
                             </i>0123-456-789
                           </a>
                         </li>
                       </ul>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="widget">
-                <h4 class="title-sep2 mb-30">about author
-                </h4>
-                <div class="widget-author">
-                  <div class="author-top text-right mb-4">
-                    <div class="img-holder">
-                      <img src="img/aut-big.png" alt="#">
-                    </div>
-                    <div class="author-info">
-                      <h5 class="c-white">Julia Holmes
-                      </h5>
-                      <span>co manager
-                      </span>
-                    </div>
-                  </div>
-                  <p class="bor-b pb-3">Excepteur enim aute dolor culpa aliqua nulla. Non labore est irure ipsum cupidatat amet fugiat
-                    quis voluptate cillum velit qui.
-                  </p>
-                  <div class="socials">
-                    <a href="#">
-                      <i class="fab fa-facebook-f">
-                      </i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-google-plus-g">
-                      </i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-instagram">
-                      </i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-linkedin-in">
-                      </i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-twitter">
-                      </i>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -1132,31 +661,6 @@
       </div>
     </div>
     <!-- listing detail end -->
-    <!-- cta-one start-->
-    <section class="cta-one tri-bg-w text-lg-left text-center">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 my-lg-0 my-5 py-lg-0 py-5">
-            <div class="cta-content">
-              <h3>Sign Up To Get Special Offers Every Day
-              </h3>
-              <p>Lorem ipsum dolor sit amet, consectadetudzdae rcquisc adipiscing elit. Aenean socada commodo ligaui
-                egets dolor. 
-              </p>
-              <a href="login.html" class="btn btn-two btn-anim mt-2">
-                sign up
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 d-lg-block d-none">
-            <div class="cta-img mt-4">
-              <img src="img/cta-bg.png" alt="image">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- cta-one end -->
     <!-- footer starts -->
     <?php include 'common/footer.php';?>
     <!-- footer end -->

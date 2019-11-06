@@ -28,27 +28,10 @@
         </div>
         <div class="col-lg-9">
           <ul class="head-contact text-lg-right text-center">
-            <li>
-              <i class="fa fa-phone">
-              </i>
-              +123-456-7890
-            </li>
-            <li>
-              <i class="fa fa-envelope">
-              </i>
-              info@company.com
-            </li>
-            <li class="language-drop">
-              <div class="dropdown">
-                <a href="#" class="text-capitalize">
-                  english
-                </a>
-              </div>
-            </li>
             <li class="ad-list">
               <a href="add-list.html" class="btn btn-two btn-anim">
                 <i class="fa fa-plus-circle">
-                </i> add listing
+                </i> add workspace
               </a>
             </li>
           </ul>
@@ -84,25 +67,19 @@
               <div class="main-menu collapse navbar-collapse" id="nav-content">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item dropdown">
-                    <a href="post_requirement.php" class="nav-link current">Post Requirement
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="add_workspace.php">Add workspace
-                    </a>
-                  </li>
-                   <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);">Lead Dashboard
+                    <a href="index.php" class="nav-link current">Home
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about_us.php">About Us
                     </a>
                   </li>
-                  <li class="nav-item join-nav d-lg-block d-none">
-                    <a class="nav-link" href="login.php">
-                      <i class="fa fa-user c-theme mr-2">
-                      </i> Login/Signup
+                  <li class="nav-item">
+                    <a class="nav-link" href="how_it_works.php">How it works
+                    </a>
+                  </li>
+				  <li class="nav-item">
+                    <a class="nav-link" href="listing.php">Our Workspaces
                     </a>
                   </li>
                 </ul>

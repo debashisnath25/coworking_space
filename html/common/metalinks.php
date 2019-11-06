@@ -7,3 +7,17 @@
 <!-- PAGE TITLE -->
 <title>Co-working space 
 </title>
+<style>
+.theme-header-one{
+	background-color:#1e1e1e;
+}
+.banner-link{
+	margin-bottom:1rem;
+}
+.banner-link li a{
+	color:#000;
+}
+.banner-link li::after{
+	color:#000;
+}
+</style>
