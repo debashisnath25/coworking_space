@@ -10,6 +10,9 @@
 		include("common/metalinks.php");
 	?>
     <link href="css/vendor-css/form-wizard.css" rel="stylesheet" />
+	<!------ Include the above in your HEAD tag ---------->
+
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <!-- PAGE LEVEL STYLES-->
     <style>
       .data-widget-icon {
@@ -80,6 +83,70 @@
 	.faq-tabs .nav-link.active i {
 			color: #fff !important;
 		}
+	.preview-images-zone {
+		width: 100%;
+		border: 1px solid #ddd;
+		min-height: 180px;
+		/* display: flex; */
+		padding: 5px 5px 0px 5px;
+		position: relative;
+		overflow:auto;
+	}
+	.preview-images-zone > .preview-image:first-child {
+		height: 185px;
+		width: 185px;
+		position: relative;
+		margin-right: 5px;
+	}
+	.preview-images-zone > .preview-image {
+		height: 90px;
+		width: 90px;
+		position: relative;
+		margin-right: 5px;
+		float: left;
+		margin-bottom: 5px;
+	}
+	.preview-images-zone > .preview-image > .image-zone {
+		width: 100%;
+		height: 100%;
+	}
+	.preview-images-zone > .preview-image > .image-zone > img {
+		width: 100%;
+		height: 100%;
+	}
+	.preview-images-zone > .preview-image > .tools-edit-image {
+		position: absolute;
+		z-index: 100;
+		color: #fff;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
+		display: none;
+	}
+	.preview-images-zone > .preview-image > .image-cancel {
+		font-size: 18px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-weight: bold;
+		margin-right: 10px;
+		cursor: pointer;
+		display: none;
+		z-index: 100;
+	}
+	.preview-image:hover > .image-zone {
+		cursor: move;
+		opacity: .5;
+	}
+	.preview-image:hover > .tools-edit-image,
+	.preview-image:hover > .image-cancel {
+	display: block;
+	}
+	.ui-sortable-helper {
+		width: 90px !important;
+		height: 90px !important;
+	}
     </style>
   </head>
   <body>
@@ -99,9 +166,9 @@
           <!-- END: Header-->
           <div class="page-content fade-in-up">
             <!-- BEGIN: Page heading-->
-            <div class="page-heading">
+            <div class="page-heading" style="margin-left:13px;">
               <div class="page-breadcrumb">
-               
+			  	<h1 class="page-title page-title-sep">General</h1>
               </div>
             </div>
             <!-- BEGIN: Page content-->
@@ -117,7 +184,7 @@
                       <div class="steps clearfix">
                         <ul role="tablist">
                           <li role="tab"  aria-disabled="false" aria-selected="true">
-                            <a id="form-wizard-t-0" href="store_type.php" aria-controls="form-wizard-p-0">
+                            <a id="form-wizard-t-0" href="step1.php" aria-controls="form-wizard-p-0">
                               <span class="current-info audible">current step: 
                               </span>
                               <span class="step-number">1
@@ -125,25 +192,25 @@
                             </a>
                           </li>
                           <li role="tab"  class="disabled" aria-disabled="true">
-                            <a id="form-wizard-t-1" href="create_store.php" aria-controls="form-wizard-p-1">
+                            <a id="form-wizard-t-1" href="#" aria-controls="form-wizard-p-1">
                               <span class="step-number">2
                               </span> Step 2
                             </a>
                           </li>
                           <li role="tab" class="disabled" aria-disabled="true">
-                            <a id="form-wizard-t-2" href="document_verification.php" aria-controls="form-wizard-p-2">
+                            <a id="form-wizard-t-2" href="#" aria-controls="form-wizard-p-2">
                               <span class="step-number">3
                               </span> Step 3
                             </a>
                           </li>
                           <li role="tab" class="first current" class="disabled last" aria-disabled="true">
-                            <a id="form-wizard-t-3" href="addons.php" aria-controls="form-wizard-p-3">
+                            <a id="form-wizard-t-3" href="step4.php" aria-controls="form-wizard-p-3">
                               <span class="step-number">4
                               </span> Step 4
                             </a>
                           </li>
 						   <li role="tab" class="disabled last" aria-disabled="true">
-                            <a id="form-wizard-t-4" href="pickup_delivery.php" aria-controls="form-wizard-p-4">
+                            <a id="form-wizard-t-4" href="#" aria-controls="form-wizard-p-4">
                               <span class="step-number">5
                               </span> Step 5
                             </a>
@@ -163,53 +230,17 @@
 							
 							<form>
 							<div class="card-body">
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">Title of the Property</dt>
-									<div class="col-sm-8">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter Property Title" required="">
-									</div>
+								<fieldset class="form-group">
+									<a href="javascript:void(0)" onclick="$('#pro-image').click()" class="div_show"><h5 class="box-title" style="color: #211f20">Upload Image</h5></a>
+									<input type="file" id="pro-image" name="pro-image" style="display: none;" class="form-control " multiple>
+
+								</fieldset>
+								<div class="preview-images-zone" style="display: none;">
 								</div>
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">Type</dt>
-									<div class="col-sm-8">
-										<select class="selectpicker form-control">
-											<option selected disabled>Choose Category</option>
-											<option>Meeting Room</option>
-											<option>Coworking Space</option>
-											<option>Private Office</option>
-											<option>Training Room</option>
-											<option>Business Centre</option>
-											<option>Coworking Cafes</option>
-										</select>
-									</div>
-								</div>
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">Capacity</dt>
-									<div class="col-sm-8">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter Capacity" required="">
-									</div>
-								</div>
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">Price</dt>
-									<div class="col-sm-2">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>Daily</span>
-									</div>
-									<div class="col-sm-2">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>Monthly</span>
-									</div>
-									<div class="col-sm-2">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>Quaterly</span>
-									</div>
-									<div class="col-sm-2">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>Yearly</span>
-									</div>
-								</div>				
-								<button class="btn btn-primary clr" style="float:right;margin-right:10px;" type="button"> Save </button>
-								<button class="btn btn-default" type="reset" style="float:right;margin-right:10px;"> Clear </button>
+							  </div>
+							  <div class="col-lg-12">
+								<a class="btn btn-warning btn-cons" style="color: white;float:left;" href="step1.php">BACK</a>
+								<a class="btn btn-success btn-cons" style="color: white;float:right;" href="step3.php">NEXT</a>
 							  </div>
 							</form>
 						
@@ -232,9 +263,7 @@
         <!-- END: Content-->
       </div>
     </div>
-    <?php
-		include("common/extra.php");
-    ?>
+   
     <?php
 		include("common/scripts.php");
 	?>
@@ -243,5 +272,60 @@
     </script>
     <script src="js/vendor-js/jquery.steps.min.js">
     </script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+		$(document).ready(function() {
+		document.getElementById('pro-image').addEventListener('change', readImage, false);
+		
+		$( ".preview-images-zone" ).sortable();
+		
+		$(document).on('click', '.image-cancel', function() {
+			let no = $(this).data('no');
+			$(".preview-image.preview-show-"+no).remove();
+		});
+	});
+
+	var num = 4;
+	function readImage() {
+		if (window.File && window.FileList && window.FileReader) {
+			var files = event.target.files; //FileList object
+			var output = $(".preview-images-zone");
+
+			for (let i = 0; i < files.length; i++) {
+				var file = files[i];
+				if (!file.type.match('image')) continue;
+				var fileName = file.name;
+				var picReader = new FileReader();
+				
+				picReader.addEventListener('load', function (event) {
+					
+					var picFile = event.target;
+					
+					var html =  '<div class="preview-image preview-show-' + num + '">' +
+								'<div class="image-cancel" data-no="' + num + '">x</div>' +
+								'<div class="image-zone"><img id="pro-img-' + num + '" src="' + picFile.result + '"></div>' +
+								'<div class="tools-edit-image"><a href="javascript:void(0)" data-no="' + num + '" class="btn btn-light btn-edit-image">'+fileName+'</a></div>' +
+
+								'</div>';
+
+					output.append(html);
+					num = num + 1;
+					
+				});
+
+				picReader.readAsDataURL(file);
+			}
+			$("#pro-image").val('');
+		} else {
+			console.log('Browser not support');
+		}
+	}
+
+	</script>
+	<script>
+	$(".div_show").click(function(){
+	  $(".preview-images-zone").show();
+	});
+	</script>
   </body>
 </html>

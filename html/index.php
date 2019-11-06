@@ -76,8 +76,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <i class="fa fa-users">
-                    </i>
+                    <img src="img/User-Group-128.png" style="height:42px;">
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Meeting Room
@@ -88,8 +87,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <i class="flaticon-spa">
-                    </i>
+                    <img src="img/People-128.png" style="height:42px;">
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Coworking Space
@@ -100,8 +98,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <i class="flaticon-cheers">
-                    </i>
+                    <img src="img/Student-Laptop-128.png" style="height:42px;">
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Private Office
@@ -112,8 +109,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <i class="flaticon-hotel">
-                    </i>
+                    <img src="img/Meeting-128.png" style="height:40px;">
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Training Room
@@ -124,8 +120,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <i class="flaticon-cutlery">
-                    </i>
+                    <img src="img/User-Group-128.png" style="height:42px;">
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Virtual Office
@@ -136,8 +131,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <i class="flaticon-shop">
-                    </i>
+                    <img src="img/User-Group-128.png" style="height:42px;">
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Coworking Cafes

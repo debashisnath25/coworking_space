@@ -99,9 +99,9 @@
           <!-- END: Header-->
           <div class="page-content fade-in-up">
             <!-- BEGIN: Page heading-->
-            <div class="page-heading">
+            <div class="page-heading" style="margin-left:13px;">
               <div class="page-breadcrumb">
-               
+			  	<h1 class="page-title page-title-sep">General</h1>
               </div>
             </div>
             <!-- BEGIN: Page content-->
@@ -117,7 +117,7 @@
                       <div class="steps clearfix">
                         <ul role="tablist">
                           <li role="tab"  aria-disabled="false" aria-selected="true">
-                            <a id="form-wizard-t-0" href="store_type.php" aria-controls="form-wizard-p-0">
+                            <a id="form-wizard-t-0" href="step1.php" aria-controls="form-wizard-p-0">
                               <span class="current-info audible">current step: 
                               </span>
                               <span class="step-number">1
@@ -125,25 +125,25 @@
                             </a>
                           </li>
                           <li role="tab"  class="disabled" aria-disabled="true">
-                            <a id="form-wizard-t-1" href="create_store.php" aria-controls="form-wizard-p-1">
+                            <a id="form-wizard-t-1" href="#" aria-controls="form-wizard-p-1">
                               <span class="step-number">2
                               </span> Step 2
                             </a>
                           </li>
                           <li role="tab" class="disabled" aria-disabled="true">
-                            <a id="form-wizard-t-2" href="document_verification.php" aria-controls="form-wizard-p-2">
+                            <a id="form-wizard-t-2" href="#" aria-controls="form-wizard-p-2">
                               <span class="step-number">3
                               </span> Step 3
                             </a>
                           </li>
                           <li role="tab" class="first current" class="disabled last" aria-disabled="true">
-                            <a id="form-wizard-t-3" href="addons.php" aria-controls="form-wizard-p-3">
+                            <a id="form-wizard-t-3" href="step4.php" aria-controls="form-wizard-p-3">
                               <span class="step-number">4
                               </span> Step 4
                             </a>
                           </li>
 						   <li role="tab" class="disabled last" aria-disabled="true">
-                            <a id="form-wizard-t-4" href="pickup_delivery.php" aria-controls="form-wizard-p-4">
+                            <a id="form-wizard-t-4" href="#" aria-controls="form-wizard-p-4">
                               <span class="step-number">5
                               </span> Step 5
                             </a>
@@ -163,53 +163,49 @@
 							
 							<form>
 							<div class="card-body">
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">Title of the Property</dt>
-									<div class="col-sm-8">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter Property Title" required="">
+									<div class="row">
+										<div class="col-md-4 check-list">
+											<h5 class="box-title">Choose your facilities</h5>
+										</div>
 									</div>
-								</div>
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">Type</dt>
-									<div class="col-sm-8">
-										<select class="selectpicker form-control">
-											<option selected disabled>Choose Category</option>
-											<option>Meeting Room</option>
-											<option>Coworking Space</option>
-											<option>Private Office</option>
-											<option>Training Room</option>
-											<option>Business Centre</option>
-											<option>Coworking Cafes</option>
-										</select>
-									</div>
-								</div>
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">Capacity</dt>
-									<div class="col-sm-8">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter Capacity" required="">
-									</div>
-								</div>
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">Price</dt>
-									<div class="col-sm-2">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>Daily</span>
-									</div>
-									<div class="col-sm-2">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>Monthly</span>
-									</div>
-									<div class="col-sm-2">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>Quaterly</span>
-									</div>
-									<div class="col-sm-2">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>Yearly</span>
-									</div>
-								</div>				
-								<button class="btn btn-primary clr" style="float:right;margin-right:10px;" type="button"> Save </button>
-								<button class="btn btn-default" type="reset" style="float:right;margin-right:10px;"> Clear </button>
+								
+									<div class="row">
+										<div class="col-md-3 check-list">
+											
+											<label class="checkbox checkbox-primary"><input type="checkbox"><span>AC with power backup</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox"><span>Free tea/Coffee</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox"><span>Car Parking*</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Whiteboard</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Speaker</span></label>
+										</div>
+										<div class="col-md-3 check-list">
+											
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Free WiFi</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Cafeteria</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Reception</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Video Conferencing</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Podium</span></label>
+											
+										</div>
+										<div class="col-md-3 check-list">
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Clean Toilets</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Lounge</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Mailing Address</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Flipboard</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>24x7</span></label>
+										</div>
+										<div class="col-md-3 check-list">
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Functional Workspace</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Meeting Room</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Projector</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Microphone</span></label>
+											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Night Shift</span></label>
+										</div>
+								   </div>		
+							  </div>
+							  <div class="col-lg-12">
+								<a class="btn btn-warning btn-cons" style="color: white;float:left;" href="step2.php">BACK</a>
+								<a class="btn btn-success btn-cons" style="color: white;float:right;" href="step4.php">NEXT</a>
 							  </div>
 							</form>
 						
@@ -232,9 +228,7 @@
         <!-- END: Content-->
       </div>
     </div>
-    <?php
-		include("common/extra.php");
-    ?>
+
     <?php
 		include("common/scripts.php");
 	?>
