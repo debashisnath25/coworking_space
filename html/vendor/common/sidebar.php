@@ -11,18 +11,9 @@
             </a>
           </div>
           <ul class="sidebar-menu metismenu">
-
-
-
-            <li class="<?php echo (($page == 'products' || $page == 'add_products' || $page == 'attributes' || $page == 'options' || $page == 'products_shipping' || $page == 'product_preview' || $page == 'add_category' || $page == 'add_subcategory')?'mm-active':'')?>">
-              <a href="step1.php">
-                <i class="sidebar-item-icon fa fa-user">
-                </i>
-                <span class="nav-label">Profile
-                </span>
-                <!-- <i class="arrow la la-angle-right">
-</i> -->
-              </a>
+			<li class="heading">
+              <span>Leads
+              </span>
             </li>
             <li class="<?php echo (($page == 'referred_leads')?'mm-active':'')?>">
               <a href="referred_leads.php">
@@ -125,7 +116,7 @@
               </a>
             </li>
 
-            <li class="<?php echo (($page == 'profile_general_settings.php')?'mm-active':'')?>">
+            <li class="<?php echo (($page == 'profile_general_settings')?'mm-active':'')?>">
               <a href="profile_general_settings.php">
                 <i class="sidebar-item-icon ft-lock">
                 </i>
