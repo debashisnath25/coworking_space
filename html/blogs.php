@@ -17,48 +17,23 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
 
-    <!-- Search Form -->
-    <div id="search" class="top-search d-flex">
-        <span class="close">
-            <i class="fa fa-times"></i>
-        </span>
-        <div class="w-100 text-center mt-4">
-            <h3 class="c-white fw-5">search here</h3>
-            <form role="search" id="searchform" action="#" method="get" class="search-bar">
-                <input value="" name="q" type="search" placeholder="type to search..." class="form-control">
-                <button type="submit" class="submit-btn">
-                    <i class="fa fa-search"></i>
-                </button>
-            </form>
-        </div>
-    </div>
-
-    <!-- page-banner start-->
-    <section class="page-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h3>blog left sidebar</h3>
-                    <ul class="banner-link text-center">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">blogs</a>
-                        </li>
-                        <li>
-                            <span class="active">blog left sidebar</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- page-banner ends-->
-
     <!-- blog start-->
     <section class="bg-w sp-100">
         <div class="container">
+			<div class="row">
+			  <div class="col-12">
+				<ul class="banner-link ">
+				  <li>
+					<a href="index.php">Home
+					</a>
+				  </li>
+				  <li>
+					<span class="active">Our Blogs
+					</span>
+				  </li>
+				</ul>
+			  </div>
+			</div>
             <div class="row">
                 <div class="col-lg-8 col-12 order-lg-2">
                     <div class="row">
@@ -72,7 +47,7 @@
                                 </div>
                                 <div class="blog-content">
                                     <h5>
-                                        <a href="blog-detail.html">Nullam quis ante tia sit ame ori</a>
+                                        <a href="blog_detail.php">Nullam quis ante tia sit ame ori</a>
                                     </h5>
                                     <p class="">Donec pede justo, fringilla vel, aliquet nect vulp utate eget fg arcu. In enim justo,
                                         rhcu ut imp erdiet venenatis vitae.</p>
@@ -102,7 +77,7 @@
                                 </div>
                                 <div class="blog-content">
                                     <h5>
-                                        <a href="blog-detail.html">Nullam quis ante tia sit ame ori</a>
+                                        <a href="blog_detail.php">Nullam quis ante tia sit ame ori</a>
                                     </h5>
                                     <p class="">Donec pede justo, fringilla vel, aliquet nect vulp utate eget fg arcu. In enim justo,
                                         rhcu ut imp erdiet venenatis vitae.</p>
@@ -132,7 +107,7 @@
                                 </div>
                                 <div class="blog-content">
                                     <h5>
-                                        <a href="blog-detail.html">Nullam quis ante tia sit ame ori</a>
+                                        <a href="blog_detail.php">Nullam quis ante tia sit ame ori</a>
                                     </h5>
                                     <p class="">Donec pede justo, fringilla vel, aliquet nect vulp utate eget fg arcu. In enim justo,
                                         rhcu ut imp erdiet venenatis vitae.</p>
@@ -162,7 +137,7 @@
                                 </div>
                                 <div class="blog-content">
                                     <h5>
-                                        <a href="blog-detail.html">Nullam quis ante tia sit ame ori</a>
+                                        <a href="blog_detail.php">Nullam quis ante tia sit ame ori</a>
                                     </h5>
                                     <p class="">Donec pede justo, fringilla vel, aliquet nect vulp utate eget fg arcu. In enim justo,
                                         rhcu ut imp erdiet venenatis vitae.</p>
@@ -192,7 +167,7 @@
                                 </div>
                                 <div class="blog-content">
                                     <h5>
-                                        <a href="blog-detail.html">Nullam quis ante tia sit ame ori</a>
+                                        <a href="blog_detail.php">Nullam quis ante tia sit ame ori</a>
                                     </h5>
                                     <p class="">Donec pede justo, fringilla vel, aliquet nect vulp utate eget fg arcu. In enim justo,
                                         rhcu ut imp erdiet venenatis vitae.</p>
@@ -222,7 +197,7 @@
                                 </div>
                                 <div class="blog-content">
                                     <h5>
-                                        <a href="blog-detail.html">Nullam quis ante tia sit ame ori</a>
+                                        <a href="blog_detail.php">Nullam quis ante tia sit ame ori</a>
                                     </h5>
                                     <p class="">Donec pede justo, fringilla vel, aliquet nect vulp utate eget fg arcu. In enim justo,
                                         rhcu ut imp erdiet venenatis vitae.</p>
@@ -252,7 +227,7 @@
                                 </div>
                                 <div class="blog-content">
                                     <h5>
-                                        <a href="blog-detail.html">Nullam quis ante tia sit ame ori</a>
+                                        <a href="blog_detail.php">Nullam quis ante tia sit ame ori</a>
                                     </h5>
                                     <p class="">Donec pede justo, fringilla vel, aliquet nect vulp utate eget fg arcu. In enim justo,
                                         rhcu ut imp erdiet venenatis vitae.</p>
@@ -282,7 +257,7 @@
                                 </div>
                                 <div class="blog-content">
                                     <h5>
-                                        <a href="blog-detail.html">Nullam quis ante tia sit ame ori</a>
+                                        <a href="blog_detail.php">Nullam quis ante tia sit ame ori</a>
                                     </h5>
                                     <p class="">Donec pede justo, fringilla vel, aliquet nect vulp utate eget fg arcu. In enim justo,
                                         rhcu ut imp erdiet venenatis vitae.</p>
@@ -302,25 +277,10 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <div class="pagination mt-30">
-                                <span class="sep">
-                                    <a href="#" class="page-numbers prev mr-sm-5 mr-3">
-                                        <i class="fa fa-angle-left"></i>
-                                    </a>
-                                    <a href="#" class="page-numbers">1</a>
-                                    <a href="#" class="page-numbers active">2</a>
-                                    <a href="#" class="page-numbers">3</a>
-                                    <a href="#" class="page-numbers">...</a>
-                                    <a href="#" class="page-numbers">8</a>
-                                    <a href="#" class="page-numbers next ml-sm-5 ml-3">
-                                        <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
+						<div class="col-12 text-center mt-30">
+						  <a href="#" class="btn btn-one btn-anim">load more
+						  </a>
+						</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 order-lg-1">
@@ -414,36 +374,36 @@
                                 <ul>
                                     <li class="news-post">
                                         <figure class="thumb">
-                                            <a href="blog-detail.html">
+                                            <a href="blog_detail.php">
                                                 <img src="img/post-thumb1.png" alt="news">
                                             </a>
                                         </figure>
                                         <div class="news-content">
-                                            <a href="blog-detail.html">Dis parturient montes pede justo na etus rid iculs musg.</a>
+                                            <a href="blog_detail.php">Dis parturient montes pede justo na etus rid iculs musg.</a>
                                             <p>
                                                 15 April, 2019</p>
                                         </div>
                                     </li>
                                     <li class="news-post">
                                         <figure class="thumb">
-                                            <a href="blog-detail.html">
+                                            <a href="blog_detail.php">
                                                 <img src="img/post-thumb2.png" alt="news">
                                             </a>
                                         </figure>
                                         <div class="news-content">
-                                            <a href="blog-detail.html">Dis parturient montes pede justo na etus rid iculs musg.</a>
+                                            <a href="blog_detail.php">Dis parturient montes pede justo na etus rid iculs musg.</a>
                                             <p>
                                                 28 April, 2019</p>
                                         </div>
                                     </li>
                                     <li class="news-post">
                                         <figure class="thumb">
-                                            <a href="blog-detail.html">
+                                            <a href="blog_detail.php">
                                                 <img src="img/post-thumb3.png" alt="news">
                                             </a>
                                         </figure>
                                         <div class="news-content">
-                                            <a href="blog-detail.html">Dis parturient montes pede justo na etus rid iculs musg.</a>
+                                            <a href="blog_detail.php">Dis parturient montes pede justo na etus rid iculs musg.</a>
                                             <p>
                                                 20 April, 2019</p>
                                         </div>
@@ -493,31 +453,6 @@
         </div>
     </section>
     <!-- blog end -->
-
-    <!-- cta-one start-->
-    <section class="cta-one tri-bg-w text-lg-left text-center">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 my-lg-0 my-5 py-lg-0 py-5">
-                    <div class="cta-content">
-                        <h3>Sign Up To Get Special Offers Every Day</h3>
-                        <p>Lorem ipsum dolor sit amet, consectadetudzdae rcquisc adipiscing elit. Aenean socada commodo ligaui
-                            egets dolor. </p>
-                        <a href="login.html" class="btn btn-two btn-anim mt-2">
-                            sign up
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 d-lg-block d-none">
-                    <div class="cta-img mt-4">
-                        <img src="img/cta-bg.png" alt="image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- cta-one end -->
-
     <!-- footer starts -->
     <?php include 'common/footer.php';?>
     <!-- footer end -->

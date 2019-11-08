@@ -183,7 +183,7 @@
                     <form class="circle-steps wizard clearfix" id="form-wizard" action="javascript:;" novalidate="novalidate" role="application">
                       <div class="steps clearfix">
                         <ul role="tablist">
-                          <li role="tab"  aria-disabled="false" aria-selected="true">
+                          <li role="tab"  class="first " aria-disabled="false" aria-selected="true">
                             <a id="form-wizard-t-0" href="step1.php" aria-controls="form-wizard-p-0">
                               <span class="current-info audible">current step: 
                               </span>
@@ -191,26 +191,26 @@
                               </span> Step 1
                             </a>
                           </li>
-                          <li role="tab"  class="disabled" aria-disabled="true">
-                            <a id="form-wizard-t-1" href="#" aria-controls="form-wizard-p-1">
+                          <li role="tab"  class="current" aria-disabled="true">
+                            <a id="form-wizard-t-1" href="step2.php" aria-controls="form-wizard-p-1">
                               <span class="step-number">2
                               </span> Step 2
                             </a>
                           </li>
                           <li role="tab" class="disabled" aria-disabled="true">
-                            <a id="form-wizard-t-2" href="#" aria-controls="form-wizard-p-2">
+                            <a id="form-wizard-t-2" href="step3.php" aria-controls="form-wizard-p-2">
                               <span class="step-number">3
                               </span> Step 3
                             </a>
                           </li>
-                          <li role="tab" class="first current" class="disabled last" aria-disabled="true">
+                          <li role="tab"class="disabled" aria-disabled="true">
                             <a id="form-wizard-t-3" href="step4.php" aria-controls="form-wizard-p-3">
                               <span class="step-number">4
                               </span> Step 4
                             </a>
                           </li>
 						   <li role="tab" class="disabled last" aria-disabled="true">
-                            <a id="form-wizard-t-4" href="#" aria-controls="form-wizard-p-4">
+                            <a id="form-wizard-t-4" href="step5.php" aria-controls="form-wizard-p-4">
                               <span class="step-number">5
                               </span> Step 5
                             </a>
@@ -237,8 +237,8 @@
 								</fieldset>
 								<div class="preview-images-zone" style="display: none;">
 								</div>
-								 <a class="btn btn-warning btn-cons" style="color: white;float:left;margin-top:15px;" href="step2.php">BACK</a>
-									<a class="btn btn-success btn-cons" style="color: white;float:right;margin-top:15px;" href="step4.php">NEXT</a>
+								 <a class="btn btn-warning btn-cons" style="color: white;float:left;margin-top:15px;" href="step1.php">BACK</a>
+									<a class="btn btn-success btn-cons" style="color: white;float:right;margin-top:15px;" href="step3.php">NEXT</a>
 							  </div>
 							  
 							</form>

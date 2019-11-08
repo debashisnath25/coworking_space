@@ -140,9 +140,7 @@
 }
 
 @media (min-width: 992px) {
-    .contact-box {
-        margin-bottom: -80px;
-    }
+    
     .app-section {
         padding: 60px 0;
     }

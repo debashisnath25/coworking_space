@@ -61,9 +61,12 @@
                       </a>
                     </div>
                     <div class="col-12 mt-4">
-                      <button type="submit" class="btn btn-one btn-anim w-100" id="submit-login" name="submit-login">
+                      <!-- <button type="submit" class="btn btn-one btn-anim w-100" id="submit-login" name="submit-login">
                         login
-                      </button>
+                      </button> -->
+					   <a href="vendor/step1.php" class="btn btn-one btn-anim w-100" id="submit-login" name="submit-login">
+                        login
+                      </a>
                     </div>
                   </div>
                   <div class="seprator mt-4 mb-3">

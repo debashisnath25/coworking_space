@@ -32,7 +32,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-12 mb-60">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-60">
           <div class="recent-post">
             <div class="foot-title">
               <h4>useful links
@@ -40,29 +40,21 @@
             </div>
             <ul class="quick-link">
               <li>
-                <a href="JavaScript:Void(0)">add workspace
+                <a href="login.php">add workspace
                 </a>
               </li>
               <li>
-                <a href="login.php">register
+                <a href="register.php">register
                 </a>
               </li>
               <li>
-                <a href="login.php">sign in
-                </a>
-              </li>
-              <li>
-                <a href="about_us.php">how it work
-                </a>
-              </li>
-              <li>
-                <a href="JavaScript:Void(0);">contact us
+                <a href="contact_us.php">contact us
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-12 mb-60">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-60">
           <div class="recent-post">
             <div class="foot-title">
               <h4>my account
@@ -70,59 +62,21 @@
             </div>
             <ul class="quick-link">
               <li>
-                <a href="login.php">create account
+                <a href="register.php">create account
                 </a>
               </li>
               <li>
-                <a href="JavaScript:Void(0);">dashboard
+                <a href="login.php">Lead dashboard
                 </a>
               </li>
               <li>
-                <a href="JavaScript:Void(0);">profile
-                </a>
-              </li>
-              <li>
-                <a href="JavaScript:Void(0);">my listing
-                </a>
-              </li>
-              <li>
-                <a href="JavaScript:Void(0);">favorites
+                <a href="login.php">my listing
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-12 mb-60">
-          <div class="recent-post">
-            <div class="foot-title">
-              <h4>categories
-              </h4>
-            </div>
-            <ul class="quick-link">
-              <li>
-                <a href="JavaScript:Void(0);">Meeting Room
-                </a>
-              </li>
-              <li>
-                <a href="JavaScript:Void(0);">Coworking Space
-                </a>
-              </li>
-              <li>
-                <a href="JavaScript:Void(0);">Private Office
-                </a>
-              </li>
-              <li>
-                <a href="JavaScript:Void(0);">Training Room
-                </a>
-              </li>
-              <li>
-                <a href="JavaScript:Void(0);">Business Center
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-12 mb-60">
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 col-12 mb-60">
           <div class="recent-post">
             <div class="foot-title">
               <h4>quick links
@@ -138,15 +92,7 @@
                 </a>
               </li>
               <li>
-                <a href="JavaScript:Void(0);">Blogs
-                </a>
-              </li>
-              <li>
-                <a href="JavaScript:Void(0);">Testimonials
-                </a>
-              </li>
-              <li>
-                <a href="JavaScript:Void(0);">Our Partners
+                <a href="blogs.php">Blogs
                 </a>
               </li>
             </ul>

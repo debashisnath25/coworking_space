@@ -673,19 +673,19 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="JavaScript:Void(0)">Mumbai : The Largest Coworking Hub
+                  <a href="blogs.php">Mumbai : The Largest Coworking Hub
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
                   <li>
                     <span class="mr-1">
-                      <img src="img/aut-1.png" alt="#">
+                      <img src="img/aut-1.png" alt="blogs.php">
                     </span>
-                    <a href="#">Johnathan Doe
+                    <a href="blogs.php">Johnathan Doe
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="blogs.php">
                       <i class="fa fa-eye mr-1">
                       </i>
                       20
@@ -703,19 +703,19 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="JavaScript:Void(0)">8 Ways Coworking Spaces Are Changing the Culture of Work
+                  <a href="blogs.php">8 Ways Coworking Spaces Are Changing the Culture of Work
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
                   <li>
                     <span class="mr-1">
-                      <img src="img/aut-2.png" alt="#">
+                      <img src="img/aut-2.png" alt="blogs.php">
                     </span>
-                    <a href="#">Alicia Thomas
+                    <a href="blogs.php">Alicia Thomas
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="blogs.php">
                       <i class="fa fa-eye mr-1">
                       </i>
                       20
@@ -733,19 +733,19 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="JavaScript:Void(0)">Essential environmental benefits of flexible co-working workspace
+                  <a href="blogs.php">Essential environmental benefits of flexible co-working workspace
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
                   <li>
                     <span class="mr-1">
-                      <img src="img/aut-3.png" alt="#">
+                      <img src="img/aut-3.png" alt="blogs.php">
                     </span>
-                    <a href="#">Johnis Doe
+                    <a href="blogs.php">Johnis Doe
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="blogs.php">
                       <i class="fa fa-eye mr-1">
                       </i>
                       20
@@ -763,19 +763,19 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="JavaScript:Void(0)">Noida&not;The Popular Coworking Hub
+                  <a href="blogs.php">Noida&not;The Popular Coworking Hub
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
                   <li>
                     <span class="mr-1">
-                      <img src="img/aut-1.png" alt="#">
+                      <img src="img/aut-1.png" alt="blogs.php">
                     </span>
-                    <a href="#">Johnas Doe
+                    <a href="blogs.php">Johnas Doe
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="blogs.php">
                       <i class="fa fa-eye mr-1">
                       </i>
                       20
@@ -793,19 +793,19 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="JavaScript:Void(0)">Sharing of office space to reduce rents and promote collaborative work environment 
+                  <a href="blogs.php">Sharing of office space to reduce rents and promote collaborative work environment 
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
                   <li>
                     <span class="mr-1">
-                      <img src="img/aut-3.png" alt="#">
+                      <img src="img/aut-3.png" alt="blogs.php">
                     </span>
-                    <a href="#">Alexi Johnas 
+                    <a href="blogs.php">Alexi Johnas 
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="blogs.php">
                       <i class="fa fa-eye mr-1">
                       </i>
                       20
@@ -823,19 +823,19 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="JavaScript:Void(0)">Cost Per Desk In Gurugram
+                  <a href="blogs.php">Cost Per Desk In Gurugram
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
                   <li>
                     <span class="mr-1">
-                      <img src="img/aut-2.png" alt="#">
+                      <img src="img/aut-2.png" alt="blogs.php">
                     </span>
-                    <a href="#">sehny Doe
+                    <a href="blogs.php">sehny Doe
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="blogs.php">
                       <i class="fa fa-eye mr-1">
                       </i>
                       20
@@ -846,7 +846,7 @@
             </div>
           </div>
           <div class="col-12 text-center mt-30">
-            <a href="JavaScript:Void(0)" class="btn btn-one btn-anim">view all
+            <a href="blogs.php" class="btn btn-one btn-anim">view all
             </a>
           </div>
         </div>

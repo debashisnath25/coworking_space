@@ -70,12 +70,24 @@
                     <a href="index.php" class="nav-link current">Home
                     </a>
                   </li>
+				   <li class="nav-item">
+                    <a class="nav-link" href="listing.php">Our Workspaces
+                    </a>
+                  </li>
+				  <li class="nav-item">
+                    <a class="nav-link" href="pricing.php">Pricing
+                    </a>
+                  </li>
+				  <li class="nav-item">
+                    <a class="nav-link" href="blogs.php">Blogs
+                    </a>
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about_us.php">About Us
                     </a>
                   </li>
 				  <li class="nav-item">
-                    <a class="nav-link" href="listing.php">Our Workspaces
+                    <a class="nav-link" href="contact_us.php">Contact Us
                     </a>
                   </li>
                 </ul>

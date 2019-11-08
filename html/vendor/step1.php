@@ -112,46 +112,6 @@
 						<h5 class="box-title" style="color:#fff;">PLEASE CHOOSE ADDITIONAL FEATURES</h5>
 						<!-- <div class="card-actions"><a class="card-collapse" style="color:#fff;"><i class="ti-angle-down"></i></a></div> -->
 					</div>
-				    <div class="card-body">
-                    <form class="circle-steps wizard clearfix" id="form-wizard" action="javascript:;" novalidate="novalidate" role="application">
-                      <div class="steps clearfix">
-                        <ul role="tablist">
-                          <li role="tab"  aria-disabled="false" aria-selected="true">
-                            <a id="form-wizard-t-0" href="step1.php" aria-controls="form-wizard-p-0">
-                              <span class="current-info audible">current step: 
-                              </span>
-                              <span class="step-number">1
-                              </span> Step 1
-                            </a>
-                          </li>
-                          <li role="tab"  class="disabled" aria-disabled="true">
-                            <a id="form-wizard-t-1" href="#" aria-controls="form-wizard-p-1">
-                              <span class="step-number">2
-                              </span> Step 2
-                            </a>
-                          </li>
-                          <li role="tab" class="disabled" aria-disabled="true">
-                            <a id="form-wizard-t-2" href="#" aria-controls="form-wizard-p-2">
-                              <span class="step-number">3
-                              </span> Step 3
-                            </a>
-                          </li>
-                          <li role="tab" class="first current" class="disabled last" aria-disabled="true">
-                            <a id="form-wizard-t-3" href="step4.php" aria-controls="form-wizard-p-3">
-                              <span class="step-number">4
-                              </span> Step 4
-                            </a>
-                          </li>
-						   <li role="tab" class="disabled last" aria-disabled="true">
-                            <a id="form-wizard-t-4" href="#" aria-controls="form-wizard-p-4">
-                              <span class="step-number">5
-                              </span> Step 5
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </form>
-                  </div>
                   <div class="card-body">
                     
                     
@@ -193,19 +153,19 @@
 									<dt class="col-sm-4" style="padding-top:10px;">Price</dt>
 									<div class="col-sm-2 col-xs-12">
 										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>P. Person/Daily</span>
+										<span style="font-size:12px;">Per Person/Daily</span>
 									</div>
 									<div class="col-sm-2 col-xs-12">
 										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>P. Person/Monthly</span>
+										<span style="font-size:12px;">Per Person/Monthly</span>
 									</div>
 									<div class="col-sm-2 col-xs-12">
 										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>P. Person/Quaterly</span>
+										<span style="font-size:12px;">Per Person/Quaterly</span>
 									</div>
 									<div class="col-sm-2 col-xs-12">
 										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="" required="">
-										<span>P. Person/Yearly</span>
+										<span style="font-size:12px;">Per Person/Yearly</span>
 									</div>
 								</div>				
 								

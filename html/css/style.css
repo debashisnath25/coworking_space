@@ -3301,7 +3301,6 @@ ol.comment-list {
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 30px 0px rgba(98, 98, 98, 0.15);
     box-shadow: 0px 0px 30px 0px rgba(98, 98, 98, 0.15);
-    position: relative;
     z-index: 99;
 }
 
