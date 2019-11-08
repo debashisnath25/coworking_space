@@ -64,17 +64,16 @@
               <a href="products.php">
                 <i class="sidebar-item-icon ft-gift">
                 </i>
-                <span class="nav-label">Products
+                <span class="nav-label">Office Space
                 </span>
-                <!-- <i class="arrow la la-angle-right">
-</i> -->
+                <!-- <i class="arrow la la-angle-right"></i> -->
               </a>
             </li>
             <li class="<?php echo (($page == 'orders' || $page == 'marked_pickup' || $page == 'ready_pickup' || $page == 'outfor_delivery' || $page == 'deliverd' || $page == 'coustomer_cancelled' || $page == 'vendor_cancelled' || $page == 'returns' ||$page == 'exceptions_order')?'mm-active':'')?>">
               <a href="orders.php">
                 <i class="sidebar-item-icon ft-layers">
                 </i>
-                <span class="nav-label">Orders
+                <span class="nav-label">Bookings
                 </span> 
               </a>
             </li>
