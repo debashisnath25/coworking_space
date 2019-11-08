@@ -9,8 +9,11 @@
 		.icon-height{
 			height:170px;
 		}
-		.theme-header-one affix{
-			background-color: rgba(0, 0, 0, 0.5);
+		.theme-header-one{
+			background-color: rgba(0, 0, 0, 0.5) !important;
+		}
+		.sticky-menu{
+			background-color:#1e1e1e !important;
 		}
 	</style>
   </head>
@@ -383,7 +386,7 @@
               </h3>
               <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
               </p>
-              <a href="login.php" class="btn btn-two btn-anim mt-2">
+              <a href="register.php" class="btn btn-two btn-anim mt-2">
                 sign up
               </a>
             </div>

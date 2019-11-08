@@ -24,6 +24,12 @@
 		.page-banner{
 			padding: 90px 0;
 		}
+		.theme-header-one{
+			background-color: rgba(0, 0, 0, 0.5) !important;
+		}
+		.sticky-menu{
+			background-color:#1e1e1e !important;
+		}
 	</style>
   </head>
   <body>
@@ -88,7 +94,7 @@
     <div class="bg-w">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-12">
+          <div class="col-lg-8 col-12 mb-30">
             <div class="listing-detail mb-60">
               <h3 class="mb-30">Co-Working Space
               </h3>
