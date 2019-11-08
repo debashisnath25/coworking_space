@@ -66,20 +66,20 @@
                       </span>
                       <input type="password" class="form-control" placeholder="Confirm Password" id="c-password">
                     </div>
-                    <div class="col-6">
-                      <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
-                      <label for="checkbox_id">remember me
-                      </label>
-                    </div>
-                    <div class="col-6 text-right">
-                      <a href="#" class="paswd"> forgot password ?
-                      </a>
-                    </div>
-                    <div class="col-12 mt-4">
+                  
+                    <div class="col-12 ">
                       <button type="submit" class="btn btn-one btn-anim w-100" id="submit" name="submit">
                         register
                       </button>
                     </div>
+					<div class="col-8 mt-4">
+					  <label>Already have an account? <a href="login.php" style="color:#ff3a54;text-decoration:underline;">Login</a>
+					  </label>
+					</div>
+					<div class="col-4 mt-4 text-right">
+					  <a href="#" class="paswd"> forgot password ?
+					  </a>
+					</div>
                   </div>
                 </form>
               </div>

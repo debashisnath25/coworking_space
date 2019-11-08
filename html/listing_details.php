@@ -13,14 +13,6 @@
 			border:1px solid #ccc;
 			background-color: #f2f2f2;
 		}
-		.carousel-inner{
-			text-align: center;
-		}
-		.blog-slider .carousel-inner .carousel-item img{
-			height:450px;
-			padding-top:10px;
-			border-radius:0px;
-		}
 		.page-banner{
 			padding: 90px 0;
 		}
@@ -30,44 +22,50 @@
 		.sticky-menu{
 			background-color:#1e1e1e !important;
 		}
+		.popular-list-slider .slick-dots::after{
+			background-color:transparent !important;
+		}
+		.popular-list-slider .slick-dots li{
+			background-color:transparent !important;
+		}
+		.img-holder img{
+			height:350px;
+		}
 	</style>
   </head>
   <body>
     <!-- Header start-->
     <?php include 'common/header.php';?>
     <!-- Header end -->
-	<section class="page-banner">
-		<div class="container-fluid">
-			<div id="blog-slider2" class="carousel blog-slider slide " data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="img/wework-770x433.jpg" alt="listing">
-					</div>
-					<div class="carousel-item">
-						<img src="img/sala-900x600.png" alt="listing">
-					</div>
-					<div class="carousel-item">
-						<img src="img/944390254ed4fd2b9fb33ad76b37d9a1.png" alt="listing">
-					</div>
-					<div class="carousel-item">
-						<img src="img/coworking.jpg" alt="listing">
-					</div>
-				</div>
-				<div class="carousel-nav">
-					<a class="carousel-control-prev" href="#blog-slider2" data-slide="prev">
-						<i class="fa fa-angle-left"></i>
-					</a>
-					<a class="carousel-control-next" href="#blog-slider2" data-slide="next">
-						<i class="fa fa-angle-right"></i>
-					</a>
-				</div>
-				<ul class="carousel-indicators">
-					<li data-target="#blog-slider2" data-slide-to="0" class="active"></li>
-					<li data-target="#blog-slider2" data-slide-to="1"></li>
-					<li data-target="#blog-slider2" data-slide-to="2"></li>
-					<li data-target="#blog-slider2" data-slide-to="3"></li>
-				</ul>
-			</div>
+	<section class="popular-list sp-100 page-banner">
+		<div class="container">
+		<div class="row">
+          <div class="col-12">
+            <div class="popular-list-slider mb-0">
+              <div class="listing-item p-2">
+                <div class="img-holder">
+                  <img src="img/wework-770x433.jpg" alt="list">
+                </div>
+              </div>
+              <div class="listing-item p-2">
+                <div class="img-holder">
+                  <img src="img/sala-900x600.png" alt="list">
+                </div>
+              </div>
+              <div class="listing-item p-2">
+                <div class="img-holder">
+                  <img src="img/944390254ed4fd2b9fb33ad76b37d9a1.png" alt="list">
+                </div>
+              </div>
+              <div class="listing-item p-2">
+                <div class="img-holder">
+                  <img src="img/coworking.jpg" alt="list">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 		</div>
 	</section>
     <!-- listing slider start-->

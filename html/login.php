@@ -51,21 +51,20 @@
                       </span>
                       <input type="password" class="form-control" placeholder="Password" id="email">
                     </div>
-                    <div class="col-6">
-                      <input type="checkbox" name="checkbox" id="checkbox_id1" value="value">
-                      <label for="checkbox_id1">remember me
-                      </label>
-                    </div>
-                    <div class="col-6 text-right">
-                      <a href="#" class="paswd"> forgot password ?
-                      </a>
-                    </div>
-                    <div class="col-12 mt-4">
+                    <div class="col-12">
                       <!-- <button type="submit" class="btn btn-one btn-anim w-100" id="submit-login" name="submit-login">
                         login
                       </button> -->
 					   <a href="vendor/step1.php" class="btn btn-one btn-anim w-100" id="submit-login" name="submit-login">
                         login
+                      </a>
+                    </div>
+					<div class="col-6 mt-4">
+                      <a href="signup.php" class="paswd"> Sign up
+                      </a>
+                    </div>
+                    <div class="col-6 mt-4 text-right">
+                      <a href="#" class="paswd"> forgot password ?
                       </a>
                     </div>
                   </div>
@@ -74,8 +73,6 @@
                     </span>
                   </div>
                   <div class="signin-socials">
-                    <p class="text-capitalize mb-0">sign in with...
-                    </p>
                     <div class="row">
                       <div class="col-sm-6 col-12 mt-4">
                         <a href="#" class="btn btn-anim fb w-100">
