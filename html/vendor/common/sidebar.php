@@ -60,8 +60,8 @@
               <span>YOUR OFFICE SPACE
               </span>
             </li>
-            <li class="<?php echo (($page == 'products' || $page == 'add_products' || $page == 'attributes' || $page == 'options' || $page == 'products_shipping' || $page == 'product_preview' || $page == 'add_category' || $page == 'add_subcategory')?'mm-active':'')?>">
-              <a href="products.php">
+            <li class="<?php echo (($page == 'office_space' || $page == 'add_office_space' || $page == 'office_space_price')?'mm-active':'')?>">
+              <a href="office_space.php">
                 <i class="sidebar-item-icon ft-gift">
                 </i>
                 <span class="nav-label">Office Space
@@ -69,8 +69,8 @@
                 <!-- <i class="arrow la la-angle-right"></i> -->
               </a>
             </li>
-            <li class="<?php echo (($page == 'orders' || $page == 'marked_pickup' || $page == 'ready_pickup' || $page == 'outfor_delivery' || $page == 'deliverd' || $page == 'coustomer_cancelled' || $page == 'vendor_cancelled' || $page == 'returns' ||$page == 'exceptions_order')?'mm-active':'')?>">
-              <a href="orders.php">
+            <li class="<?php echo (($page == 'bookings')?'mm-active':'')?>">
+              <a href="bookings.php">
                 <i class="sidebar-item-icon ft-layers">
                 </i>
                 <span class="nav-label">Bookings
