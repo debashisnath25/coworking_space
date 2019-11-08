@@ -41,7 +41,7 @@
 			<div id="blog-slider2" class="carousel blog-slider slide " data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="img/180504_Spacious_Crave_66.jpg" alt="listing">
+						<img src="img/wework-770x433.jpg" alt="listing">
 					</div>
 					<div class="carousel-item">
 						<img src="img/sala-900x600.png" alt="listing">
@@ -50,7 +50,7 @@
 						<img src="img/944390254ed4fd2b9fb33ad76b37d9a1.png" alt="listing">
 					</div>
 					<div class="carousel-item">
-						<img src="img/Daily-Digest-Image-2019-06-03T112659.066.png" alt="listing">
+						<img src="img/coworking.jpg" alt="listing">
 					</div>
 				</div>
 				<div class="carousel-nav">
@@ -188,30 +188,9 @@
             
             <div class="mb-30 abt-listing">
               <h4 class="title-sep3 mb-30">
-                tags
+                Ratings
               </h4>
-              <ul class="tagcloud minus-pad">
-                <li>
-                  <a href="#">Restaurants
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Events
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Tourism
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Trending
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Travel
-                  </a>
-                </li>
-              </ul>
+              
               <div class="row mt-30">
                 <div class="col-lg-3 col-md-4 mb-30">
                   <div class="rating-big-box mb-3">
