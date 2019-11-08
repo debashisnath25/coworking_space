@@ -29,7 +29,7 @@
         <div class="col-lg-9">
           <ul class="head-contact text-lg-right text-center">
             <li class="ad-list">
-              <a href="add-list.html" class="btn btn-two btn-anim">
+              <a href="login.php" class="btn btn-two btn-anim">
                 <i class="fa fa-plus-circle">
                 </i> add workspace
               </a>
@@ -72,10 +72,6 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about_us.php">About Us
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="how_it_works.php">How it works
                     </a>
                   </li>
 				  <li class="nav-item">

@@ -94,66 +94,107 @@
                         <div class="col-sm-6 col-12">
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id6" value="value">
-                            <label for="checkbox_id6">Card Payment
+                            <label for="checkbox_id6">AC with power backup
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id7" value="value">
-                            <label for="checkbox_id7">Free Parking
+                            <label for="checkbox_id7">Free tea/Coffee
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id8" value="value">
-                            <label for="checkbox_id8">Free Wi-Fi
+                            <label for="checkbox_id8">Car Parking*
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id12" value="value">
-                            <label for="checkbox_id12">Fitness Center
+                            <label for="checkbox_id12">Whiteboard
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id13" value="value">
-                            <label for="checkbox_id13">Reservations
+                            <label for="checkbox_id13">Speaker
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id14" value="value">
-                            <label for="checkbox_id14">Smoking Allowed
+                            <label for="checkbox_id14">Free WiFi
+                            </label>
+                          </div>
+						  <div class="w-100 mb-2">
+                            <input type="checkbox" name="checkbox" id="checkbox_id17" value="value">
+                            <label for="checkbox_id17">Meeting Room
+                            </label>
+                          </div>
+						  <div class="w-100 mb-2">
+                            <input type="checkbox" name="checkbox" id="checkbox_id17" value="value">
+                            <label for="checkbox_id17">Projector
+                            </label>
+                          </div>
+						  <div class="w-100 mb-2">
+                            <input type="checkbox" name="checkbox" id="checkbox_id17" value="value">
+                            <label for="checkbox_id17">Microphone
+                            </label>
+                          </div>
+						  <div class="w-100 mb-2">
+                            <input type="checkbox" name="checkbox" id="checkbox_id17" value="value">
+                            <label for="checkbox_id17">Night Shift
                             </label>
                           </div>
                         </div>
                         <div class="col-sm-6 col-12">
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id9" value="value">
-                            <label for="checkbox_id9">Family Friendly
+                            <label for="checkbox_id9">Cafeteria
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id10" value="value">
-                            <label for="checkbox_id10">Wheelchair
+                            <label for="checkbox_id10">Reception
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id11" value="value">
-                            <label for="checkbox_id11">Air Conditioning
+                            <label for="checkbox_id11">Video Conferencing
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id15" value="value">
-                            <label for="checkbox_id15">Swimming Pool
+                            <label for="checkbox_id15">Podium
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id16" value="value">
-                            <label for="checkbox_id16">Coupons
+                            <label for="checkbox_id16">Clean Toilets
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id17" value="value">
-                            <label for="checkbox_id17">Pet Friendly
+                            <label for="checkbox_id17">Lounge
                             </label>
                           </div>
+						  <div class="w-100 mb-2">
+                            <input type="checkbox" name="checkbox" id="checkbox_id17" value="value">
+                            <label for="checkbox_id17">Mailing Address
+                            </label>
+                          </div>
+						  <div class="w-100 mb-2">
+                            <input type="checkbox" name="checkbox" id="checkbox_id17" value="value">
+                            <label for="checkbox_id17">Flipboard
+                            </label>
+                          </div>
+						  <div class="w-100 mb-2">
+                            <input type="checkbox" name="checkbox" id="checkbox_id17" value="value">
+                            <label for="checkbox_id17">24x7
+                            </label>
+                          </div>
+						  <div class="w-100 mb-2">
+                            <input type="checkbox" name="checkbox" id="checkbox_id17" value="value">
+                            <label for="checkbox_id17">Functional Workspace
+                            </label>
+                          </div>
+						  
                         </div>
                       </div>
                     </div>

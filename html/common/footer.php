@@ -5,9 +5,8 @@
         <div class="col-xl-4 col-lg-12 col-12 mb-60">
           <div class="company-details">
             <img src="img/logo.png" class="foot-logo mb-4" alt="lister">
-            <p class="pb-2">Lorem ipsum dolor sit amet, consect tuer adipi cin elit. Aen sociis nato pe na ibus magnis dis
-              partur monte na et ridiculu onec quam felis. castei efte tuerg scn kt isceding elit ende
-              cd magum socadaiis nato ipsf.
+            <p class="pb-2">
+				With Co-workingspace, get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent!
             </p>
             <div class="socials mt-4">
               <a href="#">
@@ -41,23 +40,23 @@
             </div>
             <ul class="quick-link">
               <li>
-                <a href="add-list.html">add listing
+                <a href="JavaScript:Void(0)">add workspace
                 </a>
               </li>
               <li>
-                <a href="register.html">register
+                <a href="login.php">register
                 </a>
               </li>
               <li>
-                <a href="sign-in.html">sign in
+                <a href="login.php">sign in
                 </a>
               </li>
               <li>
-                <a href="about.html">how it work
+                <a href="about_us.php">how it work
                 </a>
               </li>
               <li>
-                <a href="contact.html">contact us
+                <a href="JavaScript:Void(0);">contact us
                 </a>
               </li>
             </ul>
@@ -71,23 +70,23 @@
             </div>
             <ul class="quick-link">
               <li>
-                <a href="login.html">create account
+                <a href="login.php">create account
                 </a>
               </li>
               <li>
-                <a href="#">dashboard
+                <a href="JavaScript:Void(0);">dashboard
                 </a>
               </li>
               <li>
-                <a href="#">profile
+                <a href="JavaScript:Void(0);">profile
                 </a>
               </li>
               <li>
-                <a href="#">my listing
+                <a href="JavaScript:Void(0);">my listing
                 </a>
               </li>
               <li>
-                <a href="#">favorites
+                <a href="JavaScript:Void(0);">favorites
                 </a>
               </li>
             </ul>
@@ -101,23 +100,23 @@
             </div>
             <ul class="quick-link">
               <li>
-                <a href="#">Restaurants
+                <a href="JavaScript:Void(0);">Meeting Room
                 </a>
               </li>
               <li>
-                <a href="#">Shopping
+                <a href="JavaScript:Void(0);">Coworking Space
                 </a>
               </li>
               <li>
-                <a href="#">Hotels
+                <a href="JavaScript:Void(0);">Private Office
                 </a>
               </li>
               <li>
-                <a href="#">Destinations
+                <a href="JavaScript:Void(0);">Training Room
                 </a>
               </li>
               <li>
-                <a href="#">Nightlife
+                <a href="JavaScript:Void(0);">Business Center
                 </a>
               </li>
             </ul>
@@ -131,23 +130,23 @@
             </div>
             <ul class="quick-link">
               <li>
-                <a href="about.html">About Us
+                <a href="about_us.php">About Us
                 </a>
               </li>
               <li>
-                <a href="price.html">Pricing
+                <a href="pricing.php;">Pricing
                 </a>
               </li>
               <li>
-                <a href="blog-grid.html">Blogs
+                <a href="JavaScript:Void(0);">Blogs
                 </a>
               </li>
               <li>
-                <a href="#">Testimonials
+                <a href="JavaScript:Void(0);">Testimonials
                 </a>
               </li>
               <li>
-                <a href="#">Our Partners
+                <a href="JavaScript:Void(0);">Our Partners
                 </a>
               </li>
             </ul>

@@ -201,12 +201,11 @@
 											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Microphone</span></label>
 											<label class="checkbox checkbox-primary"><input type="checkbox" checked><span>Night Shift</span></label>
 										</div>
-								   </div>		
+								   </div>
+								   <a class="btn btn-warning btn-cons" style="color: white;float:left;margin-top:15px;" href="step2.php">BACK</a>
+									<a class="btn btn-success btn-cons" style="color: white;float:right;margin-top:15px;" href="step4.php">NEXT</a>
 							  </div>
-							  <div class="col-lg-12">
-								<a class="btn btn-warning btn-cons" style="color: white;float:left;" href="step2.php">BACK</a>
-								<a class="btn btn-success btn-cons" style="color: white;float:right;" href="step4.php">NEXT</a>
-							  </div>
+							 
 							</form>
 						
 					  </div>

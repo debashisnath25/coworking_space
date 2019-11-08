@@ -44,26 +44,23 @@
           <div class="col-lg-6 mt-lg-0 mt-5">
             <h4>our awesome story
             </h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligu eg dolor. Aenatibus parturien
-              monte, nascetur rt ridiculus mus. Donec quam felis ultricies nec pellent esqueu pretium quis, sem.
-              Nulla con sequat massa quis enim. Donec pede justo, fringil vel, aliquet nec, vulputate eget, arcu.
-              In enim justo dictum felis eu mollis ju pretium tincidunt.
+            <p>It is a premier destination and nation&middot;s largest tech-enabled platform for today&middot;s workforce to search, sort and book a flexible and serviced workspace, without the hassle of a lease or brokerage and moreover completely Free of Charge (without any brokerage).Simultaneously, It is an opportunity to the workspace providers (corporate offices, landlords and occupiers, business centers, hotels and coworking spaces) to monetize their unused and vacant workspace inventory of work desks, meeting rooms, cabins, and private suites.
             </p>
             <ul class="list-1">
               <li>
-                <span>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                <span>Integrity towards Clients and providers
                 </span>
               </li>
               <li>
-                <span>Nulla consequat massa quis enim. Donec fringilla vel, aliquet nec.
+                <span>Agility in work and deals
                 </span>
               </li>
               <li>
-                <span> Aenean leo ligula, porttitor eu consequat vitae eleifend ac enim.
+                <span>respect for co-workers and all possible stakeholders
                 </span>
               </li>
               <li>
-                <span> Sociis na toque penatibus et magnis dis parturien monte nascetur ridic.
+                <span> Workspace redefined
                 </span>
               </li>
             </ul>
@@ -82,9 +79,9 @@
                 <i class="flaticon-list-1">
                 </i>
               </div>
-              <h2 class="count c-theme" data-count="5256">0
+              <h2 class="count c-theme" data-count="33">0
               </h2>
-              <p>total listing
+              <p>Cities
               </p>
             </div>
           </div>
@@ -94,9 +91,9 @@
                 <i class="flaticon-team">
                 </i>
               </div>
-              <h2 class="count c-theme" data-count="1250">0
+              <h2 class="count c-theme" data-count="1920">0
               </h2>
-              <p>total listing
+              <p>Venues
               </p>
             </div>
           </div>
@@ -108,7 +105,7 @@
               </div>
               <h2 class="count c-theme" data-count="160">0
               </h2>
-              <p>total listing
+              <p>Year on Growth
               </p>
             </div>
           </div>
@@ -118,9 +115,9 @@
                 <i class="flaticon-appointment">
                 </i>
               </div>
-              <h2 class="count c-theme" data-count="12">0
+              <h2 class="count c-theme" data-count="1500">0
               </h2>
-              <p>total listing
+              <p>Transaction per month
               </p>
             </div>
           </div>
@@ -128,108 +125,265 @@
       </div>
     </section>
     <!-- counter ends -->
-    <!-- features start-->
-    <section class="features sp-100-70 bg-w">
+    <!-- faq start-->
+    <section class="bg-w sp-100">
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <div class="all-title">
-              <h3 class="sec-title">
-                Why We Are Best
-              </h3>
-              <svg class="title-sep">
-                <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
-                      />
-              </svg>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor penatibus
-                ean massa. Cum sociis natoqu penatibus et magnis dis parturient montes.
-              </p>
-            </div>
+          <div class="col-lg-4">
+            <ul class="nav faq-tabs mb-lg-0 mb-5" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" href="#faq1" role="tab" data-toggle="tab">FREE TRIAL
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq2" role="tab" data-toggle="tab">REDEEMABLE CREDITS
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq3" role="tab" data-toggle="tab">SUBSCRIPTION PLAN
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq4" role="tab" data-toggle="tab">SERVICES/AMENITIES
+                </a>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-12 mb-30">
-            <div class="feature-item">
-              <div class="icon-box">
-                <i class="flaticon-rising">
-                </i>
+          <div class="col-lg-8">
+            <h4 class="title-sep2 mb-30">How it works
+            </h4>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane fade in active show" id="faq1">
+                <div id="faq-accordion1" class="theme-accordion">
+                  <div class="acc-card">
+                    <div class="panel-heading" id="headingOne">
+                      <button class="acc-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						How does the free trial work
+                      </button>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faq-accordion1">
+                      <div class="card-body">
+                        <p>With a free trial, we give you an opportunity to experience working in a co-working space/cafe for an entire day across any of our 100+ locations.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="headingTwo">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How do I register for a free trial?
+                      </button>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faq-accordion1">
+                      <div class="card-body">
+                        <p>Just click on the ‘Free Trial Button’ on the website or download the  App and register for a free trial.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="headingThree">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						Can I avail the ‘Free Trial’ more than once?
+                      </button>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faq-accordion1">
+                      <div class="card-body">
+                        <p>Sorry, you can avail a free trial only once. However, our subscription plans are super economical and flexible. So go ahead and pick your best fit without burning a hole in your pocket! :)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="headingFour">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        What do I get on my free day trial?
+                      </button>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faq-accordion1">
+                      <div class="card-body">
+                        <p>Your free trial includes access to free wifi, stationery and printing facilities. You also get exclusive  discounts, offers and cashbacks on your food bill at our work cafes (when you pay using  Credits).
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h5>our vision
-              </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12 mb-30">
-            <div class="feature-item">
-              <div class="icon-box">
-                <i class="flaticon-list">
-                </i>
+              <div role="tabpanel" class="tab-pane fade" id="faq2">
+                <div id="faq-accordion2" class="theme-accordion">
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading2One">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse2One" aria-expanded="true" aria-controls="collapseOne">
+                        What are redeemable credits?
+                      </button>
+                    </div>
+                    <div id="collapse2One" class="collapse" aria-labelledby="heading2One" data-parent="#faq-accordion2">
+                      <div class="card-body">
+                        <p>Once you buy a subscription, we add the specified redeemable credits to your account. These can then be used to pay for your food and beverage expense at work cafes or for your visits to coworking spaces
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading2Two">
+                      <button class="acc-link" data-toggle="collapse" data-target="#collapse2Two" aria-expanded="false" aria-controls="collapseTwo">
+                        How do I use my redeemable credits?
+                      </button>
+                    </div>
+                    <div id="collapse2Two" class="collapse show" aria-labelledby="heading2Two" data-parent="#faq-accordion2">
+                      <div class="card-body">
+                        <p>When you’re working out of a  work cafe, your credits will be deducted in accordance to your food bill. Please share your registered mobile number with the cafe staff during billing. You'll get an OTP on your registered mobile number to confirm the transaction amount. In case you are working out of a  coworking space, it’ll get auto deducted per visit basis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading2Three">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse2Three" aria-expanded="false" aria-controls="collapseThree">
+                        How do I pay for my visits to  coworking spaces?
+                      </button>
+                    </div>
+                    <div id="collapse2Three" class="collapse" aria-labelledby="heading2Three" data-parent="#faq-accordion2">
+                      <div class="card-body">
+                        <p>Everytime you visit a coworking spaces 200  Credits will get auto-deducted from your account on a per visit basis
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading2Four">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse2Four" aria-expanded="false" aria-controls="collapseFour">
+                        What happens if I exhaust my redeemable credits?
+                      </button>
+                    </div>
+                    <div id="collapse2Four" class="collapse" aria-labelledby="heading2Four" data-parent="#faq-accordion2">
+                      <div class="card-body">
+                        <p>If you exhaust all your credits, you can recharge your account on the  app.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h5>missions
-              </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12 mb-30">
-            <div class="feature-item">
-              <div class="icon-box">
-                <i class="flaticon-medal">
-                </i>
+              <div role="tabpanel" class="tab-pane fade" id="faq3">
+                <div id="faq-accordion3" class="theme-accordion">
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading3One">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse3One" aria-expanded="true" aria-controls="collapseOne">
+                        How long is a  subscription valid for?
+                      </button>
+                    </div>
+                    <div id="collapse3One" class="collapse" aria-labelledby="heading3One" data-parent="#faq-accordion3">
+                      <div class="card-body">
+                        <p> subscriptions plans have no expiry. They’re valid till the time you don’t exhaust all your visits and credits.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading3Three">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse3Three" aria-expanded="false" aria-controls="collapseThree">
+                        Can a subscription be used by multiple users?
+                      </button>
+                    </div>
+                    <div id="collapse3Three" class="collapse" aria-labelledby="heading3Three" data-parent="#faq-accordion3">
+                      <div class="card-body">
+                        <p>Sorry, each  subscription can be used by a single user only. If you are looking for a team based plan, please reach out to us on +91-92050-06361 or contact@.in
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading3Two">
+                      <button class="acc-link" data-toggle="collapse" data-target="#collapse3Two" aria-expanded="false" aria-controls="collapseTwo">
+                        Can I visit both coworking spaces and work cafes with my  subscription?
+                      </button>
+                    </div>
+                    <div id="collapse3Two" class="collapse show" aria-labelledby="heading3Two" data-parent="#faq-accordion3">
+                      <div class="card-body">
+                        <p>Yes, you can visit both our work cafes and coworking spaces with a single subscription. You have the option of working from any  space with a subscription
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading3Four">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse3Four" aria-expanded="false" aria-controls="collapseFour">
+                        Do you require any deposits?
+                      </button>
+                    </div>
+                    <div id="collapse3Four" class="collapse" aria-labelledby="heading3Four" data-parent="#faq-accordion3">
+                      <div class="card-body">
+                        <p>No! There aren't any deposits. Our flexible plans provide you with the stability of a space along with the flexibility you need.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h5>our value
-              </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12 mb-30">
-            <div class="feature-item">
-              <div class="icon-box">
-                <i class="flaticon-find-1">
-                </i>
+              <div role="tabpanel" class="tab-pane fade" id="faq4">
+                <div id="faq-accordion4" class="theme-accordion">
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading4Three">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse4Three" aria-expanded="false" aria-controls="collapseThree">
+                        What facilities to I get at a  space?
+                      </button>
+                    </div>
+                    <div id="collapse4Three" class="collapse" aria-labelledby="heading4Three" data-parent="#faq-accordion4">
+                      <div class="card-body">
+                        <p>Each  space is equipped with all work essentials to ensure a seamless work experience. Get high speed unlimited wifi, office stationery, comfortable seats, free printing etc.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading4Two">
+                      <button class="acc-link" data-toggle="collapse" data-target="#collapse4Two" aria-expanded="false" aria-controls="collapseTwo">
+                        How fast is the wifi at  Spaces?
+                      </button>
+                    </div>
+                    <div id="collapse4Two" class="collapse show" aria-labelledby="heading4Two" data-parent="#faq-accordion4">
+                      <div class="card-body">
+                        <p>Extremely fast. We understand how imprtant fast internet is for you to work seamless. We guarantee a 16mbps+ internet speed at all our locations.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading4One">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse4One" aria-expanded="true" aria-controls="collapseOne">
+                        What are the working hours? When are  spaces open?
+                      </button>
+                    </div>
+                    <div id="collapse4One" class="collapse" aria-labelledby="heading4One" data-parent="#faq-accordion4">
+                      <div class="card-body">
+                        <p>Generally all our spaces are available from 9am - 8pm, Monday through Sunday. However, each  space has a different operating time which is mentioned on the detail page on the website and mobile app.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="acc-card">
+                    <div class="panel-heading" id="heading4Four">
+                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse4Four" aria-expanded="false" aria-controls="collapseFour">
+                        What discounts do I get as a  user at  work cafes?
+                      </button>
+                    </div>
+                    <div id="collapse4Four" class="collapse" aria-labelledby="heading4Four" data-parent="#faq-accordion4">
+                      <div class="card-body">
+                        <p>At each  work cafe you get free beverages on every visit and atleast a 15% discount. At most of our spaces we work out a special coworking menu to make sure that it's light on your pockets. Every  Space has a different discount scheme which are mentioned on the details page on the website and mobile app.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h5>find your listing
-              </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12 mb-30">
-            <div class="feature-item">
-              <div class="icon-box">
-                <i class="flaticon-map">
-                </i>
-              </div>
-              <h5>find the way
-              </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12 mb-30">
-            <div class="feature-item">
-              <div class="icon-box">
-                <i class="flaticon-support">
-                </i>
-              </div>
-              <h5>24/7 support
-              </h5>
-              <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                ipsf.
-              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- features end -->
+    <!-- faq end -->
     <!-- cta-one start-->
     <section class="cta-one tri-bg-w text-lg-left text-center">
       <div class="container">
@@ -255,463 +409,198 @@
       </div>
     </section>
     <!-- cta-one end -->
-    <!-- faq start-->
-    <section class="bg-w sp-100">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <ul class="nav faq-tabs mb-lg-0 mb-5" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" href="#faq1" role="tab" data-toggle="tab">Genral FAQ
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#faq2" role="tab" data-toggle="tab">Listing Support
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#faq3" role="tab" data-toggle="tab">Category
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#faq4" role="tab" data-toggle="tab">Services
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#faq5" role="tab" data-toggle="tab">Customize Options
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#faq6" role="tab" data-toggle="tab">Email Support
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-8">
-            <h4 class="title-sep2 mb-30">Listing Support
-            </h4>
-            <!-- Tab panes -->
-            <div class="tab-content">
-              <div role="tabpanel" class="tab-pane fade in active show" id="faq1">
-                <div id="faq-accordion1" class="theme-accordion">
-                  <div class="acc-card">
-                    <div class="panel-heading" id="headingOne">
-                      <button class="acc-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Etiam sit amet orci eget eros faucibus tincidunt sed fringilla mauris
-                      </button>
+	<!-- team start-->
+    <section class="bg-dull sp-100-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="all-title">
+                        <h3 class="sec-title">
+                            our team
+                        </h3>
+                        <svg class="title-sep">
+                            <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
+                            />
+                        </svg>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor penatibus
+                            ean massa. Cum sociis natoqu penatibus et magnis dis parturient montes.</p>
                     </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faq-accordion1">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="headingTwo">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Cras id dui aenean ut eros et nisl sagittis vestibulum. nullam nulla eros
-                      </button>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faq-accordion1">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="headingThree">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Phasellus leo dolor, tempus non, auctor et hendrerit quis, nisi curabitur
-                      </button>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faq-accordion1">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do eiu tempore
-                          incididunt ut labore et dolore magna aliqua. Ut eni minim veniam. Aenean
-                          massa cum sociis natoque natib magnis dis parturie ntut montes nascetu ridiculus
-                          muson quam felis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="headingFour">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Faucibus orci luctus et ultrices posuere cubilia curae
-                      </button>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faq-accordion1">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.Aenean massa cum sociis natoque
-                          penati magnis dis partu rient montes, nasceturs rid iculus mus.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
-              <div role="tabpanel" class="tab-pane fade" id="faq2">
-                <div id="faq-accordion2" class="theme-accordion">
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading2One">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse2One" aria-expanded="true" aria-controls="collapseOne">
-                        Etiam sit amet orci eget eros faucibus tincidunt sed fringilla mauris
-                      </button>
-                    </div>
-                    <div id="collapse2One" class="collapse" aria-labelledby="heading2One" data-parent="#faq-accordion2">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading2Two">
-                      <button class="acc-link" data-toggle="collapse" data-target="#collapse2Two" aria-expanded="false" aria-controls="collapseTwo">
-                        Cras id dui aenean ut eros et nisl sagittis vestibulum. nullam nulla eros
-                      </button>
-                    </div>
-                    <div id="collapse2Two" class="collapse show" aria-labelledby="heading2Two" data-parent="#faq-accordion2">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading2Three">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse2Three" aria-expanded="false" aria-controls="collapseThree">
-                        Phasellus leo dolor, tempus non, auctor et hendrerit quis, nisi curabitur
-                      </button>
-                    </div>
-                    <div id="collapse2Three" class="collapse" aria-labelledby="heading2Three" data-parent="#faq-accordion2">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do eiu tempore
-                          incididunt ut labore et dolore magna aliqua. Ut eni minim veniam. Aenean
-                          massa cum sociis natoque natib magnis dis parturie ntut montes nascetu ridiculus
-                          muson quam felis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading2Four">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse2Four" aria-expanded="false" aria-controls="collapseFour">
-                        Faucibus orci luctus et ultrices posuere cubilia curae
-                      </button>
-                    </div>
-                    <div id="collapse2Four" class="collapse" aria-labelledby="heading2Four" data-parent="#faq-accordion2">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.Aenean massa cum sociis natoque
-                          penati magnis dis partu rient montes, nasceturs rid iculus mus.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div role="tabpanel" class="tab-pane fade" id="faq3">
-                <div id="faq-accordion3" class="theme-accordion">
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading3One">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse3One" aria-expanded="true" aria-controls="collapseOne">
-                        Etiam sit amet orci eget eros faucibus tincidunt sed fringilla mauris
-                      </button>
-                    </div>
-                    <div id="collapse3One" class="collapse" aria-labelledby="heading3One" data-parent="#faq-accordion3">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading3Three">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse3Three" aria-expanded="false" aria-controls="collapseThree">
-                        Phasellus leo dolor, tempus non, auctor et hendrerit quis, nisi curabitur
-                      </button>
-                    </div>
-                    <div id="collapse3Three" class="collapse" aria-labelledby="heading3Three" data-parent="#faq-accordion3">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do eiu tempore
-                          incididunt ut labore et dolore magna aliqua. Ut eni minim veniam. Aenean
-                          massa cum sociis natoque natib magnis dis parturie ntut montes nascetu ridiculus
-                          muson quam felis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading3Two">
-                      <button class="acc-link" data-toggle="collapse" data-target="#collapse3Two" aria-expanded="false" aria-controls="collapseTwo">
-                        Cras id dui aenean ut eros et nisl sagittis vestibulum. nullam nulla eros
-                      </button>
-                    </div>
-                    <div id="collapse3Two" class="collapse show" aria-labelledby="heading3Two" data-parent="#faq-accordion3">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading3Four">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse3Four" aria-expanded="false" aria-controls="collapseFour">
-                        Lorem sit tempor cupidatat consequat cillum ipsum voluptate mollit.
-                      </button>
-                    </div>
-                    <div id="collapse3Four" class="collapse" aria-labelledby="heading3Four" data-parent="#faq-accordion3">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.Aenean massa cum sociis natoque
-                          penati magnis dis partu rient montes, nasceturs rid iculus mus.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div role="tabpanel" class="tab-pane fade" id="faq4">
-                <div id="faq-accordion4" class="theme-accordion">
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading4Three">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse4Three" aria-expanded="false" aria-controls="collapseThree">
-                        Phasellus leo dolor, tempus non, auctor et hendrerit quis, nisi curabitur
-                      </button>
-                    </div>
-                    <div id="collapse4Three" class="collapse" aria-labelledby="heading4Three" data-parent="#faq-accordion4">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do eiu tempore
-                          incididunt ut labore et dolore magna aliqua. Ut eni minim veniam. Aenean
-                          massa cum sociis natoque natib magnis dis parturie ntut montes nascetu ridiculus
-                          muson quam felis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading4Two">
-                      <button class="acc-link" data-toggle="collapse" data-target="#collapse4Two" aria-expanded="false" aria-controls="collapseTwo">
-                        Cras id dui aenean ut eros et nisl sagittis vestibulum. nullam nulla eros
-                      </button>
-                    </div>
-                    <div id="collapse4Two" class="collapse show" aria-labelledby="heading4Two" data-parent="#faq-accordion4">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading4One">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse4One" aria-expanded="true" aria-controls="collapseOne">
-                        Etiam sit amet orci eget eros faucibus tincidunt sed fringilla mauris
-                      </button>
-                    </div>
-                    <div id="collapse4One" class="collapse" aria-labelledby="heading4One" data-parent="#faq-accordion4">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading4Four">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse4Four" aria-expanded="false" aria-controls="collapseFour">
-                        Lorem sit tempor cupidatat consequat cillum ipsum voluptate mollit.
-                      </button>
-                    </div>
-                    <div id="collapse4Four" class="collapse" aria-labelledby="heading4Four" data-parent="#faq-accordion4">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.Aenean massa cum sociis natoque
-                          penati magnis dis partu rient montes, nasceturs rid iculus mus.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div role="tabpanel" class="tab-pane fade" id="faq5">
-                <div id="faq-accordion5" class="theme-accordion">
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading5Three">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse5Three" aria-expanded="false" aria-controls="collapseThree">
-                        Velit anim dolor elit Lorem cupidatat esse sunt elit laboris sunt.
-                      </button>
-                    </div>
-                    <div id="collapse5Three" class="collapse" aria-labelledby="heading5Three" data-parent="#faq-accordion5">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do eiu tempore
-                          incididunt ut labore et dolore magna aliqua. Ut eni minim veniam. Aenean
-                          massa cum sociis natoque natib magnis dis parturie ntut montes nascetu ridiculus
-                          muson quam felis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading5One">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse5One" aria-expanded="true" aria-controls="collapseOne">
-                        Etiam sit amet orci eget eros faucibus tincidunt sed fringilla mauris
-                      </button>
-                    </div>
-                    <div id="collapse5One" class="collapse" aria-labelledby="heading5One" data-parent="#faq-accordion5">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading5Four">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse5Four" aria-expanded="false" aria-controls="collapseFour">
-                        Lorem sit tempor cupidatat consequat cillum ipsum voluptate mollit.
-                      </button>
-                    </div>
-                    <div id="collapse5Four" class="collapse" aria-labelledby="heading5Four" data-parent="#faq-accordion5">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.Aenean massa cum sociis natoque
-                          penati magnis dis partu rient montes, nasceturs rid iculus mus.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading5Two">
-                      <button class="acc-link" data-toggle="collapse" data-target="#collapse5Two" aria-expanded="false" aria-controls="collapseTwo">
-                        Ea elit adipisicing et dolore excepteur deserunt fugiat ipsum culpa et.
-                      </button>
-                    </div>
-                    <div id="collapse5Two" class="collapse show" aria-labelledby="heading5Two" data-parent="#faq-accordion5">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div role="tabpanel" class="tab-pane fade" id="faq6">
-                <div id="faq-accordion6" class="theme-accordion">
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading6Three">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse6Three" aria-expanded="false" aria-controls="collapseThree">
-                        Velit anim dolor elit Lorem cupidatat esse sunt elit laboris sunt.
-                      </button>
-                    </div>
-                    <div id="collapse6Three" class="collapse" aria-labelledby="heading6Three" data-parent="#faq-accordion6">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do eiu tempore
-                          incididunt ut labore et dolore magna aliqua. Ut eni minim veniam. Aenean
-                          massa cum sociis natoque natib magnis dis parturie ntut montes nascetu ridiculus
-                          muson quam felis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading6Two">
-                      <button class="acc-link" data-toggle="collapse" data-target="#collapse6Two" aria-expanded="false" aria-controls="collapseTwo">
-                        Laborum labore excepteur incididunt duis fugiat eu Lorem.
-                      </button>
-                    </div>
-                    <div id="collapse6Two" class="collapse show" aria-labelledby="heading6Two" data-parent="#faq-accordion6">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading6One">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse6One" aria-expanded="true" aria-controls="collapseOne">
-                        Etiam sit amet orci eget eros faucibus tincidunt sed fringilla mauris
-                      </button>
-                    </div>
-                    <div id="collapse6One" class="collapse" aria-labelledby="heading6One" data-parent="#faq-accordion6">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="acc-card">
-                    <div class="panel-heading" id="heading6Four">
-                      <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapse6Four" aria-expanded="false" aria-controls="collapseFour">
-                        Et incididunt adipisicing ea aliqua aliqua id fugiat nostrud.
-                      </button>
-                    </div>
-                    <div id="collapse6Four" class="collapse" aria-labelledby="heading6Four" data-parent="#faq-accordion6">
-                      <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, df sed do eiu tempor
-                          incid uts hgia labore et dolor magna aliqua. Ut enim minim veniam. Aenean
-                          massa nat penatius magnis dis parturient montes, nasceturs et ridiculus musg.
-                          Donec felis, ultrhfj iciesne elente sque eu.Aenean massa cum sociis natoque
-                          penati magnis dis partu rient montes, nasceturs rid iculus mus.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="team-item">
+                        <img src="img/team1.png" alt="lister">
+                        <div class="team-overlay">
+                            <div class="t-inner">
+                                <h5>Julia Holmes</h5>
+                                <span>Senior Consultant</span>
+                                <div class="socials mt-3">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="team-item">
+                        <img src="img/team2.png" alt="lister">
+                        <div class="team-overlay">
+                            <div class="t-inner">
+                                <h5>Lucas Smith</h5>
+                                <span>Business Manager </span>
+                                <div class="socials mt-3">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="team-item">
+                        <img src="img/team3.png" alt="lister">
+                        <div class="team-overlay">
+                            <div class="t-inner">
+                                <h5>Sarah Paul</h5>
+                                <span>Sales Associate</span>
+                                <div class="socials mt-3">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="team-item">
+                        <img src="img/team4.png" alt="lister">
+                        <div class="team-overlay">
+                            <div class="t-inner">
+                                <h5>Pablo Heminez</h5>
+                                <span>Senior Executive</span>
+                                <div class="socials mt-3">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="team-item">
+                        <img src="img/team5.png" alt="lister">
+                        <div class="team-overlay">
+                            <div class="t-inner">
+                                <h5>Maria Grey</h5>
+                                <span>Business Consultant</span>
+                                <div class="socials mt-3">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="team-item">
+                        <img src="img/team6.png" alt="lister">
+                        <div class="team-overlay">
+                            <div class="t-inner">
+                                <h5>Andrew Stugart</h5>
+                                <span>Senior Manager</span>
+                                <div class="socials mt-3">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
-    <!-- faq end -->
+    <!-- team end -->
+    
     <!-- footer starts -->
     <?php include 'common/footer.php';?>
   </body>

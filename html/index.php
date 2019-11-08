@@ -66,7 +66,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <img src="img/User-Group-128.png" style="height:42px;">
+                    <i class="flaticon-team"></i>
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Meeting Room
@@ -77,7 +77,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <img src="img/People-128.png" style="height:42px;">
+                    <i class="flaticon-appointment"></i>
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Coworking Space
@@ -88,7 +88,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <img src="img/Student-Laptop-128.png" style="height:42px;">
+                    <i class="flaticon-shop"></i>
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Private Office
@@ -99,7 +99,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <img src="img/Meeting-128.png" style="height:40px;">
+                    <i class="flaticon-hotel"></i>
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Training Room
@@ -110,7 +110,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <img src="img/User-Group-128.png" style="height:42px;">
+                    <i class="flaticon-team"></i>
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Business Center
@@ -121,7 +121,7 @@
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
                   <div class="icon-box">
-                    <img src="img/User-Group-128.png" style="height:42px;">
+                    <i class="flaticon-shop"></i>
                   </div>
                   <h5 class="mb-0">
                     <a href="#">Coworking Cafes
@@ -351,7 +351,7 @@
                 <span class="c-theme">2. 
                 </span>Work more, Pay less
               </h5>
-              <p class="mb-0">With super-flexi myHQ subscription, enjoy the freedom of no monthly rental, no deposit, no lock-in, no expiry.
+              <p class="mb-0">With super-flexi  subscription, enjoy the freedom of no monthly rental, no deposit, no lock-in, no expiry.
               </p>
             </div>
           </div>
@@ -508,6 +508,7 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box icon-height" style="background-image:url('img/banner-meeting-room.jpg')">
+			  	<i class="flaticon-team"></i>
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
@@ -522,6 +523,7 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box icon-height" style="background-image:url('img/Daily-Digest-Image-2019-06-03T112659.066.png')">
+			  <i class="flaticon-appointment"></i>
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
@@ -536,6 +538,7 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box icon-height" style="background-image:url('img/Private-Office-Dedicated-Desk.png')">
+			  <i class="flaticon-shop"></i>
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
@@ -550,6 +553,7 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box icon-height" style="background-image:url('img/944390254ed4fd2b9fb33ad76b37d9a1.png')">
+			  <i class="flaticon-hotel"></i>
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
@@ -564,6 +568,7 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box icon-height" style="background-image:url('img/sala-900x600.png')">
+			  <i class="flaticon-team"></i>
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
@@ -578,6 +583,7 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box icon-height" style="background-image:url('img/180504_Spacious_Crave_66.jpg')">
+			  <i class="flaticon-team"></i>
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
@@ -650,8 +656,7 @@
                 <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
                       />
               </svg>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor penatibus
-                ean massa. Cum sociis natoqu penatibus et magnis dis parturient montes.
+              <p>A curated blog by coworking workspaces to give you an insight into the dynamic arena of entrepreneurship, digital marketing and freelancing as we become the flag bearers of the new age coworking and independent lifestyle.
               </p>
             </div>
           </div>
@@ -665,7 +670,7 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="blog-detail.html">Nullam quis ante tiam sit ame orci eget erovtiu faucid nbys
+                  <a href="JavaScript:Void(0)">Mumbai : The Largest Coworking Hub
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
@@ -695,7 +700,7 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="blog-detail.html">Nullam quis ante tiam sit ame orci eget erovtiu faucid nbys
+                  <a href="JavaScript:Void(0)">8 Ways Coworking Spaces Are Changing the Culture of Work
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
@@ -725,7 +730,7 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="blog-detail.html">Nullam quis ante tiam sit ame orci eget erovtiu faucid nbys
+                  <a href="JavaScript:Void(0)">Essential environmental benefits of flexible co-working workspace
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
@@ -755,7 +760,7 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="blog-detail.html">Nullam quis ante tiam sit ame orci liamco non.
+                  <a href="JavaScript:Void(0)">Noida&not;The Popular Coworking Hub
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
@@ -785,7 +790,7 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="blog-detail.html">Amet incididunt tempor aliqua mollit magna proident sit amet elit nostrud. 
+                  <a href="JavaScript:Void(0)">Sharing of office space to reduce rents and promote collaborative work environment 
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
@@ -815,7 +820,7 @@
               </div>
               <div class="blog-content">
                 <h5>
-                  <a href="blog-detail.html">Nullam quis ante tiam sit ame orci liamco non.
+                  <a href="JavaScript:Void(0)">Cost Per Desk In Gurugram
                   </a>
                 </h5>
                 <ul class="blog-meta d-flex justify-content-between align-items-center">
@@ -838,7 +843,7 @@
             </div>
           </div>
           <div class="col-12 text-center mt-30">
-            <a href="#" class="btn btn-one btn-anim">view all
+            <a href="JavaScript:Void(0)" class="btn btn-one btn-anim">view all
             </a>
           </div>
         </div>
