@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel='icon' href='images/favicon.png' type='image/x-icon'/ >
-    <title>Products | Wanted 7</title>
+    <title>Office Space | Wanted 7</title>
     <?php
 		include("common/metalinks.php");
 	?>
@@ -96,7 +96,7 @@
 		  	<!-- BEGIN: Page heading-->
             <div class="page-heading" style="padding-left:17px;">
               <div class="page-breadcrumb">
-                <h1 class="page-title"><a href="dashboard.php">Dashboard </a>> Products
+                <h1 class="page-title"><a href="dashboard.php">Dashboard </a>> Office Space
                 </h1>
               </div>
             </div>
@@ -154,7 +154,7 @@
 						</div>
 					</div>
 					<div class="col-3">
-						<a href="add_products.php" class="btn btn-primary btn-block"><span class="btn-icon"><i class="ft-plus"></i>Add Product</span></a>
+						<a href="add_Office Space.php" class="btn btn-primary btn-block"><span class="btn-icon"><i class="ft-plus"></i>Add Product</span></a>
 						<a href="add_category.php" class="btn btn-outline-primary border-2x btn-block" style="margin-top: 20px;"><span class="btn-icon"><i class="ft-search"></i>Manage Categories</span></a>
 					</div>
 				</div>
@@ -172,7 +172,7 @@
 								<div class="media-body">
 								  <div class="mb-1 h6" style="font-size:12px;"> Drafts
 								  </div>
-								  <div class="text-muted faq-item-text font-12">14 Products
+								  <div class="text-muted faq-item-text font-12">14 Office Space
 								  </div>
 								</div>
 							  </a>
@@ -182,7 +182,7 @@
 								<div class="media-body">
 								  <div class="mb-1 h6" style="font-size:12px;">Sent For Approval
 								  </div>
-								  <div class="text-muted faq-item-text font-12">14 Products
+								  <div class="text-muted faq-item-text font-12">14 Office Space
 								  </div>
 								</div>
 							  </a>
@@ -192,7 +192,7 @@
 								<div class="media-body">
 								  <div class="mb-1 h6" style="font-size:12px;">Approved
 								  </div>
-								  <div class="text-muted faq-item-text font-12">14 Products
+								  <div class="text-muted faq-item-text font-12">14 Office Space
 								  </div>
 								</div>
 							  </a>
@@ -202,7 +202,7 @@
 								<div class="media-body">
 								  <div class="mb-1 h6" style="font-size:12px;">Unapproved / Rejected
 								  </div>
-								  <div class="text-muted faq-item-text font-12">14 Products
+								  <div class="text-muted faq-item-text font-12">14 Office Space
 								  </div>
 								</div>
 							  </a>
@@ -212,7 +212,7 @@
 								<div class="media-body">
 								  <div class="mb-1 h6" style="font-size:12px;">Archieve / Deleted
 								  </div>
-								  <div class="text-muted faq-item-text font-12">14 Products
+								  <div class="text-muted faq-item-text font-12">14 Office Space
 								  </div>
 								</div>
 							  </a>
@@ -220,9 +220,9 @@
 								<i class="ti-lock text-muted font-26 mr-3">
 								</i>
 								<div class="media-body">
-								  <div class="mb-1 h6" style="font-size:12px;"> Live Products (Enable / Disable)
+								  <div class="mb-1 h6" style="font-size:12px;"> Live Office Space (Enable / Disable)
 								  </div>
-								  <div class="text-muted faq-item-text font-12">14 Products
+								  <div class="text-muted faq-item-text font-12">14 Office Space
 								  </div>
 								</div>
 							  </a>
@@ -237,7 +237,7 @@
 					<div class="col-lg-9">
 						<div class="card" style="border:1px solid #7c1ab5">
 							<div class="card-header cardhdd">
-								<h5 class="box-title" style="color:#fff;">Saved Products Lists</h5>
+								<h5 class="box-title" style="color:#fff;">Saved Office Space Lists</h5>
 								<div class="card-actions"><a class="card-collapse"><i class="ti-angle-down"></i></a></div>
 							</div>
 

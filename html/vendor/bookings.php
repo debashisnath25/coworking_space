@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='images/vendor-images/favicon.png' type='image/x-icon'/ >
-    <title>Orders | Wanted 7
+    <title>Bookings | Wanted 7
     </title>
     <?php
 include("common/metalinks.php");
@@ -97,7 +97,7 @@ include("common/header.php");
             <!-- BEGIN: Page heading-->
             <div class="page-heading">
               <div class="page-breadcrumb">
-                <h1 class="page-title"><a href="dashboard.php">Dashboard </a>> Orders > Orders awaiting acceptance
+                <h1 class="page-title"><a href="dashboard.php">Dashboard </a>> Bookings
                 </h1>
               </div>
             </div>
@@ -108,7 +108,7 @@ include("common/header.php");
                     <div class="tab-pane fade active show" id="faq-group-1">
                       <div class="card" style="border:1px solid #7c1ab5">
                         <div class="card-header cardhdd">
-                          <h5 class="box-title" style="color:#fff;">ORDERS RECEIVED AWAITING ACCEPTANCE
+                          <h5 class="box-title" style="color:#fff;">Bookings RECEIVED AWAITING ACCEPTANCE
                           </h5>
                           <div class="card-actions">
                             <a class="card-collapse">
@@ -129,16 +129,16 @@ include("common/header.php");
                               </label>
                               <select class="selectpicker form-control mb-3 " data-style="btn-light btn-light-solid" multiple="multiple">
 								<optgroup label="Order Type">
-									<option>Paid Orders</option>
-									<option>COD Orders</option>
+									<option>Paid Bookings</option>
+									<option>COD Bookings</option>
 								</optgroup>
 								<optgroup label="Shipping Api">
-									<option>Delivery Orders From Delhivery</option>
-									<option>Delivery Orders From India Post</option>
+									<option>Delivery Bookings From Delhivery</option>
+									<option>Delivery Bookings From India Post</option>
 								</optgroup>
 								<optgroup label="Wanted Program">
-									<option>Wanted Assurance Program Orders</option>
-									<option>Wanted Support Program Orders</option>
+									<option>Wanted Assurance Program Bookings</option>
+									<option>Wanted Support Program Bookings</option>
 								</optgroup>
                               </select>
                             </div>
