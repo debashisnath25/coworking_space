@@ -9,7 +9,7 @@
 </title>
 <style>
 .theme-header-one{
-	background-color:#1e1e1e;
+	background-color: #1e1e1e !important;
 }
 .banner-link{
 	margin-bottom:1rem;

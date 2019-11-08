@@ -10,31 +10,23 @@
     <!-- Header start-->
     <?php include 'common/header.php';?>
     <!-- Header end -->
-    <!-- page-banner start-->
-    <section class="page-banner">
+    <!-- about start-->
+    <div class="about-1 o-hide bg-w sp-100">
       <div class="container">
-        <div class="row">
+	   <div class="row">
           <div class="col-12">
-            <h3>about us
-            </h3>
-            <ul class="banner-link text-center">
+            <ul class="banner-link ">
               <li>
-                <a href="index.html">Home
+                <a href="index.php">Home
                 </a>
               </li>
               <li>
-                <span class="active">about us
+                <span class="active">About Us
                 </span>
               </li>
             </ul>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- page-banner ends-->
-    <!-- about start-->
-    <div class="about-1 o-hide bg-w sp-100">
-      <div class="container">
         <div class="row">
           <div class="col-lg-6 align-self-end">
             <div class="abt-img">
@@ -177,7 +169,7 @@
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faq-accordion1">
                       <div class="card-body">
-                        <p>Just click on the ‘Free Trial Button’ on the website or download the  App and register for a free trial.
+                        <p>Just click on the 'Free Trial Button' on the website or download the  App and register for a free trial.
                         </p>
                       </div>
                     </div>
@@ -185,12 +177,12 @@
                   <div class="acc-card">
                     <div class="panel-heading" id="headingThree">
                       <button class="acc-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-						Can I avail the ‘Free Trial’ more than once?
+						Can I avail the 'Free Trial' more than once?
                       </button>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faq-accordion1">
                       <div class="card-body">
-                        <p>Sorry, you can avail a free trial only once. However, our subscription plans are super economical and flexible. So go ahead and pick your best fit without burning a hole in your pocket! :)
+                        <p>Sorry, you can avail a free trial only once. However, our subscription plans are super economical and flexible. So go ahead and pick your best fit without burning a hole in your pocket!
                         </p>
                       </div>
                     </div>
@@ -233,7 +225,7 @@
                     </div>
                     <div id="collapse2Two" class="collapse show" aria-labelledby="heading2Two" data-parent="#faq-accordion2">
                       <div class="card-body">
-                        <p>When you’re working out of a  work cafe, your credits will be deducted in accordance to your food bill. Please share your registered mobile number with the cafe staff during billing. You'll get an OTP on your registered mobile number to confirm the transaction amount. In case you are working out of a  coworking space, it’ll get auto deducted per visit basis.
+                        <p>When you're working out of a  work cafe, your credits will be deducted in accordance to your food bill. Please share your registered mobile number with the cafe staff during billing. You'll get an OTP on your registered mobile number to confirm the transaction amount. In case you are working out of a  coworking space, it'll get auto deducted per visit basis.
                         </p>
                       </div>
                     </div>
@@ -259,7 +251,7 @@
                     </div>
                     <div id="collapse2Four" class="collapse" aria-labelledby="heading2Four" data-parent="#faq-accordion2">
                       <div class="card-body">
-                        <p>If you exhaust all your credits, you can recharge your account on the  app.
+                        <p>If you exhaust all your credits, you can recharge your account on the app.
                         </p>
                       </div>
                     </div>
@@ -276,7 +268,7 @@
                     </div>
                     <div id="collapse3One" class="collapse" aria-labelledby="heading3One" data-parent="#faq-accordion3">
                       <div class="card-body">
-                        <p> subscriptions plans have no expiry. They’re valid till the time you don’t exhaust all your visits and credits.
+                        <p> Subscriptions plans have no expiry. They're valid till the time you don't exhaust all your visits and credits.
                         </p>
                       </div>
                     </div>
@@ -392,9 +384,7 @@
             <div class="cta-content">
               <h3>Sign Up To Get Special Offers Every Day
               </h3>
-              <p>Lorem ipsum dolor sit amet, consectadetudzdae rcquisc adipiscing elit. Aenean socada commodo ligaui
-                egets dolor. 
-              </p>
+              <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent!</p>
               <a href="login.html" class="btn btn-two btn-anim mt-2">
                 sign up
               </a>
@@ -422,8 +412,6 @@
                             <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
                             />
                         </svg>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor penatibus
-                            ean massa. Cum sociis natoqu penatibus et magnis dis parturient montes.</p>
                     </div>
                 </div>
             </div>
