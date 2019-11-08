@@ -9,8 +9,8 @@
 		.icon-height{
 			height:170px;
 		}
-		.theme-header-one{
-			background-color: rgba(0, 0, 0, 0.5) !important;
+		.theme-header-one affix{
+			background-color: rgba(0, 0, 0, 0.5);
 		}
 	</style>
   </head>
@@ -162,7 +162,7 @@
                 </div>
                 <div class="list-content p-2">
                   <h5 class="mb-2">
-                    <a href="listing-detail.html">Work with us
+                    <a href="listing_details.php">Work with us
                     </a>
                   </h5>
                   <p>Work Cafe
@@ -192,7 +192,7 @@
                 <div class="list-content p-2">
              
                   <h5 class="mb-2">
-                    <a href="listing-detail.html">Work with us
+                    <a href="listing_details.php">Work with us
                     </a>
                   </h5>
                   <p>Co-working space
@@ -222,7 +222,7 @@
                 <div class="list-content p-2">
 
                   <h5 class="mb-2">
-                    <a href="listing-detail.html">Execube
+                    <a href="listing_details.php">Execube
                     </a>
                   </h5>
                   <p>Co-working space
@@ -252,7 +252,7 @@
                 <div class="list-content p-2">
 
                   <h5 class="mb-2">
-                    <a href="listing-detail.html">Boulder box
+                    <a href="listing_details.php">Boulder box
                     </a>
                   </h5>
                   <p>Co-working Space
@@ -282,7 +282,7 @@
                 <div class="list-content p-2">
 
                   <h5 class="mb-2">
-                    <a href="listing-detail.html">Cafe more life
+                    <a href="listing_details.php">Cafe more life
                     </a>
                   </h5>
                   <p>Work Cafe
@@ -383,7 +383,7 @@
               </h3>
               <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
               </p>
-              <a href="login.html" class="btn btn-two btn-anim mt-2">
+              <a href="login.php" class="btn btn-two btn-anim mt-2">
                 sign up
               </a>
             </div>
@@ -512,7 +512,7 @@
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html">Meeting Room
+                  <a href="listing.php">Meeting Room
                   </a>
                 </h5>
                 <p class="mb-0">35 Listing
@@ -527,7 +527,7 @@
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html">Coworking Space
+                  <a href="listing.php">Coworking Space
                   </a>
                 </h5>
                 <p class="mb-0">20 Listing
@@ -542,7 +542,7 @@
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html"> Private Office
+                  <a href="listing.php"> Private Office
                   </a>
                 </h5>
                 <p class="mb-0">15 Listing
@@ -557,7 +557,7 @@
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html"> Training Room
+                  <a href="listing.php"> Training Room
                   </a>
                 </h5>
                 <p class="mb-0">12 Listing
@@ -572,7 +572,7 @@
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html"> Business Center
+                  <a href="listing.php"> Business Center
                   </a>
                 </h5>
                 <p class="mb-0">18 Listing
@@ -583,11 +583,11 @@
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
             <div class="ctg-item">
               <div class="icon-box icon-height" style="background-image:url('img/180504_Spacious_Crave_66.jpg')">
-			  <i class="flaticon-team"></i>
+			  <i class="flaticon-shop"></i>
               </div>
               <div class="content-box p-4">
                 <h5 class="mb-1">
-                  <a href="listing.html"> Coworking Cafes
+                  <a href="listing.php"> Coworking Cafes
                   </a>
                 </h5>
                 <p class="mb-0">14 Listing
