@@ -103,9 +103,7 @@ include("common/header.php");
             </div>
             <!-- BEGIN: Page content-->
             <div>
-              <div class="row">
-                <?php include('common/orders_left_sidebar.php');?>
-                <div class="col-lg-9">
+              
                   <div class="tab-content">
                     <div class="tab-pane fade active show" id="faq-group-1">
                       <div class="card" style="border:1px solid #7c1ab5">
@@ -556,9 +554,7 @@ include("common/header.php");
 		</nav>
 	</div>
 </div>
-</div>
 
-</div>
 
 
 
