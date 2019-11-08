@@ -11,75 +11,26 @@
 	?>
     <link href="css/vendor-css/form-wizard.css" rel="stylesheet" />
     <!-- PAGE LEVEL STYLES-->
-    <style>
-      .data-widget-icon {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 40px;
-        color: #6a89d7;
-      }
-     .faq-tabs .nav-link {
-      text-align: center;
-      padding: 1.8rem 1rem;
-      background-color: #fff;
-      border: 1px solid #ccc;
-     
-      }
-      .faq-tabs .nav-link:hover {
+        <style>
+      .faq-tabs .nav-link {
+        min-width: 100px;
+        padding: 1rem;
+        border: 1px dashed;
+        margin-bottom: 1rem;
+        background-color: #fff;
+        box-shadow: 0 1px 1px 1px rgba(62,57,107,.07);
       }
       .faq-tabs .nav-link.active {
-        color: #fe4d2e;
-        border-color: #fe4d2e;
-        background-color: #fff;
+        color: #fff;
+        border-color: #7c1ab5;
+        background-color: #7c1ab5;
+      }
+      .faq-tabs .nav-link.active .faq-item-text {
+        color: rgba(255,255,255,.5)!important;
       }
       .faq-tabs .nav-link.active i {
-        color: #fe4d2e !important;
+        color: #fff !important;
       }
-      .faq-list>li {
-        padding: .75rem 0;
-      }
-      .faq-list>li>a {
-        display: block;
-        position: relative;
-        color: inherit;
-        font-weight: 500;
-        font-size: 16px;
-      }
-      .faq-list>li>a:after {
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        font-family: 'themify';
-        content: "\e61a";
-        speak: none;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
-      }
-      .faq-list>li>a[aria-expanded=true] {
-        color: #2949ef;
-      }
-      .faq-list>li>a[aria-expanded=true]:after {
-        content: "\e622";
-      }
-      .faq-answer {
-        padding: 1rem 0;
-        margin-top: 1rem;
-        color: #6c757d;
-      }
-	  .faq-tabs .nav-link.active {
-			color:black;
-			border-color: #7c1ab5;
-			background-color: #fff;
-		}
-	.faq-tabs .nav-link.active i {
-			color: #fff !important;
-		}
     </style>
   </head>
   <body>
@@ -106,52 +57,15 @@
             </div>
             <!-- BEGIN: Page content-->
             <div>
-              <div class="col-md-12 col-xs-12 ">
+             <div class="row">
+                <?php include ('common/step_sidebar.php');?>
+                <div class="col-md-9 col-xs-12 ">
                 <div class="card card-fullheight" style="border:1px solid #7c1ab5">
 					<div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">PLEASE CHOOSE ADDITIONAL FEATURES</h5>
+						<h5 class="box-title" style="color:#fff;">Additional Features</h5>
 						<!-- <div class="card-actions"><a class="card-collapse" style="color:#fff;"><i class="ti-angle-down"></i></a></div> -->
 					</div>
-				    <div class="card-body">
-                    <form class="circle-steps wizard clearfix" id="form-wizard" action="javascript:;" novalidate="novalidate" role="application">
-                      <div class="steps clearfix">
-                        <ul role="tablist">
-                          <li role="tab"  class="first" aria-disabled="false">
-                            <a id="form-wizard-t-0" href="step1.php" aria-controls="form-wizard-p-0">
-                              <span class="current-info audible">current step: 
-                              </span>
-                              <span class="step-number">1
-                              </span> Step 1
-                            </a>
-                          </li>
-                          <li role="tab"  class="" aria-disabled="false">
-                            <a id="form-wizard-t-1" href="step2.php" aria-controls="form-wizard-p-1">
-                              <span class="step-number">2
-                              </span> Step 2
-                            </a>
-                          </li>
-                          <li role="tab" class="current" aria-disabled="false">
-                            <a id="form-wizard-t-2" href="step3.php" aria-controls="form-wizard-p-2">
-                              <span class="step-number">3
-                              </span> Step 3
-                            </a>
-                          </li>
-                          <li role="tab"class="disabled" aria-disabled="true">
-                            <a id="form-wizard-t-3" href="step4.php" aria-controls="form-wizard-p-3">
-                              <span class="step-number">4
-                              </span> Step 4
-                            </a>
-                          </li>
-						   <li role="tab" class="disabled last" aria-disabled="true">
-                            <a id="form-wizard-t-4" href="step5.php" aria-controls="form-wizard-p-4">
-                              <span class="step-number">5
-                              </span> Step 5
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </form>
-                  </div>
+				   
                   <div class="card-body">
                     
                     
@@ -214,7 +128,7 @@
                 <div class="card card-default hd_card">
                 </div>
               </div>
-      
+			</div>
             </div>
             <!-- END: Page content-->
           </div>

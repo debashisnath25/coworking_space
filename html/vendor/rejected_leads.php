@@ -11,76 +11,14 @@
 	?>
     <link href="css/vendor-css/form-wizard.css" rel="stylesheet" />
     <!-- PAGE LEVEL STYLES-->
-    <style>
-      .data-widget-icon {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 40px;
-        color: #6a89d7;
-      }
-     .faq-tabs .nav-link {
-      text-align: center;
-      padding: 1.8rem 1rem;
-      background-color: #fff;
-      border: 1px solid #ccc;
-     
-      }
-      .faq-tabs .nav-link:hover {
-      }
-      .faq-tabs .nav-link.active {
-        color: #fe4d2e;
-        border-color: #fe4d2e;
-        background-color: #fff;
-      }
-      .faq-tabs .nav-link.active i {
-        color: #fe4d2e !important;
-      }
-      .faq-list>li {
-        padding: .75rem 0;
-      }
-      .faq-list>li>a {
-        display: block;
-        position: relative;
-        color: inherit;
-        font-weight: 500;
-        font-size: 16px;
-      }
-      .faq-list>li>a:after {
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        font-family: 'themify';
-        content: "\e61a";
-        speak: none;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
-      }
-      .faq-list>li>a[aria-expanded=true] {
-        color: #2949ef;
-      }
-      .faq-list>li>a[aria-expanded=true]:after {
-        content: "\e622";
-      }
-      .faq-answer {
-        padding: 1rem 0;
-        margin-top: 1rem;
-        color: #6c757d;
-      }
-	  .faq-tabs .nav-link.active {
-			color:black;
-			border-color: #7c1ab5;
-			background-color: #fff;
-		}
-	.faq-tabs .nav-link.active i {
-			color: #fff !important;
-		}
-    </style>
+	<link href="css/vendor-css/datatables.min.css" rel="stylesheet" />
+
+	<style>
+	  .dt-buttons {
+		padding-bottom: 15px;
+		margin-bottom: -50px;
+	  }
+	</style>
   </head>
   <body>
     <div class="page-wrapper">
@@ -109,7 +47,7 @@
               <div class="col-md-12 col-xs-12 ">
                 <div class="card card-fullheight" style="border:1px solid #7c1ab5">
 					<div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">PLEASE CHOOSE ADDITIONAL FEATURES</h5>
+						<h5 class="box-title" style="color:#fff;">Rejected Leads</h5>
 						<!-- <div class="card-actions"><a class="card-collapse" style="color:#fff;"><i class="ti-angle-down"></i></a></div> -->
 					</div>
 				    
@@ -128,200 +66,30 @@
                                     <table class="table table-bordered table-striped w-100" id="dt-buttons">
                                         <thead class="">
                                             <tr>
-                                                <th style="min-width:200px;">Scheme Name</th>
-                                                <th style="min-width:100px;">Coupon Code</th>
-												<th>Category</th>
-                                                <th style="min-width:100px;">Sub Category</th>
-                                                <th>Discount</th>
-												<th style="min-width:110px;">Applicable For</th>
-                                                <th style="min-width:80px;">Start Time<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Start Date & Time"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-												<th style="min-width:80px;">End Time<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="End Date & Time"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-                                                <th style="min-width:100px;">Total Sales<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Total Sales After Launch in Rs."><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-												<th style="min-width:100px;">Coupon Used<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="No. of Times Coupon has been successfully used"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-												<th style="min-width:100px;">Item Sold<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="No. of Items Sold Using Coupon"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-												<th>Reports<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Download Report in CSV Format/PDF"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-												<th>Action</th>
+                                                <th style="min-width:80px;">Lead Name</th>
+                                                <th style="min-width:80px;">Lead Email</th>
+												<th style="min-width:80px;">Lead Phone</th>
+                                                <th style="min-width:80px;">Rejected By</th>
+                                                <th style="min-width:80px;">Date</th>
                                             </tr>
                                         </thead>
                                         <tbody>
+											<?php
+												for($i=1;$i<=12;$i++){
+											?>
                                             <tr>
-                                                <td>Christmas Specials</td>
-                                                <td>BEAUTY10XX</td>
-												<td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">New Arrivals</a></td>
-												<td>Shirts</td>
-                                                <td>99</td>
-												<td>Everyone</td>
-                                                <td>27/09/2019 : 4:15 PM</td>
-												<td>01/02/2019 : 7:00 PM </td>
-                                                <td>Rs. 15,00,000.00</td>
-												<td>43</td>
-												<td>437</td>
-												<td><button class="btn btn-ok btn-sm" type="button">Download Report</button></td>
-												<td>
-													<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span></label>
-												</td>
+                                                <td>Armaan Kashyap</td>
+                                                <td>abc@gmail.com</td>
+												<td>9876543210</td>
+												<td>Kunal Kashyap</td>
+                                                <td>8/11/2019</td>
                                             </tr>
-											<tr>
-                                                <td>Christmas Specials</td>
-                                                <td>BEAUTY10XX</td>
-												<td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">New Arrivals</a></td>
-												<td>Shirts</td>
-                                                <td>99</td>
-												<td>Everyone</td>
-                                                <td>27/09/2019 : 4:15 PM</td>
-												<td>01/02/2019 : 7:00 PM </td>
-                                                <td>Rs. 15,00,000.00</td>
-												<td>43</td>
-												<td>437</td>
-												<td><button class="btn btn-ok btn-sm" type="button">Download Report</button></td>
-												<td>
-													<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span></label>
-												</td>
-                                            </tr>
-											<tr>
-                                                <td>Christmas Specials</td>
-                                                <td>BEAUTY10XX</td>
-												<td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">New Arrivals</a></td>
-												<td>Shirts</td>
-                                                <td>99</td>
-												<td>Everyone</td>
-                                                <td>27/09/2019 : 4:15 PM</td>
-												<td>01/02/2019 : 7:00 PM </td>
-                                                <td>Rs. 15,00,000.00</td>
-												<td>43</td>
-												<td>437</td>
-												<td><button class="btn btn-ok btn-sm" type="button">Download Report</button></td>
-												<td>
-													<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span></label>
-												</td>
-                                            </tr>
-											<tr>
-                                                <td>Christmas Specials</td>
-                                                <td>BEAUTY10XX</td>
-												<td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">New Arrivals</a></td>
-												<td>Shirts</td>
-                                                <td>99</td>
-												<td>Everyone</td>
-                                                <td>27/09/2019 : 4:15 PM</td>
-												<td>01/02/2019 : 7:00 PM </td>
-                                                <td>Rs. 15,00,000.00</td>
-												<td>43</td>
-												<td>437</td>
-												<td><button class="btn btn-ok btn-sm" type="button">Download Report</button></td>
-												<td>
-													<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span></label>
-												</td>
-                                            </tr>
-
-											<tr>
-                                                <td>Christmas Specials</td>
-                                                <td>BEAUTY10XX</td>
-												<td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">New Arrivals</a></td>
-												<td>Shirts</td>
-                                                <td>99</td>
-												<td>Everyone</td>
-                                                <td>27/09/2019 : 4:15 PM</td>
-												<td>01/02/2019 : 7:00 PM </td>
-                                                <td>Rs. 15,00,000.00</td>
-												<td>43</td>
-												<td>437</td>
-												<td><button class="btn btn-ok btn-sm" type="button">Download Report</button></td>
-												<td>
-													<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span></label>
-												</td>
-                                            </tr>
-
-											<tr>
-                                                <td>Christmas Specials</td>
-                                                <td>BEAUTY10XX</td>
-												<td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">New Arrivals</a></td>
-												<td>Shirts</td>
-                                                <td>99</td>
-												<td>Everyone</td>
-                                                <td>27/09/2019 : 4:15 PM</td>
-												<td>01/02/2019 : 7:00 PM </td>
-                                                <td>Rs. 15,00,000.00</td>
-												<td>43</td>
-												<td>437</td>
-												<td><button class="btn btn-ok btn-sm" type="button">Download Report</button></td>
-												<td>
-													<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span></label>
-												</td>
-                                            </tr>
-
-											<tr>
-                                                <td>Christmas Specials</td>
-                                                <td>BEAUTY10XX</td>
-												<td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">New Arrivals</a></td>
-												<td>Shirts</td>
-                                                <td>99</td>
-												<td>Everyone</td>
-                                                <td>27/09/2019 : 4:15 PM</td>
-												<td>01/02/2019 : 7:00 PM </td>
-                                                <td>Rs. 15,00,000.00</td>
-												<td>43</td>
-												<td>437</td>
-												<td><button class="btn btn-ok btn-sm" type="button">Download Report</button></td>
-												<td>
-													<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span></label>
-												</td>
-                                            </tr>
-											<tr>
-                                                <td>Christmas Specials</td>
-                                                <td>BEAUTY10XX</td>
-												<td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">New Arrivals</a></td>
-												<td>Shirts</td>
-                                                <td>99</td>
-												<td>Everyone</td>
-                                                <td>27/09/2019 : 4:15 PM</td>
-												<td>01/02/2019 : 7:00 PM </td>
-                                                <td>Rs. 15,00,000.00</td>
-												<td>43</td>
-												<td>437</td>
-												<td><button class="btn btn-ok btn-sm" type="button">Download Report</button></td>
-												<td>
-													<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span></label>
-												</td>
-                                            </tr>
-											<tr>
-                                                <td>Christmas Specials</td>
-                                                <td>BEAUTY10XX</td>
-												<td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">New Arrivals</a></td>
-												<td>Shirts</td>
-                                                <td>99</td>
-												<td>Everyone</td>
-                                                <td>27/09/2019 : 4:15 PM</td>
-												<td>01/02/2019 : 7:00 PM </td>
-                                                <td>Rs. 15,00,000.00</td>
-												<td>43</td>
-												<td>437</td>
-												<td><button class="btn btn-ok btn-sm" type="button">Download Report</button></td>
-												<td>
-													<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span></label>
-												</td>
-                                            </tr>
-											<tr>
-                                                <td>Christmas Specials</td>
-                                                <td>BEAUTY10XX</td>
-												<td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">New Arrivals</a></td>
-												<td>Shirts</td>
-                                                <td>99</td>
-												<td>Everyone</td>
-                                                <td>27/09/2019 : 4:15 PM</td>
-												<td>01/02/2019 : 7:00 PM </td>
-                                                <td>Rs. 15,00,000.00</td>
-												<td>43</td>
-												<td>437</td>
-												<td><button class="btn btn-ok btn-sm" type="button">Download Report</button></td>
-												<td>
-													<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span></label>
-												</td>
-                                            </tr>
+											<?php
+												}	
+											?>
                                         </tbody>
                                     </table>
                                 </div>
-								<button class="btn btn-primary clr" style="float:right;" type="button"> Next </button>
-								
 							  </div>
 							</form>
 						
@@ -353,7 +121,19 @@
    
     <script src="js/vendor-js/jquery.validate.min.js">
     </script>
-    <script src="js/vendor-js/jquery.steps.min.js">
-    </script>
+	<script src="js/vendor-js/datatables.min.js"></script>
+	<script>
+      $(function() {
+		$('#dt-buttons').DataTable({
+		  "searching": true,
+		  "pageLength":10,
+		  scrollX: true,
+		  dom: 'Bfrtip',
+		  buttons: [
+			'excel', 'pdf', 'csv'
+			]
+		});
+	});
+	</script>
   </body>
 </html>

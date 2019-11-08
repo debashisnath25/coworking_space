@@ -28,6 +28,12 @@
         </div>
         <div class="col-lg-9">
           <ul class="head-contact text-lg-right text-center">
+		  	<li>
+				<a href="login.php">Login</a>
+			</li>
+			<li>
+				<a href="register.php">register</a>
+			</li>
             <li class="ad-list">
               <a href="login.php" class="btn btn-two btn-anim">
                 <i class="fa fa-plus-circle">
@@ -72,10 +78,6 @@
                   </li>
 				   <li class="nav-item">
                     <a class="nav-link" href="listing.php">Our Workspaces
-                    </a>
-                  </li>
-				  <li class="nav-item">
-                    <a class="nav-link" href="pricing.php">Pricing
                     </a>
                   </li>
 				  <li class="nav-item">

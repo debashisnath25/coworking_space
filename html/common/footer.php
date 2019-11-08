@@ -39,8 +39,12 @@
               </h4>
             </div>
             <ul class="quick-link">
+			   <li>
+                <a href="index.php">Home
+                </a>
+              </li>
               <li>
-                <a href="login.php">add workspace
+                <a href="listing.php">our workspace
                 </a>
               </li>
               <li>
@@ -48,7 +52,7 @@
                 </a>
               </li>
               <li>
-                <a href="contact_us.php">contact us
+                <a href="login.php">Login
                 </a>
               </li>
             </ul>
@@ -57,20 +61,24 @@
         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-60">
           <div class="recent-post">
             <div class="foot-title">
-              <h4>my account
+              <h4>Categories
               </h4>
             </div>
             <ul class="quick-link">
               <li>
-                <a href="register.php">create account
+                <a href="listing.php">Meeting Room
                 </a>
               </li>
               <li>
-                <a href="login.php">Lead dashboard
+                <a href="listing.php">Coworking Space
                 </a>
               </li>
               <li>
-                <a href="login.php">my listing
+                <a href="listing.php">Private Office
+                </a>
+              </li>
+			  <li>
+                <a href="listing.php">Training Room
                 </a>
               </li>
             </ul>
@@ -83,16 +91,16 @@
               </h4>
             </div>
             <ul class="quick-link">
+			   <li>
+                <a href="blogs.php">Blogs
+                </a>
+              </li>
               <li>
                 <a href="about_us.php">About Us
                 </a>
               </li>
               <li>
-                <a href="pricing.php;">Pricing
-                </a>
-              </li>
-              <li>
-                <a href="blogs.php">Blogs
+                <a href="pricing.php;">Contact Us
                 </a>
               </li>
             </ul>

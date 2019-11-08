@@ -24,7 +24,7 @@
 </i> -->
               </a>
             </li>
-            <li class="<?php echo (($page == 'orders' || $page == 'marked_pickup' || $page == 'ready_pickup' || $page == 'outfor_delivery' || $page == 'deliverd' || $page == 'coustomer_cancelled' || $page == 'vendor_cancelled' || $page == 'returns' ||$page == 'exceptions_order')?'mm-active':'')?>">
+            <li class="<?php echo (($page == 'referred_leads')?'mm-active':'')?>">
               <a href="referred_leads.php">
                 <i class="sidebar-item-icon fa fa-user-plus">
                 </i>
@@ -40,7 +40,7 @@
                 </span>  
               </a>
             </li>-->
-            <li class="<?php echo (($page == 'discount' || $page == 'discount_details')?'mm-active':'')?>">
+            <li class="<?php echo (($page == 'discount_details')?'mm-active':'')?>">
               <a href="accepted_leads.php">
                 <i class="sidebar-item-icon fa fa-check">
                 </i>
@@ -48,7 +48,7 @@
                 </span>
               </a>
             </li>
-			<li class="<?php echo (($page == 'coupon' || $page == 'coupon_details')?'mm-active':'')?>">
+			<li class="<?php echo (($page == 'coupon_details')?'mm-active':'')?>">
               <a href="rejected_leads.php">
                 <i class="sidebar-item-icon fa fa-ban">
                 </i>
@@ -56,8 +56,8 @@
                 </span>
               </a>
             </li>
-            <li class="<?php echo (($page == 'payment')?'mm-active':'')?>">
-              <a href="rejected_leads.php">
+            <li class="<?php echo (($page == 'completed_leads')?'mm-active':'')?>">
+              <a href="completed_leads.php">
                 <i class="sidebar-item-icon fa fa-check-square">
                 </i>
                 <span class="nav-label">Completed Leads

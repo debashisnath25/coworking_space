@@ -11,75 +11,26 @@
 	?>
     <link href="css/vendor-css/form-wizard.css" rel="stylesheet" />
     <!-- PAGE LEVEL STYLES-->
-    <style>
-      .data-widget-icon {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 40px;
-        color: #6a89d7;
-      }
-     .faq-tabs .nav-link {
-      text-align: center;
-      padding: 1.8rem 1rem;
-      background-color: #fff;
-      border: 1px solid #ccc;
-     
-      }
-      .faq-tabs .nav-link:hover {
+       <style>
+      .faq-tabs .nav-link {
+        min-width: 100px;
+        padding: 1rem;
+        border: 1px dashed;
+        margin-bottom: 1rem;
+        background-color: #fff;
+        box-shadow: 0 1px 1px 1px rgba(62,57,107,.07);
       }
       .faq-tabs .nav-link.active {
-        color: #fe4d2e;
-        border-color: #fe4d2e;
-        background-color: #fff;
+        color: #fff;
+        border-color: #7c1ab5;
+        background-color: #7c1ab5;
+      }
+      .faq-tabs .nav-link.active .faq-item-text {
+        color: rgba(255,255,255,.5)!important;
       }
       .faq-tabs .nav-link.active i {
-        color: #fe4d2e !important;
+        color: #fff !important;
       }
-      .faq-list>li {
-        padding: .75rem 0;
-      }
-      .faq-list>li>a {
-        display: block;
-        position: relative;
-        color: inherit;
-        font-weight: 500;
-        font-size: 16px;
-      }
-      .faq-list>li>a:after {
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        font-family: 'themify';
-        content: "\e61a";
-        speak: none;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
-      }
-      .faq-list>li>a[aria-expanded=true] {
-        color: #2949ef;
-      }
-      .faq-list>li>a[aria-expanded=true]:after {
-        content: "\e622";
-      }
-      .faq-answer {
-        padding: 1rem 0;
-        margin-top: 1rem;
-        color: #6c757d;
-      }
-	  .faq-tabs .nav-link.active {
-			color:black;
-			border-color: #7c1ab5;
-			background-color: #fff;
-		}
-	.faq-tabs .nav-link.active i {
-			color: #fff !important;
-		}
     </style>
   </head>
   <body>
@@ -101,57 +52,20 @@
             <!-- BEGIN: Page heading-->
             <div class="page-heading" style="margin-left:13px;">
               <div class="page-breadcrumb">
-			  	<h1 class="page-title page-title-sep">General</h1>
+			  	<h1 class="page-title page-title-sep">Contact Information</h1>
               </div>
             </div>
             <!-- BEGIN: Page content-->
             <div>
-              <div class="col-md-12 col-xs-12 ">
+             <div class="row">
+                <?php include ('common/step_sidebar.php');?>
+                <div class="col-md-9 col-xs-12 ">
                 <div class="card card-fullheight" style="border:1px solid #7c1ab5">
 					<div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">PLEASE CHOOSE ADDITIONAL FEATURES</h5>
+						<h5 class="box-title" style="color:#fff;">Contact Information</h5>
 						<!-- <div class="card-actions"><a class="card-collapse" style="color:#fff;"><i class="ti-angle-down"></i></a></div> -->
 					</div>
-				    <div class="card-body">
-                    <form class="circle-steps wizard clearfix" id="form-wizard" action="javascript:;" novalidate="novalidate" role="application">
-                      <div class="steps clearfix">
-                        <ul role="tablist">
-                          <li role="tab"  class="first " aria-disabled="false" aria-selected="true">
-                            <a id="form-wizard-t-0" href="step1.php" aria-controls="form-wizard-p-0">
-                              <span class="current-info audible">current step: 
-                              </span>
-                              <span class="step-number">1
-                              </span> Step 1
-                            </a>
-                          </li>
-                          <li role="tab"  class="" aria-disabled="false">
-                            <a id="form-wizard-t-1" href="step2.php" aria-controls="form-wizard-p-1">
-                              <span class="step-number">2
-                              </span> Step 2
-                            </a>
-                          </li>
-                          <li role="tab" class="" aria-disabled="false">
-                            <a id="form-wizard-t-2" href="step3.php" aria-controls="form-wizard-p-2">
-                              <span class="step-number">3
-                              </span> Step 3
-                            </a>
-                          </li>
-                          <li role="tab"class="current" aria-disabled="false">
-                            <a id="form-wizard-t-3" href="step4.php" aria-controls="form-wizard-p-3">
-                              <span class="step-number">4
-                              </span> Step 4
-                            </a>
-                          </li>
-						   <li role="tab" class="disabled last" aria-disabled="true">
-                            <a id="form-wizard-t-4" href="step5.php" aria-controls="form-wizard-p-4">
-                              <span class="step-number">5
-                              </span> Step 5
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </form>
-                  </div>
+				  
                   <div class="card-body">
                     
                     
@@ -179,13 +93,42 @@
 									<dt class="col-sm-4" style="padding-top:10px;">State</dt>
 									<div class="col-sm-8">
 										<select class="selectpicker form-control form-control-solid">
-											<option selected disabled>Choose Category</option>
-											<option>Meeting Room</option>
-											<option>Coworking Space</option>
-											<option>Private Office</option>
-											<option>Training Room</option>
-											<option>Business Centre</option>
-											<option>Coworking Cafes</option>
+											<option disabled selected>Select State</option>
+											<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+											<option value="Andhra Pradesh">Andhra Pradesh</option>
+											<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+											<option value="Assam">Assam</option>
+											<option value="Bihar">Bihar</option>
+											<option value="Chandigarh">Chandigarh</option>
+											<option value="Chhattisgarh">Chhattisgarh</option>
+											<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+											<option value="Daman and Diu">Daman and Diu</option>
+											<option value="Delhi">Delhi</option>
+											<option value="Goa">Goa</option>
+											<option value="Gujarat">Gujarat</option>
+											<option value="Haryana">Haryana</option>
+											<option value="Himachal Pradesh">Himachal Pradesh</option>
+											<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+											<option value="Jharkhand">Jharkhand</option>
+											<option value="Karnataka">Karnataka</option>
+											<option value="Kerala">Kerala</option>
+											<option value="Lakshadweep">Lakshadweep</option>
+											<option value="Madhya Pradesh">Madhya Pradesh</option>
+											<option value="Maharashtra">Maharashtra</option>
+											<option value="Manipur">Manipur</option>
+											<option value="Meghalaya">Meghalaya</option>
+											<option value="Mizoram">Mizoram</option>
+											<option value="Nagaland">Nagaland</option>
+											<option value="Orissa">Orissa</option>
+											<option value="Pondicherry">Pondicherry</option>
+											<option value="Punjab">Punjab</option>
+											<option value="Rajasthan">Rajasthan</option>
+											<option value="Sikkim">Sikkim</option>
+											<option value="Tamil Nadu">Tamil Nadu</option>
+											<option value="Tripura">Tripura</option>
+											<option value="Uttaranchal">Uttaranchal</option>
+											<option value="Uttar Pradesh">Uttar Pradesh</option>
+											<option value="West Bengal">West Bengal</option>
 										</select>
 									</div>
 								</div>
@@ -193,13 +136,25 @@
 									<dt class="col-sm-4" style="padding-top:10px;">City</dt>
 									<div class="col-sm-8">
 										<select class="selectpicker form-control form-control-solid">
-											<option selected disabled>Choose Category</option>
-											<option>Meeting Room</option>
-											<option>Coworking Space</option>
-											<option>Private Office</option>
-											<option>Training Room</option>
-											<option>Business Centre</option>
-											<option>Coworking Cafes</option>
+											<option disabled selected>Select city</option>
+											<option>Ahmedabad</option>
+											<option>Bengaluru</option>
+											<option>Chandigarh</option>
+											<option>Chennai</option>
+											<option>Coimbatore</option>
+											<option>Delhi</option>
+											<option>Goa</option>
+											<option>Gurugram</option>
+											<option>Hyderabad</option>
+											<option>Indore</option>
+											<option>Jaipur</option>
+											<option>Kochi</option>
+											<option>Kolkata</option>
+											<option>Manila</option>
+											<option>Mumbai</option>
+											<option>Nagpur</option>
+											<option>Noida</option>
+											<option>Pune</option>
 										</select>
 									</div>
 								</div>
@@ -227,7 +182,7 @@
                 <div class="card card-default hd_card">
                 </div>
               </div>
-      
+			</div>
             </div>
             <!-- END: Page content-->
           </div>

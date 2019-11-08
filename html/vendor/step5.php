@@ -10,76 +10,28 @@
 		include("common/metalinks.php");
 	?>
     <link href="css/vendor-css/form-wizard.css" rel="stylesheet" />
+	<link href="css/vendor-css/bootstrap-timepicker.css" rel="stylesheet" />
     <!-- PAGE LEVEL STYLES-->
-    <style>
-      .data-widget-icon {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 40px;
-        color: #6a89d7;
-      }
-     .faq-tabs .nav-link {
-      text-align: center;
-      padding: 1.8rem 1rem;
-      background-color: #fff;
-      border: 1px solid #ccc;
-     
-      }
-      .faq-tabs .nav-link:hover {
+       <style>
+      .faq-tabs .nav-link {
+        min-width: 100px;
+        padding: 1rem;
+        border: 1px dashed;
+        margin-bottom: 1rem;
+        background-color: #fff;
+        box-shadow: 0 1px 1px 1px rgba(62,57,107,.07);
       }
       .faq-tabs .nav-link.active {
-        color: #fe4d2e;
-        border-color: #fe4d2e;
-        background-color: #fff;
+        color: #fff;
+        border-color: #7c1ab5;
+        background-color: #7c1ab5;
+      }
+      .faq-tabs .nav-link.active .faq-item-text {
+        color: rgba(255,255,255,.5)!important;
       }
       .faq-tabs .nav-link.active i {
-        color: #fe4d2e !important;
+        color: #fff !important;
       }
-      .faq-list>li {
-        padding: .75rem 0;
-      }
-      .faq-list>li>a {
-        display: block;
-        position: relative;
-        color: inherit;
-        font-weight: 500;
-        font-size: 16px;
-      }
-      .faq-list>li>a:after {
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        font-family: 'themify';
-        content: "\e61a";
-        speak: none;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
-      }
-      .faq-list>li>a[aria-expanded=true] {
-        color: #2949ef;
-      }
-      .faq-list>li>a[aria-expanded=true]:after {
-        content: "\e622";
-      }
-      .faq-answer {
-        padding: 1rem 0;
-        margin-top: 1rem;
-        color: #6c757d;
-      }
-	  .faq-tabs .nav-link.active {
-			color:black;
-			border-color: #7c1ab5;
-			background-color: #fff;
-		}
-	.faq-tabs .nav-link.active i {
-			color: #fff !important;
-		}
     </style>
   </head>
   <body>
@@ -101,57 +53,20 @@
             <!-- BEGIN: Page heading-->
             <div class="page-heading" style="margin-left:13px;">
               <div class="page-breadcrumb">
-			  	<h1 class="page-title page-title-sep">General</h1>
+			  	<h1 class="page-title page-title-sep">Opening & Closing Hours</h1>
               </div>
             </div>
             <!-- BEGIN: Page content-->
             <div>
-              <div class="col-md-12 col-xs-12 ">
+             <div class="row">
+                <?php include ('common/step_sidebar.php');?>
+                <div class="col-md-9 col-xs-12 ">
                 <div class="card card-fullheight" style="border:1px solid #7c1ab5">
 					<div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">PLEASE CHOOSE ADDITIONAL FEATURES</h5>
+						<h5 class="box-title" style="color:#fff;">Opening & Closing Hours</h5>
 						<!-- <div class="card-actions"><a class="card-collapse" style="color:#fff;"><i class="ti-angle-down"></i></a></div> -->
 					</div>
-				    <div class="card-body">
-                    <form class="circle-steps wizard clearfix" id="form-wizard" action="javascript:;" novalidate="novalidate" role="application">
-                      <div class="steps clearfix">
-                        <ul role="tablist">
-                          <li role="tab"  class="first " aria-disabled="false" aria-selected="true">
-                            <a id="form-wizard-t-0" href="step1.php" aria-controls="form-wizard-p-0">
-                              <span class="current-info audible">current step: 
-                              </span>
-                              <span class="step-number">1
-                              </span> Step 1
-                            </a>
-                          </li>
-                          <li role="tab"  class="" aria-disabled="false">
-                            <a id="form-wizard-t-1" href="step2.php" aria-controls="form-wizard-p-1">
-                              <span class="step-number">2
-                              </span> Step 2
-                            </a>
-                          </li>
-                          <li role="tab" class="" aria-disabled="false">
-                            <a id="form-wizard-t-2" href="step3.php" aria-controls="form-wizard-p-2">
-                              <span class="step-number">3
-                              </span> Step 3
-                            </a>
-                          </li>
-                          <li role="tab"class="" aria-disabled="false">
-                            <a id="form-wizard-t-3" href="step4.php" aria-controls="form-wizard-p-3">
-                              <span class="step-number">4
-                              </span> Step 4
-                            </a>
-                          </li>
-						   <li role="tab" class="current last" aria-disabled="false">
-                            <a id="form-wizard-t-4" href="step5.php" aria-controls="form-wizard-p-4">
-                              <span class="step-number">5
-                              </span> Step 5
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </form>
-                  </div>
+				   
                   <div class="card-body">
                     
                     
@@ -176,38 +91,136 @@
                                         <tbody>
                                             <tr>
                                                 <td>Monday</td>                                                
-                                                <td> 4:15 PM</td>
-												<td> 7:00 PM </td>
+                                                <td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_mon_1" type="text" placeholder="Select time">
+													</div>
+                                                </td>
+												<td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_mon_2" type="text" placeholder="Select time">
+													</div>
+												</td>
                                             </tr>
 											<tr>
                                                 <td>Tuesday</td>                                                
-                                                <td> 4:15 PM</td>
-												<td> 7:00 PM </td>
+                                                <td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_tue_1" type="text" placeholder="Select time">
+													</div>
+												</td>
+												<td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_tue_2" type="text" placeholder="Select time">
+													</div>
+												</td>
                                             </tr>
 											<tr>
                                                 <td>Wednesday</td>                                                
-                                                <td> 4:15 PM</td>
-												<td> 7:00 PM </td>
+                                                <td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_wed_1" type="text" placeholder="Select time">
+													</div>
+												</td>
+												<td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_wed_2" type="text" placeholder="Select time">
+													</div>
+												</td>
                                             </tr>
 											<tr>
                                                 <td>Thursday</td>                                                
-                                                <td> 4:15 PM</td>
-												<td> 7:00 PM </td>
+                                                <td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_thur_1" type="text" placeholder="Select time">
+													</div>
+												</td>
+												<td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_thur_2" type="text" placeholder="Select time">
+													</div>
+												</td>
                                             </tr>
 											<tr>
                                                 <td>Friday</td>                                                
-                                                <td> 4:15 PM</td>
-												<td> 7:00 PM </td>
+                                                <td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_fri_1" type="text" placeholder="Select time">
+													</div>
+												</td>
+												<td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_fri_2" type="text" placeholder="Select time">
+													</div>
+												</td>
                                             </tr>
 											<tr>
                                                 <td>Saturday</td>                                                
-                                                <td> 4:15 PM</td>
-												<td> 7:00 PM </td>
+                                                <td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_sat_1" type="text" placeholder="Select time">
+													</div>
+												</td>
+												<td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_sat_2" type="text" placeholder="Select time">
+													</div>
+												</td>
                                             </tr>
 											<tr>
                                                 <td>Sunday</td>                                                
-                                                <td> 4:15 PM</td>
-												<td> 7:00 PM </td>
+                                                <td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_sun_1" type="text" placeholder="Select time">
+													</div>
+												</td>
+												<td>
+													<div class="input-group">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><i class="ti-time"></i></span>
+														</div>
+														<input class="form-control" id="timepicker_sun_2" type="text" placeholder="Select time">
+													</div>
+												</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -225,7 +238,7 @@
                 <div class="card card-default hd_card">
                 </div>
               </div>
-      
+			</div>
             </div>
             <!-- END: Page content-->
           </div>
@@ -246,6 +259,20 @@
     <script src="js/vendor-js/jquery.validate.min.js">
     </script>
     <script src="js/vendor-js/jquery.steps.min.js">
+    </script>
+	<script src="js/vendor-js/bootstrap-timepicker.js"></script>
+	 <script>
+        $(function() {
+            var i = {
+                up: 'ti-angle-up',
+                down: 'ti-angle-down'
+            };
+            $('#timepicker_mon_1,#timepicker_mon_2,#timepicker_tue_1,#timepicker_tue_2,#timepicker_wed_1,#timepicker_wed_2,#timepicker_thur_1,#timepicker_thur_2,#timepicker_fri_1,#timepicker_fri_2,#timepicker_sat_1,#timepicker_sat_2,#timepicker_sun_1,#timepicker_sun_2').timepicker({
+                defaultTime: "",
+                minuteStep: 1,
+                icons: i,
+            });
+        });
     </script>
   </body>
 </html>
