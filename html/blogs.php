@@ -47,10 +47,9 @@
                                 </div>
                                 <div class="blog-content">
                                     <h5>
-                                        <a href="blog_detail.php">Nullam quis ante tia sit ame ori</a>
+                                        <a href="blog_detail.php">8 Ways Coworking Spaces Are Changing the Culture of Work</a>
                                     </h5>
-                                    <p class="">Donec pede justo, fringilla vel, aliquet nect vulp utate eget fg arcu. In enim justo,
-                                        rhcu ut imp erdiet venenatis vitae.</p>
+                                    <p class="">pioneers in offering co-working solutions as per clientele requirements. We offer a huge variety of Coworking spaces in Mumbai with various amenities</p>
 
                                 </div>
                                 <ul class="blog-meta centering justify-content-between">
@@ -77,10 +76,9 @@
                                 </div>
                                 <div class="blog-content">
                                     <h5>
-                                        <a href="blog_detail.php">Nullam quis ante tia sit ame ori</a>
+                                        <a href="blog_detail.php">Essential environmental benefits of flexible co-working workspace</a>
                                     </h5>
-                                    <p class="">Donec pede justo, fringilla vel, aliquet nect vulp utate eget fg arcu. In enim justo,
-                                        rhcu ut imp erdiet venenatis vitae.</p>
+                                    <p class="">pioneers in offering co-working solutions as per clientele requirements. We offer a huge variety of Coworking spaces in Mumbai with various amenities</p>
 
                                 </div>
                                 <ul class="blog-meta centering justify-content-between">
@@ -107,10 +105,9 @@
                                 </div>
                                 <div class="blog-content">
                                     <h5>
-                                        <a href="blog_detail.php">Nullam quis ante tia sit ame ori</a>
+                                        <a href="blog_detail.php">The Popular Coworking Hub</a>
                                     </h5>
-                                    <p class="">Donec pede justo, fringilla vel, aliquet nect vulp utate eget fg arcu. In enim justo,
-                                        rhcu ut imp erdiet venenatis vitae.</p>
+                                    <p class="">pioneers in offering co-working solutions as per clientele requirements. We offer a huge variety of Coworking spaces in Mumbai with various amenities</p>
 
                                 </div>
                                 <ul class="blog-meta centering justify-content-between">
