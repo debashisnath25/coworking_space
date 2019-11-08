@@ -115,8 +115,8 @@
               </a>
             </li>
 
-            <li class="<?php echo (($page == 'profile_general_settings')?'mm-active':'')?>">
-              <a href="profile_general_settings.php">
+            <li class="<?php echo (($page == 'step1' || $page == 'step2' || $page == 'step3' || $page == 'step4' || $page == 'step5')?'mm-active':'')?>">
+              <a href="step1.php">
                 <i class="sidebar-item-icon ft-lock">
                 </i>
                 <span class="nav-label">Profile
