@@ -1,3 +1,9 @@
+<style>
+.nav-item a{
+	font-family: Arial;
+	text-transform: uppercase !important;
+}
+</style>
 <header class="header">
   <div class="head-top head-top-one d-none d-lg-block">
     <div class="container">
@@ -35,10 +41,11 @@
 				<a href="register.php">register</a>
 			</li>
             <li class="ad-list">
-              <a href="login.php" class="btn btn-two btn-anim">
+              <a href="login.php" class="btn btn-one btn-anim w-100">
                 <i class="fa fa-plus-circle">
                 </i> add workspace
               </a>
+
             </li>
           </ul>
         </div>

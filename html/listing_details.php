@@ -7,17 +7,15 @@
     <?php include 'common/metalinks.php';?>
 	<style>
 		.abt-listing{
-			border:1px solid #ddd;
+			border:1px solid #ccc;
 		}
 		.btn-two{
 			border:1px solid #ccc;
 			background-color: #f2f2f2;
 		}
-		.page-banner{
-			padding: 90px 0;
-		}
+		
 		.theme-header-one{
-			background-color: rgba(0, 0, 0, 0.5) !important;
+			background-color: #1e1e1e !important;
 		}
 		.sticky-menu{
 			background-color:#1e1e1e !important;
@@ -29,15 +27,20 @@
 			background-color:transparent !important;
 		}
 		.img-holder img{
-			height:350px;
+			height:auto;
 		}
+		.sp-100 {
+			padding-top: 100px;
+			padding-bottom: 30px;
+			{
+
 	</style>
   </head>
   <body>
     <!-- Header start-->
     <?php include 'common/header.php';?>
     <!-- Header end -->
-	<section class="popular-list sp-100 page-banner">
+	<section class="popular-list sp-100">
 		<div class="container">
 		<div class="row">
           <div class="col-12">
@@ -69,7 +72,7 @@
 		</div>
 	</section>
     <!-- listing slider start-->
-    <div class="bg-w">
+    <div class="bg-w" style="background:#f8f8f8;">
       <div class="container">
 	  	<div class="row">
           <div class="col-12">
@@ -89,7 +92,7 @@
     </div>
     <!-- listing slider end -->
     <!-- listing detail start-->
-    <div class="bg-w">
+    <div class="bg-w" style="background:#f8f8f8;">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-12 mb-30">
@@ -333,123 +336,12 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-12">
-                  <div class="review-box mb-30">
-                    <div class="image-holder">
-                      <img src="img/com-3.jpg" alt="author">
-                    </div>
-                    <div class="review-content">
-                      <div class="centering justify-content-between mb-3">
-                        <div>
-                          <h5 class="mb-0">William Dixion
-                          </h5>
-                          <p class="c-theme mb-0">28 april 2019
-                          </p>
-                        </div>
-                        <div class="d-flex flex-wrap">
-                          <div class="rating">
-                            <i class="fa fa-star">
-                            </i>
-                            <i class="fa fa-star">
-                            </i>
-                            <i class="fa fa-star">
-                            </i>
-                            <i class="far fa-star">
-                            </i>
-                            <i class="far fa-star">
-                            </i>
-                          </div>
-                          <div class="rate-bg ml-4">
-                            3.0
-                          </div>
-                        </div>
-                      </div>
-                      <p class="mb-0">Mollit aute dolore nisi sint tempor veniam ut magna aute. Et officia elit eu eu adipisicing
-                        consectetur cillum elit eiusmod dolore est culpa..
-                      </p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div class="mb-0 abt-listing">
               <h4 class="title-sep3 mb-30">
                 add review
               </h4>
-              <div class="row">
-                <div class="col-md-3 col-sm-6 col-12">
-                  <div class="add-review">
-                    <div class="rating">
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                    </div>
-                    <h5>Rating*
-                    </h5>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12">
-                  <div class="add-review">
-                    <div class="rating">
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                    </div>
-                    <h5>Facilities*
-                    </h5>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12">
-                  <div class="add-review">
-                    <div class="rating">
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                    </div>
-                    <h5>Staff*
-                    </h5>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12">
-                  <div class="add-review">
-                    <div class="rating">
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="fa fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                      <i class="far fa-star">
-                      </i>
-                    </div>
-                    <h5>Price*
-                    </h5>
-                  </div>
-                </div>
-              </div>
               <form class="comment-form" id="commentform" method="post" action="#">
                 <div class="row">
                   <div class="col-md-6 col-12">

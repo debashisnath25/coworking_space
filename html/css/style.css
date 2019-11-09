@@ -369,8 +369,8 @@ h6 {
 }
 
 .sp-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .sp-70-100 {
@@ -1403,8 +1403,8 @@ h6 {
 }
 
 .head-top-one {
-    background-color: #ff3a54;
-    color: #fff;
+    background-color: #f8f8f8;
+    color: #000;
 }
 
 .head-top-two {
@@ -1462,7 +1462,7 @@ h6 {
     margin-left: 13px;
     padding: 5px 0;
     padding-left: 13px;
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid #000;
 }
 
 .head-top-two .head-contact li {
@@ -2991,9 +2991,12 @@ ol.comment-list {
 }
 
 .socials a {
-    border-color: #e1e1e1;
+    border-color: #000;
+	color:#000;
 }
-
+.socials a:hover {
+	color:#ff3a54;
+}
 .author-info span {
     color: #000;
     text-transform: capitalize;
@@ -3471,7 +3474,7 @@ ol.comment-list {
     height: 220px;
     border-top-right-radius: 220px;
     border-bottom-right-radius: 220px;
-    background-color: #ff3a54;
+    background-color: #333;
     bottom: 0;
     z-index: -1;
 }
@@ -4359,7 +4362,7 @@ ol.comment-list {
 }
 
 .footer-one .foot-bottom {
-    border-top: 1px solid #333;
+    border-top: 1px solid ##ceb87e;
 }
 
 .footer-two .foot-bottom p {

@@ -109,12 +109,12 @@
       </div>
     </div>
   </div>
-  <div class="foot-bottom">
+  <div class="foot-bottom" style="background:#f8f8f8">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <p class="text-capitalize">Copyright © 2019, All rights Reserved. Created by
-            <a href="#">Clickrstop software solutions PVT. LTD.
+          <p class="text-capitalize" style="color: #000;">Copyright © 2019, All rights Reserved. Created by
+            <a href="#" style="color: #000;text-transform: uppercase;font-weight: bold;">Clickrstop software solutions PVT. LTD.
             </a>
           </p>
         </div>
