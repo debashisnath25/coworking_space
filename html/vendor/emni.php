@@ -138,143 +138,6 @@
       </div>
     </div>
     <!-- banner end -->
-	<section class="sp-100 bg-w">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="all-title">
-                        <h3 class="sec-title">
-                            from our blog
-                        </h3>
-                        <svg class="title-sep">
-                            <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
-                            />
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog1.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
-                        </div>
-                        <div class="blog-content">
-                            <h5>
-                               &nbsp;
-                            </h5>
-                            <ul class="blog-meta d-flex justify-content-between align-items-center">
-                                <li>
-                                    &nbsp;
-                                    
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog2.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
-                        </div>
-                        <div class="blog-content">
-                            <h5>
-                               &nbsp;
-                            </h5>
-                            <ul class="blog-meta d-flex justify-content-between align-items-center">
-                                <li>
-                                    &nbsp;
-                                    
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog3.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
-                        </div>
-                        <div class="blog-content">
-                            <h5>
-                               &nbsp;
-                            </h5>
-                            <ul class="blog-meta d-flex justify-content-between align-items-center">
-                                <li>
-                                    &nbsp;
-                                    
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog4.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
-                        </div>
-                        <div class="blog-content">
-                            <h5>
-                               &nbsp;
-                            </h5>
-                            <ul class="blog-meta d-flex justify-content-between align-items-center">
-                                <li>
-                                    &nbsp;
-                                    
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog5.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
-                        </div>
-                        <div class="blog-content">
-                            <h5>
-                               &nbsp;
-                            </h5>
-                            <ul class="blog-meta d-flex justify-content-between align-items-center">
-                                <li>
-                                    &nbsp;
-                                    
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog6.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
-                        </div>
-                        <div class="blog-content">
-                            <h5>
-                               &nbsp;
-                            </h5>
-                            <ul class="blog-meta d-flex justify-content-between align-items-center">
-                                <li>
-                                    &nbsp;
-                                    
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 text-center mt-30">
-                    <a href="#" class="btn btn-one btn-anim">view all</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- blog end -->
     <!-- popular list start-->
     <section class="popular-list sp-100 bg-w">
       <div class="container">
@@ -339,22 +202,8 @@
               </div>
               <div class="listing-item p-2">
                 <div class="img-holder">
-				<span class="offer">save 49%
-									</span>
 
                   <img src="img/l-2.png" alt="list">
-				  <div class="rate-like centering justify-content-between">
-					<div class="rating">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-					<a class="likes" href="#">
-						<i class="far fa-heart"></i> 4
-					</a>
-				</div>
             
                 </div>
                 <div class="list-content p-2">
@@ -383,22 +232,8 @@
               </div>
               <div class="listing-item p-2">
                 <div class="img-holder">
-				<span class="offer">save 49%
-									</span>
 
                   <img src="img/l-3.png" alt="list">
-				  <div class="rate-like centering justify-content-between">
-					<div class="rating">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-					<a class="likes" href="#">
-						<i class="far fa-heart"></i> 4
-					</a>
-				</div>
 
                 </div>
                 <div class="list-content p-2">
@@ -427,22 +262,8 @@
               </div>
               <div class="listing-item p-2">
                 <div class="img-holder">
-				<span class="offer">save 49%
-									</span>
 
                   <img src="img/l-1.png" alt="list">
-				  <div class="rate-like centering justify-content-between">
-					<div class="rating">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-					<a class="likes" href="#">
-						<i class="far fa-heart"></i> 4
-					</a>
-				</div>
                  
                 </div>
                 <div class="list-content p-2">
@@ -471,22 +292,8 @@
               </div>
               <div class="listing-item p-2">
                 <div class="img-holder">
-				<span class="offer">save 49%
-									</span>
 
                   <img src="img/l-2.png" alt="list">
-				  <div class="rate-like centering justify-content-between">
-					<div class="rating">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-					<a class="likes" href="#">
-						<i class="far fa-heart"></i> 4
-					</a>
-				</div>
                  
                 </div>
                 <div class="list-content p-2">
