@@ -5,6 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php include 'common/metalinks.php';?>
+	<style>
+		.filter-box .form-control{
+			border-radius:0px;
+		}
+		.set_font{
+			font-size:14px;
+		}
+		.range-box{
+			border-radius:0px;
+		}
+	</style>
   </head>
   <body>
     <!-- Header start-->
@@ -33,7 +44,7 @@
             <aside class="sidebar">
               <h4 class="title-sep2 mb-30">search filters
               </h4>
-              <div class="widget-listing">
+              <div class="widget-listing abt-listing">
                 <div class="filter-box mb-30">
                   <form action="#" method="post">
                     <div class="row">
@@ -94,107 +105,101 @@
                         <div class="col-sm-6 col-12">
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id1" value="value">
-                            <label for="checkbox_id1">AC with power backup
+                            <label  class="set_font" for="checkbox_id1">AC with backup
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id2" value="value">
-                            <label for="checkbox_id2">Free tea/Coffee
+                            <label class="set_font" for="checkbox_id2">Free tea/Coffee
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id3" value="value">
-                            <label for="checkbox_id3">Car Parking*
+                            <label class="set_font" for="checkbox_id3">Car Parking*
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id4" value="value">
-                            <label for="checkbox_id4">Whiteboard
+                            <label class="set_font" for="checkbox_id4">Whiteboard
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id5" value="value">
-                            <label for="checkbox_id5">Speaker
+                            <label class="set_font" for="checkbox_id5">Speaker
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id6" value="value">
-                            <label for="checkbox_id6">Free WiFi
+                            <label class="set_font" for="checkbox_id6">Free WiFi
                             </label>
                           </div>
 						  <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id7" value="value">
-                            <label for="checkbox_id7">Meeting Room
+                            <label class="set_font" for="checkbox_id7">Meeting Room
                             </label>
                           </div>
 						  <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id8" value="value">
-                            <label for="checkbox_id8">Projector
+                            <label class="set_font" for="checkbox_id8">Projector
                             </label>
                           </div>
 						  <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id9" value="value">
-                            <label for="checkbox_id9">Microphone
+                            <label class="set_font" for="checkbox_id9">Microphone
                             </label>
                           </div>
 						  <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id10" value="value">
-                            <label for="checkbox_id10">Night Shift
+                            <label class="set_font" for="checkbox_id10">Night Shift
                             </label>
                           </div>
                         </div>
                         <div class="col-sm-6 col-12">
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id11" value="value">
-                            <label for="checkbox_id11">Cafeteria
+                            <label class="set_font" for="checkbox_id11">Cafeteria
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id12" value="value">
-                            <label for="checkbox_id12">Reception
+                            <label class="set_font" for="checkbox_id12">Reception
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id13" value="value">
-                            <label for="checkbox_id13">Video Conferencing
+                            <label class="set_font" for="checkbox_id13">Video Conference
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id14" value="value">
-                            <label for="checkbox_id14">Podium
+                            <label class="set_font" for="checkbox_id14">Podium
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id15" value="value">
-                            <label for="checkbox_id15">Clean Toilets
+                            <label class="set_font" for="checkbox_id15">Clean Toilets
                             </label>
                           </div>
                           <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id16" value="value">
-                            <label for="checkbox_id16">Lounge
+                            <label class="set_font" for="checkbox_id16">Lounge
                             </label>
                           </div>
 						  <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id17" value="value">
-                            <label for="checkbox_id17">Mailing Address
+                            <label class="set_font" for="checkbox_id17">Mailing Address
                             </label>
                           </div>
 						  <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id18" value="value">
-                            <label for="checkbox_id18">Flipboard
+                            <label class="set_font" for="checkbox_id18">Flipboard
                             </label>
                           </div>
 						  <div class="w-100 mb-2">
                             <input type="checkbox" name="checkbox" id="checkbox_id19" value="value">
-                            <label for="checkbox_id19">24x7
+                            <label class="set_font" for="checkbox_id19">24x7
                             </label>
                           </div>
-						  <div class="w-100 mb-2">
-                            <input type="checkbox" name="checkbox" id="checkbox_id20" value="value">
-                            <label for="checkbox_id20">Functional Workspace
-                            </label>
-                          </div>
-						  
                         </div>
                       </div>
                     </div>
@@ -277,9 +282,9 @@
                 </div>
               </div>
             </div>
-            <div class="list-grid-view show-list">
+            <div class="listing-list-view show-list">
               <div class="row">
-                <div class="col-md-6 col-12 mb-30">
+                <div class="col-12 mb-30">
                   <div class="listing-item p-2">
                     <div class="img-holder">
                       <img src="img/l-1.png" alt="list">
@@ -316,7 +321,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 col-12 mb-30">
+                <div class="col-12 mb-30">
                   <div class="listing-item p-2">
                     <div class="img-holder">
                       <img src="img/l-2.png" alt="list">
@@ -353,7 +358,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 col-12 mb-30">
+                <div class="col-12 mb-30">
                   <div class="listing-item p-2">
                     <div class="img-holder">
                       <img src="img/l-3.png" alt="list">
@@ -390,7 +395,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 col-12 mb-30">
+                <div class="col-12 mb-30">
                   <div class="listing-item p-2">
                     <div class="img-holder">
                       <img src="img/l-1.png" alt="list">
@@ -427,7 +432,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 col-12 mb-30">
+                <div class="col-12 mb-30">
                   <div class="listing-item p-2">
                     <div class="img-holder">
                       <img src="img/l-2.png" alt="list">
