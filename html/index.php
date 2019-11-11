@@ -22,7 +22,7 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- banner start -->
-    <div class="main-banner" style="background-image: url("paper.gif")";>
+    <div class="main-banner" style="background-image: url("img/5778.jpg");>
       <div class="banner-image" style="background:#000">
         <div class="container">
           <div class="banner-content">
@@ -144,7 +144,7 @@
                 <div class="col-12">
                     <div class="all-title">
                         <h3 class="sec-title">
-                            Choose Your Needs
+                            Location
                         </h3>
                         <svg class="title-sep">
                             <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
@@ -156,8 +156,8 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
                     <div class="blog-item blog-1" style="background-image:url('img/b-1.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
+                        <div class="blog-date p-2" style="color:#fff">
+                            GURGOAN
                         </div>
                         <div class="blog-content">
                             <h5>
@@ -175,8 +175,8 @@
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
                     <div class="blog-item blog-1" style="background-image:url('img/b-2.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
+                        <div class="blog-date p-2" style="color:#fff">
+                            DELHI
                         </div>
                         <div class="blog-content">
                             <h5>
@@ -194,8 +194,8 @@
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
                     <div class="blog-item blog-1" style="background-image:url('img/b-3.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
+                        <div class="blog-date p-2" style="color:#fff">
+                            NOIDA
                         </div>
                         <div class="blog-content">
                             <h5>
@@ -213,8 +213,8 @@
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-12">
                     <div class="blog-item blog-1" style="background-image:url('img/b-4.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
+                        <div class="blog-date p-2" style="color:#fff">
+                            MUMBAI
                         </div>
                         <div class="blog-content">
                             <h5>
@@ -232,8 +232,8 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-12">
                     <div class="blog-item blog-1" style="background-image:url('img/b-5.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
+                        <div class="blog-date p-2" style="color:#fff">
+                            BANGLALURU
                         </div>
                         <div class="blog-content">
                             <h5>
@@ -251,8 +251,8 @@
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-12">
                     <div class="blog-item blog-1" style="background-image:url('img/b-6.png')">
-                        <div class="blog-date p-2">
-                            &nbsp;
+                        <div class="blog-date p-2" style="color:#fff">
+                            CHENNAI
                         </div>
                         <div class="blog-content">
                             <h5>
@@ -275,6 +275,30 @@
         </div>
     </section>
     <!-- blog end -->
+	    <!-- cta-one start-->
+    <section class="cta-one tri-bg-w text-lg-left text-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 my-lg-0 my-5 py-lg-0 py-5">
+            <div class="cta-content">
+              <h3>Sign Up To Get Special Offers Every Day
+              </h3>
+              <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
+              </p>
+              <a href="post_requirement.php" class="btn btn-two btn-anim mt-2">
+                Enquiry Now
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 d-lg-block d-none">
+            <div class="cta-img mt-4">
+              <img src="img/cta-bg.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cta-one end -->
     <!-- popular list start-->
     <section class="popular-list sp-100 bg-w">
       <div class="container">
@@ -282,7 +306,7 @@
           <div class="col-12">
             <div class="all-title">
               <h3 class="sec-title">
-                popular location
+               Choose Your Needs
               </h3>
               <svg class="title-sep">
                 <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
@@ -518,30 +542,7 @@
       </div>
     </section>
     <!-- popular list end -->
-    <!-- cta-one start-->
-    <section class="cta-one tri-bg-w text-lg-left text-center">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 my-lg-0 my-5 py-lg-0 py-5">
-            <div class="cta-content">
-              <h3>Sign Up To Get Special Offers Every Day
-              </h3>
-              <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
-              </p>
-              <a href="register.php" class="btn btn-two btn-anim mt-2">
-                sign up
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 d-lg-block d-none">
-            <div class="cta-img mt-4">
-              <img src="img/cta-bg.png" alt="image">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- cta-one end -->
+
 
     <!-- footer starts -->
     <?php include 'common/footer.php';?>
