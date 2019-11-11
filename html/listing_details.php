@@ -32,8 +32,11 @@
 		.sp-100 {
 			padding-top: 100px;
 			padding-bottom: 30px;
-			{
-
+		}
+		.sidebar-listing-slider.owl-theme .owl-dots .owl-dot {
+			background-color: none !important;
+			position: relative;
+		}		
 	</style>
   </head>
   <body>
@@ -371,17 +374,16 @@
           <div class="col-lg-4 col-12">
             <aside class="sidebar">
               <div class="widget">
-                
                 <div class="booking-form">
                   <div class="row">
                     <div class="col-12">
                       <a href="post_requirement.php" class="btn btn-one btn-anim w-100">Request a Callback</a>
-					  <a href="javascript:void(0);" class="btn btn-two btn-anim w-100 mt-2">Visit Now</a>
+					  <a href="javascript:void(0);" class="btn btn-two btn-anim w-100 mt-4">Visit Now</a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="widget">
+              <div class="widget abt-listing">
                 <h4 class="title-sep2 mb-30">business info
                 </h4>
                 <ul class="contact-info mt-4">
@@ -439,7 +441,7 @@
                   </div>
                 </div>
               </div>
-              <div class="widget">
+              <div class="widget abt-listing">
                 <h4 class="title-sep2 mb-30">Opening Hours
                 </h4>
                 <div class="centering opening-hours justify-content-between">
@@ -449,10 +451,10 @@
                   </span>
                 </div>
               </div>
-              <div class="widget">
+              <div class="widget abt-listing">
                 <h4 class="title-sep2 mb-30">Recently Added
                 </h4>
-                <div class="sidebar-listing-slider owl-carousel owl-theme">
+                <div class="sidebar-listing-slider owl-carousel owl-theme" style="background-color:none;">
                   <div class="listing-item p-2">
                     <div class="img-holder">
                       <img src="img/l-3.png" alt="list">

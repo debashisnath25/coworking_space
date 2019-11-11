@@ -27,9 +27,9 @@
             </ul>
           </div>
         </div>
-        <div class="row">
+        <div class="row mt-5">
           <!-- Sidebar Starts -->
-          <div class="col-lg-4 col-12">
+          <div class="col-lg-4 col-12 ">
             <aside class="sidebar">
               <h4 class="title-sep2 mb-30">search filters
               </h4>

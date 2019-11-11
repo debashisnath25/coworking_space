@@ -11,7 +11,7 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- about start-->
-    <div class="about-1 o-hide bg-w sp-100">
+    <div class="about-1 o-hide bg-w sp-100 mt-5">
       <div class="container">
 	   <div class="row">
           <div class="col-12">
