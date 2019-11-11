@@ -87,10 +87,7 @@
                     <a class="nav-link" href="listing.php">Our Workspaces
                     </a>
                   </li>
-				  <li class="nav-item">
-                    <a class="nav-link" href="blogs.php">Blogs
-                    </a>
-                  </li>
+				  
                   <li class="nav-item">
                     <a class="nav-link" href="about_us.php">About Us
                     </a>
