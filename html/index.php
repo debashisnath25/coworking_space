@@ -22,7 +22,7 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- banner start -->
-    <div class="main-banner" style="background-color:#fff;">
+    <div class="main-banner" style="background-image: url("paper.gif")";>
       <div class="banner-image" style="background:#000">
         <div class="container">
           <div class="banner-content">
@@ -155,7 +155,7 @@
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog1.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/b-1.png')">
                         <div class="blog-date p-2">
                             &nbsp;
                         </div>
@@ -174,7 +174,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog2.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/b-2.png')">
                         <div class="blog-date p-2">
                             &nbsp;
                         </div>
@@ -193,7 +193,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog3.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/b-3.png')">
                         <div class="blog-date p-2">
                             &nbsp;
                         </div>
@@ -212,7 +212,7 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog4.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/b-4.png')">
                         <div class="blog-date p-2">
                             &nbsp;
                         </div>
@@ -231,7 +231,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog5.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/b-5.png')">
                         <div class="blog-date p-2">
                             &nbsp;
                         </div>
@@ -250,7 +250,7 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/blog6.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/b-6.png')">
                         <div class="blog-date p-2">
                             &nbsp;
                         </div>
