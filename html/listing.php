@@ -321,20 +321,20 @@
 									<ul class="ctg-info py-2 mb-3">
 										<li>
 											<a href="#">
-												<i class="flaticon-cutlery mr-2"></i> restaurants</a>
+												<i class="flaticon-team mr-2"></i>Coworkinfg Space</a>
 										</li>
 										<li>
 											<span class="c-theme"> open now</span>
 										</li>
 									</ul>
 									<h5 class="mb-2">
-										<a href="listing-detail.html">the lounge & bar</a>
+										<a href="listing_details.php">Private office</a>
 									</h5>
-									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<p>Landmark :  Near Hope Appartments</p>
 									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
 										<li class="mt-1">
 											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+												<i class="fa fa-map-marker-alt mr-2"></i>Dwarka,New Delhi</a>
 										</li>
 										<li class="mt-1">
 											<a href="#">
@@ -369,20 +369,20 @@
 									<ul class="ctg-info py-2 mb-3">
 										<li>
 											<a href="#">
-												<i class="flaticon-shop mr-2"></i>shopping</a>
+												<i class="flaticon-shop mr-2"></i>Business Centre</a>
 										</li>
 										<li>
 											<span class="c-theme"> open now</span>
 										</li>
 									</ul>
 									<h5 class="mb-2">
-										<a href="listing-detail.html">the best shop in city</a>
+										<a href="listing_details.php">Workstations</a>
 									</h5>
-									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<p>Landmark :  Opp to Punj Loyd</p>
 									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
 										<li class="mt-1">
 											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+												<i class="fa fa-map-marker-alt mr-2"></i>Chitpur,Noida</a>
 										</li>
 										<li class="mt-1">
 											<a href="#">
@@ -417,20 +417,20 @@
 									<ul class="ctg-info py-2 mb-3">
 										<li>
 											<a href="#">
-												<i class="flaticon-cheers mr-2"></i>nightlife</a>
+												<i class="flaticon-appointment mr-2"></i>Training Room</a>
 										</li>
 										<li>
 											<span class="c-theme"> open now</span>
 										</li>
 									</ul>
 									<h5 class="mb-2">
-										<a href="listing-detail.html">enjoy best nightlife</a>
+										<a href="listing_details.php">Meeting Room</a>
 									</h5>
-									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<p>Landmark :  Medanta Hospital</p>
 									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
 										<li class="mt-1">
 											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+												<i class="fa fa-map-marker-alt mr-2"></i>Vasant kunj,New Delhi</a>
 										</li>
 										<li class="mt-1">
 											<a href="#">
@@ -465,20 +465,20 @@
 									<ul class="ctg-info py-2 mb-3">
 										<li>
 											<a href="#">
-												<i class="flaticon-spa mr-2"></i>beauty & spa</a>
+												<i class="flaticon-spa mr-2"></i>Coworking Space</a>
 										</li>
 										<li>
 											<span class="c-theme"> open now</span>
 										</li>
 									</ul>
 									<h5 class="mb-2">
-										<a href="listing_details.php">Co-working space</a>
+										<a href="listing_details.php">Private office</a>
 									</h5>
-									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<p>Landmark :  Near Hope Appartments</p>
 									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
 										<li class="mt-1">
 											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+												<i class="fa fa-map-marker-alt mr-2"></i>Chattisnagar,New Delhi</a>
 										</li>
 										<li class="mt-1">
 											<a href="#">
@@ -513,20 +513,20 @@
 									<ul class="ctg-info py-2 mb-3">
 										<li>
 											<a href="#">
-												<i class="flaticon-find mr-2"></i>desitination</a>
+												<i class="flaticon-find mr-2"></i>Coworking Space</a>
 										</li>
 										<li>
 											<span class="c-theme"> open now</span>
 										</li>
 									</ul>
 									<h5 class="mb-2">
-										<a href="listing-detail.html">best destinations in city</a>
+										<a href="listing_details.php">Workstation</a>
 									</h5>
-									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<p>Landmark :  Medanta Hospital</p>
 									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
 										<li class="mt-1">
 											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+												<i class="fa fa-map-marker-alt mr-2"></i>Noida,Delhi</a>
 										</li>
 										<li class="mt-1">
 											<a href="#">
@@ -561,20 +561,20 @@
 									<ul class="ctg-info py-2 mb-3">
 										<li>
 											<a href="#">
-												<i class="flaticon-hotel mr-2"></i>hotels</a>
+												<i class="flaticon-hotel mr-2"></i>Coworking Space</a>
 										</li>
 										<li>
 											<span class="c-theme"> open now</span>
 										</li>
 									</ul>
 									<h5 class="mb-2">
-										<a href="listing-detail.html">comfy hotels in town</a>
+										<a href="listing_details.php">Meeting Room</a>
 									</h5>
-									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<p>Opp to Punj Loyd</p>
 									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
 										<li class="mt-1">
 											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+												<i class="fa fa-map-marker-alt mr-2"></i>Dwarka,New Delhi</a>
 										</li>
 										<li class="mt-1">
 											<a href="#">
