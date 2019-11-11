@@ -1750,7 +1750,7 @@ h6 {
 
 .listing-item {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     -webkit-transition: opacity 0.3s ease;
     -o-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease;

@@ -9,17 +9,18 @@
 		.filter-box .form-control{
 			border-radius:0px;
 			background-color: #f8f8f8;
-			margin-bottom:20px;
+			
 		}
 		.set_font{
 			font-size:14px;
 		}
 		.range-box{
 			border-radius:0px;
-			margin-bottom:20px;
+			
 		}
 		.abt-listing {
 			border: 1px solid #ccc;
+			border-radius: 5px;
 		}
 		.listing-item {
 			border: 1px solid #ccc;
