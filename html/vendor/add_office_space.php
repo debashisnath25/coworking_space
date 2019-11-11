@@ -184,7 +184,7 @@
 		  	<!-- BEGIN: Page heading-->
             <div class="page-heading" style="padding-left:17px;">
               <div class="page-breadcrumb">
-                <h1 class="page-title"><a href="dashboard.php">Dashboard </a>> <a href="products.php">Products </a>> General
+                <h1 class="page-title"><a href="dashboard.php">Dashboard </a>> <a href="office_space.php">Office Space </a>> Add Office Space
                 </h1>
               </div>
             </div>
@@ -200,7 +200,7 @@
 						<div class="alert alert-danger has-icon" role="alert"><i class="la la-info-circle alert-icon"></i> Failed!</div>-->
 						<div class="card" style="border:1px solid #7c1ab5">
 								<div class="card-header cardhdd">
-									<h5 class="box-title" style="color:#fff;">Product Images</h5>
+									<h5 class="box-title" style="color:#fff;">Office Space Images</h5>
 								</div>
 								<form>
 								<div class="card-body">
@@ -228,7 +228,7 @@
 						</div>
 						<div class="card" style="border:1px solid #7c1ab5">
 							<div class="card-header cardhdd">
-								<h5 class="box-title" style="color:#fff;">Product Information</h5>
+								<h5 class="box-title" style="color:#fff;">Office Space Information</h5>
 							</div>
 							<form>
 							<div class="card-body">
@@ -318,9 +318,7 @@
 							</form>
 						</div>
 					  </div>
-					  <?php
-						include("common/product_sidebar.php");
-					  ?>
+					  <?php include('common/product_sidebar.php');?>
 				</div>
 			  
             </div>
