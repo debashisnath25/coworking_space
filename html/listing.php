@@ -15,6 +15,12 @@
 		.range-box{
 			border-radius:0px;
 		}
+		.abt-listing {
+			border: 1px solid #ff3a54;
+		}
+		.listing-item {
+			border: 1px solid #ff3a54;
+		}
 	</style>
   </head>
   <body>
@@ -44,20 +50,10 @@
             <aside class="sidebar">
               <h4 class="title-sep2 mb-30">search filters
               </h4>
-              <div class="widget-listing abt-listing">
+              <div class="widget-listing abt-listing" >
                 <div class="filter-box mb-30">
                   <form action="#" method="post">
                     <div class="row">
-                      <div class="col-12">
-                        <input type="text" class="form-control" placeholder="What are you looking for?">
-                      </div>
-                      <div class="col-12">
-                        <div class="input-wrap">
-                          <i class="fa fa-crosshairs">
-                          </i>
-                          <input type="text" class="form-control" placeholder="location">
-                        </div>
-                      </div>
                       <div class="col-12">
                         <div class="input-wrap">
                           <select class="form-control custom-select" id="service2">
@@ -78,6 +74,14 @@
                           </select>
                         </div>
                       </div>
+                      <div class="col-12">
+                        <div class="input-wrap">
+                          <i class="fa fa-crosshairs">
+                          </i>
+                          <input type="text" class="form-control" placeholder="location">
+                        </div>
+                      </div>
+                      
                     </div>
                     <div class="row">
                       <div class="col-12">
@@ -282,199 +286,303 @@
                 </div>
               </div>
             </div>
-            <div class="listing-list-view show-list">
-              <div class="row">
-                <div class="col-12 mb-30">
-                  <div class="listing-item p-2">
-                    <div class="img-holder">
-                      <img src="img/l-1.png" alt="list">
-                    </div>
-                    <div class="list-content p-2">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <h6 class="mb-2">
-                            <a href="listing_details.php">Work Cafe
-                            </a>
-                          </h6>
-                          <p>Work with us
-                          </p>
-                        </div>
-                        <div class="col-md-6">
-                          <a href="listing_details.php" class="btn btn-one btn-anim w-100">View Details
-                          </a>
-                        </div>
-                      </div>
-                      <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
-                        <li class="mt-1">
-                          <a href="#">
-                            <i class="fa fa-map-marker-alt mr-2">
-                            </i>Dwarka,New Delhi
-                          </a>
-                        </li>
-                        <li class="mt-1">
-                          <a href="#">
-                            <i class="fa fa-phone mr-2">
-                            </i>0123-456-789
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 mb-30">
-                  <div class="listing-item p-2">
-                    <div class="img-holder">
-                      <img src="img/l-2.png" alt="list">
-                    </div>
-                    <div class="list-content p-2">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <h6 class="mb-2">
-                            <a href="listing_details.php">Co-working space
-                            </a>
-                          </h6>
-                          <p>Work with us
-                          </p>
-                        </div>
-                        <div class="col-md-6">
-                          <a href="listing_details.php" class="btn btn-one btn-anim w-100">View Details
-                          </a>
-                        </div>
-                      </div>
-                      <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
-                        <li class="mt-1">
-                          <a href="#">
-                            <i class="fa fa-map-marker-alt mr-2">
-                            </i>noida,Delhi
-                          </a>
-                        </li>
-                        <li class="mt-1">
-                          <a href="#">
-                            <i class="fa fa-phone mr-2">
-                            </i>0123-456-789
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 mb-30">
-                  <div class="listing-item p-2">
-                    <div class="img-holder">
-                      <img src="img/l-3.png" alt="list">
-                    </div>
-                    <div class="list-content p-2">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <h6 class="mb-2">
-                            <a href="listing_details.php">Co-working space
-                            </a>
-                          </h6>
-                          <p>Execube
-                          </p>
-                        </div>
-                        <div class="col-md-6">
-                          <a href="listing_details.php" class="btn btn-one btn-anim w-100">View Details
-                          </a>
-                        </div>
-                      </div>
-                      <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
-                        <li class="mt-1">
-                          <a href="#">
-                            <i class="fa fa-map-marker-alt mr-2">
-                            </i>Chattisnagar,New Delhi
-                          </a>
-                        </li>
-                        <li class="mt-1">
-                          <a href="#">
-                            <i class="fa fa-phone mr-2">
-                            </i>0123-456-789
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 mb-30">
-                  <div class="listing-item p-2">
-                    <div class="img-holder">
-                      <img src="img/l-1.png" alt="list">
-                    </div>
-                    <div class="list-content p-2">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <h6 class="mb-2">
-                            <a href="listing_details.php">Co-working Space
-                            </a>
-                          </h6>
-                          <p>Boulder box
-                          </p>
-                        </div>
-                        <div class="col-md-6">
-                          <a href="listing_details.php" class="btn btn-one btn-anim w-100">View Details
-                          </a>
-                        </div>
-                      </div>
-                      <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
-                        <li class="mt-1">
-                          <a href="#">
-                            <i class="fa fa-map-marker-alt mr-2">
-                            </i>Vasant kunj,New Delhi
-                          </a>
-                        </li>
-                        <li class="mt-1">
-                          <a href="#">
-                            <i class="fa fa-phone mr-2">
-                            </i>0123-456-789
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 mb-30">
-                  <div class="listing-item p-2">
-                    <div class="img-holder">
-                      <img src="img/l-2.png" alt="list">
-                    </div>
-                    <div class="list-content p-2">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <h6 class="mb-2">
-                            <a href="listing_details.php">Work Cafe
-                            </a>
-                          </h6>
-                          <p>Cafe more life
-                          </p>
-                        </div>
-                        <div class="col-md-6">
-                          <a href="listing_details.php" class="btn btn-one btn-anim w-100">View Details
-                          </a>
-                        </div>
-                      </div>
-                      <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
-                        <li class="mt-1">
-                          <a href="#">
-                            <i class="fa fa-map-marker-alt mr-2">
-                            </i>Chitpur,Noida
-                          </a>
-                        </li>
-                        <li class="mt-1">
-                          <a href="#">
-                            <i class="fa fa-phone mr-2">
-                            </i>0123-456-789
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 text-center mt-30">
-                  <a href="#" class="btn btn-one btn-anim">load more
-                  </a>
-                </div>
-              </div>
-            </div>
+			<!-- grid-view-start -->
+            <div class="listing-list-view show-list" >
+					<div class="row">
+						<div class="col-12 mb-30">
+							<div class="listing-item p-2" style="border: 1px solid #ff3a54;">
+								<div class="img-list">
+									<div class="img-holder">
+										<span class="offer">save 49%
+										</span>
+										<img src="img/l-1.png" alt="list">
+										<div class="rate-like centering justify-content-between">
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+											</div>
+											<a class="likes" href="#">
+												<i class="far fa-heart"></i>25
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="list-content">
+									<ul class="ctg-info py-2 mb-3">
+										<li>
+											<a href="#">
+												<i class="flaticon-cutlery mr-2"></i> restaurants</a>
+										</li>
+										<li>
+											<span class="c-theme"> open now</span>
+										</li>
+									</ul>
+									<h5 class="mb-2">
+										<a href="listing-detail.html">the lounge & bar</a>
+									</h5>
+									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+										</li>
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 mb-30">
+							<div class="listing-item p-2">
+								<div class="img-list">
+									<div class="img-holder">
+										<span class="offer">save 30%
+										</span>
+										<img src="img/l-2.png" alt="list">
+										<div class="rate-like centering justify-content-between">
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+											</div>
+											<a class="likes" href="#">
+												<i class="far fa-heart"></i>33
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="list-content">
+									<ul class="ctg-info py-2 mb-3">
+										<li>
+											<a href="#">
+												<i class="flaticon-shop mr-2"></i>shopping</a>
+										</li>
+										<li>
+											<span class="c-theme"> open now</span>
+										</li>
+									</ul>
+									<h5 class="mb-2">
+										<a href="listing-detail.html">the best shop in city</a>
+									</h5>
+									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+										</li>
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 mb-30">
+							<div class="listing-item p-2">
+								<div class="img-list">
+									<div class="img-holder">
+										<span class="offer">save 19%
+										</span>
+										<img src="img/l-3.png" alt="list">
+										<div class="rate-like centering justify-content-between">
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="far fa-star"></i>
+											</div>
+											<a class="likes" href="#">
+												<i class="far fa-heart"></i>55
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="list-content">
+									<ul class="ctg-info py-2 mb-3">
+										<li>
+											<a href="#">
+												<i class="flaticon-cheers mr-2"></i>nightlife</a>
+										</li>
+										<li>
+											<span class="c-theme"> open now</span>
+										</li>
+									</ul>
+									<h5 class="mb-2">
+										<a href="listing-detail.html">enjoy best nightlife</a>
+									</h5>
+									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+										</li>
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 mb-30">
+							<div class="listing-item p-2">
+								<div class="img-list">
+									<div class="img-holder">
+										<span class="offer">save 59%
+										</span>
+										<img src="img/l-1.png" alt="list">
+										<div class="rate-like centering justify-content-between">
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+												<i class="far fa-star"></i>
+											</div>
+											<a class="likes" href="#">
+												<i class="far fa-heart"></i>24
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="list-content">
+									<ul class="ctg-info py-2 mb-3">
+										<li>
+											<a href="#">
+												<i class="flaticon-spa mr-2"></i>beauty & spa</a>
+										</li>
+										<li>
+											<span class="c-theme"> open now</span>
+										</li>
+									</ul>
+									<h5 class="mb-2">
+										<a href="listing-detail.html">best beauty & spa services</a>
+									</h5>
+									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+										</li>
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 mb-30">
+							<div class="listing-item p-2">
+								<div class="img-list">
+									<div class="img-holder">
+										<span class="offer">save 20%
+										</span>
+										<img src="img/l-2.png" alt="list">
+										<div class="rate-like centering justify-content-between">
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<a class="likes" href="#">
+												<i class="far fa-heart"></i>36
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="list-content">
+									<ul class="ctg-info py-2 mb-3">
+										<li>
+											<a href="#">
+												<i class="flaticon-find mr-2"></i>desitination</a>
+										</li>
+										<li>
+											<span class="c-theme"> open now</span>
+										</li>
+									</ul>
+									<h5 class="mb-2">
+										<a href="listing-detail.html">best destinations in city</a>
+									</h5>
+									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+										</li>
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 mb-30">
+							<div class="listing-item p-2">
+								<div class="img-list">
+									<div class="img-holder">
+										<span class="offer">save 26%
+										</span>
+										<img src="img/l-3.png" alt="list">
+										<div class="rate-like centering justify-content-between">
+											<div class="rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="far fa-star"></i>
+											</div>
+											<a class="likes" href="#">
+												<i class="far fa-heart"></i>84
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="list-content">
+									<ul class="ctg-info py-2 mb-3">
+										<li>
+											<a href="#">
+												<i class="flaticon-hotel mr-2"></i>hotels</a>
+										</li>
+										<li>
+											<span class="c-theme"> open now</span>
+										</li>
+									</ul>
+									<h5 class="mb-2">
+										<a href="listing-detail.html">comfy hotels in town</a>
+									</h5>
+									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
+									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-map-marker-alt mr-2"></i>San Francisco</a>
+										</li>
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 text-center mt-30">
+							<a href="#" class="btn btn-one btn-anim">load more</a>
+						</div>
+					</div>
+				</div>
+			<!-- grid-view-ends -->
           </div>
         </div>
       </div>
