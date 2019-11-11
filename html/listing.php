@@ -8,18 +8,24 @@
 	<style>
 		.filter-box .form-control{
 			border-radius:0px;
+			background-color: #f8f8f8;
+			margin-bottom:20px;
 		}
 		.set_font{
 			font-size:14px;
 		}
 		.range-box{
 			border-radius:0px;
+			margin-bottom:20px;
 		}
 		.abt-listing {
-			border: 1px solid #ff3a54;
+			border: 1px solid #ccc;
 		}
 		.listing-item {
-			border: 1px solid #ff3a54;
+			border: 1px solid #ccc;
+		}
+		.img-holder img {
+			height: 200px !important; 
 		}
 	</style>
   </head>
@@ -290,7 +296,7 @@
             <div class="listing-list-view show-list" >
 					<div class="row">
 						<div class="col-12 mb-30">
-							<div class="listing-item p-2" style="border: 1px solid #ff3a54;">
+							<div class="listing-item p-2">
 								<div class="img-list">
 									<div class="img-holder">
 										<span class="offer">save 49%
