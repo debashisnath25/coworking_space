@@ -7,7 +7,7 @@
     <?php include 'common/metalinks.php';?>
 	<style>
 		.filter-box .form-control{
-			border-radius:0px;
+			border-radius:5px;
 			background-color: #f8f8f8;
 			
 		}
@@ -15,8 +15,8 @@
 			font-size:14px;
 		}
 		.range-box{
-			border-radius:0px;
-			
+			border-radius:5px;
+			margin-bottom:15px;
 		}
 		.abt-listing {
 			border: 1px solid #ccc;
@@ -87,12 +87,12 @@
                           </i>
                           <input type="text" class="form-control" placeholder="location">
                         </div>
+						 <hr>
                       </div>
-                      
                     </div>
                     <div class="row">
                       <div class="col-12">
-                        <h5 class="mb-30">Price:
+                        <h5 class="mb-15">Price:
                           <i class="fas fa-rupee-sign">
                           </i> 
                           <span class="range-value">1000
@@ -109,8 +109,8 @@
                 </div>
                 <div class="filter-checklist">
                   <div class="row">
-                    <div class="col-12 mb-60">
-                      <h5 class="mb-30">facilities
+                    <div class="col-12 mb-30">
+                      <h5 class="mb-15">facilities
                       </h5>
                       <div class="row minus-pad">
                         <div class="col-sm-6 col-12">
@@ -214,8 +214,8 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-12 mb-60">
-                      <h5 class="mb-30">capacity
+                    <div class="col-12 mb-30">
+                      <h5 class="mb-15">capacity
                       </h5>
                       <div class="row minus-pad">
                         <div class="col-sm-6 col-12">
@@ -302,7 +302,7 @@
 									<div class="img-holder">
 										<span class="offer">save 49%
 										</span>
-										<img src="img/l-1.png" alt="list">
+										<a href="listing_details.php"><img src="img/l-1.png" alt="list"></a>
 										<div class="rate-like centering justify-content-between">
 											<div class="rating">
 												<i class="fa fa-star"></i>
@@ -350,7 +350,7 @@
 									<div class="img-holder">
 										<span class="offer">save 30%
 										</span>
-										<img src="img/l-2.png" alt="list">
+										<a href="listing_details.php"><img src="img/l-2.png" alt="list"></a>
 										<div class="rate-like centering justify-content-between">
 											<div class="rating">
 												<i class="fa fa-star"></i>
@@ -398,7 +398,7 @@
 									<div class="img-holder">
 										<span class="offer">save 19%
 										</span>
-										<img src="img/l-3.png" alt="list">
+										<a href="listing_details.php"><img src="img/l-3.png" alt="list"></a>
 										<div class="rate-like centering justify-content-between">
 											<div class="rating">
 												<i class="fa fa-star"></i>
@@ -446,7 +446,7 @@
 									<div class="img-holder">
 										<span class="offer">save 59%
 										</span>
-										<img src="img/l-1.png" alt="list">
+										<a href="listing_details.php"><img src="img/l-1.png" alt="list"></a>
 										<div class="rate-like centering justify-content-between">
 											<div class="rating">
 												<i class="fa fa-star"></i>
@@ -472,7 +472,7 @@
 										</li>
 									</ul>
 									<h5 class="mb-2">
-										<a href="listing-detail.html">best beauty & spa services</a>
+										<a href="listing_details.php">Co-working space</a>
 									</h5>
 									<p>Donec pede justo, fringilla vel, aliquet nectior magna laboris do in.</p>
 									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
@@ -494,7 +494,7 @@
 									<div class="img-holder">
 										<span class="offer">save 20%
 										</span>
-										<img src="img/l-2.png" alt="list">
+										<a href="listing_details.php"><img src="img/l-2.png" alt="list"></a>
 										<div class="rate-like centering justify-content-between">
 											<div class="rating">
 												<i class="fa fa-star"></i>
@@ -542,7 +542,7 @@
 									<div class="img-holder">
 										<span class="offer">save 26%
 										</span>
-										<img src="img/l-3.png" alt="list">
+										<a href="listing_details.php"><img src="img/l-3.png" alt="list"></a>
 										<div class="rate-like centering justify-content-between">
 											<div class="rating">
 												<i class="fa fa-star"></i>
