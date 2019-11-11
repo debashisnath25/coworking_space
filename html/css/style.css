@@ -4806,7 +4806,7 @@ ol.comment-list {
 .sidebar-listing-slider .owl-dots::after {
     position: absolute;
     top: 8px;
-    content: "";
+    /*content: "";*/
     left: 0;
     background-color: #e1e1e1;
     width: 100%;

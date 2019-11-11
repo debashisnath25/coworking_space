@@ -17,7 +17,7 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- blog detail start-->
-    <section class="bg-w sp-100">
+    <section class="bg-w sp-100 mt-5">
         <div class="container">
 			<div class="row">
 			  <div class="col-12">

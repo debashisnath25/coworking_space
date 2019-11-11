@@ -18,9 +18,9 @@
     <!-- Header end -->
 
     <!-- blog start-->
-    <section class="bg-w sp-100">
+    <section class="bg-w sp-100 mt-5">
         <div class="container">
-			<div class="row">
+			<div class="row ">
 			  <div class="col-12">
 				<ul class="banner-link ">
 				  <li>
