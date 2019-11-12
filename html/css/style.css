@@ -436,7 +436,7 @@ h6 {
 
 .btn {
     border: 0;
-    border-radius: 100px;
+    border-radius: 5px;
     font-size: 14px;
     padding: 11px 30px 8px;
     text-transform: capitalize;
@@ -1206,7 +1206,7 @@ h6 {
 }
 
 .banner-form .form-control {
-    border-radius: 50px;
+    border-radius: 5px;
     border-color: #fff;
     color: inherit;
 }
@@ -1977,7 +1977,7 @@ li.list-rating i {
 .popular-list-slider .slick-dots::after {
     position: absolute;
     top: 5px;
-    content: "";
+    /*content: "";*/
     left: 0;
     background-color: #e1e1e1;
     width: 100%;
@@ -1989,7 +1989,7 @@ li.list-rating i {
     width: auto;
     height: auto;
     padding: 0 6px;
-    background-color: #fff;
+    /*background-color: #fff;*/
     z-index: 1;
     margin: 0;
 }
@@ -3806,7 +3806,7 @@ ol.comment-list {
 .custom-form .form-control {
     padding-left: 50px;
     margin-bottom: 20px;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 .custom-form .fa {
