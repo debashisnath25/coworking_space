@@ -91,7 +91,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-w" style="padding-top:50px;padding-bottom:100px;">
+    <div class="bg-w" style="padding-top:25px;padding-bottom:100px;">
       <div class="container">
 		<!-- Step Wizard Starts-->
 		<div class="stepwizard">
