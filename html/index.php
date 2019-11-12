@@ -22,8 +22,8 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- banner start -->
-    <div class="main-banner" style="background-image: url("img/5778.jpg");>
-      <div class="banner-image" style="background:#000">
+    <div class="main-banner">
+      <div class="banner-image" style="background-image:url('img/banner3.jpg')">
         <div class="container">
           <div class="banner-content">
             <div class="row" style="margin-top:-50px;">
@@ -281,7 +281,7 @@
         <div class="row align-items-center">
           <div class="col-lg-6 my-lg-0 my-5 py-lg-0 py-5">
             <div class="cta-content">
-              <h3>Sign Up To Get Special Offers Every Day
+              <h3>Search, Explore, Book, Manage
               </h3>
               <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
               </p>

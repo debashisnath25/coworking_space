@@ -7,15 +7,18 @@
     <?php include 'common/metalinks.php';?>
 	<style>
 		.stepwizard-step p {
-			margin-top: 10px;
+		
 		}
 		.stepwizard-row {
 			display: table-row;
+			
 		}
 		.stepwizard {
 			display: table;
 			width: 100%;
 			position: relative;
+			margin-bottom: 10px;
+			
 		}
 		.stepwizard-step button[disabled] {
 			opacity: 1 !important;
@@ -51,7 +54,18 @@
 			background-color:#f2f2f2;
 			border:1px solid #ccc;
 		}
-		
+		.abt-listing{
+			border:1px solid #CCC;
+			margin-bottom:10px;
+			background:#fff;
+			border-radius:5px;
+		}
+		.centering{
+			margin-right: 530px;
+		}
+		.form-control{
+			background-color: #f8f8f8;
+		}
 	</style>
   </head>
   <body>
@@ -81,7 +95,7 @@
       <div class="container">
 		<!-- Step Wizard Starts-->
 		<div class="stepwizard">
-			<div class="stepwizard-row setup-panel">
+			<div class="stepwizard-row setup-panel" >
 				<div class="stepwizard-step">
 					<a href="#step-1" class="btn btn-primary btn-anim">1</a>
 					<p>Basic Information</p>
@@ -110,52 +124,60 @@
 			<div class="row setup-content abt-listing" id="step-1">
 				<div class="col-md-12">
 					<h4>Basic Information</h4>
+					<hr>
 					 <div class="col-12">
+					 	<div class="container">
 						  <div class="row">
-							<div class="col-12">
-							  <label>Name
-							  </label>
-							  <input type="text" id="name" class="form-control" placeholder="Enter Name Here">
+							<div class="col-md-4">
+								  <label>Name
+								  </label>
+							  </div>
+							<div class="col-md-8">
+							    <input type="text" id="name" class="form-control" placeholder="Enter Name Here">
 							</div>
-							<div class="col-12">
-							  <label>Email
-							  </label>
-							  <input type="email" id="name" class="form-control" placeholder="Enter Email Here">
-							</div>
-							<div class="col-md-10 col-12">
-							  <label>Phone Number
-							  </label>
-							  <input type="text" id="name" class="form-control" placeholder="Enter Phone Number Here">
-							</div>
-							<div class="col-md-2 col-12">
+							<div class="col-md-4">
+								  <label>Email
+								  </label>
+							  </div>
+							  <div class="col-md-8">
+							    <input type="text" id="name" class="form-control" placeholder="Enter Email Here">
+							 </div>
+							<div class="col-md-4">
+								  <label>Phone Number
+								  </label>
+							 </div>
+							 <div class="col-md-8">
+							    <input type="text" id="name" class="form-control" placeholder="Enter No. Here">
+							 </div>
+							 <div class="col-md-4">
+								  <label>Company Name
+								  </label>
+							 </div>
+							 <div class="col-md-8">
+							    <input type="text" id="name" class="form-control" placeholder="Enter Company Name Here">
+							 </div>
+							<div class="col-4">
 							  <label>Number of Persons</label>
+							</div>
+							<div class="col-8">
 							  <div class="add-person form-control px-1">
-								<div class="inc-dec-contain centering">
-									<div class="inc-dec-control">
-										<button class="cart-qty-plus" type="button" value="+">
-											<i class="fa fa-plus"></i>
-										</button>
-									</div>
-									<input type="text" name="qty" maxlength="12" value="0" class="input-text qty" />
-									<div class="inc-dec-control">
-										<button class="cart-qty-minus" type="button" value="-">
-											<i class="fa fa-minus"></i>
-										</button>
+									<div class="inc-dec-contain centering">
+										<div class="inc-dec-control">
+											<button class="cart-qty-plus" type="button" value="+">
+												<i class="fa fa-plus"></i>
+											</button>
+										</div>
+										<input type="text" name="qty" maxlength="12" value="0" class="input-text qty" style="background-color: #f8f8f8;" />
+										<div class="inc-dec-control">
+											<button class="cart-qty-minus" type="button" value="-">
+												<i class="fa fa-minus"></i>
+											</button>
+										</div>
 									</div>
 								</div>
 							</div>
-							</div>
-							<div class="col-md-8 col-12">
-							  <label>Company Name
-							  </label>
-							  <input type="text" id="name" class="form-control" placeholder="Enter Company Name Here">
-							</div>
-							<div class="col-md-4 col-12">
-							  <label>Start Date
-							  </label>
-							  <input class="form-control custom-select" type="date" name="start_date">
-							</div>
 						  </div>
+						 </div>
 					  </div>
 					<button class="btn btn-primary nextBtn btn-lg float-right" type="button" >Next</button>
 				</div>
@@ -164,11 +186,14 @@
 			<div class="row setup-content abt-listing" id="step-2">
 				<div class="col-md-12">
 					<h4>Location</h4>
+					<hr>
 					<div class="col-12">
 					  <div class="row">
-						<div class="col-6">
+						<div class="col-4">
 						  <label>State
 						  </label>
+						  </div>
+						  <div class="col-8">
 						  <select class="form-control custom-select" id="city_name">
 							<option disabled selected>Select State</option>
 							<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
@@ -208,9 +233,11 @@
 							<option value="West Bengal">West Bengal</option>
 						  </select>
 						</div>
-						<div class="col-6">
+						<div class="col-4">
 						  <label>City
 						  </label>
+						  </div>
+						  <div class="col-8">
 						  <select class="form-control custom-select" id="city_name">
 							<option disabled selected>Select city</option>
 							<option>Ahmedabad</option>
@@ -235,7 +262,11 @@
 						</div>
 					  </div>
 					  <div class="row">
-						<div class="col-12">
+					   <div class="col-4">
+						  <label>Address
+						  </label>
+						  </div>
+						<div class="col-8">
 							<textarea class="form-control" name="address" placeholder="Enter Address Here"></textarea>
 						</div>
 					  </div>
@@ -246,13 +277,16 @@
 			<div class="row setup-content abt-listing" id="step-3">
 				<div class="col-12 mb-30">
 					<h4>Contact Timing</h4>
+					<hr>
                     <div class="clone-wrap">
 						<div class="row clone-section">
                             <div class="col-sm-11 col-12">
                                 <form class="listing-form" action="#">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="col-lg-4 col-md-4 col-12">
 											<label>Preferred Day to connect</label>
+											</div>
+											<div class="col-lg-8 col-md-8 col-12">
                                             <select class="form-control custom-select" id="day">
                                                 <option selected disabled>Please Select</option>
                                                 <option>monday</option>
@@ -266,6 +300,8 @@
                                         </div>
                                         <div class="col-lg-4 col-md-6 col-12">
 											<label>Preferred Time to connect</label>
+											</div>
+											<div class="col-lg-8 col-md-8 col-12">
                                             <select class="form-control custom-select" id="opening-time">
                                                 <option selected disabled>Please Select</option>
                                                 <option>11am</option>
@@ -276,6 +312,8 @@
                                         </div>
                                         <div class="col-lg-4 col-md-6 col-12">
 											<label>Preferred Mode to connect</label>
+											</div>
+											<div class="col-lg-8 col-md-8 col-12">
                                             <select class="form-control custom-select" id="closing-time">
                                                 <option selected disabled>Please Select</option>
                                                 <option>Whatsapp</option>
@@ -287,14 +325,6 @@
                                 </form>
                             </div>
                             <div class="col-sm-1 col-12 text-sm-right text-center">
-                                <span class="remove-section">
-                                    <i class="fa fa-times"></i>
-                                </span>
-                            </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col-12 text-center">
                                 <span class="add-section">
                                     <i class="fa fa-plus"></i>
                                 </span>
@@ -307,6 +337,7 @@
 			<div class="row setup-content abt-listing" id="step-4">
 				<div class="col-md-12">
 					<h4>Requirement Type</h4>
+					<hr>
 					<div class="col-12">
 					  <div class="row mb-30">
 						<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 mb-2">
@@ -347,6 +378,7 @@
 			<div class="row setup-content abt-listing" id="step-5">
 				<div class="col-md-12">
 					<h4>Preferred Facilities</h4>
+					<hr>
 					<div class="col-12">
 						<div class="row mb-30">
 							<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 mb-2">
