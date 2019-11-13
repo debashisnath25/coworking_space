@@ -11,7 +11,8 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- about start-->
-    <div class="about-1 o-hide bg-w sp-100 mt-5">
+	<section>
+    <div class="bg-w sp-100 mt-5" style="margin-top: 20px;">
       <div class="container">
 	   <div class="row">
           <div class="col-12">
@@ -26,97 +27,11 @@
               </li>
             </ul>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 align-self-end">
-            <div class="abt-img">
-              <img src="img/abt-mockup.png" alt="mockup">
-            </div>
-          </div>
-          <div class="col-lg-6 mt-lg-0 mt-5">
-            <h4>our awesome story
-            </h4>
-            <p>It is a premier destination and nation&middot;s largest tech-enabled platform for today&middot;s workforce to search, sort and book a flexible and serviced workspace, without the hassle of a lease or brokerage and moreover completely Free of Charge (without any brokerage).Simultaneously, It is an opportunity to the workspace providers (corporate offices, landlords and occupiers, business centers, hotels and coworking spaces) to monetize their unused and vacant workspace inventory of work desks, meeting rooms, cabins, and private suites.
-            </p>
-            <ul class="list-1">
-              <li>
-                <span>Integrity towards Clients and providers
-                </span>
-              </li>
-              <li>
-                <span>Agility in work and deals
-                </span>
-              </li>
-              <li>
-                <span>respect for co-workers and all possible stakeholders
-                </span>
-              </li>
-              <li>
-                <span> Workspace redefined
-                </span>
-              </li>
-            </ul>
-          </div>
-        </div>
+        </div>  
       </div>
     </div>
+	</section>
     <!-- about end-->
-    <!-- counter starts -->
-    <section class="counters sp-100-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30">
-            <div class="counter-box">
-              <div class="icon-box">
-                <i class="flaticon-list-1">
-                </i>
-              </div>
-              <h2 class="count c-theme" data-count="33">0
-              </h2>
-              <p>Cities
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30">
-            <div class="counter-box">
-              <div class="icon-box">
-                <i class="flaticon-team">
-                </i>
-              </div>
-              <h2 class="count c-theme" data-count="1920">0
-              </h2>
-              <p>Venues
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30">
-            <div class="counter-box">
-              <div class="icon-box">
-                <i class="flaticon-trophy">
-                </i>
-              </div>
-              <h2 class="count c-theme" data-count="160">0
-              </h2>
-              <p>Year on Growth
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30">
-            <div class="counter-box">
-              <div class="icon-box">
-                <i class="flaticon-appointment">
-                </i>
-              </div>
-              <h2 class="count c-theme" data-count="1500">0
-              </h2>
-              <p>Transaction per month
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- counter ends -->
     <!-- faq start-->
     <section class="bg-w sp-100">
       <div class="container">
@@ -281,7 +196,7 @@
                     </div>
                     <div id="collapse3Three" class="collapse" aria-labelledby="heading3Three" data-parent="#faq-accordion3">
                       <div class="card-body">
-                        <p>Sorry, each  subscription can be used by a single user only. If you are looking for a team based plan, please reach out to us on +91-92050-06361 or contact@.in
+                        <p>Sorry, each  subscription can be used by a single user only. If you are looking for a team based plan, please reach out to us on +91-1234567890 or contact@.in
                         </p>
                       </div>
                     </div>
@@ -382,11 +297,11 @@
         <div class="row align-items-center">
           <div class="col-lg-6 my-lg-0 my-5 py-lg-0 py-5">
             <div class="cta-content">
-              <h3>Sign Up To Get Special Offers Every Day
+              <h3>Search, Explore, Book, Manage
               </h3>
               <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent!</p>
               <a href="register.php" class="btn btn-two btn-anim mt-2">
-                sign up
+                Enquiry Now
               </a>
             </div>
           </div>
@@ -398,6 +313,93 @@
         </div>
       </div>
     </section>
+	<!-- features start-->
+    <section class="features sp-100 bg-w">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="all-title" style="margin-bottom: 30px;">
+                        <h3 class="sec-title">
+                            Why We Are Best
+                        </h3>
+                        <svg class="title-sep">
+                            <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-rising"></i>
+                        </div>
+                        <h5>our vision</h5>
+                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+                            ipsf.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-list"></i>
+                        </div>
+                        <h5>missions</h5>
+                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+                            ipsf.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-medal"></i>
+                        </div>
+                        <h5>our value</h5>
+                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+                            ipsf.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-find-1"></i>
+                        </div>
+                        <h5>find your listing</h5>
+                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+                            ipsf.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-map"></i>
+                        </div>
+                        <h5>find the way</h5>
+                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+                            ipsf.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-support"></i>
+                        </div>
+                        <h5>24/7 support</h5>
+                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+                            ipsf.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- features end -->
     <!-- cta-one end -->    
     <!-- footer starts -->
     <?php include 'common/footer.php';?>

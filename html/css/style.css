@@ -2100,11 +2100,12 @@ li.list-rating i {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    border: 1px solid #ebebeb;
+    border: 1px solid #ccc;
     text-align: center;
     padding: 30px 30px 15px;
     position: relative;
     z-index: 0;
+	background: #fff;
 }
 
 .feature-item.type-2 {
@@ -2166,7 +2167,7 @@ li.list-rating i {
     -webkit-transition-delay: 0.3s;
     -o-transition-delay: 0.3s;
     transition-delay: 0.3s;
-    border-color: #fff;
+    border-color: #ccc;
 }
 
 .feature-item .icon-box {
@@ -3682,6 +3683,7 @@ ol.comment-list {
     position: relative;
     overflow: hidden;
     z-index: 0;
+	background-color: #fff;
 }
 
 .faq-tabs .nav-link::after {
