@@ -23,7 +23,7 @@
     <!-- Header end -->
     <!-- banner start -->
     <div class="main-banner">
-      <div class="banner-image" style="background-image:url('img/banner3.jpg')">
+      <div class="banner-image" style="background-image:url('img/Panoramic-Beauty-of-Taj-Mahal-Tour-My-India--1024x489.jpg')">
         <div class="container">
           <div class="banner-content">
             <div class="row" style="margin-top:-50px;">

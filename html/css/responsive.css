@@ -171,7 +171,7 @@
         top: 0;
         width: calc(50% - 15px);
         height: 100%;
-        background-image: url(../img/login-bg.jpg);
+        background-image: url(../img/login.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

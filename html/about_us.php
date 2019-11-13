@@ -335,9 +335,8 @@
                         <div class="icon-box">
                             <i class="flaticon-rising"></i>
                         </div>
-                        <h5>our vision</h5>
-                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                            ipsf.
+                        <h5>Ready to move-in Office</h5>
+                        <p>Move into your new office, we're there to advise on anything from start to finish
                         </p>
                     </div>
                 </div>
@@ -346,9 +345,8 @@
                         <div class="icon-box">
                             <i class="flaticon-list"></i>
                         </div>
-                        <h5>missions</h5>
-                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                            ipsf.
+                        <h5>No Booking/Broker Fee</h5>
+                        <p>Search the market, shortlist options and request viewing.
                         </p>
                     </div>
                 </div>
@@ -357,20 +355,18 @@
                         <div class="icon-box">
                             <i class="flaticon-medal"></i>
                         </div>
-                        <h5>our value</h5>
-                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                            ipsf.
+                        <h5>Hassle Free Working</h5>
+                        <p>Flexible to change the workspace as your growth on demand
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 mb-30">
                     <div class="feature-item">
                         <div class="icon-box">
-                            <i class="flaticon-find-1"></i>
+                            <i class="flaticon-appointment"></i>
                         </div>
-                        <h5>find your listing</h5>
-                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                            ipsf.
+                        <h5>Safe And Trusted</h5>
+                        <p>Our local experts will arrange and confirm viewing
                         </p>
                     </div>
                 </div>
@@ -379,9 +375,8 @@
                         <div class="icon-box">
                             <i class="flaticon-map"></i>
                         </div>
-                        <h5>find the way</h5>
-                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                            ipsf.
+                        <h5>Verified Venues</h5>
+                        <p>workspaces are branded coworking and serviced offices
                         </p>
                     </div>
                 </div>
@@ -391,8 +386,7 @@
                             <i class="flaticon-support"></i>
                         </div>
                         <h5>24/7 support</h5>
-                        <p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-                            ipsf.
+                        <p>Move into your new office, we're there to advise on anything from start to finish
                         </p>
                     </div>
                 </div>
