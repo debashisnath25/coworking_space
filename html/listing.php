@@ -28,6 +28,12 @@
 		.img-holder img {
 			height: 200px !important; 
 		}
+		.mb-15{
+		    margin-bottom: 15px;
+		}
+		.mt-20{
+		    margin-top: 15px;
+		}
 	</style>
   </head>
   <body>
@@ -296,7 +302,7 @@
 			<!-- grid-view-start -->
             <div class="listing-list-view show-list" >
 					<div class="row">
-						<div class="col-12 mb-30">
+						<div class="col-12 mb-15">
 							<div class="listing-item p-2">
 								<div class="img-list">
 									<div class="img-holder">
@@ -344,7 +350,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-12 mb-30">
+						<div class="col-12  mb-15">
 							<div class="listing-item p-2">
 								<div class="img-list">
 									<div class="img-holder">
@@ -392,7 +398,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-12 mb-30">
+						<div class="col-12  mb-15">
 							<div class="listing-item p-2">
 								<div class="img-list">
 									<div class="img-holder">
@@ -440,7 +446,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-12 mb-30">
+						<div class="col-12  mb-15">
 							<div class="listing-item p-2">
 								<div class="img-list">
 									<div class="img-holder">
@@ -488,7 +494,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-12 mb-30">
+						<div class="col-12  mb-15">
 							<div class="listing-item p-2">
 								<div class="img-list">
 									<div class="img-holder">
@@ -536,7 +542,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-12 mb-30">
+						<div class="col-12  mb-15">
 							<div class="listing-item p-2">
 								<div class="img-list">
 									<div class="img-holder">
@@ -584,7 +590,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-12 text-center mt-30">
+						<div class="col-12 text-center mt-20">
 							<a href="#" class="btn btn-one btn-anim">load more</a>
 						</div>
 					</div>
