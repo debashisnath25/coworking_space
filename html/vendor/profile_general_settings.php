@@ -132,14 +132,14 @@
             <!-- BEGIN: Page heading-->
 			<div class="page-heading" style="padding-left:17px;padding-right:17px;">
 			  <div class="page-breadcrumb">
-				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; <a href="dashboard.php">Profile</a> &gt; General Settings
+				<h1 class="page-title"><a href="dashboard.php">Dashboard</a>  &gt; <a href="profile_general_settings.php">Profile</a> &gt; General Settings
 				</h1>
 			  </div>
-			  <button class="btn btn-primary" data-toggle="modal" data-target="#add_store" style="background-color:#7613a7;border:1px solid #7613a7">
+			  <button class="btn btn-primary" data-toggle="modal" data-target="#add_Workspace" style="background-color:#7613a7;border:1px solid #7613a7">
 				<span class="btn-icon">
 				  <i class="ti-star">
 				  </i>
-				  Add Another Store
+				  Add Another Workspace
 				</span>
 			  </button>
 			</div>
@@ -156,7 +156,7 @@
                     <div class="card card-fullheight" style="border:1px solid #7c1ab5">
                       <div class="card-body">
 					  <button class="btn btn-primary btn-fix" style="float:right;"><span class="btn-icon"><i class="ti-pencil"></i>Edit</span></button>
-                        <h5 class="mb-4 articles-list-title">Store 1
+                        <h5 class="mb-4 articles-list-title">Workspace 1
                         </h5>
                         <div class="nav flex-column articles-list mb-3">
                           <a class="nav-link d-flex align-items-center" href="#">
@@ -182,7 +182,7 @@
 					<div class="card card-fullheight" style="border:1px solid #7c1ab5">
 						<div class="card-body">
 							<button class="btn btn-primary btn-fix" style="float:right;"><span class="btn-icon"><i class="ti-pencil"></i>Edit</span></button>
-							<h5 class="mb-4 articles-list-title">My Store Location</h5>
+							<h5 class="mb-4 articles-list-title">My Workspace Location</h5>
 							<div class="mapouter p-b-30">
 								<div class="gmap_canvas">
 									<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=delhi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
@@ -195,69 +195,60 @@
 
 				 <div class="card " style="border:1px solid #7c1ab5">
 					<div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Store Logo & Description</h5>
+						<h5 class="box-title" style="color:#fff;">Workspace Logo & Description</h5>
 					</div>
 					<form>
 					<div class="card-body">
 						<div class="row">
 							<div class="col-md-8">
-								<!-- Store Information Starts -->									
+								<!-- Workspace Information Starts -->									
+								
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Store Type</dt>
-									<div class="col-sm-8">
-										<select class="selectpicker form-control  mb-3" data-style="btn-light-solid" tabindex="-98">
-											<option disabled>Choose Store Type</option>
-											<option>Type 1</option>
-											<option selected>Type 2</option>
-										</select>
+									<dt class="col-sm-5" style="padding-top:7px;">Workspace Name</dt>
+									<div class="col-sm-7">
+										<input class="form-control form-control-solid" type="text" placeholder="Your Workspace Name" value="Portme">
 									</div>
 								</div>
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Store Name</dt>
-									<div class="col-sm-8">
-										<input class="form-control form-control-solid" type="text" placeholder="Your Store Name" value="Portme">
+									<dt class="col-sm-5" style="padding-top:7px;">Workspace Description</dt>
+									<div class="col-sm-7">
+										<textarea class="form-control form-control-solid" placeholder="Your Workspace Description">We are dedicated on line Workspace for your Fashion Dream and her fashion needs. Dress up your Fashion Dream with the latest designs from Fashion Dream. Our dresses are designed to be smooth and comfortable to wear for kids. We offer wide range of Kids dresses, Ethnic Wear, Lehenga Choli, Party Wear Gowns, Frocks and Accessories for Girls and Baby Girls. Our dresses are best suited for Birthdays, Weddings and Festivals like Diwali, Eid, and Christmas. We also customize orders for Bulk requirement. Hope you like our Trendy Kids wear collection and you enjoy shopping with us.</textarea>
+									</div>
+								</div>
+								<!-- Workspace Information Starts -->
+								<div class="form-group mb-4 row">
+									<dt class="col-sm-5" style="padding-top:7px;">Workspace Email</dt>
+									<div class="col-sm-7">
+										<input class="form-control form-control-solid" type="text" placeholder="Your Workspace Email" value="portme@gmail.com">
 									</div>
 								</div>
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Store Description</dt>
-									<div class="col-sm-8">
-										<textarea class="form-control form-control-solid" placeholder="Your Store Description">We are dedicated on line store for your Fashion Dream and her fashion needs. Dress up your Fashion Dream with the latest designs from Fashion Dream. Our dresses are designed to be smooth and comfortable to wear for kids. We offer wide range of Kids dresses, Ethnic Wear, Lehenga Choli, Party Wear Gowns, Frocks and Accessories for Girls and Baby Girls. Our dresses are best suited for Birthdays, Weddings and Festivals like Diwali, Eid, and Christmas. We also customize orders for Bulk requirement. Hope you like our Trendy Kids wear collection and you enjoy shopping with us.</textarea>
+									<dt class="col-sm-5" style="padding-top:7px;">Phone number</dt>
+									<div class="col-sm-7">
+										<input class="form-control form-control-solid" type="text" placeholder="Your Workspace Phone Number" value="9876543210">
 									</div>
 								</div>
-								<!-- Store Information Starts -->
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Store Email</dt>
-									<div class="col-sm-8">
-										<input class="form-control form-control-solid" type="text" placeholder="Your Store Email" value="portme@gmail.com">
-									</div>
-								</div>
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Phone number</dt>
-									<div class="col-sm-8">
-										<input class="form-control form-control-solid" type="text" placeholder="Your Store Phone Number" value="9876543210">
-									</div>
-								</div>
-								<!-- Store Information Ends -->
+								<!-- Workspace Information Ends -->
 								
 								<!-- Open and Close Time Starts -->
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Opening Time</dt>
-									<div class="col-sm-8">
+									<dt class="col-sm-5" style="padding-top:7px;">Opening Time</dt>
+									<div class="col-sm-7">
 										<input class="form-control form-control-solid" id="open_time" type="text" placeholder="Select Opening time" value="8:00 AM">
 									</div>
 								</div>
 							
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Closing Time</dt>
-									<div class="col-sm-8">
+									<dt class="col-sm-5" style="padding-top:7px;">Closing Time</dt>
+									<div class="col-sm-7">
 										<input class="form-control form-control-solid" id="close_time" type="text" placeholder="Select Closing time" value="8:00 PM">
 									</div>
 								</div>
 								<!-- Open and Close Time Ends -->
-								<!-- Store Category and wanted name starts -->
+								<!-- Workspace Category and wanted name starts -->
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Store Category</dt>
-									<div class="col-sm-8">
+									<dt class="col-sm-5" style="padding-top:7px;">Workspace Category</dt>
+									<div class="col-sm-7">
 										<select class="selectpicker form-control mb-3" data-style="btn-light-solid" tabindex="-98">
 											<option value="" disabled="">Choose Category...</option>
 											<option value="Clothing,Shoes &amp; Jewelry" selected>Clothing,Shoes &amp; Jewelry</option>
@@ -269,18 +260,18 @@
 									</div>
 								</div>
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Wanted7 Store Name</dt>
-									<div class="col-sm-8">
+									<dt class="col-sm-5" style="padding-top:7px;">Wanted7 Workspace Name</dt>
+									<div class="col-sm-7">
 										<div class="input-group-icon input-group-icon-left"><span class="input-icon input-icon-left">@</span><input class="form-control form-control-solid" type="text" placeholder="Username" value="portme"></div>
 									</div>
 								</div>
-								<!-- Store Category and wanted name ends -->
+								<!-- Workspace Category and wanted name ends -->
 							</div>
 							<div class="col-md-4">
-								<!-- Store Image and Logo Starts -->
+								<!-- Workspace Image and Logo Starts -->
 								
 								<div class="form-group mb-4">
-									<dt style="padding-top:7px;">Store's Logo</dt>
+									<dt style="padding-top:7px;">Workspace's Logo</dt>
 									<div class="col-sm-10" style="padding:0px;">
 										<div class="dropzone dz-clickable" id="mydropzoneSingle" >
 											<div class="dz-message"><i class="ti-import text-primary font-40"></i>
@@ -290,7 +281,7 @@
 									</div>
 								</div>
 								<div class="form-group mb-4">
-									<dt style="padding-top:7px;">Store's profile picture / video</dt>
+									<dt style="padding-top:7px;">Workspace's profile picture / video</dt>
 									<div class="col-sm-10" style="padding:0px;">
 										<div class="dropzone dz-clickable" id="mydropzoneSingle" >
 											<div class="dz-message"><i class="ti-import text-primary font-40"></i>
@@ -301,12 +292,12 @@
 								</div>
 							
 								<!-- <div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Store's profile picture / video</dt>
+									<dt class="col-sm-4" style="padding-top:7px;">Workspace's profile picture / video</dt>
 									<div class="col-sm-8">
 										<input type="file" multiple class="form-control form-control-solid">
 									</div>
 								</div> -->
-								<!-- Store Image and Logo Ends -->
+								<!-- Workspace Image and Logo Ends -->
 							</div>
 						</div>
 					</div>
@@ -321,21 +312,21 @@
 				
 				<div class="card " style="border:1px solid #7c1ab5">
 					<div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Store Address</h5>
+						<h5 class="box-title" style="color:#fff;">Workspace Address</h5>
 					</div>
 					<form>
 					<div class="card-body">
 						<div class="row">
 							<div class="col-md-8">
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Street Address</dt>
-									<div class="col-sm-8">
-										<input class="form-control form-control-solid" type="text" placeholder="Your Store Street Address" >
+									<dt class="col-sm-5" style="padding-top:7px;">Street Address</dt>
+									<div class="col-sm-7">
+										<input class="form-control form-control-solid" type="text" placeholder="Your Workspace Street Address" >
 									</div>
 								</div>
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">City</dt>
-									<div class="col-sm-8">
+									<dt class="col-sm-5" style="padding-top:7px;">City</dt>
+									<div class="col-sm-7">
 										<select class="selectpicker form-control mb-3" data-style="btn-light-solid" tabindex="-98">
 											<option disabled="" selected="">Select city</option>
 											<option>Ahmedabad</option>
@@ -360,8 +351,8 @@
 									</div>
 								</div>
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">State/Province/Region</dt>
-									<div class="col-sm-8">
+									<dt class="col-sm-5" style="padding-top:7px;">State/Province/Region</dt>
+									<div class="col-sm-7">
 										<select class="selectpicker form-control mb-3" data-style="btn-light-solid" tabindex="-98">
 											<option disabled="" selected="">Select State</option>
 											<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
@@ -403,15 +394,15 @@
 									</div>
 								</div>
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Zip/Postal code</dt>
-									<div class="col-sm-8">
+									<dt class="col-sm-5" style="padding-top:7px;">Zip/Postal code</dt>
+									<div class="col-sm-7">
 										<input class="form-control form-control-solid" type="text" placeholder="Your Postal Code">
 									</div>
 								</div>
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:7px;">Country</dt>
-									<div class="col-sm-8">
-										<input class="form-control form-control-solid" type="text" placeholder="Your Store Country" value="India" >
+									<dt class="col-sm-5" style="padding-top:7px;">Country</dt>
+									<div class="col-sm-7">
+										<input class="form-control form-control-solid" type="text" placeholder="Your Workspace Country" value="India" >
 									</div>
 								</div>
 							</div>

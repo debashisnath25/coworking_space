@@ -21,14 +21,14 @@
     <style>.faq-tabs .nav-link {
       min-width: 100px;
       padding: 1rem;
-      border: 1px dashed;
+      bBooking: 1px dashed;
       margin-bottom: 1rem;
       background-color: #fff;
       box-shadow: 0 1px 1px 1px rgba(62,57,107,.07);
       }
       .faq-tabs .nav-link.active {
         color: #fff;
-        border-color: #7c1ab5;
+        bBooking-color: #7c1ab5;
         background-color: #7c1ab5;
       }
       .faq-tabs .nav-link.active .faq-item-text {
@@ -127,15 +127,15 @@
 							  </div>
 
                               <div class="col-md-4 col-xs-6 col-lg-4" style="float:left;padding:0 !important; margin:0 !important;">
-                                <div class="h3 mb-2" style="border:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 35,000.61
+                                <div class="h3 mb-2" style="bBooking:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 35,000.61
                                 </div>
                                 <div class="text-muted pb-1">
                                   <i class="">
-                                  </i>Product Sales
+                                  </i>Office Spaces Booked
                                 </div>
                               </div>
                               <div class="col-md-4 col-xs-6 col-lg-4" style="float:left;padding:0 !important; margin:0 !important;">
-                                <div class="h3 mb-2" style="border:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 7,052.00
+                                <div class="h3 mb-2" style="bBooking:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 7,052.00
                                 </div>
                                 <div class="text-muted pb-1">
                                   <i class="">
@@ -143,7 +143,7 @@
                                 </div>
                               </div>
 							  <div class="col-md-4 col-xs-6 col-lg-4" style="float:left;padding:0 !important; margin:0 !important;">
-                                <div class="h3 mb-2" style="border:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 42,052.61
+                                <div class="h3 mb-2" style="bBooking:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 42,052.61
                                 </div>
                                 <div class="text-muted pb-1">
                                   <i class="">
@@ -176,15 +176,15 @@
 							  </div>
 
                               <div class="col-md-4 col-xs-6 col-lg-4" style="float:left;padding:0 !important; margin:0 !important;">
-                                <div class="h3 mb-2" style="border:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 47,000.23
+                                <div class="h3 mb-2" style="bBooking:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 47,000.23
                                 </div>
                                 <div class="text-muted pb-1">
                                   <i class="">
-                                  </i>Product Sales
+                                  </i>Office Spaces Booked
                                 </div>
                               </div>
                               <div class="col-md-4 col-xs-6 col-lg-4" style="float:left;padding:0 !important; margin:0 !important;">
-                                <div class="h3 mb-2" style="border:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 9,031.00
+                                <div class="h3 mb-2" style="bBooking:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 9,031.00
                                 </div>
                                 <div class="text-muted pb-1">
                                   <i class="">
@@ -192,7 +192,7 @@
                                 </div>
                               </div>
 							  <div class="col-md-4 col-xs-6 col-lg-4" style="float:left;padding:0 !important; margin:0 !important;">
-                                <div class="h3 mb-2" style="border:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 58,032.21
+                                <div class="h3 mb-2" style="bBooking:1px rounded #fadf53;"><i class="fas fa-rupee-sign"></i> 58,032.21
                                 </div>
                                 <div class="text-muted pb-1">
                                   <i class="">
@@ -210,7 +210,7 @@
 				<div class="col-lg-12">
 					<div class="tab-content">
 						<div class="tab-pane fade active show" id="faq-group-1">
-							<div class="card" style="border:1px solid #7c1ab5">
+							<div class="card" style="bBooking:1px solid #7c1ab5">
 								<div class="card-header cardhdd">
 									<h5 class="box-title" style="color:#fff;">Transaction History</h5>
 									<div class="card-actions"><a class="card-collapse"><i class="ti-angle-down"></i></a></div>
@@ -255,7 +255,7 @@
 									<!-- adv filters -->
 
 									<div class="table-responsive">
-										<table class="table table-bordered table-striped w-100" id="dt-buttons">
+										<table class="table table-bBookinged table-striped w-100" id="dt-buttons">
 											<thead class="">
 												<tr>
 													<th>Receipt Id</th>
@@ -285,7 +285,7 @@
 												<tr>
 													<td>#108737NT00<?php echo $i;?></td>
 													<td>01/02/2019 : 7:00 PM </td>
-													<td>GST 18% Tax deducted for order no. <b style="font-family:Arial;color:#7c1ab5;">#Order123</b> </td>
+													<td>GST 18% Tax deducted for Booking no. <b style="font-family:Arial;color:#7c1ab5;">#Booking123</b> </td>
 													<td><a href="#"><img src="images/PDF-icon.png" style="height:30px;"></a></td>
 													<td>&nbsp;</td>
 													<td><span style="color:#d05329;"><span style="font-family:arial;"> - &#8377;</span> 720</span></td>
@@ -294,7 +294,7 @@
 												<tr>
 													<td>#108737NT00<?php echo $i;?></td>
 													<td>01/02/2019 : 7:00 PM </td>
-													<td>Shipping charges from SHIPPING API01 order no. <b style="font-family:Arial;color:#7c1ab5;">#Order123</b></td>
+													<td>Shipping charges from SHIPPING API01 Booking no. <b style="font-family:Arial;color:#7c1ab5;">#Booking123</b></td>
 													<td><a href="#"><img src="images/PDF-icon.png" style="height:30px;"></a></td>
 													<td>&nbsp;</td>
 													<td><span style="color:#d05329;"><span style="font-family:arial;"> - &#8377;</span> 280</span></td>
@@ -303,7 +303,7 @@
 												<tr>
 													<td>#108737NT00<?php echo $i;?></td>
 													<td>01/02/2019 : 7:00 PM </td>
-													<td>Shipping charges GST 18% Tax from SHIPPING API01 deducted for order no. <b style="font-family:Arial;color:#7c1ab5;">#Order123</b></td>
+													<td>Shipping charges GST 18% Tax from SHIPPING API01 deducted for Booking no. <b style="font-family:Arial;color:#7c1ab5;">#Booking123</b></td>
 													<td><a href="#"><img src="images/PDF-icon.png" style="height:30px;"></a></td>
 													<td>&nbsp;</td>
 													<td><span style="color:#d05329;"><span style="font-family:arial;"> - &#8377;</span> 50.4</span></td>
@@ -312,7 +312,7 @@
 												<tr>
 													<td>#108737NT00<?php echo $i;?></td>
 													<td>01/02/2019 : 7:00 PM </td>
-													<td>Wanted7 fees + Tax for order no. <b style="font-family:Arial;color:#7c1ab5;">#Order123</b></td>
+													<td>Wanted7 fees + Tax for Booking no. <b style="font-family:Arial;color:#7c1ab5;">#Booking123</b></td>
 													<td><a href="#"><img src="images/PDF-icon.png" style="height:30px;"></a></td>
 													<td>&nbsp;</td>
 													<td><span style="color:#d05329;"><span style="font-family:arial;"> - &#8377;</span> 472</span></td>
@@ -322,7 +322,7 @@
 												<tr>
 													<td>#108737NT00<?php echo $i;?></td>
 													<td>01/02/2019 : 7:00 PM </td>
-													<td>Received Payment For Order No. <b style="font-family:Arial;color:#7c1ab5;">#Order123</b></td>
+													<td>Received Payment For Booking No. <b style="font-family:Arial;color:#7c1ab5;">#Booking123</b></td>
 													<td>&nbsp;</td>
 													<td><span style="color:#0f881f;"><span style="font-family:arial;">+ &#8377;</span>4,000</span></td>
 													<td>&nbsp;</td>

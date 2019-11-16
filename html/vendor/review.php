@@ -167,7 +167,7 @@
 								20,000
 							  </div>
 							  <p>
-								 15,540 Products
+								 15,540 Office Spaces
 							  </p>
 							</div>
 							<div class="col-md-6" style="text-align:right">
@@ -193,29 +193,21 @@
 								</div>
 							</div>
 								<div class="card-body">
-										<div class="col-md-3 " style="padding:3px !important;float:left;margin-top:-20px;">
+										<div class="col-md-4 " style="padding:3px !important;float:left;margin-top:-20px;">
 											<label for="validationCustom04">&nbsp;</label>
 											<select class="selectpicker form-control mb-3 " data-style="btn-light btn-light-solid">
-												<option selected disabled>Store Category</option>
-												<option>Wanted7</option>
-												<option>New Arrivals </option>
-												<option>Sale Items</option>
-												<option>Main/All </option>
+												<option selected disabled>Co-working Spaces Category</option>
+												  <option>Meeting Room</option>
+												  <option>Coworking Space</option>
+												  <option>Private Office</option>
+												  <option>Training Room</option>
+												  <option>Business Centre</option>
+												  <option>Coworking Cafes</option>
 											</select>
 										</div>
 										
-										<div class="col-md-3 " style="padding:3px !important;float:left;margin-top:-20px;">
-											<label for="validationCustom04">&nbsp;</label>
-											<select class="selectpicker form-control mb-3 " data-style="btn-light btn-light-solid">
-												<option selected disabled>Store Subcategory</option>
-												<option>T-Shirts</option>
-												<option>Laptop</option>
-												<option>Jewellery</option>
-												<option>Toys</option>
-												
-											</select>
-										</div>
-										<div class="col-md-3 " style="padding:3px !important;float:left;margin-top:-20px;">
+										
+										<div class="col-md-4 " style="padding:3px !important;float:left;margin-top:-20px;">
 											<label for="validationCustom04">&nbsp;</label>
 											<select class="selectpicker form-control mb-3 " data-style="btn-light btn-light-solid">
 												<option selected disabled>Choose Stars</option>
@@ -227,7 +219,7 @@
 												
 											</select>
 										</div>
-										<div class="col-md-3 " style="padding:3px !important;float:left;margin-top:-20px;">
+										<div class="col-md-4 " style="padding:3px !important;float:left;margin-top:-20px;">
 											<label for="validationCustom04">&nbsp;</label>
 											<select class="selectpicker form-control mb-3 " data-style="btn-light btn-light-solid">
 												<option selected disabled>Sort</option>
@@ -270,17 +262,21 @@
 					   <div class="col-lg-4">
 						<div class="card card-fullheight">
 						  <div class="card-header cardhdd">
-							<h5 class="box-title" style="color:#fff;">Dheeraj Sood
+							<h5 class="box-title" style="color:#fff;">Aman Khanna
 							</h5>
 						  </div>
 						  <div class="card-body">
 							<div class="row">
 								<div class="media " style="padding:0px !important;float:left;">
 									<span class="position-relative d-inline-block mr-4">
-									  <img class="rounded-lg" src="images/vendor-images/nike.png" alt="image" width="100">
+									  <img class="rounded-lg" src="images/vendor-images/l-1.png" alt="image" width="100">
 									</span>
 									<div class="media-body mt-2">
-									  <div class="h4 font-14">Nike Black Running Sports Shoe
+									  <div class="h4 font-14">Serviced workstations in Sector 32
+									  </div>
+									  <div class="text-muted mb-1" style="color: #878787;font-size: 12px;">
+										<span>Booking ID: 108737NT
+										</span>
 									  </div>
 									  <div class="text-muted mb-1" style="color: #878787;font-size: 12px;">
 										<span>dheerajxxx@xxxx.com

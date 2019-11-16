@@ -14,14 +14,14 @@
 	<style>.faq-tabs .nav-link {
       min-width: 100px;
       padding: 1rem;
-      border: 1px dashed;
+      bBooking: 1px dashed;
       margin-bottom: 1rem;
       background-color: #fff;
       box-shadow: 0 1px 1px 1px rgba(62,57,107,.07);
       }
       .faq-tabs .nav-link.active {
         color: #fff;
-        border-color: #7c1ab5;
+        bBooking-color: #7c1ab5;
         background-color: #7c1ab5;
       }
       .faq-tabs .nav-link.active .faq-item-text {
@@ -103,7 +103,7 @@
 				<?php include ('common/settings_sidebar.php');?>
 				<!-- settings sidebar Ends-->
 				<div class="col-lg-9">
-					<div class="card " style="border:1px solid #7c1ab5">
+					<div class="card " style="bBooking:1px solid #7c1ab5">
 						<div class="card-header cardhdd">
 							<h5 class="box-title" style="color:#fff;">CUSTOMER EMAIL NOTIFICATIONS</h5>
 						</div>
@@ -111,7 +111,7 @@
 							<div class="ex-box">
 								<div class="media">
 									<div class="media-body">
-										<h5 class="mt-0" style="color:#0463a7;">Order Confirmation</h5> Sent to customer after successful order placement to acknowledge its receipt. This email contains information about order items, shipping, billing, and order status.
+										<h5 class="mt-0" style="color:#0463a7;">Booking Confirmation</h5> Sent to customer after successful Booking placement to acknowledge its receipt. This email contains information about Booking details, billing, and Booking status.
 									</div>
 									<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span>Enabled</label>
 								</div>
@@ -120,32 +120,14 @@
 							<div class="ex-box">
 								<div class="media">
 									<div class="media-body">
-										<h5 class="mt-0" style="color:#0463a7;">Order Status Changed</h5> Sent on the order's status change to inform the customer about the progress in order fulfillment.
-									</div>
-									<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span>Enabled</label>
-								</div>
-							</div>
-							<hr class="my-4">
-							<div class="ex-box">
-								<div class="media">
-									<div class="media-body">
-										<h5 class="mt-0" style="color:#0463a7;">Order Shipped</h5> Sent when the order status is changed to "Ready for Pickup" to notify the customer that purchased items are ready for pickup.
-									</div>
-									<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span>Enabled</label>
-								</div>
-							</div>
-							<hr class="my-4">
-							<div class="ex-box">
-								<div class="media">
-									<div class="media-body">
-										<h5 class="mt-0" style="color:#0463a7;">Download E-goods</h5> Sent to admin when an order is placed. This email contains information about order items, shipping, and billing.
+										<h5 class="mt-0" style="color:#0463a7;">Booking Status Changed</h5> Sent on the Booking's status change to inform the customer about the progress in Booking fulfillment.
 									</div>
 									<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span>Enabled</label>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="card " style="border:1px solid #7c1ab5">
+					<div class="card " style="bBooking:1px solid #7c1ab5">
 						<div class="card-header cardhdd">
 							<h5 class="box-title" style="color:#fff;">ADMIN NOTIFICATIONS</h5>
 						</div>
@@ -153,16 +135,7 @@
 							<div class="ex-box">
 								<div class="media">
 									<div class="media-body">
-										<h5 class="mt-0" style="color:#0463a7;">New Order Placed</h5> Sent to admin when an order is placed. This email contains information about order items, shipping, and billing.
-									</div>
-									<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span>Enabled</label>
-								</div>
-							</div>
-							<hr class="my-4">
-							<div class="ex-box">
-								<div class="media">
-									<div class="media-body">
-										<h5 class="mt-0" style="color:#0463a7;">Low Stock Notification</h5> Sent to admin when a product in the store has reached a low stock limit.
+										<h5 class="mt-0" style="color:#0463a7;">New Booking Placed</h5> Sent to admin when an Booking is placed. This email contains information about Booking details, Customer information and billing.
 									</div>
 									<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span>Enabled</label>
 								</div>

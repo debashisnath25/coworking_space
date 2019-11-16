@@ -112,7 +112,7 @@ sup {
 							<h6>PER MONTH</h6>
 						</div>
 						<div class="card-body">
-							<p><strong>5,000</strong> Products</p>
+							<p><strong>1,000</strong> Leads</p>
 							<p>Free Setup</p>
 							<p><strong>Email/SMS</strong> Notifications</p>
 							<p><strong>Payment Gateway</strong> Integration</p>
@@ -135,7 +135,7 @@ sup {
 						  <h6>PER MONTH</h6>
 						</div>
 						<div class="card-body">
-							<p><strong>5,000</strong> Products</p>
+							<p><strong>2,000</strong> Leads</p>
 							<p>Free Setup</p>
 							<p><strong>Email/SMS</strong> Notifications</p>
 							<p><strong>Payment Gateway</strong> Integration</p>
@@ -157,7 +157,7 @@ sup {
 							<h6>PER MONTH</h6>
 						</div>
 						<div class="card-body">
-							<p><strong>5,000</strong> Products</p>
+							<p><strong>5,000</strong> Leads</p>
 							<p>Free Setup</p>
 							<p><strong>Email/SMS</strong> Notifications</p>
 							<p><strong>Payment Gateway</strong> Integration</p>

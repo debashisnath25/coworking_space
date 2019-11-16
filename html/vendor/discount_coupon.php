@@ -38,7 +38,7 @@
 		  	<!-- BEGIN: Page heading-->
             <div class="page-heading" style="padding-left:17px;">
               <div class="page-breadcrumb">
-                <h1 class="page-title"><a href="dashboard.php">Dashboard </a>> Discounts & Coupon
+                <h1 class="page-title"><a href="dashboard.php">Dashboard </a> &gt; Discounts & Coupon
                 </h1>
               </div>
             </div>
@@ -276,8 +276,9 @@
 											<h5 class="box-title"><span>Note to Vendor</span></h5>
 										</div>
 										<div class="card-body">
-											<p>You can add a discount in terms of % to  Co-working Spaces in a Particular Category Created by you. We will show your customers the price of the Co-working Space</p>
-											<p>Before the discount and after the discount like below : </p>
+											<p>You can add a coupon in terms of Price to Office spaces in a Particular Category Created by you.</p>
+											<p>Customer will be able to use coupon at the time of their checkout only. </p>
+											<p>Coupon value should be flat amount value, not in %. </p>
 										</div>
 									</div>
 									
