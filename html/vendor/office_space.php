@@ -150,7 +150,7 @@
 						</div>
 					</div>
 					<div class="col-3">
-						<a href="add_office_space.php" class="btn btn-primary btn-block"><span class="btn-icon"><i class="ft-plus"></i>Add Office Space</span></a>
+						<a href="step1.php" class="btn btn-primary btn-block"><span class="btn-icon"><i class="ft-plus"></i>Add Office Space</span></a>
 					</div>
 				</div>
 				<!-- top section ends -->
@@ -198,7 +198,7 @@
                                     <table class="table table-bordered table-striped w-100" id="dt-buttons">
                                         <thead class="">
                                             <tr>
-                                                <th>Office Space ID</th>
+                                                <th>ID</th>
                                                 <th>Office Space Details</th>
                                                 <th>Price</th>
 												<th>Status</th>
@@ -210,9 +210,12 @@
 												for($i=1;$i<=12;$i++){
 											?>
                                             <tr>
-                                                <td><a class="btn btn-outline-primary" href="javascript:void(0);" data-toggle="modal" data-target="#product_preview_modal">Office Space ID<br/>108737NT</a></td>
+                                                <td>108737NT</td>
                                                 <td>
 													<div class="media col-md-12 col-sm-12 col-xs-12" style="padding:0px !important;float:left;">
+														<span class="position-relative d-inline-block mr-4">
+														  <img class="rounded-lg" src="images/vendor-images/944390254ed4fd2b9fb33ad76b37d9a1.png" alt="image" width="100">
+														</span>
 														<div class="media-body mt-2">
 														  <div class="h4 font-14">Work with us
 														  </div>
@@ -231,7 +234,7 @@
 												</td>
 												<td> <span class="badge badge-success badge-pill">Confirmed</span> </td>
 												<td style="min-width:80px;">
-													<button class="btn btn-ok btn-sm" type="button"><i class="fa fa-pen" style="font-size:11px;"></i></button>
+													<a href="step1.php" class="btn btn-ok btn-sm" type="button"><i class="fa fa-pen" style="font-size:11px;"></i></a>
 													<button class="btn btn-ok btn-sm" type="button"><i class="fa fa-trash" style="font-size:11px;"></i></button>
 												</td>
                                             </tr>

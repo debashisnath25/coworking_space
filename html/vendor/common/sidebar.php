@@ -60,7 +60,7 @@
               <span>YOUR OFFICE SPACE
               </span>
             </li>
-            <li class="<?php echo (($page == 'office_space' || $page == 'add_office_space' || $page == 'office_space_price')?'mm-active':'')?>">
+            <li class="<?php echo (($page == 'office_space' || $page == 'step1' || $page == 'step2' || $page == 'step3' || $page == 'step4' || $page == 'step5')?'mm-active':'')?>">
               <a href="office_space.php">
                 <i class="sidebar-item-icon ft-gift">
                 </i>
@@ -115,7 +115,7 @@
               </a>
             </li>
 
-            <li class="<?php echo (($page == 'profile_general_settings' || $page == 'step2' || $page == 'step3' || $page == 'step4' || $page == 'step5')?'mm-active':'')?>">
+            <li class="<?php echo (($page == 'profile_general_settings' || $page == 'profile_payment_settings' || $page == 'profile_mail_settings')?'mm-active':'')?>">
               <a href="profile_general_settings.php">
                 <i class="sidebar-item-icon ft-lock">
                 </i>
@@ -123,7 +123,7 @@
                 </span>
               </a>
             </li>
-            <li class="<?php echo (($page == 'settings' || $page == 'tax_settings' || $page == 'mail_settings' || $page == 'invoice_settings' || $page == 'payment_settings')?'mm-active':'')?>">
+            <li class="<?php echo (($page == 'settings')?'mm-active':'')?>">
 			  <a href="settings.php">
 			  	<i class="sidebar-item-icon ft-sliders">
                 </i>
