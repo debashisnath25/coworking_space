@@ -290,29 +290,11 @@
 													<td>&nbsp;</td>
 													<td><span style="color:#d05329;"><span style="font-family:arial;"> - &#8377;</span> 720</span></td>
 													<td><span style="color:#0f881f;"><span style="font-family:arial;"> &#8377;</span>2,477.6</span></td>
-												</tr>
+												</tr>												
 												<tr>
 													<td>#108737NT00<?php echo $i;?></td>
 													<td>01/02/2019 : 7:00 PM </td>
-													<td>Shipping charges from SHIPPING API01 Booking no. <b style="font-family:Arial;color:#7c1ab5;">#Booking123</b></td>
-													<td><a href="#"><img src="images/PDF-icon.png" style="height:30px;"></a></td>
-													<td>&nbsp;</td>
-													<td><span style="color:#d05329;"><span style="font-family:arial;"> - &#8377;</span> 280</span></td>
-													<td><span style="color:#0f881f;"><span style="font-family:arial;">  &#8377;</span>3,197.6</span></td>
-												</tr>
-												<tr>
-													<td>#108737NT00<?php echo $i;?></td>
-													<td>01/02/2019 : 7:00 PM </td>
-													<td>Shipping charges GST 18% Tax from SHIPPING API01 deducted for Booking no. <b style="font-family:Arial;color:#7c1ab5;">#Booking123</b></td>
-													<td><a href="#"><img src="images/PDF-icon.png" style="height:30px;"></a></td>
-													<td>&nbsp;</td>
-													<td><span style="color:#d05329;"><span style="font-family:arial;"> - &#8377;</span> 50.4</span></td>
-													<td><span style="color:#0f881f;"><span style="font-family:arial;"> &#8377;</span>3,477.6</span></td>
-												</tr>
-												<tr>
-													<td>#108737NT00<?php echo $i;?></td>
-													<td>01/02/2019 : 7:00 PM </td>
-													<td>Wanted7 fees + Tax for Booking no. <b style="font-family:Arial;color:#7c1ab5;">#Booking123</b></td>
+													<td>Booking fees + Tax for Booking no. <b style="font-family:Arial;color:#7c1ab5;">#Booking123</b></td>
 													<td><a href="#"><img src="images/PDF-icon.png" style="height:30px;"></a></td>
 													<td>&nbsp;</td>
 													<td><span style="color:#d05329;"><span style="font-family:arial;"> - &#8377;</span> 472</span></td>

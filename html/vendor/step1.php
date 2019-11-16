@@ -126,7 +126,7 @@ include("common/header.php");
             <div>
               <div class="row">
 				 <?php include ('common/product_header.php');?>
-                <div class="col-md-9 col-xs-12 ">
+                <div class="col-md-12 col-xs-12 ">
 					
                   <div class="card card-fullheight" style="border:1px solid #7c1ab5">
                     <div class="card-header cardhdd">
@@ -228,7 +228,7 @@ include("common/header.php");
                   </div>
                 
                 </div>
-				<?php include ('common/product_sidebar.php');?>
+				
               </div>
             </div>
             <!-- END: Page content-->

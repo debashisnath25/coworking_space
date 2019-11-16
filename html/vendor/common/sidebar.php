@@ -15,47 +15,15 @@
               <span>Leads
               </span>
             </li>
-            <li class="<?php echo (($page == 'referred_leads')?'mm-active':'')?>">
-              <a href="referred_leads.php">
-                <i class="sidebar-item-icon fa fa-user-plus">
-                </i>
-                <span class="nav-label">Referred Leads
-                </span> 
-              </a>
-            </li>
-            <!--<li>
-              <a href="javascript:;">
-                <i class="sidebar-item-icon ft-user">
-                </i>
-                <span class="nav-label">Coustomers
-                </span>  
-              </a>
-            </li>-->
-            <li class="<?php echo (($page == 'discount_details')?'mm-active':'')?>">
-              <a href="accepted_leads.php">
-                <i class="sidebar-item-icon fa fa-check">
-                </i>
-                <span class="nav-label">Accepted Leads
-                </span>
-              </a>
-            </li>
-			<li class="<?php echo (($page == 'coupon_details')?'mm-active':'')?>">
-              <a href="rejected_leads.php">
-                <i class="sidebar-item-icon fa fa-ban">
-                </i>
-                <span class="nav-label">Rejected Leads
-                </span>
-              </a>
-            </li>
-            <li class="<?php echo (($page == 'completed_leads')?'mm-active':'')?>">
-              <a href="completed_leads.php">
-                <i class="sidebar-item-icon fa fa-check-square">
-                </i>
-                <span class="nav-label">Completed Leads
-                </span>
-              </a>
-            </li>
-			
+			<li class="<?php echo (($page == 'referred_leads' || $page == 'accepted_leads' || $page == 'rejected_leads' || $page == 'completed_leads' )?'mm-active':'')?>"><a href="javascript:;"><i class="sidebar-item-icon ft-home"></i><span class="nav-label">Leads</span><i class="arrow la la-angle-right"></i></a>
+				<ul class="nav-2-level">
+					<!-- 2-nd level-->
+					<li><a href="referred_leads.php">Referred Leads</a></li>
+					<li><a href="accepted_leads.php">Accepted Leads</a></li>
+					<li><a href="rejected_leads.php">Rejected Leads</a></li>
+					<li><a href="completed_leads.php">Completed Leads</a></li>
+				</ul>
+			</li>	
 			<li class="heading">
               <span>YOUR OFFICE SPACE
               </span>

@@ -186,9 +186,7 @@ include("common/header.php");
 									</tr>
 								</thead>
 								<tbody>
-									<?php 
-										for($i=1;$i<=12;$i++){
-									?>
+									
 									<tr>
 										<td><a class="btn btn-outline-primary" href="booking_details.php" data-toggle="modal" data-target="#product_preview_modal">Booking ID<br/>108737NT</a></td>
 										<td>
@@ -224,7 +222,7 @@ include("common/header.php");
 										</td> -->
 										<td><div class="media-body mt-2">
 											  <div class="h4 font-14">
-												<i class="fas fa-rupee-sign"></i>&nbsp;599.00/Month
+												<i class="fas fa-rupee-sign"></i>&nbsp;5000.00/Month
 											  </div>
 											</div>
 										</td>
@@ -244,9 +242,117 @@ include("common/header.php");
 											<button class="btn btn-ok btn-sm" type="button"><i class="fa fa-trash" style="font-size:11px;"></i></button>
 										</td>
 									</tr>
-									<?php
-										}
-									?>
+									<tr>
+										<td><a class="btn btn-outline-primary" href="booking_details.php" data-toggle="modal" data-target="#product_preview_modal">Booking ID<br/>108737NT</a></td>
+										<td>
+											<div class="media col-md-12 col-sm-12 col-xs-12" style="padding:0px !important;float:left;">
+												<span class="position-relative d-inline-block mr-4">
+												  <img class="rounded-lg" src="images/vendor-images/944390254ed4fd2b9fb33ad76b37d9a1.png" alt="image" width="100">
+												</span>
+												<div class="media-body mt-2">
+												  <div class="h4 font-14">Work with us
+												  </div>
+												  <div class="text-muted mb-1 font-12" style="color: #878787;">
+													<span>Category : Co-working Space
+													</span>
+													<br/>
+													<span>No. of people: <b>30</b>
+													</span>
+													<br/>
+												  </div>
+												</div>
+											</div>
+										</td>
+										<!-- <td>
+											<div class="media col-md-12 col-sm-12 col-xs-12" style="padding:0px !important;float:left;">
+												<div class="media-body mt-2">
+												  <div class="h4 font-14">Work with us
+												  </div>
+												  <div class="text-muted mb-1 font-12" style="color: #878787;">
+													<span>Category : Co-working Space
+													</span>
+												  </div>
+												</div>
+											</div>
+										</td> -->
+										<td><div class="media-body mt-2">
+											  <div class="h4 font-14">
+												<i class="fas fa-rupee-sign"></i>&nbsp;15000.00/Quaterly
+											  </div>
+											</div>
+										</td>
+										<td style="width: 150px;"><div class="text-muted text-center">
+											  
+												<span>&nbsp;15-11-2019</span>
+												<br/>
+												<span>&nbsp;to</span>
+												<br/>
+												<span>&nbsp;14-02-2020</span>
+											  
+											</div>
+										</td>
+										<td> <span class="badge badge-success badge-pill">Confirmed</span> </td>
+										<td style="min-width:80px;">
+											<button class="btn btn-ok btn-sm" type="button"><i class="fa fa-pen" style="font-size:11px;"></i></button>
+											<button class="btn btn-ok btn-sm" type="button"><i class="fa fa-trash" style="font-size:11px;"></i></button>
+										</td>
+									</tr>
+									<tr>
+										<td><a class="btn btn-outline-primary" href="booking_details.php" data-toggle="modal" data-target="#product_preview_modal">Booking ID<br/>108737NT</a></td>
+										<td>
+											<div class="media col-md-12 col-sm-12 col-xs-12" style="padding:0px !important;float:left;">
+												<span class="position-relative d-inline-block mr-4">
+												  <img class="rounded-lg" src="images/vendor-images/944390254ed4fd2b9fb33ad76b37d9a1.png" alt="image" width="100">
+												</span>
+												<div class="media-body mt-2">
+												  <div class="h4 font-14">Work with us
+												  </div>
+												  <div class="text-muted mb-1 font-12" style="color: #878787;">
+													<span>Category : Co-working Space
+													</span>
+													<br/>
+													<span>No. of people: <b>30</b>
+													</span>
+													<br/>
+												  </div>
+												</div>
+											</div>
+										</td>
+										<!-- <td>
+											<div class="media col-md-12 col-sm-12 col-xs-12" style="padding:0px !important;float:left;">
+												<div class="media-body mt-2">
+												  <div class="h4 font-14">Work with us
+												  </div>
+												  <div class="text-muted mb-1 font-12" style="color: #878787;">
+													<span>Category : Co-working Space
+													</span>
+												  </div>
+												</div>
+											</div>
+										</td> -->
+										<td><div class="media-body mt-2">
+											  <div class="h4 font-14">
+												<i class="fas fa-rupee-sign"></i>&nbsp;60000.00/Yearly
+											  </div>
+											</div>
+										</td>
+										<td style="width: 150px;"><div class="text-muted text-center">
+											  
+												<span>&nbsp;15-11-2019</span>
+												<br/>
+												<span>&nbsp;to</span>
+												<br/>
+												<span>&nbsp;15-12-2020</span>
+											  
+											</div>
+										</td>
+										<td> <span class="badge badge-success badge-pill">Confirmed</span> </td>
+										<td style="min-width:80px;">
+											<button class="btn btn-ok btn-sm" type="button"><i class="fa fa-pen" style="font-size:11px;"></i></button>
+											<button class="btn btn-ok btn-sm" type="button"><i class="fa fa-trash" style="font-size:11px;"></i></button>
+										</td>
+									</tr>
+									
 								</tbody>
 
 							</table>

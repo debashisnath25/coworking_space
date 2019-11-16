@@ -250,17 +250,23 @@
 									<dt class="col-sm-5" style="padding-top:7px;">Workspace Category</dt>
 									<div class="col-sm-7">
 										<select class="selectpicker form-control mb-3" data-style="btn-light-solid" tabindex="-98">
-											<option value="" disabled="">Choose Category...</option>
-											<option value="Clothing,Shoes &amp; Jewelry" selected>Clothing,Shoes &amp; Jewelry</option>
-											<option value="Home, Garden &amp; Tools">Home, Garden &amp; Tools</option>
-											<option value="Books, Movies &amp; Games">Books, Movies &amp; Games</option>
-											<option value="Beauty, Health &amp; Groceries">Beauty, Health &amp; Groceries</option>
-											<option value="Beauty, Health &amp; Groceries">Sports, Toys &amp; Baby</option>
+											<option value="Meeting Room" selected>Meeting Room
+											</option>
+											<option value="Meeting Room">Coworking Space
+											</option>
+											<option value="Meeting Room">Private Office
+											</option>
+											<option value="Meeting Room">Training Room
+											</option>
+											<option value="Meeting Room">Business Centre
+											</option>
+											<option value="Meeting Room">Coworking Cafes
+											</option>
 										</select>
 									</div>
 								</div>
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-5" style="padding-top:7px;">Wanted7 Workspace Name</dt>
+									<dt class="col-sm-5" style="padding-top:7px;">Coworking Workspace Name</dt>
 									<div class="col-sm-7">
 										<div class="input-group-icon input-group-icon-left"><span class="input-icon input-icon-left">@</span><input class="form-control form-control-solid" type="text" placeholder="Username" value="portme"></div>
 									</div>

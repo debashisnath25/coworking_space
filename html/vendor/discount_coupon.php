@@ -216,16 +216,7 @@
 											<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter Amount" required="">
 										</div>
 									</div>
-									<div class="form-group mb-4 row">
-										<dt class="col-sm-4" style="padding-top:10px;">Applicable For&nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Who Do you want to be able to use these coupons?"><i style="font-size:12px;" class="fa fa-info-circle"></i></a></dt>
-										<div class="col-sm-8">
-											<select class="selectpicker form-control mb-3" data-style="btn-light btn-light-solid">
-												<option selected disabled>Choose Who Can Apply</option>
-												<option>Followers of my Office Space Only</option>
-												<option>Everyone</option>
-											</select>
-										</div>
-									</div>
+									
 									
 									<div class="form-group mb-4 row">
 										<dt class="col-sm-4" style="padding-top:10px;">Category&nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Customers Can apply this coupon To products from which category?"><i style="font-size:12px;" class="fa fa-info-circle"></i></a></dt>
@@ -264,11 +255,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="form-group mb-4 check-list row">
-										<div class="col-sm-12" style="padding-top:10px;">
-											<label class="checkbox checkbox-primary"><input type="checkbox"><span style="font-weight:600;">Do you want to send a push notification for this coupon code to Customers Can apply this coupon all followers of your store?</span></label>
-										</div>
-									</div>
+									
 								</div>
 								<div class="col-md-5">
 									<div class="card card-dark" style="border: 1px solid #6C757D;">
@@ -309,8 +296,7 @@
                                                 <th style="min-width:200px;">Scheme Name</th>
                                                 <th style="min-width:100px;">Coupon Code</th>
 												<th>Category</th>
-                                                <th>Discount</th>
-												<th style="min-width:110px;">Applicable For</th>
+                                                <th>Discount</th>												
                                                 <th style="min-width:80px;">Start Time<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Start Date & Time"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
 												<th style="min-width:80px;">End Time<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="End Date & Time"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
                                                 <th style="min-width:100px;">Total Sales<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Total Sales After Launch in Rs."><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
@@ -328,7 +314,6 @@
                                                 <td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">COWORKING10XX</a></td>
 												<td>Coworking Space</td>
                                                 <td>99</td>
-												<td>Everyone</td>
                                                 <td>27/09/2019 : 4:15 PM</td>
 												<td>01/02/2019 : 7:00 PM </td>
                                                 <td><b><span style="font-family:arial;">&#8377;</span>&nbsp;15,00,000.00</b></td>

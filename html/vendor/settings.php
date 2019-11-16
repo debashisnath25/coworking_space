@@ -65,14 +65,14 @@
 										</select>
 									</div>
 									<div class="col-sm-6">
-										<input class="form-control form-control-solid" type="text" placeholder="Full Name" value="Dheeraj Sood">
+										<input class="form-control form-control-solid" type="text" placeholder="Full Name" value="Aman Khanna">
 									</div>
 								</div>
 
 								<div class="form-group mb-4 row" style="margin-top:-15px;">
 									<dt class="col-sm-4">Email Address</dt>
 									<div class="col-sm-8">
-										<input class="form-control form-control-solid" type="text" placeholder="Email Address" value="wanted7@gmail.com">
+										<input class="form-control form-control-solid" type="text" placeholder="Email Address" value="abc@gmail.com">
 
 									</div>
 								</div>
