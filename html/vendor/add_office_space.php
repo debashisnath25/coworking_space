@@ -12,6 +12,7 @@
 	<link href="css/vendor-css/summernote-bs4.css" rel="stylesheet" />
 	<link href="css/vendor-css/app-sidebar-light.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link href="css/vendor-css/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
 	<style>
 	  .dt-buttons {
 	  	padding-bottom:15px;
@@ -37,7 +38,7 @@
 
 	 .faq-tabs .nav-link {
       height: 70px;
-	  width: 101px;
+	  width: 228px;
       border: 1px dashed;
       margin-bottom: 1rem;
       background-color: #fff;
@@ -215,7 +216,7 @@
 														</div>
 													</label>
 												</div>
-												<input type="file" id="pro-image" name="pro-image[]" style="display: none;" class="form-control" >
+												<input type="file" id="pro-image" multiple="multiple" name="pro-image[]" style="display: none;" class="form-control" >
 												
 											</div>
 										</div>
@@ -232,39 +233,43 @@
 							</div>
 							<form>
 							<div class="card-body">
+								
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">Name</dt>
+									<dt class="col-sm-4" style="padding-top:10px;">Office Category</dt>
 									<div class="col-sm-8">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter Product Name" required="">
+										<select class="selectpicker form-control" data-style="btn-light btn-light-solid">
+											<option selected disabled>Choose Office Category</option>
+											<option>Meeting Room</option>
+											<option>Coworking Space</option>
+											<option>Private Office</option>
+											<option>Training Room</option>
+											<option>Business Center</option>
+											<option>Co-Working Cafes</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="form-group mb-4 row">
+									<dt class="col-sm-4" style="padding-top:10px;">Office Space Title</dt>
+									<div class="col-sm-8">
+										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter Office Space Title" required="">
+									</div>
+								</div>
+
+								<div class="form-group mb-4 row">
+									<dt class="col-sm-4" style="padding-top:10px;">Capacity</dt>
+									<div class="col-sm-8">
+										<input id="touchspin_2" type="text" value="0">
 									</div>
 								</div>
 								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">SKU</dt>
-									<div class="col-sm-8">
-										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter SKU" required="">
-									</div>
-								</div>
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">Store Key</dt>
+									<dt class="col-sm-4" style="padding-top:10px;">Price</dt>
 									<div class="col-sm-8">
 										<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter Store Key" required="">
 									</div>
 								</div>
 								<hr class="my-4">
-								<div class="form-group mb-4 row">
-									<dt class="col-sm-4" style="padding-top:10px;">Platform Category</dt>
-									<div class="col-sm-8">
-										<select class="selectpicker form-control" data-style="btn-light btn-light-solid">
-											<option selected disabled>Choose Platform Category</option>
-											<option>Cosmetics</option>
-											<option>Electronics</option>
-											<option>Fashion</option>
-											<option>Furniture</option>
-											<option>Home Utensils</option>
-											<option>Jewellery</option>
-										</select>
-									</div>
-								</div>
+								
 								<div class="form-group mb-4 row">
 									<dt class="col-sm-4" style="padding-top:10px;">Platform Sub-category</dt>
 									<div class="col-sm-8">
@@ -348,8 +353,15 @@
 	<script src="js/vendor-js/dropzone.min.js"></script>
 	<script src="js/vendor-js/summernote-bs4.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="js/vendor-js/jquery.bootstrap-touchspin.min.js"></script>
 	<script>
 	$(document).ready(function() {
+
+		$('#touchspin_2').TouchSpin({
+			buttondown_class: 'btn btn-light',
+			buttonup_class: 'btn btn-light'
+		});
+
     document.getElementById('pro-image').addEventListener('change', readImage, false);
    
     $( ".preview-images-zone" ).sortable();

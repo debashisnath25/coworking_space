@@ -2,14 +2,10 @@
 	<div class="card" style="border:1px solid #7c1ab5">
 		<form>
 			<div class="card-body" style="padding-bottom:10px;">
-				<h5 class="card-title" style="font-size: 20px;">Price <a class="nav-link btn btn-warning pull-right" href="javascript:;" style="color:#fff;margin-top:-5px;"> Edit </a></h5>
+				<h5 class="card-title" style="font-size: 20px;">Price</h5>
 				<div class="input-group mb-3">
 					<h4 style="font-family:arial;font-size:28px;"><b>₹ 524.50 </b></h4> 
 					<span class="text-muted" style="font-family:arial;">Price Incl. GST (₹ 144.00)</span>
-				</div>
-				
-				<div class="font-13 mb-3">
-					<a href="#" style="font-size:16px;color:#068eef;">‍Bulk discount pricing</a>
 				</div>
 			</div>
 			<div class="card-footer">
