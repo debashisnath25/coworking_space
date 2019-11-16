@@ -8,7 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <?php include 'common/metalinks.php';?>
-
+	<style>
+	.widget-list li a{
+		background-color:transparent;
+	}
+	</style>
 </head>
 
 <body>
@@ -18,22 +22,22 @@
     <!-- Header end -->
 
     <!-- blog start-->
-    <section class="bg-w sp-100 mt-5">
-        <div class="container">
-			<div class="row ">
-			  <div class="col-12">
-				<ul class="banner-link ">
-				  <li>
-					<a href="index.php">Home
-					</a>
-				  </li>
-				  <li>
-					<span class="active">Our Blogs
-					</span>
-				  </li>
-				</ul>
-			  </div>
-			</div>
+    <section class="bg-w sp-100" style="padding-top:100px;">
+      <div class="container">
+	  	<div class="row">
+          <div class=" col-12">
+            <ul class="banner-link ">
+              <li>
+                <a href="index.php">Home
+                </a>
+              </li>
+			  <li>
+                <span class="active">Blogs
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
             <div class="row">
                 <div class="col-lg-8 col-12 order-lg-2">
                     <div class="row">

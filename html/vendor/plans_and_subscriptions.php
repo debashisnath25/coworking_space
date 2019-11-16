@@ -174,55 +174,6 @@ sup {
 				</div>
 
               </div>
-			  <!-- <div class="row">
-				<div class="col-lg-12">
-					<div class="col-md-4 pricing-plan p-4" style="float:left;">
-						<h3 class="mb-4">Basic</h3>
-						<p class="text-muted">Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua</p>
-						<hr class="my-4">
-						<div class="pricing-price py-3"><span class="h1 m-0 mr-2"><sup>$</sup>35</span><span class="text-muted">/ mo</span></div>
-						<div class="pricing-features py-4">
-							<p>1 domain</p>
-							<p>3 email accounts</p>
-							<p>10 GB space</p>
-							<p class="not-available">Live Chat Support</p>
-							<p class="not-available">Free SSL</p>
-							<p class="not-available">Unlimited Users</p><a class="btn btn-secondary btn-rounded mt-3" href="javascript:;">PURCHASE</a>
-						</div>
-					</div>
-					<div class="col-md-4 pricing-plan active" style="float:left;">
-						<div class="bg-danger text-center text-white py-2 px-3 h5 mb-0">Recomended</div>
-						<div class="text-center p-4">
-							<h3 class="mb-4">Business</h3>
-							<p class="text-muted">Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et.</p>
-							<hr class="my-4">
-							<div class="pricing-price py-3"><span class="h1 text-dangerx m-0 mr-2"><sup>$</sup>99</span><span class="text-muted">/ mo</span></div>
-							<div class="pricing-features py-4">
-								<p>5 Domains</p>
-								<p>10 email accounts</p>
-								<p>50 GB space</p>
-								<p>Live Chat Support</p>
-								<p class="not-available">Free SSL</p>
-								<p class="not-available">Unlimited Users</p><a class="btn btn-danger btn-rounded mt-3" href="javascript:;">PURCHASE</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 pricing-plan p-4" style="float:left;">
-						<h3 class="mb-4">Extended</h3>
-						<p class="text-muted">Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua</p>
-						<hr class="my-4">
-						<div class="pricing-price py-3"><span class="h1 m-0 mr-2"><sup>$</sup>189</span><span class="text-muted">/ mo</span></div>
-						<div class="pricing-features py-4">
-							<p>Unlimited Domains</p>
-							<p>50 email accounts</p>
-							<p>250 GB space</p>
-							<p>Live Chat Support</p>
-							<p>Free SSL</p>
-							<p>Unlimited Users</p><a class="btn btn-secondary btn-rounded mt-3" href="javascript:;">PURCHASE</a>
-						</div>
-					</div>
-				</div>
-              </div> -->
             </div>
             <!-- END: Page content-->
           </div>
@@ -236,9 +187,6 @@ sup {
       </div>
     </div>
     <!-- BEGIN: Search form-->
-	 <?php
-		include("common/extra.php");
-    ?>
 	 <?php
 		include("common/scripts.php");
 	?>

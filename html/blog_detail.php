@@ -8,7 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <?php include 'common/metalinks.php';?>
-
+	<style>
+	.widget-list li a{
+		background-color:transparent;
+	}
+	</style>
 </head>
 
 <body>
@@ -17,22 +21,26 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- blog detail start-->
-    <section class="bg-w sp-100 mt-5">
-        <div class="container">
-			<div class="row">
-			  <div class="col-12">
-				<ul class="banner-link ">
-				  <li>
-					<a href="index.php">Home
-					</a>
-				  </li>
-				  <li>
-					<span class="active">Blog Details
-					</span>
-				  </li>
-				</ul>
-			  </div>
-			</div>
+    <section class="bg-w sp-100" style="padding-top:100px;">
+      <div class="container">
+	  	<div class="row">
+          <div class=" col-12">
+            <ul class="banner-link ">
+              <li>
+                <a href="index.php">Home
+                </a>
+              </li>
+			  <li>
+                 <a href="blogs.php">Blogs
+                </a>
+              </li>
+			  <li>
+                <span class="active">8 Ways Coworking Spaces Are Changing The Culture Of Work
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
             <div class="row">
                 <div class="col-lg-8">
                     <div class="blog-detail">

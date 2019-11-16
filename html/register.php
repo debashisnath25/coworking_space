@@ -11,16 +11,16 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- login start-->
-    <div class=" bg-w sp-100 mt-5">
+    <div class=" bg-w" style="padding-top:100px;">
       <div class="container">
 	  	<div class="row">
-          <div class="col-12">
+          <div class=" col-12">
             <ul class="banner-link ">
               <li>
                 <a href="index.php">Home
                 </a>
               </li>
-              <li>
+			  <li>
                 <span class="active">Register
                 </span>
               </li>

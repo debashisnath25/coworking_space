@@ -38,7 +38,7 @@
 				<a href="login.php">Login</a>
 			</li>
 			<li>
-				<a href="register.php">register</a>
+				<a href="login.php">register</a>
 			</li>
             <li class="ad-list">
               <a href="login.php" class="btn btn-one btn-anim w-100">

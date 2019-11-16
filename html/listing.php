@@ -41,23 +41,32 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- listings start-->
-    <div class="bg-w sp-100">
+
+    <div class="bg-w" style="padding-top:100px;">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
+	  <div class="row">
+          <div class=" col-12">
             <ul class="banner-link ">
               <li>
                 <a href="index.php">Home
                 </a>
               </li>
-              <li>
-                <span class="active">our workspaces
+			  <li>
+                <a href="listing.php">Maharashtra
+                </a>
+              </li>
+			  <li>
+                <a href="listing.php">Nagpur
+                </a>
+              </li>
+			  <li>
+                <span class="active">Co-working Space
                 </span>
               </li>
             </ul>
           </div>
         </div>
-        <div class="row mt-5">
+        <div class="row ">
           <!-- Sidebar Starts -->
           <div class="col-lg-4 col-12 ">
             <aside class="sidebar">
@@ -301,7 +310,7 @@
             </div>
 			<!-- grid-view-start -->
             <div class="listing-list-view show-list" >
-					<div class="row">
+					<div class="row mb-3">
 						<div class="col-12 mb-15">
 							<div class="listing-item p-2">
 								<div class="img-list">

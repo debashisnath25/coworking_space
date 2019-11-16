@@ -48,7 +48,7 @@
                 </a>
               </li>
               <li>
-                <a href="register.php">register
+                <a href="login.php">register
                 </a>
               </li>
               <li>
@@ -91,10 +91,6 @@
               </h4>
             </div>
             <ul class="quick-link">
-			   <li>
-                <a href="blogs.php">Blogs
-                </a>
-              </li>
               <li>
                 <a href="about_us.php">About Us
                 </a>

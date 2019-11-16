@@ -23,43 +23,6 @@
 				  
 				</div>
 			  </a>
-			  <a class="nav-link media align-items-center  <?php echo (($page == 'profile_documents')?'active':'')?>"  href="profile_documents.php">
-				<i class="fa fa-cog text-muted font-26 mr-3">
-				</i>
-				<div class="media-body">
-				  <div class="mb-1 h6" style="font-size:12px;">Verified Documents
-				  </div>
-				  
-				</div>
-			  </a>
-			  <!--<a class="nav-link media align-items-center <?php echo (($page == 'tax_settings')?'active':'')?>"  href="tax_settings.php" >
-				<i class="fa fa-briefcase text-muted font-26 mr-3">
-				</i>
-				<div class="media-body">
-				  <div class="mb-1 h6" style="font-size:12px;">Tax Settings
-				  </div>
-				  
-				</div>
-			  </a>-->
-			  <a class="nav-link media align-items-center <?php echo (($page == 'profile_delivery_location')?'active':'')?>" href="profile_delivery_location.php" >
-				<i class="fa fa-envelope text-muted font-26 mr-3">
-				</i>
-				<div class="media-body">
-				  <div class="mb-1 h6" style="font-size:12px;">Pickup Delivery Location
-				  </div>
-				  
-				</div>
-			  </a>
-
-			  
-			  <!--<a class="nav-link media align-items-center <?php echo (($page == 'invoice_settings')?'active':'')?>"  href="invoice_settings.php" >
-				<i class="fa fa-table text-muted font-26 mr-3">
-				</i>
-				<div class="media-body">
-				  <div class="mb-1 h6" style="font-size:12px;">Invoice Settings
-				  </div>
-				</div>
-			  </a>-->
 			  <a class="nav-link media align-items-center <?php echo (($page == 'profile_payment_settings')?'active':'')?>"  href="profile_payment_settings.php" >
 				<i class="fa fa-credit-card text-muted font-26 mr-3">
 				</i>

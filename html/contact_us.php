@@ -16,22 +16,22 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- contact start-->
-    <section class="bg-w sp-100 pb-lg-0 mt-5">
-        <div class="container">
-			<div class="row">
-			  <div class="col-12">
-				<ul class="banner-link ">
-				  <li>
-					<a href="index.php">Home
-					</a>
-				  </li>
-				  <li>
-					<span class="active">Contact Us
-					</span>
-				  </li>
-				</ul>
-			  </div>
-			</div>
+    <section class="bg-w" style="padding-top:100px;">
+      <div class="container">
+	  	<div class="row">
+          <div class=" col-12">
+            <ul class="banner-link ">
+              <li>
+                <a href="index.php">Home
+                </a>
+              </li>
+			  <li>
+                <span class="active">Contact Us
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
             <div class="row">
                 <div class="col-12">
                     <div class="contact-box mb-30">

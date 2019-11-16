@@ -10,31 +10,23 @@
     <!-- Header start-->
     <?php include 'common/header.php';?>
     <!-- Header end -->
-    <!-- about start-->
-	<section>
-    <div class="bg-w sp-100 mt-5" style="margin-top: 20px;">
+    <!-- faq start-->
+    <section class="bg-w" style="padding-top:100px;">
       <div class="container">
-	   <div class="row">
-          <div class="col-12">
+	  	<div class="row">
+          <div class=" col-12">
             <ul class="banner-link ">
               <li>
                 <a href="index.php">Home
                 </a>
               </li>
-              <li>
+			  <li>
                 <span class="active">About Us
                 </span>
               </li>
             </ul>
           </div>
-        </div>  
-      </div>
-    </div>
-	</section>
-    <!-- about end-->
-    <!-- faq start-->
-    <section class="bg-w sp-100">
-      <div class="container">
+        </div>
         <div class="row">
           <div class="col-lg-4">
             <ul class="nav faq-tabs mb-lg-0 mb-5" role="tablist">
@@ -60,7 +52,7 @@
             <h4 class="title-sep2 mb-30">How it works
             </h4>
             <!-- Tab panes -->
-            <div class="tab-content">
+            <div class="tab-content mb-3">
               <div role="tabpanel" class="tab-pane fade in active show" id="faq1">
                 <div id="faq-accordion1" class="theme-accordion">
                   <div class="acc-card">
@@ -300,7 +292,7 @@
               <h3>Search, Explore, Book, Manage
               </h3>
               <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent!</p>
-              <a href="register.php" class="btn btn-two btn-anim mt-2">
+              <a href="post_requirement.php" class="btn btn-two btn-anim mt-2">
                 Enquiry Now
               </a>
             </div>

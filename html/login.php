@@ -27,22 +27,22 @@
     <!-- Header end -->
 
     <!-- login start-->
-    <div class="bg-w sp-100">
-        <div class="container">
-			<div class="row">
-			  <div class="mt-3 col-12">
-				<ul class="banner-link " style="margin-left:-16px;">
-				  <li>
-					<a href="index.php">Home
-					</a>
-				  </li>
-				  <li>
-					<span class="active">Login/Signup
-					</span>
-				  </li>
-				</ul>
-			  </div>
-			</div>
+    <div class="bg-w sp-100" style="padding-top:100px;">
+      <div class="container">
+	  	<div class="row">
+          <div class=" col-12">
+            <ul class="banner-link "  style="margin-left:-16px;">
+              <li>
+                <a href="index.php">Home
+                </a>
+              </li>
+			  <li>
+                <span class="active">Login
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
             <div class="row justify-content-end">
 				<div class="col-lg-6 login-section"></div>
                 <div class="col-lg-6">

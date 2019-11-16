@@ -27,22 +27,22 @@
    
 
     <!-- price start-->
-    <section class="bg-w sp-100-70">
-        <div class="container">
-			<div class="row">
-			  <div class="col-12">
-				<ul class="banner-link ">
-				  <li>
-					<a href="index.php">Home
-					</a>
-				  </li>
-				  <li>
-					<span class="active">Pricing
-					</span>
-				  </li>
-				</ul>
-			  </div>
-			</div>
+    <section class="bg-w sp-100" style="padding-top:100px;">
+      <div class="container">
+	  	<div class="row">
+          <div class=" col-12">
+            <ul class="banner-link ">
+              <li>
+                <a href="index.php">Home
+                </a>
+              </li>
+			  <li>
+                <span class="active">Pricing
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 col-12 mb-30">
                     <div class="price-item">

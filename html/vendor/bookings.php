@@ -394,9 +394,6 @@ include("common/footer.php");
 </div>
 </div>
 <?php
-include("common/extra.php");
-?>
-<?php
 include("common/scripts.php");
 ?>
 <script src="js/vendor-js/datatables.min.js">
