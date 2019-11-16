@@ -180,6 +180,7 @@ include("common/header.php");
                                         <th>Office Space Image & Details</th>
 										<!-- <th>Office Space Details</th> -->
 										<th>Booking Amount</th>
+										<th>Booked Date</th>
 										<th>Status</th>
 										<th>Action</th>
 									</tr>
@@ -201,7 +202,10 @@ include("common/header.php");
 												  <div class="text-muted mb-1 font-12" style="color: #878787;">
 													<span>Category : Co-working Space
 													</span>
-													<br />
+													<br/>
+													<span>No. of people: <b>30</b>
+													</span>
+													<br/>
 												  </div>
 												</div>
 											</div>
@@ -220,8 +224,18 @@ include("common/header.php");
 										</td> -->
 										<td><div class="media-body mt-2">
 											  <div class="h4 font-14">
-												<span style="font-family:arial;">₹</span>&nbsp;599.00
+												<i class="fas fa-rupee-sign"></i>&nbsp;599.00/Month
 											  </div>
+											</div>
+										</td>
+										<td style="width: 150px;"><div class="text-muted text-center">
+											  
+												<span>&nbsp;15-11-2019</span>
+												<br/>
+												<span>&nbsp;to</span>
+												<br/>
+												<span>&nbsp;14-12-2019</span>
+											  
 											</div>
 										</td>
 										<td> <span class="badge badge-success badge-pill">Confirmed</span> </td>
