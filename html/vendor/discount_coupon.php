@@ -154,7 +154,6 @@
                                             <tr>
                                                 <th>Scheme Name</th>
                                                 <th>Category</th>
-												<th>SUb-Category</th>
                                                 <th>Discount</th>
                                                 <th>Start Time</th>
 												<th>End Time</th>
@@ -168,8 +167,7 @@
 										?>
                                             <tr>
                                                 <td><a href="discount_details.php" class="btn btn-ok btn-sm" type="button">Christmas Specials</a></td>
-                                                <td>New Arrivals</td>
-												<td>Shirt</td>
+                                                <td>Private Office</td>
                                                 <td><b>5%</b></td>
                                                 <td>27/09/2019 : 4:15 PM</td>
 												<td>01/02/2019 : 7:00 PM </td>
@@ -223,7 +221,7 @@
 										<div class="col-sm-8">
 											<select class="selectpicker form-control mb-3" data-style="btn-light btn-light-solid">
 												<option selected disabled>Choose Who Can Apply</option>
-												<option>Followers of my Store Only</option>
+												<option>Followers of my Office Space Only</option>
 												<option>Everyone</option>
 											</select>
 										</div>
@@ -234,20 +232,18 @@
 										<div class="col-sm-8">
 											<select class="selectpicker form-control mb-3" data-style="btn-light btn-light-solid">
 												<option selected disabled>Choose Category</option>
-												<option>New Arraival</option>
-												<option>Winter Collection</option>
-												<option>Christmas Combo</option>
-											</select>
-										</div>
-									</div>
-									<div class="form-group mb-4 row">
-										<dt class="col-sm-4" style="padding-top:10px;">Sub-Category&nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Customers Can apply this coupon To products from which sub-category?"><i style="font-size:12px;" class="fa fa-info-circle"></i></a></dt>
-										<div class="col-sm-8">
-											<select class="selectpicker form-control mb-3" data-style="btn-light btn-light-solid">
-												<option selected disabled>Choose Sub-Category</option>
-												<option>Clothings</option>
-												<option>Electronics</option>
-												<option>Jewllery</option>
+												  <option>Meeting Room
+												  </option>
+												  <option>Coworking Space
+												  </option>
+												  <option>Private Office
+												  </option>
+												  <option>Training Room
+												  </option>
+												  <option>Business Centre
+												  </option>
+												  <option>Coworking Cafes
+												  </option>
 											</select>
 										</div>
 									</div>
@@ -280,9 +276,8 @@
 											<h5 class="box-title"><span>Note to Vendor</span></h5>
 										</div>
 										<div class="card-body">
-											<p>You can add a coupon in terms of Price to Products in a Particular Category or Sub-Category of a Category Created by you.</p>
-											<p>Customer will be able to use coupon at the time of their checkout only. </p>
-											<p>Coupon value should be flat amount value, not in %. </p>
+											<p>You can add a discount in terms of % to  Co-working Spaces in a Particular Category Created by you. We will show your customers the price of the Co-working Space</p>
+											<p>Before the discount and after the discount like below : </p>
 										</div>
 									</div>
 									
@@ -313,14 +308,13 @@
                                                 <th style="min-width:200px;">Scheme Name</th>
                                                 <th style="min-width:100px;">Coupon Code</th>
 												<th>Category</th>
-                                                <th style="min-width:100px;">Sub Category</th>
                                                 <th>Discount</th>
 												<th style="min-width:110px;">Applicable For</th>
                                                 <th style="min-width:80px;">Start Time<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Start Date & Time"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
 												<th style="min-width:80px;">End Time<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="End Date & Time"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
                                                 <th style="min-width:100px;">Total Sales<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Total Sales After Launch in Rs."><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
 												<th style="min-width:100px;">Coupon Used<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="No. of Times Coupon has been successfully used"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-												<th style="min-width:100px;">Item Sold<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="No. of Items Sold Using Coupon"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
+												<th style="min-width:100px;">Space Booked<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="No. of Items Sold Using Coupon"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
 												<th>Action</th>
                                             </tr>
                                         </thead>
@@ -329,10 +323,9 @@
 											for($i=0;$i<=10;$i++){
 										?>
                                             <tr>
-                                                <td><a href="coupon_details.php" class="btn btn-ok btn-sm" type="button">Christmas Specials</a></td>
-                                                <td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">BEAUTY10XX</a></td>
-												<td>New Arrivals</td>
-												<td>Shirts</td>
+                                                <td><a href="coupon_details.php" class="btn btn-ok btn-sm" type="button">Dhanteras Specials</a></td>
+                                                <td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">COWORKING10XX</a></td>
+												<td>Coworking Space</td>
                                                 <td>99</td>
 												<td>Everyone</td>
                                                 <td>27/09/2019 : 4:15 PM</td>
