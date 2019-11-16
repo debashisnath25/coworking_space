@@ -34,7 +34,7 @@
 				</div>
 			</div>
 			<div class="card-footer" style="margin:3px 3px 3px 3px;padding:0px;">
-				<a href="javascript:void(0);" class="btn btn-primary btn-block" data-toggle="modal" data-target="#product_preview_modal" style="font-size: 18px;">Preview Product</a>
+				<a href="javascript:void(0);" class="btn btn-primary btn-block"  data-toggle="modal" data-target="#product_preview_modal" style="font-size: 18px;">Preview Product</a>
 			</div>
 		</form>
 	</div>
