@@ -90,21 +90,21 @@
 										<dt class="col-sm-4" style="padding-top:10px;">Category</dt>
 										<div class="col-sm-8">
 											<select class="selectpicker form-control mb-3 form-control-solid" data-style="btn-light btn-light-solid">
-												<option selected disabled>Choose Category</option>
-												<option>New Arraival</option>
-												<option>Winter Collection</option>
-												<option>Christmas Combo</option>
-											</select>
-										</div>
-									</div>
-									<div class="form-group mb-4 row">
-										<dt class="col-sm-4" style="padding-top:10px;">Sub-Category</dt>
-										<div class="col-sm-8">
-											<select class="selectpicker form-control mb-3 form-control-solid" data-style="btn-light btn-light-solid">
-												<option selected disabled>Choose Sub-Category</option>
-												<option>Shirt</option>
-												<option>Shoes</option>
-												<option>Phone</option>
+												<option selected disabled>Choose Property Type
+												  </option>
+												  <option>Meeting Room
+												  </option>
+												  <option>Coworking Space
+												  </option>
+												  <option>Private Office
+												  </option>
+												  <option>Training Room
+												  </option>
+												  <option>Business Centre
+												  </option>
+												  <option>Coworking Cafes
+												  </option>
+												
 											</select>
 										</div>
 									</div>
@@ -115,15 +115,15 @@
 											<h5 class="box-title"><span>Note to Vendor</span></h5>
 										</div>
 										<div class="card-body">
-											<p>You can add a discount in terms of % to Products in a Particular Category or Sub-Category of a Category Created by you. We will show your customers the price of the Product</p>
+											<p>You can add a discount in terms of % to  Co-working Spaces in a Particular Category Created by you. We will show your customers the price of the Co-working Space</p>
 											<p>Before the discount and after the discount like below : </p>
 										</div>
 									</div>
 									<div class="card" style="border:1px solid #6C757D;">
 									  <div class="card-body">
-										<h5>Mens Tshirt Casual</h5>
-										<h4><i class="fas fa-rupee-sign"></i> 1049</h4>
-										<span style="text-decoration: line-through;"><i class="fas fa-rupee-sign"></i> 2099</span>
+										<h5>2 Seater Private Office in KT Nagar, Nagpur</h5>
+										<h4><i class="fas fa-rupee-sign"></i> 2098</h4>
+										<span style="text-decoration: line-through;font-size:16px;"><i class="fas fa-rupee-sign"></i> 5116</span>
 										<strong style="color:green;">50% Off</strong>
 									  </div>
 									</div>
@@ -156,9 +156,9 @@
                                                 <th>Category</th>
 												<th>SUb-Category</th>
                                                 <th>Discount</th>
-                                                <th>Start Time<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Start Date & Time"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-												<th>End Time<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="End Date & Time"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-                                                <th>Total Sales<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Total Sales After Launch in Rs."><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
+                                                <th>Start Time</th>
+												<th>End Time</th>
+                                                <th>Total Sales</th>
 												<th>Action</th>
                                             </tr>
                                         </thead>
