@@ -172,7 +172,7 @@
 									<div class="row" style="border-bottom:1px solid #CCC;margin-bottom:30px;padding-bottom:15px;">
 										<div class="col-md-4 " style="padding:3px !important;">
 											<label for="validationCustom04" class="active">Office Space Name</label>
-											<input class="form-control form-control-solid" id="validationCustom04" type="text" placeholder="Enter product name" required="">
+											<input class="form-control form-control-solid" id="validationCustom04" type="text" placeholder="Enter Office Space Name" required="">
 										</div>
 										<div class="col-md-2 " style="padding:3px !important;">
 											<label for="validationCustom04">Status</label>
