@@ -190,7 +190,7 @@ include("common/header.php");
 										for($i=1;$i<=12;$i++){
 									?>
 									<tr>
-										<td><a class="btn btn-outline-primary" href="javascript:void(0);" data-toggle="modal" data-target="#product_preview_modal">Booking ID<br/>108737NT</a></td>
+										<td><a class="btn btn-outline-primary" href="booking_details.php" data-toggle="modal" data-target="#product_preview_modal">Booking ID<br/>108737NT</a></td>
 										<td>
 											<div class="media col-md-12 col-sm-12 col-xs-12" style="padding:0px !important;float:left;">
 												<span class="position-relative d-inline-block mr-4">
