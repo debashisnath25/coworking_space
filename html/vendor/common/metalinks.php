@@ -115,5 +115,10 @@
 		background: rgb(2,0,36);
 		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,1,50,1) 35%, rgba(124,26,181,1) 100%);
 	  }
+
+	  .selectpicker{
+		background-color: #f4f5f9 !important;
+		border-color: #f4f5f9 !important;
+	  }
 		 
     </style>
