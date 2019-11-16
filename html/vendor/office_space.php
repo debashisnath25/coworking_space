@@ -71,10 +71,6 @@
         margin-top: 1rem;
         color: #6c757d;
       }
-	 .dt-buttons {
-		padding-bottom: 15px;
-		margin-bottom: -50px;
-	  }
     </style>
   </head>
   <body>

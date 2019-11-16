@@ -108,7 +108,7 @@ include("common/header.php");
                     <div class="tab-pane fade active show" id="faq-group-1">
                       <div class="card" style="border:1px solid #7c1ab5">
                         <div class="card-header cardhdd">
-                          <h5 class="box-title" style="color:#fff;">Bookings RECEIVED AWAITING ACCEPTANCE
+                          <h5 class="box-title" style="color:#fff;">Bookings RECEIVED
                           </h5>
                           <div class="card-actions">
                             <a class="card-collapse">
@@ -120,26 +120,21 @@ include("common/header.php");
                         <div class="card-body">
                           <div class="row mb-3"  style="border-bottom:1px solid #cccccc;">
                             <div class="col-md-2 col-sm-12 col-xs-12 " style="padding:3px !important;">
-                              <label for="validationCustom04">Order Id
+                              <label for="validationCustom04">Booking Id
                               </label>
                               <input class="form-control form-control-solid" id="validationCustom04" type="text" placeholder="Enter Order Id" required="">
                             </div>
                             <div class="col-md-2 col-sm-12 col-xs-12" style="padding:3px !important;">
-                              <label for="validationCustom04">Order Type
+                              <label for="validationCustom04">Plan Type
                               </label>
                               <select class="selectpicker form-control mb-3 " data-style="btn-light btn-light-solid" multiple="multiple">
-								<optgroup label="Order Type">
-									<option>Paid Bookings</option>
-									<option>COD Bookings</option>
+								<optgroup label="Plan Type">
+									<option>Monthly</option>
+									<option>Quaterly</option>
+									<option>Yearly</option>
 								</optgroup>
-								<optgroup label="Shipping Api">
-									<option>Delivery Bookings From Delhivery</option>
-									<option>Delivery Bookings From India Post</option>
-								</optgroup>
-								<optgroup label="Wanted Program">
-									<option>Wanted Assurance Program Bookings</option>
-									<option>Wanted Support Program Bookings</option>
-								</optgroup>
+								
+								
                               </select>
                             </div>
                             <div class="col-md-2 col-sm-12 col-xs-12" style="padding:3px !important;">
@@ -177,210 +172,60 @@ include("common/header.php");
                               </button>
                             </div>
                           </div>
-                          <div class="row mb-3" style="border:1px solid #ccc;">
-                            <div class="order_div col-md-12 pt-3 ">
-                              <div class="col-md-2 col-sm-12  mb-3" style="float:left;padding:3px !important;">
-                                <a href="order_details.php" class="btn btn-primary ordr_btn" style="margin-left:-10px;margin-top:-5px;background:transparent;padding:7px;">
-                                  <h5 class="text-primary mb-1 font-15" style="color:#343a40 !important;">ORDER NUMBER
-                                  </h5>
-                                  <div class="font-13 text-muted">
-                                    <div class=" text-muted" style="color:#2949ef !important;">
-                                      #ORDER122
-                                    </div>
-                                  </div>
-                                </a>
-                              </div>
-                              <div class="col-md-2 col-sm-6 col-xs-6 mb-3" style="float:left;padding:3px !important;">
-                                <h5 class="text-primary mb-1 font-15" style="color:#343a40 !important;">ORDER AMOUNT
-                                </h5>
-                                <div class="font-13 text-muted">
-                                  <div class=" text-muted" style="color:#2949ef !important;">
-                                    <span style="font-family:arial;">INR
-                                    </span>20,000
-                                    </span>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-6 col-xs-6 mb-3" style="float:left;padding:3px !important;">
-                              <h5 class="text-primary mb-1 font-15" style="color:#343a40 !important;">CREATED DATE
-                              </h5>
-                              <div class="font-13 text-muted">
-                                <div class=" text-muted" style="color:#2949ef !important;">
-                                  30 October 2019
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-6 col-xs-6 mb-3" style="float:left;padding:3px !important;">
-                              <h5 class="text-primary mb-1 font-15" style="color:#343a40 !important;">COUPON CODE
-                              </h5>
-                              <div class="font-13 text-muted">
-                                <div class=" text-muted" style="color:#2949ef !important;">
-                                  BEAUTY10XX
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-6 col-xs-6 mb-3 " style="float:left;padding:3px !important;">
-                              <button class="btn btn-primary pull-right" style="color:#fff;background:#09d261;border:1px solid #09d261;" type="submit">Accept Order
-                              </button>
-                            </div>
-                            <div class="col-md-2 col-sm-6 col-xs-6 mb-3 " style="float:left;padding:3px !important;">
-                              <button class="btn btn-warning pull-right" style="background:#eb5757;color:#fff;" type="submit">Cancel Order 
-                              </button>
-                            </div>
-                          </div>
                           <div class="table-responsive">
-                            <table class="table invoice-table">
-                              <tbody>
-                                <tr class="" style="padding-top:10px;padding:bottom:14px;">
-                                  <td >
-                                    <div class="media col-md-6 col-sm-12 col-xs-12" style="padding:0px !important;float:left;">
-                                      <span class="position-relative d-inline-block mr-4">
-                                        <img class="rounded-lg" src="images/vendor-images/nike.png" alt="image" width="100">
-                                      </span>
-                                      <div class="media-body mt-2">
-                                        <div class="h4 font-14">Mi Basic Wired Headset with Mic
-                                        </div>
-                                        <div class="text-muted mb-1" style="color: #878787;font-size: 12px;">
-                                          <span>Color : Black
-                                          </span>&nbsp;&nbsp;&nbsp;
-                                          <span style="color:black;">|
-                                          </span>&nbsp;&nbsp;&nbsp;
-                                          <span>Discount : 30%
-                                          </span>
-                                        </div>
-                                        <div class="text-muted" style="color: #878787;font-size: 12px;">
-                                          <span>Size : UK 8
-                                          </span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class=" col-md-2 mt-2 col-sm-12 col-xs-12" style="float:left;">
-                                      <div class="h4 font-14">
-                                        <span style="font-family:arial;">₹
-                                        </span>&nbsp;20,0000
-                                        </span>
-                                    </div>
-                              </div>
-                                <div class=" col-md-4 col-sm-12 col-xs-12" style="float:left;">
-                                  <div class="media-body mt-2">
-                                    <div class="h4 font-14">Delivered on Dec 24, 2018
-                                    </div>
-                                    <div class="text-muted" style="color: #878787;font-size: 12px;">Your item has been delivered
-                                    </div>
-                                  </div>
-                                </div>
-                              </td>
-                            </tr>
-                          <tr class="" style="padding-top:10px;padding:bottom:14px;">
-                            <td >
-                              <div class="media col-md-6" style="padding:0px !important;float:left;">
-                                <span class="position-relative d-inline-block mr-4">
-                                  <img class="rounded-lg" src="images/vendor-images/nike.png" alt="image" width="100">
-                                </span>
-                                <div class="media-body mt-2">
-                                  <div class="h4 font-14">Mi Basic Wired Headset with Mic
-                                  </div>
-                                  <div class="text-muted mb-1" style="color: #878787;font-size: 12px;">
-                                    <span>Color : Black
-                                    </span>&nbsp;&nbsp;&nbsp;
-                                    <span style="color:black;">|
-                                    </span>&nbsp;&nbsp;&nbsp;
-                                    <span>Discount : 30%
-                                    </span>
-                                  </div>
-                                  <div class="text-muted" style="color: #878787;font-size: 12px;">
-                                    <span>Size : UK 8
-                                    </span>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class=" col-md-2 mt-2" style="float:left;">
-                                <div class="h4 font-14">
-                                  <span style="font-family:arial;">₹
-                                  </span>&nbsp;2,00,000
-                                  </span>
-                              </div>
-                        </div>
-                          <div class=" col-md-4" style="float:left;">
-                            <div class="media-body mt-2">
-                              <div class="h4 font-14">Delivered on Dec 24, 2018
-                              </div>
-                              <div class="text-muted" style="color: #878787;font-size: 12px;">Your item has been delivered
-                              </div>
-                            </div>
-                          </div>
-                          </td>
-                        </tr>
-                      <tr class="" style="padding-top:10px;padding:bottom:14px;">
-                        <td >
-                          <div class="media col-md-6" style="padding:0px !important;float:left;">
-                            <span class="position-relative d-inline-block mr-4">
-                              <img class="rounded-lg" src="images/vendor-images/nike.png" alt="image" width="100">
-                            </span>
-                            <div class="media-body mt-2">
-                              <div class="h4 font-14">Mi Basic Wired Headset with Mic
-                              </div>
-                              <div class="text-muted mb-1" style="color: #878787;font-size: 12px;">
-                                <span>Color : Black
-                                </span>&nbsp;&nbsp;&nbsp;
-                                <span style="color:black;">|
-                                </span>&nbsp;&nbsp;&nbsp;
-                                <span>Discount : 30%
-                                </span>
-                              </div>
-                              <div class="text-muted" style="color: #878787;font-size: 12px;">
-                                <span>Size : UK 8
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                          <div class=" col-md-2 mt-2" style="float:left;">
-                            <div class="h4 font-14">
-                              <span style="font-family:arial;">₹
-                              </span>&nbsp;2,00,000
-                              </span>
-                          </div>
-                    </div>
-                      <div class=" col-md-4" style="float:left;">
-                        <div class="media-body mt-2">
-                          <div class="h4 font-14">Delivered on Dec 24, 2018
-                          </div>
-                          <div class="text-muted" style="color: #878787;font-size: 12px;">Your item has been delivered
-                          </div>
-                        </div>
-                      </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-            </div>
-          </div>
+							<table class="table table-bordered table-striped w-100" id="dt-buttons">
+								<thead class="">
+									<tr>
+										<th>Office Space ID</th>
+										<th>Office Space Details</th>
+										<th>Price</th>
+										<th>Status</th>
+										<th>Action</th>
+									</tr>
+								</thead>
+								<tbody>
+									<?php 
+										for($i=1;$i<=12;$i++){
+									?>
+									<tr>
+										<td><a class="btn btn-outline-primary" href="javascript:void(0);" data-toggle="modal" data-target="#product_preview_modal">Office Space ID<br/>108737NT</a></td>
+										<td>
+											<div class="media col-md-12 col-sm-12 col-xs-12" style="padding:0px !important;float:left;">
+												<div class="media-body mt-2">
+												  <div class="h4 font-14">Work with us
+												  </div>
+												  <div class="text-muted mb-1 font-12" style="color: #878787;">
+													<span>Category : Co-working Space
+													</span>
+												  </div>
+												</div>
+											</div>
+										</td>
+										<td><div class="media-body mt-2">
+											  <div class="h4 font-14">
+												<span style="font-family:arial;">₹</span>&nbsp;599.00
+											  </div>
+											</div>
+										</td>
+										<td> <span class="badge badge-success badge-pill">Confirmed</span> </td>
+										<td style="min-width:80px;">
+											<button class="btn btn-ok btn-sm" type="button"><i class="fa fa-pen" style="font-size:11px;"></i></button>
+											<button class="btn btn-ok btn-sm" type="button"><i class="fa fa-trash" style="font-size:11px;"></i></button>
+										</td>
+									</tr>
+									<?php
+										}
+									?>
+								</tbody>
+
+							</table>
+						</div>
           
 </div>
 </div>
 
 </div>
 </div>
-<div class="mt-5 row">
-	<div class="col-md-6 col-sm-12">
-		<button class="btn btn-primary btn-fix" type="button">Download As Csv Data File</button>&nbsp;<button class="btn btn-primary active btn-fix" type="button">Download As Pdf File</button>
-	</div>
-	<div class="col-md-6 col-sm-12">
-		<nav aria-label="..." class="col-sm-12">
-			<ul class="pagination justify-content-end">
-				<li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
-				<li class="page-item active"><a class="page-link" href="#">1</a></li>
-				<li class="page-item "><a class="page-link" href="#">2</a></li>
-				<li class="page-item"><a class="page-link" href="#">3</a></li>
-				<li class="page-item"><a class="page-link" href="#">Next</a></li>
-			</ul>
-		</nav>
-	</div>
-</div>
-
-
-
-
 </div>
 <!-- END: Page content-->
 </div>
@@ -402,27 +247,28 @@ include("common/scripts.php");
 </script>
 <script src="js/vendor-js/jquery.validate.min.js">
 </script>
+
 <script>
-  $(function() {
-    $('#dt-buttons').DataTable({
-      "searching": true,
-      "pageLength":10,
-      scrollX: true,
-      dom: 'Bfrtip',
-      buttons: [
-        'excel', 'pdf', 'csv'
-      ]
-    }
-                              );
-    $(".dt-buttons").removeClass("btn-group");
-    $("#datetimepicker_1, #datetimepicker_2").datetimepicker({
-      todayHighlight: !0,
-      autoclose: !0,
-      format: "yyyy.mm.dd hh:ii",
-    }
-                                                            );
-  }
-   );
-</script>
+      $(function() {
+		$('#dt-buttons').DataTable({
+		  "searching": true,
+		  "pageLength":5,
+		  scrollX: true,
+		  dom: 'Bfrtip',
+		  buttons: [
+			'copy', 'excel', 'pdf', 'csv', 'print'
+		  ]
+		});
+
+		$(".dt-buttons").removeClass("btn-group");
+
+
+		$("#datetimepicker_1, #datetimepicker_2").datetimepicker({
+			todayHighlight: !0,
+			autoclose: !0,
+			format: "yyyy.mm.dd hh:ii",
+		});
+	  });
+    </script>
 </body>
 </html>
