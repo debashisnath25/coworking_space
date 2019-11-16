@@ -176,9 +176,10 @@ include("common/header.php");
 							<table class="table table-bordered table-striped w-100" id="dt-buttons">
 								<thead class="">
 									<tr>
-										<th>Office Space ID</th>
-										<th>Office Space Details</th>
-										<th>Price</th>
+										<th>Booking ID</th>
+                                        <th>Office Space Image & Details</th>
+										<!-- <th>Office Space Details</th> -->
+										<th>Booking Amount</th>
 										<th>Status</th>
 										<th>Action</th>
 									</tr>
@@ -188,8 +189,24 @@ include("common/header.php");
 										for($i=1;$i<=12;$i++){
 									?>
 									<tr>
-										<td><a class="btn btn-outline-primary" href="javascript:void(0);" data-toggle="modal" data-target="#product_preview_modal">Office Space ID<br/>108737NT</a></td>
+										<td><a class="btn btn-outline-primary" href="javascript:void(0);" data-toggle="modal" data-target="#product_preview_modal">Booking ID<br/>108737NT</a></td>
 										<td>
+											<div class="media col-md-12 col-sm-12 col-xs-12" style="padding:0px !important;float:left;">
+												<span class="position-relative d-inline-block mr-4">
+												  <img class="rounded-lg" src="images/vendor-images/944390254ed4fd2b9fb33ad76b37d9a1.png" alt="image" width="100">
+												</span>
+												<div class="media-body mt-2">
+												  <div class="h4 font-14">Work with us
+												  </div>
+												  <div class="text-muted mb-1 font-12" style="color: #878787;">
+													<span>Category : Co-working Space
+													</span>
+													<br />
+												  </div>
+												</div>
+											</div>
+										</td>
+										<!-- <td>
 											<div class="media col-md-12 col-sm-12 col-xs-12" style="padding:0px !important;float:left;">
 												<div class="media-body mt-2">
 												  <div class="h4 font-14">Work with us
@@ -200,7 +217,7 @@ include("common/header.php");
 												  </div>
 												</div>
 											</div>
-										</td>
+										</td> -->
 										<td><div class="media-body mt-2">
 											  <div class="h4 font-14">
 												<span style="font-family:arial;">₹</span>&nbsp;599.00
