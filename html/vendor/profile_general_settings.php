@@ -272,7 +272,7 @@
 								
 								<div class="form-group mb-4">
 									<dt style="padding-top:7px;">Workspace's Logo</dt>
-									<div class="col-sm-10" style="padding:0px;">
+									<div class="col-sm-12" style="padding:0px;">
 										<div class="dropzone dz-clickable" id="mydropzoneSingle" >
 											<div class="dz-message"><i class="ti-import text-primary font-40"></i>
 												<div class="mt-3 font-15">Upload Image</div>
@@ -282,7 +282,7 @@
 								</div>
 								<div class="form-group mb-4">
 									<dt style="padding-top:7px;">Workspace's profile picture / video</dt>
-									<div class="col-sm-10" style="padding:0px;">
+									<div class="col-sm-12" style="padding:0px;">
 										<div class="dropzone dz-clickable" id="mydropzoneSingle" >
 											<div class="dz-message"><i class="ti-import text-primary font-40"></i>
 												<div class="mt-3 font-15">Upload Image/Video</div>
