@@ -3,10 +3,10 @@
 ?>
 		  <div class="page-sidebar custom-scroll" id="sidebar">
           <div class="sidebar-header center text-center" style="background:#3a1f47;margin:10px;border-radius:8px;padding:5px 5px;">
-            <a class="sidebar-brand center text-center" href="index.html">
-              <img src="images/vendor-images/rect_white.png" alt="logo" data-src="images/vendor-images/rect_white.png" data-src-retina="images/vendor-images/rect_white.png" height="47">
+            <a class="sidebar-brand center text-center" href="referred_leads.php">
+              <img src="images/vendor-images/emni_logo.png" alt="logo" data-src="images/vendor-images/emni_logo.png" data-src-retina="images/vendor-images/emni_logo.png" height="47">
             </a>
-            <a class="sidebar-brand-mini" href="index.html">
+            <a class="sidebar-brand-mini" href="referred_leads.php">
               <img src="images/vendor-images/fav_white.png" alt="logo" data-src="images/vendor-images/fav_white.png" data-src-retina="images/vendor-images/fav_white.png" height="25">
             </a>
           </div>
