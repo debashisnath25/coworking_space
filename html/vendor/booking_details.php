@@ -201,9 +201,6 @@
         <!-- END: Content-->
       </div>
     </div>
-    <?php
-		include("common/extra.php");
-    ?>
     <!-- END: Quick sidebar-->
     <!-- BEGIN: Page backdrops-->
     <?php
