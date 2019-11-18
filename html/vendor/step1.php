@@ -218,7 +218,27 @@ include("common/header.php");
                                   </div>
                                 </div>
                               </div>
-                            </div>				
+                            </div>	
+							 <div class="form-group mb-4 row">
+                              <dt class="col-sm-4" style="padding-top:10px;">Tax
+                              </dt>
+                              <div class="col-sm-8">
+                                <select class="form-control form-control-solid">
+                                  <option selected disabled>Choose Tax
+                                  </option>
+                                  <option>5 %
+                                  </option>
+                                  <option>8 %
+                                  </option>
+                                  <option>10 %
+                                  </option>
+                                  <option>12 %
+                                  </option>
+                                  <option>18 %
+                                  </option>
+                                </select>
+                              </div>
+                            </div>
                             <a class="btn btn-success btn-cons" style="color: white;float:right;" href="step2.php">NEXT
                             </a>
                           </div>
