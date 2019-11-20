@@ -1,6 +1,12 @@
 import React,{ Component} from 'react';
 
 class BannerCategory extends Component{
+    contructor(){
+
+    }
+    componentDidMount(){
+      
+    }
     render(){
         return(
             <>

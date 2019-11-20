@@ -4,6 +4,7 @@ import Route from "./Route";
 import Home from '../pages/Home';
 import Listing from '../pages/Listing';
 import ListingDetails from '../pages/ListingDetails';
+import AboutUs from '../pages/AboutUs';
 
 import SignIn from "../pages/SignIn";
 import SignUp from "../pages/SignUp";
@@ -18,6 +19,7 @@ export default function Routes() {
       <Route path="/home" exact component={Home} />
       <Route path="/listing" exact component={Listing} />
       <Route path="/listingDetails" exact component={ListingDetails} />
+      <Route path="/AboutUs" exact component={AboutUs} />
       <Route path="/register" component={SignUp} />
 
       <Route path="/dashboard" component={Dashboard} isPrivate />
