@@ -1,0 +1,28 @@
+.filter-box .form-control{
+    border-radius:5px;
+    background-color: #f8f8f8;
+    
+}
+.set_font{
+    font-size:14px;
+}
+.range-box{
+    border-radius:5px;
+    margin-bottom:15px;
+}
+.abt-listing {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.listing-item {
+    border: 1px solid #ccc;
+}
+.img-holder img {
+    height: 200px !important; 
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mt-20{
+    margin-top: 15px;
+}
