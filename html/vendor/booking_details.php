@@ -120,36 +120,12 @@
                                                         <div class="d-none d-sm-block">108737NT</div>
                                                     </td>
 													<td>
-                                                        <div class="d-none d-sm-block">Apple Tv</div>
+                                                        <div class="d-none d-sm-block">Work with us</div>
                                                     </td>
                                                     <td>4</td>
                                                     <td><span style="font-family:arial;">&#8377;</span> 70.00</td>
 													  <td><span style="font-family:arial;">&#8377;</span>0.00</td>
-                                                    <td class="text-right"><span style="font-family:arial;">&#8377;</span>280.00</td>
-                                                </tr>
-												   <tr>
-                                                    <td>
-                                                        <div class="d-none d-sm-block">108737NT</div>
-                                                    </td>
-													<td>
-                                                        <div class="d-none d-sm-block">Lorem ipsum dolor sit amet.</div>
-                                                    </td>
-                                                    <td>4</td>
-                                                    <td><span style="font-family:arial;">&#8377;</span>70.00</td>
-													  <td><span style="font-family:arial;">&#8377;</span>0.00</td>
-                                                    <td class="text-right"><span style="font-family:arial;">&#8377;</span>280.00</td>
-                                                </tr>
-												   <tr>
-                                                    <td>
-                                                        <div class="d-none d-sm-block">108737NT</div>
-                                                    </td>
-													<td>
-                                                        <div class="d-none d-sm-block">Lorem ipsum dolor sit amet.</div>
-                                                    </td>
-                                                    <td>4</td>
-                                                    <td><span style="font-family:arial;">&#8377;</span>70.00</td>
-													  <td><span style="font-family:arial;">&#8377;</span>0.00</td>
-                                                    <td class="text-right"><span style="font-family:arial;">&#8377;</span>280.00</td>
+                                                    <td class="text-right"><span style="font-family:arial;">&#8377;</span>2000.00</td>
                                                 </tr>
                                             </tbody>
                                             <tfoot>
@@ -164,7 +140,7 @@
                                     <div class="text-right mr-3" style="width:400px;">
 										<div class="row mb-3">
                                             <div class="col-9">Total Price :</div>
-                                            <div class="col-3"><b><span style="font-family:arial;">&#8377;</span>840</b></div>
+                                            <div class="col-3"><b><span style="font-family:arial;">&#8377;</span>2000</b></div>
                                         </div>
 										<div class="row mb-3">
                                             <div class="col-9">Taxes (GST):</div>
@@ -172,14 +148,14 @@
                                         </div>
 										<div class="row mb-3">
                                             <div class="col-9">Total Amount with Taxes:</div>
-                                            <div class="col-3"><b><span style="font-family:arial;">&#8377;</span>887</b></div>
+                                            <div class="col-3"><b><span style="font-family:arial;">&#8377;</span>2047</b></div>
                                         </div>
 										
                                         
                                         <div class="row font-weight-strong font-20 align-items-center text-primary mb-4">
                                             <div class="col-9">Total Price:</div>
                                             <div class="col-3">
-                                                <div class="h3 "><span style="font-family:arial;">&#8377;</span>887</div>
+                                                <div class="h3 "><span style="font-family:arial;">&#8377;</span>2047</div>
                                             </div>
                                         </div>
                                     </div>

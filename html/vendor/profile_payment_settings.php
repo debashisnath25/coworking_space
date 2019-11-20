@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='images/vendor-images/favicon.png' type='image/x-icon'/ >
-    <title>Payment Settings | Wanted 7
+    <title>Payment Settings | Coworking
     </title>
     <?php
 		include("common/metalinks.php");
@@ -125,7 +125,7 @@
 						<div class="form-group mb-4 row">
 							<dt class="col-sm-4" style="padding-top:10px;">Account Name</dt>
 							<div class="col-sm-8">
-								<input class="form-control form-control-solid" type="text" placeholder="Account Name" value="Wanted Seven Pvt Ltd">
+								<input class="form-control form-control-solid" type="text" placeholder="Account Name" value="Coworking Space">
 							</div>
 						</div>
 						

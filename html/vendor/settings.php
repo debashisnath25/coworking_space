@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel='icon' href='images/favicon.png' type='image/x-icon'/ >
-    <title>Settings | Wanted 7</title>
+    <title>Settings | Coworking</title>
     <?php
 		include("common/metalinks.php");
 	?>
@@ -87,7 +87,7 @@
 								<div class="form-group mb-4 row">
 									<dt class="col-sm-4" style="padding-top:7px;">Your Old Password</dt>
 									<div class="col-sm-8">
-										<input class="form-control form-control-solid" type="password" placeholder="Your Old Password" value="Wanted7">
+										<input class="form-control form-control-solid" type="password" placeholder="Your Old Password" value="Coworking">
 									</div>
 								</div>
 								<div class="form-group mb-4 row">
@@ -123,7 +123,7 @@
 						<h5 class="box-title" style="color:#fff;">Close Your Account</h5>
 					</div>
 					<div class="card-body">
-						<div class="mb-4 font-15"><h5>Your account will be closed permanently. Your WANTED7 store will be shut down.</h5>
+						<div class="mb-4 font-15"><h5>Your account will be closed permanently. Your Coworking Space will be shut down.</h5>
 						</div>
 						<button class="btn btn-primary clr" style="display: inline-block;width: auto;min-width: 260px;margin-right: 8px;margin-bottom: 0;">Close Your Account</button>
 					 </div>

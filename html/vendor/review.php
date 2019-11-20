@@ -279,7 +279,7 @@
 										</span>
 									  </div>
 									  <div class="text-muted mb-1" style="color: #878787;font-size: 12px;">
-										<span>dheerajxxx@xxxx.com
+										<span>abcxxx@xxxx.com
 										</span>
 									  </div>
 									   <div class="flexbox">
@@ -304,7 +304,7 @@
 									</div>
 								  </div>
 								   <p class="mt-3" style="text-align:center;font-size:13px;">
-										<q><i>Very comfortable shoe. colorful and stylish. great show off with a matching polo tees and your favorite denim. Thanks Flipkart and ReatailNet You guys are always rocks to fulfill my dreams.</i></q>
+										<q><i>Very comfortable workspace, really love to work in here. You guys are always rocks to fulfill my dreams.</i></q>
 									</p>
 								</div>
 							</div>
