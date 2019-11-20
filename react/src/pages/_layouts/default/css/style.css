@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project:        D-Lister 
+Project:        D-Lister
 Version:        1.0
 Primary use:    D-Lister | Directory & Listing Responsive HTML5 Template
 Author:         Company Name
@@ -23,14 +23,14 @@ This file contains the common styles of this theme.
     * color
     * owl custom
     * list styles
-* all title 
+* all title
 * back-to-top
 * Preloader Css
 * Header Css
 * Main banner
    * Main banner 1
    * Main banner 2
-* Theme header 
+* Theme header
    * Header-Top
    * Header-Menu
    * Search bar
@@ -54,7 +54,7 @@ This file contains the common styles of this theme.
 * About Us
 * Team
 * Error page
-* FAQ 
+* FAQ
 * Login / Signup
 * Pricing
 * Add Listing Page
@@ -63,11 +63,11 @@ This file contains the common styles of this theme.
 * Custom checkbox
 * Listing with Map
 * Listing detail page
-* 
+*
 * ===============================================
 */
 
-/*======================= 
+/*=======================
    body
 ======================= */
 
@@ -405,7 +405,7 @@ h6 {
     flex-wrap: wrap;
 }
 
-/*=========================== 
+/*===========================
    custom scrollbar
 ============================= */
 
@@ -430,7 +430,7 @@ h6 {
     background: #ff3a54;
 }
 
-/*======================= 
+/*=======================
    custom button
 ======================= */
 
@@ -576,7 +576,7 @@ h6 {
     font-weight: 500
 }
 
-/*================== 
+/*==================
     owl custom
 ==================*/
 
@@ -622,8 +622,8 @@ h6 {
     background-color: #ff3a54;
 }
 
-/*==================    
-   all title 
+/*==================
+   all title
 ==================*/
 
 .all-title {
@@ -719,7 +719,7 @@ h6 {
     width: 36px;
 }
 
-/*================== 
+/*==================
     back-to-top
 ==================*/
 
@@ -884,7 +884,7 @@ h6 {
     }
 }
 
-/*====================== 
+/*======================
     Preloader Css
 ========================*/
 
@@ -1158,7 +1158,7 @@ h6 {
 }
 
 
-/*====================== 
+/*======================
     Main banner
 ========================*/
 
@@ -1168,6 +1168,15 @@ h6 {
     position: relative;
     z-index: 0;
     text-align: center;
+}
+
+.banner-image {
+    background-image: url('../img/baner-img1.jpg');
+    background-size: cover;
+    background-position: 100% 50%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
 }
 
 .banner-image::after {
@@ -1308,8 +1317,22 @@ h6 {
     z-index: 0;
 }
 
+.banner-image2::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/baner-img1.jpg');
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    z-index: -1;
+    -webkit-animation: bgslide 40s linear infinite;
+}
 
-@keyframes bgslide {
+@-webkit-keyframes bgslide {
     from {
         background-position: 0 0;
     }
@@ -1369,7 +1392,7 @@ h6 {
 }
 
 
-/*====================== 
+/*======================
    Theme Header
 ========================*/
 
@@ -2004,12 +2027,12 @@ li.list-rating i {
 ===================== */
 
 .tri-bg {
-    
+    background-image: url('../img/triangle-bg.png');
     background-attachment: fixed;
 }
 
 .tri-bg-w {
-    
+    background-image: url('../img/triangle-bg2.png');
     background-attachment: fixed;
 }
 
@@ -2260,11 +2283,11 @@ li.list-rating i {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    touch-action: pan-Y;
+    -ms-touch-action: pan-Y;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
 }
 
 .owl-carousel .partner-slide img {
@@ -2452,7 +2475,7 @@ li.list-rating i {
 
 .blog-1 .blog-content h5 {
     padding-bottom: 15px;
-    
+
 }
 
 .blog-1 .blog-content h5 a:hover {
@@ -2569,7 +2592,7 @@ li.list-rating i {
     background-color: #ff3a54;
 }
 
-/*====================== 
+/*======================
    blog detail
 ========================*/
 
@@ -2793,7 +2816,7 @@ ol.comment-list {
     padding: 0;
 }
 
-/*====================== 
+/*======================
    pagination
 ========================*/
 
@@ -2880,7 +2903,7 @@ ol.comment-list {
     transform: translateY(-50%);
 }
 
-/*====================== 
+/*======================
    sidebar
 ========================*/
 
@@ -2932,7 +2955,7 @@ ol.comment-list {
     left: 0;
     top: 0;
     background-color: #ff3a54;
-   
+
 }
 
 .author-top .img-holder {
@@ -3537,7 +3560,12 @@ ol.comment-list {
     Error page
  ===================== */
 
-
+.error-page {
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
 
 .error-content {
     padding: 80px 0 0;
@@ -3619,7 +3647,7 @@ ol.comment-list {
 }
 
 /* =====================
-    FAQ 
+    FAQ
  ===================== */
 
 .faq-tabs {
@@ -3725,7 +3753,7 @@ ol.comment-list {
 }
 
 /* =====================
-    Login 
+    Login
  ===================== */
 
 .login-section {
@@ -4230,11 +4258,10 @@ ol.comment-list {
 
 .footer .foot-top {
     padding: 100px 0 40px;
+    background-image: url('../img/foot-bg.png');
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
 
 .footer-one {
     background-color: #1e1e1e;
@@ -4331,7 +4358,7 @@ ol.comment-list {
 }
 
 .footer-one .foot-bottom {
-    border-top: 1px solid #ceb87e;
+    border-top: 1px solid ##ceb87e;
 }
 
 .footer-two .foot-bottom p {
