@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import './style.css';
-import './style.js';
 import { HomeBanner,Location,SigninBanner,PopularList } from './../../components';
 
 
@@ -64,7 +63,7 @@ class ListingDetails extends Component{
                     </li>
                     <li>
                         <span className="active">24X7 Luxurious and Premium 24 Seater Meeting Room in Mumbai
-                        </span> 
+                        </span>
                     </li>
                     </ul>
                 </div>

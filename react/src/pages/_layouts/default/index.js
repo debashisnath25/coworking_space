@@ -13,7 +13,6 @@ import './css/fontawesome.css';
 import './css/header.css';
 import './css/owl.carousel.min.css';
 import './css/owl.theme.default.min.css';
-import './css/plugins.css';
 import './css/responsive.css';
 import './css/slick-theme.css';
 import './css/slick.css';
@@ -28,7 +27,7 @@ export default function DefaultLayout({ children }) {
         <Footer />
       </>
     );
-  
+
 }
 
 DefaultLayout.propTypes = {
