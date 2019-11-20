@@ -1,0 +1,9 @@
+.login-section::after {
+    width:calc(100% - 0px) !important;
+}
+.sp-100{
+    padding-top:100px;
+}
+.seprator span {
+    background-color:transparent !important;
+}
