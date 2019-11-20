@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 
 
-class Footer extends Component{
+class Header extends Component{
     render(){
       return(
         <>
@@ -108,10 +108,10 @@ class Footer extends Component{
           <span id="toTopHover">
           </span>TOP
         </a>
-      
+
       </>
       );
     }
 }
 
-export default Footer;
+export default Header;
