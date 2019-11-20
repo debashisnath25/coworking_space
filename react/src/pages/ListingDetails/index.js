@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import './style.css';
 import { HomeBanner,Location,SigninBanner,PopularList } from './../../components';
-
+import Coverflow from 'react-coverflow';
 
 class ListingDetails extends Component{
     render(){
@@ -10,31 +10,24 @@ class ListingDetails extends Component{
          <div>
             <section className="popular-list sp-100">
             <div className="container-fluid">
-                <div id="carousel3d">
-                <carousel-3d perspective={0} space={450} display={5} controls-visible="true" controls-prev-html="'❬'" controls-width={30} controls-height={100} controls-next-html="'❭'" clickable="true" autoplay="true" autoplay-timeout={5000}>
-                    <slide index={0}>
+                  <Coverflow width="960" height="500"
+                    displayQuantityOfSide={2}
+                    navigation={false}
+                    enableScroll={true}
+                    clickable={true}
+                    active={0}
+                    controls={true}
+                  >
                     <img src="img/sala-900x600.png" alt="list" />
-                    </slide>
-                    <slide index={1}>
                     <img src="img/sala-900x600.png" alt="list" />
-                    </slide>
-                    <slide index={2}>
                     <img src="img/944390254ed4fd2b9fb33ad76b37d9a1.png" alt="list" />
-                    </slide>
-                    <slide index={3}>
                     <img src="img/coworking.jpg" alt="list" />
-                    </slide>
-                    <slide index={4}>
                     <img src="img/coworking.jpg" alt="list" />
-                    </slide>
-                    <slide index={5}>
                     <img src="img/coworking.jpg" alt="list" />
-                    </slide>
-                    <slide index={6}>
                     <img src="img/coworking.jpg" alt="list" />
-                    </slide>
-                </carousel-3d>
-                </div>
+                  </Coverflow>
+
+
             </div>
             </section>
             {/* listing slider start*/}

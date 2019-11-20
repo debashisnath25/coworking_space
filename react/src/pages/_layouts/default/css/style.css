@@ -1740,13 +1740,13 @@ h6 {
     overflow: visible;
 }
 
-.owl-item .listing-item {
+/*.owl-item .listing-item {
     opacity: 0.3;
-}
+}*/
 
-.owl-item.active .listing-item {
+/*.owl-item.active .listing-item {
     opacity: 1;
-}
+}*/
 
 .listing-item {
     background-color: #fff;

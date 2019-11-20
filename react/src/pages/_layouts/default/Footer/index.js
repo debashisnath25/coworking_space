@@ -130,28 +130,24 @@ class Footer extends Component{
           </div>
         </div>
       </footer>
-
-
-            <script type="text/jsx" src="./../js/jquery-3.3.1.min.js">
-            </script>
-            <script type="text/jsx" src="./../js/popper.min.js">
-            </script>
-            <script type="text/jsx" src="./../js/bootstrap.min.js">
-            </script>
-            <script type="text/jsx" src="./../js/owl.carousel.min.js">
-            </script>
-            <script type="text/jsx" src="./../js/slick.min.js">
-            </script>
-            <script type="text/jsx" src="./../js/jarallax.min.js">
-            </script>
-            <script type="text/jsx" src="./../js/jarallax-element.min.js">
-            </script>
-            <script type="text/jsx" src="./../js/jarallax-video.min.js">
-            </script>
-            <script type="text/jsx" src="./../js/custom.js">
-            </script>
-
-
+      <script type="text/jsx" src="./../js/jquery-3.3.1.min.js">
+      </script>
+      <script type="text/jsx" src="./../js/popper.min.js">
+      </script>
+      <script type="text/jsx" src="./../js/bootstrap.min.js">
+      </script>
+      <script type="text/jsx" src="./../js/owl.carousel.min.js">
+      </script>
+      <script type="text/jsx" src="./../js/slick.min.js">
+      </script>
+      <script type="text/jsx" src="./../js/jarallax.min.js">
+      </script>
+      <script type="text/jsx" src="./../js/jarallax-element.min.js">
+      </script>
+      <script type="text/jsx" src="./../js/jarallax-video.min.js">
+      </script>
+      <script type="text/jsx" src="./../js/custom.js">
+      </script>
       </>
       );
     }
