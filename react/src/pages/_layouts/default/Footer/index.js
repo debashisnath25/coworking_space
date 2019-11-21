@@ -121,7 +121,7 @@ class Footer extends Component{
             <div className="row">
               <div className="col-sm-12">
                 <p className="text-capitalize" style={{color: '#000'}}>Copyright © 2019, All rights Reserved. Created by
-                  <a href="#" style={{color: '#000', textTransform: 'uppercase', fontWeight: 'bold'}}>Clickrstop software solutions PVT. LTD.
+                  <a href="#" style={{color: '#000', textTransform: 'uppercase', fontWeight: 'bold'}}> Clickrstop software solutions PVT. LTD.
                   </a>
                 </p>
               </div>
