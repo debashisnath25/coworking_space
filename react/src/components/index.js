@@ -5,6 +5,8 @@ import HomeBanner from './HomeBanner';
 import Location from './Location';
 import SigninBanner from './SigninBanner';
 import PopularList from './PopularList';
+import AboutHowItWorks from './AboutHowItWorks';
+import AboutFeatures from './AboutFeatures';
 
 export{
     BannerCategory,
@@ -13,4 +15,6 @@ export{
     Location,
     SigninBanner,
     PopularList,
+    AboutHowItWorks,
+    AboutFeatures,
 }
