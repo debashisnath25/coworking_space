@@ -10,6 +10,8 @@ import AboutFeatures from './AboutFeatures';
 import ContactUsForm from './ContactUsForm';
 import ListingSideBar from './ListingSideBar';
 import ListingCoWorkingSpace from './ListingCoWorkingSpace';
+import ListingDetailsSlider from './ListingDetailsSlider';
+
 
 export{
     BannerCategory,
@@ -22,5 +24,6 @@ export{
     AboutFeatures,
     ContactUsForm,
     ListingSideBar,
-    ListingCoWorkingSpace
+    ListingCoWorkingSpace,
+    ListingDetailsSlider,
 }

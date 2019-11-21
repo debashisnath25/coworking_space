@@ -1,35 +1,14 @@
 import React,{Component} from 'react';
 import './style.css';
-import { HomeBanner,Location,SigninBanner,PopularList } from './../../components';
-import Coverflow from 'react-coverflow';
+import { ListingDetailsSlider } from './../../components';
+
 
 class ListingDetails extends Component{
     render(){
       return(
         <>
          <div>
-            <section className="sp-100">
-            <div className="container-fluid">
-                  <Coverflow width="960" height="500"
-                    displayQuantityOfSide={2}
-                    navigation={false}
-                    enableScroll={true}
-                    clickable={true}
-                    active={0}
-
-                  >
-                    <img src="img/sala-900x600.png" alt="list" />
-                    <img src="img/sala-900x600.png" alt="list" />
-                    <img src="img/944390254ed4fd2b9fb33ad76b37d9a1.png" alt="list" />
-                    <img src="img/coworking.jpg" alt="list" />
-                    <img src="img/coworking.jpg" alt="list" />
-                    <img src="img/coworking.jpg" alt="list" />
-                    <img src="img/coworking.jpg" alt="list" />
-                  </Coverflow>
-
-
-            </div>
-            </section>
+            <ListingDetailsSlider/>
             {/* listing slider start*/}
             {/* listing slider end */}
             {/* listing detail start*/}
