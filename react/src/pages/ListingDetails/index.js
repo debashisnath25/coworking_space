@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import './style.css';
+import InfiniteCarousel from 'react-leaf-carousel';
 import { ListingDetailsSlider } from './../../components';
 
 
@@ -399,8 +400,38 @@ class ListingDetails extends Component{
                     <div className="widget abt-listing">
                         <h5 className="title-sep2">Recently Added
                         </h5>
-                        <div className="sidebar-listing-slider owl-carousel owl-theme" style={{backgroundColor: 'none'}}>
-                        <div className="listing-item p-2">
+                        <div className="sidebar-listing-slider owl-theme" style={{backgroundColor: 'none',border : '1px solid red'}}>
+                        <InfiniteCarousel
+                               breakpoints={[
+                                 {
+                                   breakpoint: 800,
+                                   settings: {
+                                     slidesToShow: 1,
+                                     slidesToScroll: 1,
+                                   },
+                                 },
+                                 {
+                                   breakpoint:1000,
+                                   settings: {
+                                     slidesToShow: 1,
+                                     slidesToScroll: 1,
+                                   },
+                                 },
+                               ]}
+                               dots={true}
+                               showSides={true}
+                               sidesOpacity={.5}
+                               sideSize={.1}
+                               slidesToScroll={1}
+                               slidesToShow={1}
+                               scrollOnDevice={true}
+                               draggable={true}
+                               arrows={false}
+
+                             >
+                        
+                        
+                        <div className="listing-item " style={{border : '1px solid red'}}>
                             <div className="img-holder">
                             <img src="img/l-3.png" alt="list" />
                             </div>
@@ -425,7 +456,7 @@ class ListingDetails extends Component{
                             </ul>
                             </div>
                         </div>
-                        <div className="listing-item p-2">
+                        <div className="listing-item">
                             <div className="img-holder">
                             <img src="img/l-2.png" alt="list" />
                             </div>
@@ -450,7 +481,7 @@ class ListingDetails extends Component{
                             </ul>
                             </div>
                         </div>
-                        <div className="listing-item p-2">
+                        <div className="listing-item">
                             <div className="img-holder">
                             <img src="img/l-1.png" alt="list" />
                             </div>
@@ -475,6 +506,9 @@ class ListingDetails extends Component{
                             </ul>
                             </div>
                         </div>
+                        
+                        
+                        </InfiniteCarousel>
                         </div>
                     </div>
                     </aside>
