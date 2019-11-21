@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './post.css';
-import './post.js';
+
 import { HomeBanner,Location,SigninBanner,PopularList } from './../../components';
 
 
@@ -75,7 +75,7 @@ class PostRequirement extends Component{
                             <div className="col-12">
                             <h5 className="mb-15">Price:
                                 <i className="fas fa-rupee-sign">
-                                </i> 
+                                </i>
                                 <span className="range-value">1000
                                 </span>
                             </h5>

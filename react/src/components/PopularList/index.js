@@ -1,11 +1,8 @@
 import React,{ Component} from 'react';
 import InfiniteCarousel from 'react-leaf-carousel';
-
+import "./style.css";
 class PopularList extends Component{
     render(){
-      var slider_images = [
-            'img/l-1.png','img/l-2.png','img/l-3.png'
-        ]
         return(
             <>
                 <section className="popular-list sp-100 bg-w">
