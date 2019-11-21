@@ -7,6 +7,9 @@ import SigninBanner from './SigninBanner';
 import PopularList from './PopularList';
 import AboutHowItWorks from './AboutHowItWorks';
 import AboutFeatures from './AboutFeatures';
+import ContactUsForm from './ContactUsForm';
+import ListingSideBar from './ListingSideBar';
+import ListingCoWorkingSpace from './ListingCoWorkingSpace';
 
 export{
     BannerCategory,
@@ -17,4 +20,7 @@ export{
     PopularList,
     AboutHowItWorks,
     AboutFeatures,
+    ContactUsForm,
+    ListingSideBar,
+    ListingCoWorkingSpace
 }

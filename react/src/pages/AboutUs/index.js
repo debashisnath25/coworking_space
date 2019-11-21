@@ -7,12 +7,8 @@ class AboutUs extends Component{
       return(
         <>
          <div>
-             {/* AboutHowItWorks start*/}
             <AboutHowItWorks/>
-            {/* AboutHowItWorks end */}
-            {/* cta-one start*/}
             <SigninBanner/>
-            {/* features start*/}
             <AboutFeatures/>
         </div>
         </>
