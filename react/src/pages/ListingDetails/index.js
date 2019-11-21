@@ -8,7 +8,7 @@ class ListingDetails extends Component{
       return(
         <>
          <div>
-            <section className="popular-list sp-100">
+            <section className="sp-100">
             <div className="container-fluid">
                   <Coverflow width="960" height="500"
                     displayQuantityOfSide={2}
@@ -16,7 +16,7 @@ class ListingDetails extends Component{
                     enableScroll={true}
                     clickable={true}
                     active={0}
-                    controls={true}
+
                   >
                     <img src="img/sala-900x600.png" alt="list" />
                     <img src="img/sala-900x600.png" alt="list" />
