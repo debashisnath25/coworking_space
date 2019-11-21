@@ -3426,7 +3426,7 @@ ol.comment-list {
 
 .banner-link li::after {
     content: '\f105';
-    color: #fff;
+    color: #000;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
 }
@@ -3436,7 +3436,7 @@ ol.comment-list {
 }
 
 .banner-link li a {
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     padding-right: 5px;
 }
@@ -3561,7 +3561,7 @@ ol.comment-list {
  ===================== */
 
 .error-page {
-  
+
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
