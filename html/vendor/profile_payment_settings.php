@@ -182,12 +182,7 @@
         <!-- END: Content-->
       </div>
     </div>
-    <?php
-		include("common/extra.php");
-	?>
-    <?php
-		include("common/scripts.php");
-	?>
+
     <script src="js/vendor-js/jquery.validate.min.js">
     </script>
     <script src="js/vendor-js/jquery.steps.min.js">

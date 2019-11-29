@@ -167,12 +167,7 @@
         <!-- END: Content-->
       </div>
     </div>
-    <?php
-		include("common/extra.php");
-    ?>
-    <?php
-		include("common/scripts.php");
-	?>
+
 	<script src="js/vendor-js/datatables.min.js"></script>
 	<script src="js/vendor-js/bootstrap-datetimepicker.min.js"></script>
     <script src="js/vendor-js/jquery.validate.min.js"></script>
