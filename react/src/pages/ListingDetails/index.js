@@ -400,18 +400,18 @@ class ListingDetails extends Component{
                     <div className="widget abt-listing">
                         <h5 className="title-sep2">Recently Added
                         </h5>
-                        <div className="sidebar-listing-slider owl-theme" style={{backgroundColor: 'none',border : '1px solid red'}}>
+                        <div className="sidebar-listing-slider owl-theme">
                         <InfiniteCarousel
                                breakpoints={[
                                  {
-                                   breakpoint: 800,
+                                   breakpoint: 500,
                                    settings: {
                                      slidesToShow: 1,
                                      slidesToScroll: 1,
                                    },
                                  },
                                  {
-                                   breakpoint:1000,
+                                   breakpoint:768,
                                    settings: {
                                      slidesToShow: 1,
                                      slidesToScroll: 1,
@@ -429,9 +429,9 @@ class ListingDetails extends Component{
                                arrows={false}
 
                              >
-                        
-                        
-                        <div className="listing-item " style={{border : '1px solid red'}}>
+
+
+                        <div className="listing-item owl-theme">
                             <div className="img-holder">
                             <img src="img/l-3.png" alt="list" />
                             </div>
@@ -506,8 +506,8 @@ class ListingDetails extends Component{
                             </ul>
                             </div>
                         </div>
-                        
-                        
+
+
                         </InfiniteCarousel>
                         </div>
                     </div>
