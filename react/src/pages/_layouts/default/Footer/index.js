@@ -1,9 +1,4 @@
 import React,{Component} from 'react';
-import $ from 'jquery';
-//import bootstrap from 'react-bootstrap';
-window.jQuery = $;
-window.$ = $;
-global.jQuery = $;
 
 class Footer extends Component{
     render(){
@@ -51,19 +46,19 @@ class Footer extends Component{
                   </div>
                   <ul className="quick-link">
                     <li>
-                      <a href="index.php">Home
+                      <a href="/home">Home
                       </a>
                     </li>
                     <li>
-                      <a href="listing.php">our workspace
+                      <a href="/listing">our workspace
                       </a>
                     </li>
                     <li>
-                      <a href="login.php">register
+                      <a href="/login">register
                       </a>
                     </li>
                     <li>
-                      <a href="login.php">Login
+                      <a href="/login">Login
                       </a>
                     </li>
                   </ul>
@@ -77,19 +72,19 @@ class Footer extends Component{
                   </div>
                   <ul className="quick-link">
                     <li>
-                      <a href="listing.php">Meeting Room
+                      <a href="/listing">Meeting Room
                       </a>
                     </li>
                     <li>
-                      <a href="listing.php">Coworking Space
+                      <a href="/listing">Coworking Space
                       </a>
                     </li>
                     <li>
-                      <a href="listing.php">Private Office
+                      <a href="/listing">Private Office
                       </a>
                     </li>
                     <li>
-                      <a href="listing.php">Training Room
+                      <a href="/listing">Training Room
                       </a>
                     </li>
                   </ul>
@@ -103,11 +98,11 @@ class Footer extends Component{
                   </div>
                   <ul className="quick-link">
                     <li>
-                      <a href="about_us.php">About Us
+                      <a href="/aboutUs">About Us
                       </a>
                     </li>
                     <li>
-                      <a href="pricing.php;">Contact Us
+                      <a href="/contactUs">Contact Us
                       </a>
                     </li>
                   </ul>
@@ -129,24 +124,7 @@ class Footer extends Component{
           </div>
         </div>
       </footer>
-      <script type="text/jsx" src="./../js/jquery-3.3.1.min.js">
-      </script>
-      <script type="text/jsx" src="./../js/popper.min.js">
-      </script>
-      <script type="text/jsx" src="./../js/bootstrap.min.js">
-      </script>
-      <script type="text/jsx" src="./../js/owl.carousel.min.js">
-      </script>
-      <script type="text/jsx" src="./../js/slick.min.js">
-      </script>
-      <script type="text/jsx" src="./../js/jarallax.min.js">
-      </script>
-      <script type="text/jsx" src="./../js/jarallax-element.min.js">
-      </script>
-      <script type="text/jsx" src="./../js/jarallax-video.min.js">
-      </script>
-      <script type="text/jsx" src="./../js/custom.js">
-      </script>
+
       </>
       );
     }

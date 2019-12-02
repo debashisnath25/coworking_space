@@ -36,13 +36,13 @@ class Header extends Component{
                 <div className="col-lg-9">
                   <ul className="head-contact text-lg-right text-center">
                     <li>
-                      <a href="login.php">Login</a>
+                      <a href="/SignIn">Login</a>
                     </li>
                     <li>
-                      <a href="login.php">register</a>
+                      <a href="/SignIn">register</a>
                     </li>
                     <li className="ad-list">
-                      <a href="login.php" className="btn btn-one btn-anim w-100">
+                      <a href="/postRequirement" className="btn btn-one btn-anim w-100">
                         <i className="fa fa-plus-circle">
                         </i> add workspace
                       </a>
@@ -58,7 +58,7 @@ class Header extends Component{
                 <div className="col-lg-3 col-md-12">
                   <div className="logo-one logo-wrap">
                     <div className="logo my-1">
-                      <a href="index.php">
+                      <a href="/home">
                         <img src="img/logo.png" alt="logo" />
                       </a>
                     </div>
@@ -79,19 +79,19 @@ class Header extends Component{
                       <div className="main-menu collapse navbar-collapse" id="nav-content">
                         <ul className="navbar-nav ml-auto">
                           <li className="nav-item dropdown">
-                            <a href="index.php" className="nav-link current">Home
+                            <a href="/home" className="nav-link current">Home
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="listing.php">Our Workspaces
+                            <a className="nav-link" href="/listing">Our Workspaces
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="about_us.php">About Us
+                            <a className="nav-link" href="/aboutUs">About Us
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="contact_us.php">Contact Us
+                            <a className="nav-link" href="/contactUs">Contact Us
                             </a>
                           </li>
                         </ul>

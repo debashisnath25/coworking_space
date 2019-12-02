@@ -39,7 +39,7 @@ class ListingCoWorkingSpace extends Component{
                             <div className="img-holder">
                             <span className="offer">save 49%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-1.png" alt="list" /></a>
+                            <a href="/listingDetails"><img src="img/l-1.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -65,7 +65,7 @@ class ListingCoWorkingSpace extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Private office</a>
+                            <a href="/listingDetails">Private office</a>
                             </h5>
                             <p>Landmark :  Near Hope Appartments</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
@@ -87,7 +87,7 @@ class ListingCoWorkingSpace extends Component{
                             <div className="img-holder">
                             <span className="offer">save 30%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-2.png" alt="list" /></a>
+                            <a href="/listingDetails"><img src="img/l-2.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -113,7 +113,7 @@ class ListingCoWorkingSpace extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Workstations</a>
+                            <a href="/listingDetails">Workstations</a>
                             </h5>
                             <p>Landmark :  Opp to Punj Loyd</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
@@ -135,7 +135,7 @@ class ListingCoWorkingSpace extends Component{
                             <div className="img-holder">
                             <span className="offer">save 19%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-3.png" alt="list" /></a>
+                            <a href="/listingDetails"><img src="img/l-3.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -161,7 +161,7 @@ class ListingCoWorkingSpace extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Meeting Room</a>
+                            <a href="/listingDetails">Meeting Room</a>
                             </h5>
                             <p>Landmark :  Medanta Hospital</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
@@ -183,7 +183,7 @@ class ListingCoWorkingSpace extends Component{
                             <div className="img-holder">
                             <span className="offer">save 59%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-1.png" alt="list" /></a>
+                            <a href="/listingDetails"><img src="img/l-1.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -209,7 +209,7 @@ class ListingCoWorkingSpace extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Private office</a>
+                            <a href="/listingDetails">Private office</a>
                             </h5>
                             <p>Landmark :  Near Hope Appartments</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
@@ -231,7 +231,7 @@ class ListingCoWorkingSpace extends Component{
                             <div className="img-holder">
                             <span className="offer">save 20%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-2.png" alt="list" /></a>
+                            <a href="/listingDetails"><img src="img/l-2.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -257,7 +257,7 @@ class ListingCoWorkingSpace extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Workstation</a>
+                            <a href="/listingDetails">Workstation</a>
                             </h5>
                             <p>Landmark :  Medanta Hospital</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
@@ -279,7 +279,7 @@ class ListingCoWorkingSpace extends Component{
                             <div className="img-holder">
                             <span className="offer">save 26%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-3.png" alt="list" /></a>
+                            <a href="/listingDetails"><img src="img/l-3.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -305,7 +305,7 @@ class ListingCoWorkingSpace extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Meeting Room</a>
+                            <a href="/listingDetails">Meeting Room</a>
                             </h5>
                             <p>Opp to Punj Loyd</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">

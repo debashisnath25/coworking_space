@@ -1,7 +1,5 @@
 import React,{Component} from 'react';
 import './signin.css';
-import { HomeBanner,Location,SigninBanner,PopularList } from './../../components';
-
 
 class SignIn extends Component{
     render(){
@@ -14,7 +12,7 @@ class SignIn extends Component{
                 <div className=" col-12">
                   <ul className="banner-link " style={{marginLeft: '-16px'}}>
                     <li>
-                      <a href="index.php">Home
+                      <a href="/home">Home
                       </a>
                     </li>
                     <li>
@@ -42,11 +40,11 @@ class SignIn extends Component{
                         <div className="row">
                           <div className="col-12">
                             <span className="fa fa-user" />
-                            <input type="text" id="name1" className="form-control" placeholder="Enter Name" />
+                            <input type="text" id="email" className="form-control" placeholder="Enter Email" />
                           </div>
                           <div className="col-12">
                             <span className="fa fa-lock" />
-                            <input type="password" className="form-control" placeholder="Password" id="email" />
+                            <input type="password" className="form-control" placeholder="Password" id="password" />
                           </div>
                           <div className="col-6">
                             <input type="checkbox" name="checkbox" id="checkbox_id1" defaultValue="value" />
@@ -125,4 +123,3 @@ class SignIn extends Component{
 }
 
 export default SignIn;
-

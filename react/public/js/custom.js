@@ -10,7 +10,7 @@ Author:         Company Name
     * preloader js
     * scroll to top js
     * sticky menu js
-    * toggle search
+    * toggle search 
     * Navigation mobile menu
     * Jarallax
     * Box mouse-enter hover

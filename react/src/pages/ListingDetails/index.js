@@ -418,7 +418,7 @@ class ListingDetails extends Component{
                                    },
                                  },
                                ]}
-                               dots={true}
+                               dots={false}
                                showSides={true}
                                sidesOpacity={.5}
                                sideSize={.1}
@@ -426,12 +426,12 @@ class ListingDetails extends Component{
                                slidesToShow={1}
                                scrollOnDevice={true}
                                draggable={true}
-                               arrows={false}
+                               arrows={true}
 
                              >
 
 
-                        <div className="listing-item owl-theme">
+                        <div className="listing-item">
                             <div className="img-holder">
                             <img src="img/l-3.png" alt="list" />
                             </div>
