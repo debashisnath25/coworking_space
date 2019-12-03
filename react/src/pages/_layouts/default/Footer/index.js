@@ -54,11 +54,11 @@ class Footer extends Component{
                       </a>
                     </li>
                     <li>
-                      <a href="/login">register
+                      <a href="/signin">register
                       </a>
                     </li>
                     <li>
-                      <a href="/login">Login
+                      <a href="/signin">Login
                       </a>
                     </li>
                   </ul>

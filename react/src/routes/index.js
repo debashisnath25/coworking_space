@@ -18,8 +18,8 @@ import Profile from "../pages/Profile";
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={SignIn} />
-      <Route path="/home" exact component={Home} />
+      <Route path="/" exact component={Home} />
+      <Route path="/signin" exact component={SignIn} />
       <Route path="/listing" exact component={Listing} />
       <Route path="/listingDetails" exact component={ListingDetails} />
       <Route path="/AboutUs" exact component={AboutUs} />
