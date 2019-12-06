@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel='icon' href='images/favicon.png' type='image/x-icon'/ >
-    <title>Discount Analytics | Wanted 7</title>
+    <title>Discount Details | Bundesk</title>
     <?php
 		include("common/metalinks.php");
 	?>
@@ -49,7 +49,7 @@
             <div>
 			<div class="page-heading" style="padding-left:17px;">
               <div class="page-breadcrumb">
-                <h1 class="page-title"><a href="dashboard.php">Dashboard </a>> <a href="discount_coupon.php">Discounts & Coupon </a>>Discount Details
+                <h1 class="page-title"><a href="dashboard.php">Dashboard </a>> <a href="discount.php">Discounts </a>>Discount Details
                 </h1>
               </div>
             </div>
@@ -129,21 +129,21 @@
                           </td>
                         </tr>
 						<tr>
-                          <th>Store Name
+                          <th>WorkSpace Name
                           </th>
-                          <td scope="row">Deep Kumar Impex
+                          <td scope="row">Work with us
                           </td>
                         </tr>
 						<tr>
                           <th>Vendor Name
                           </th>
-                          <td scope="row">Shuvradeb Mondal
+                          <td scope="row">Aman Khanna
                           </td>
                         </tr>
                         <tr>
                           <th>Category
                           </th>
-                          <td scope="row">New Arrivals
+                          <td scope="row">Co-working Space
                           </td>
                         </tr>
                         <tr>
@@ -214,8 +214,6 @@
 									</option>
 									<option>Completed
 									</option>
-									<option>Shipped
-								 </option>
 								</select>
 							  </div>
 							  <div class="col-md-12 col-sm-12 col-xs-12" >

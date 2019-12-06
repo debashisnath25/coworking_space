@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='images/vendor-images/favicon.png' type='image/x-icon'/ >
-    <title>Addons | Wanted 7</title>
+    <title>Rejected Leads | Bundesk</title>
     <?php
 		include("common/metalinks.php");
 	?>
