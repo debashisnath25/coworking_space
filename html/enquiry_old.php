@@ -126,8 +126,6 @@
 					<h4>Basic Information</h4>
 					<hr>
 					 <div class="col-12">
-					 	<div class="container">
-						  <div class="row">
 							<div class="col-md-4">
 								  <label>Name
 								  </label>
@@ -176,12 +174,10 @@
 									</div>
 								</div>
 							</div>
-						  </div>
-						 </div>
+						 
 					  </div>
 					<button class="btn btn-primary nextBtn btn-lg float-right" type="button" >Next</button>
 				</div>
-				
 			</div>
 			<div class="row setup-content abt-listing" id="step-2">
 				<div class="col-md-12">
