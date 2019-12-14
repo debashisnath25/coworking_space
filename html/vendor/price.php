@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel='icon' href='images/favicon.png' type='image/x-icon'/ >
-    <title>Products Price | Wanted 7</title>
+    <title>Products Price | Bundesk</title>
     <?php
 		include("common/metalinks.php");
 	?>

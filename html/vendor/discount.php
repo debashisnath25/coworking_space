@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel='icon' href='images/favicon.png' type='image/x-icon'/ >
-    <title>Discounts & Coupon | Wanted 7
+    <title>Discounts | Bundesk
     </title>
     <?php
 		include("common/metalinks.php");
@@ -38,7 +38,7 @@
 		  	<!-- BEGIN: Page heading-->
             <div class="page-heading" style="padding-left:17px;">
               <div class="page-breadcrumb">
-                <h1 class="page-title"><a href="dashboard.php">Dashboard </a> &gt; Discounts & Coupon
+                <h1 class="page-title"><a href="dashboard.php">Dashboard </a> &gt; Discounts
                 </h1>
               </div>
             </div>
@@ -187,153 +187,7 @@
                   </div>
 				 </div>
 			</div>
-			  <div class="col-lg-12">
-				<div class="card" style="border:1px solid #7c1ab5">
-					<div class="card-header cardhdd">
-						<h5 class="box-title" style="color:#fff;">Start a Coupon Code Based Discount Scheme for your Customers</h5>
-						<div class="card-actions"><a class="card-collapse"><i class="ti-angle-down"></i></a></div>
-					</div>
-					<div class="card-body">
-						<form class="needs-validation" novalidate="">
-							<!-- original form -->
-							<div class="row">
-								<div class="col-md-7">
-									<div class="form-group mb-4 row">
-										<dt class="col-sm-4" style="padding-top:10px;">Coupon Scheme Name</dt>
-										<div class="col-sm-8">
-											<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter Coupon Scheme Name" required="">
-										</div>
-									</div>
-									<div class="form-group mb-4 row">
-										<dt class="col-sm-4" style="padding-top:10px;">Coupon Code</dt>
-										<div class="col-sm-8">
-											<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter Coupon Code" required="">
-										</div>
-									</div>
-									<div class="form-group mb-4 row">
-										<dt class="col-sm-4" style="padding-top:10px;">Discount&nbsp;(<span style="font-family:arial;">&#8377;</span>)</dt>
-										<div class="col-sm-8">
-											<input class="form-control form-control-solid" id="validationCustom03" type="text" placeholder="Enter Amount" required="">
-										</div>
-									</div>
-									
-									
-									<div class="form-group mb-4 row">
-										<dt class="col-sm-4" style="padding-top:10px;">Category&nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Customers Can apply this coupon To products from which category?"><i style="font-size:12px;" class="fa fa-info-circle"></i></a></dt>
-										<div class="col-sm-8">
-											<select class="selectpicker form-control mb-3" data-style="btn-light btn-light-solid">
-												<option selected disabled>Choose Category</option>
-												  <option>Meeting Room
-												  </option>
-												  <option>Coworking Space
-												  </option>
-												  <option>Private Office
-												  </option>
-												  <option>Training Room
-												  </option>
-												  <option>Business Centre
-												  </option>
-												  <option>Coworking Cafes
-												  </option>
-											</select>
-										</div>
-									</div>
-									<div class="form-group mb-4 row">
-										<dt class="col-sm-4" style="padding-top:10px;"> Start Date & Time </dt>
-										<div class="col-sm-8">
-											<div class="input-group">
-												<div class="input-group-prepend"><span class="input-group-text"><i class="ti-calendar"></i></span></div><input class="form-control form-control-solid" id="datetimepicker_1" type="text" placeholder="Start Date & Time">
-											</div>
-										</div>
-									</div>
-									
-									<div class="form-group mb-4 row">
-										<dt class="col-sm-4" style="padding-top:10px;"> End Date & Time </dt>
-										<div class="col-sm-8">
-											<div class="input-group">
-												<div class="input-group-prepend"><span class="input-group-text"><i class="ti-calendar"></i></span></div><input class="form-control form-control-solid" id="datetimepicker_2" type="text" placeholder="End Date & Time">
-											</div>
-										</div>
-									</div>
-									
-								</div>
-								<div class="col-md-5">
-									<div class="card card-dark" style="border: 1px solid #6C757D;">
-										<div class="card-header bg-secondary">
-											<h5 class="box-title"><span>Note to Vendor</span></h5>
-										</div>
-										<div class="card-body">
-											<p>You can add a coupon in terms of Price to Office spaces in a Particular Category Created by you.</p>
-											<p>Customer will be able to use coupon at the time of their checkout only. </p>
-											<p>Coupon value should be flat amount value, not in %. </p>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-							<!-- original form ends -->
-						
-					</div>
-
-					
-					</form>
-				</div>
-			  </div>
-			  
-              <div class="col-lg-12" style="padding-bottom:12px;">
-                <div class="row">
-                  <div class="col-md-12">
-
-                    <div class="card" style="border:1px solid #7c1ab5">
-                            <div class="card-header cardhdd">
-								<h5 class="box-title" style="color:#fff;"> My Added Coupon Schemes </h5>
-							</div>
-							<div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered table-striped w-100" id="dt-buttons">
-                                        <thead class="">
-                                            <tr>
-                                                <th style="min-width:200px;">Scheme Name</th>
-                                                <th style="min-width:100px;">Coupon Code</th>
-												<th>Category</th>
-                                                <th>Discount</th>												
-                                                <th style="min-width:80px;">Start Time<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Start Date & Time"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-												<th style="min-width:80px;">End Time<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="End Date & Time"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-                                                <th style="min-width:100px;">Total Sales<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="Total Sales After Launch in Rs."><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-												<th style="min-width:100px;">Coupon Used<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="No. of Times Coupon has been successfully used"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-												<th style="min-width:100px;">Space Booked<!-- &nbsp;&nbsp;<a href="#" data-toggle="tooltip" title="No. of Items Sold Using Coupon"><i style="font-size:12px;" class="fa fa-info-circle"></i></a> --></th>
-												<th>Action</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-										<?php
-											for($i=0;$i<=10;$i++){
-										?>
-                                            <tr>
-                                                <td><a href="coupon_details.php" class="btn btn-ok btn-sm" type="button">Dhanteras Specials</a></td>
-                                                <td><a href="coupon_details.php" class="btn btn-vk btn-sm" type="button">COWORKING10XX</a></td>
-												<td>Coworking Space</td>
-                                                <td>99</td>
-                                                <td>27/09/2019 : 4:15 PM</td>
-												<td>01/02/2019 : 7:00 PM </td>
-                                                <td><b><span style="font-family:arial;">&#8377;</span>&nbsp;15,00,000.00</b></td>
-												<td>43</td>
-												<td>437</td>
-												<td>
-													<label class="ui-switch switch-solid"><input type="checkbox" checked=""><span></span></label>
-												</td>
-                                            </tr>
-										<?php
-											}
-										?>	
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                  </div>
-				 </div>
-			</div>
+			 
             </div>
             <!-- END: Page content-->
           </div>

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import Header from "./Header";
 import Footer from "./Footer";
-
+import 'typeface-josefin-sans';
 
 import './css/animate.css';
 import './css/bootstrap.min.css';

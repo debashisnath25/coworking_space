@@ -25,14 +25,14 @@
 				</ul>
 			</li>	
 			<li class="heading">
-              <span>YOUR OFFICE SPACE
+              <span>YOUR WORK SPACE
               </span>
             </li>
             <li class="<?php echo (($page == 'office_space' || $page == 'step1' || $page == 'step2' || $page == 'step3' || $page == 'step4' || $page == 'step5')?'mm-active':'')?>">
               <a href="office_space.php">
                 <i class="sidebar-item-icon ft-gift">
                 </i>
-                <span class="nav-label">Office Space
+                <span class="nav-label">Work Space
                 </span>
                 <!-- <i class="arrow la la-angle-right"></i> -->
               </a>
@@ -45,11 +45,11 @@
                 </span> 
               </a>
             </li>
-			<li class="<?php echo (($page == 'discount_coupon' || $page == 'coupon_details' || $page == 'discount_details')?'mm-active':'')?>">
-              <a href="discount_coupon.php">
+			<li class="<?php echo (($page == 'discount' || $page == 'coupon_details' || $page == 'discount_details')?'mm-active':'')?>">
+              <a href="discount.php">
                 <i class="sidebar-item-icon fas fa-tags">
                 </i>
-                <span class="nav-label">Discounts & Coupon
+                <span class="nav-label">Discounts
                 </span>
               </a>
             </li>

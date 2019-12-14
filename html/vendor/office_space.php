@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel='icon' href='images/favicon.png' type='image/x-icon'/ >
-    <title>Office Space | Wanted 7</title>
+    <title>Office Space | Bundesk</title>
     <?php
 		include("common/metalinks.php");
 	?>
@@ -101,53 +101,7 @@
               <div class="col-lg-12">
 			  	<!-- top section -->
 				<div class="row">
-					<div class="col-3">
-						<div class="card">
-							<div class="card-body text-white" style="background-image: linear-gradient(45deg,#f39c12 0,#e91e63 100%);">
-								<div class="d-flex justify-content-between mb-5">
-									<div>
-										<h5 class="box-title mb-2">New Bookings</h5>
-										<div class="text-light font-13">From 14.12 - 21.12</div>
-									</div><i class="ti-shopping-cart text-white-50 font-40"></i>
-								</div>
-								<div class="flexbox mb-2">
-									<div class="h4 mb-0">+620</div><span class="text-white font-18"><i class="ti-arrow-top-right mr-2"></i>24.05%</span>
-								</div>
-								<div class="text-light">AVG. booking value - <span style="font-family:arial;">&#x20b9;</span> 54</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-3">
-						<div class="card">
-							<div class="card-body">
-								<div class="d-flex justify-content-between mb-5">
-									<div>
-										<h5 class="box-title mb-2">Earnings</h5>
-										<div class="text-muted font-13">From 14.12 - 21.12</div>
-									</div><a class="text-muted" href="#">&nbsp;</a>
-								</div>
-								<div class="flexbox mb-4 pb-3">
-									<div class="h4 mb-0"><span style="font-family:arial;">&#x20b9;</span> 7450.40</div><span class="text-success font-18"><i class="ti-arrow-top-right mr-2"></i>24.05%</span>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-3">
-						<div class="card">
-							<div class="card-body text-white bg-purple-300">
-								<div class="d-flex justify-content-between mb-5">
-									<div>
-										<h5 class="box-title mb-2">Bookings Declined</h5>
-										<div class="text-light font-13">From 14.12 - 21.12</div>
-									</div><i class="ti-shopping-cart text-white-50 font-40"></i>
-								</div>
-								<div class="flexbox mb-2">
-									<div class="h4 mb-0">+620</div><span class="text-white font-18"><i class="ti-arrow-top-right mr-2"></i>24.05%</span>
-								</div>
-								<div class="text-light">AVG. booking value - <span style="font-family:arial;">&#x20b9;</span> 54</div>
-							</div>
-						</div>
+					<div class="col-9">
 					</div>
 					<div class="col-3">
 						<a href="step1.php" class="btn btn-primary btn-block"><span class="btn-icon"><i class="ft-plus"></i>Add Office Space</span></a>

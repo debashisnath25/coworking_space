@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel='icon' href='images/favicon.png' type='image/x-icon'/ >
-    <title>Booking Details | Wanted 7</title>
+    <title>Booking Details | Bundesk</title>
     <?php
 		include("common/metalinks.php");
 	?>
