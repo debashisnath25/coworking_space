@@ -42,7 +42,71 @@
     <!-- Header end -->
     <!-- listings start-->
 
-    <div class="bg-w" style="padding-top:100px;">
+	<section class="bg-w" style="padding-top:100px;">
+        <div class="container">
+            <div class="list-category-slider owl-carousel owl-theme">
+                <div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-find"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">destination</a>
+                    </h5>
+                </div>
+                <div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-spa"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">beauty & spa</a>
+                    </h5>
+                </div>
+                <div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-cheers"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">nightlife</a>
+                    </h5>
+                </div>
+                <div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-hotel"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">hotels</a>
+                    </h5>
+                </div>
+                <div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-cutlery"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">restaurants</a>
+                    </h5>
+                </div>
+                <div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-shop"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">shopping</a>
+                    </h5>
+                </div>
+                <div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-drama"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">events</a>
+                    </h5>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <div class="bg-w" style="padding-top:20px;">
       <div class="container">
 	  <div class="row">
           <div class=" col-12">
@@ -291,7 +355,7 @@
                   <div class="sort-filter">
                     <div class="sort-dropdown">
                       <a href="#" class="dropdown-toggle text-capitalize" data-toggle="dropdown">
-                        Popularity
+                        Sort By
                       </a>
                       <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">low to high
@@ -326,9 +390,9 @@
 												<i class="far fa-star"></i>
 												<i class="far fa-star"></i>
 											</div>
-											<a class="likes" href="#">
+											<!-- <a class="likes" href="#">
 												<i class="far fa-heart"></i>25
-											</a>
+											</a> -->
 										</div>
 									</div>
 								</div>
@@ -351,10 +415,10 @@
 											<a href="#">
 												<i class="fa fa-map-marker-alt mr-2"></i>Dwarka,New Delhi</a>
 										</li>
-										<li class="mt-1">
+										<!-- <li class="mt-1">
 											<a href="#">
 												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -374,9 +438,9 @@
 												<i class="far fa-star"></i>
 												<i class="far fa-star"></i>
 											</div>
-											<a class="likes" href="#">
+											<!-- <a class="likes" href="#">
 												<i class="far fa-heart"></i>33
-											</a>
+											</a> -->
 										</div>
 									</div>
 								</div>
@@ -399,10 +463,10 @@
 											<a href="#">
 												<i class="fa fa-map-marker-alt mr-2"></i>Chitpur,Noida</a>
 										</li>
-										<li class="mt-1">
+										<!-- <li class="mt-1">
 											<a href="#">
 												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -447,10 +511,10 @@
 											<a href="#">
 												<i class="fa fa-map-marker-alt mr-2"></i>Vasant kunj,New Delhi</a>
 										</li>
-										<li class="mt-1">
+										<!-- <li class="mt-1">
 											<a href="#">
 												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -470,9 +534,9 @@
 												<i class="far fa-star"></i>
 												<i class="far fa-star"></i>
 											</div>
-											<a class="likes" href="#">
+											<!-- <a class="likes" href="#">
 												<i class="far fa-heart"></i>24
-											</a>
+											</a> -->
 										</div>
 									</div>
 								</div>
@@ -495,10 +559,10 @@
 											<a href="#">
 												<i class="fa fa-map-marker-alt mr-2"></i>Chattisnagar,New Delhi</a>
 										</li>
-										<li class="mt-1">
+										<!-- <li class="mt-1">
 											<a href="#">
 												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -518,9 +582,9 @@
 												<i class="fa fa-star"></i>
 												<i class="fa fa-star"></i>
 											</div>
-											<a class="likes" href="#">
+											<!-- <a class="likes" href="#">
 												<i class="far fa-heart"></i>36
-											</a>
+											</a> -->
 										</div>
 									</div>
 								</div>
@@ -543,10 +607,10 @@
 											<a href="#">
 												<i class="fa fa-map-marker-alt mr-2"></i>Noida,Delhi</a>
 										</li>
-										<li class="mt-1">
+										<!-- <li class="mt-1">
 											<a href="#">
 												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -566,9 +630,9 @@
 												<i class="fa fa-star"></i>
 												<i class="far fa-star"></i>
 											</div>
-											<a class="likes" href="#">
+											<!-- <a class="likes" href="#">
 												<i class="far fa-heart"></i>84
-											</a>
+											</a> -->
 										</div>
 									</div>
 								</div>
@@ -591,16 +655,30 @@
 											<a href="#">
 												<i class="fa fa-map-marker-alt mr-2"></i>Dwarka,New Delhi</a>
 										</li>
-										<li class="mt-1">
+										<!-- <li class="mt-1">
 											<a href="#">
 												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
 						</div>
-						<div class="col-12 text-center mt-20">
-							<a href="#" class="btn btn-one btn-anim">load more</a>
+						<div class="col-12 text-center">
+						<div class="pagination mt-30 mb-15">
+								<span class="sep">
+									<a href="#" class="page-numbers prev mr-sm-5 mr-3">
+										<i class="fa fa-angle-left"></i>
+									</a>
+									<a href="#" class="page-numbers">1</a>
+									<a href="#" class="page-numbers active">2</a>
+									<a href="#" class="page-numbers">3</a>
+									<a href="#" class="page-numbers">...</a>
+									<a href="#" class="page-numbers">8</a>
+									<a href="#" class="page-numbers next ml-sm-5 ml-3">
+										<i class="fa fa-angle-right"></i>
+									</a>
+								</span>
+							</div>
 						</div>
 					</div>
 				</div>
