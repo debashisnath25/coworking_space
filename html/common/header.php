@@ -108,7 +108,7 @@
 			            </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="about_us.php">Enquiry
+                    <a class="nav-link" href="enquiry.php">Enquiry
                     </a>
                   </li>
 				  <li class="nav-item">
