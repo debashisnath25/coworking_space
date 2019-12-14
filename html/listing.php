@@ -47,42 +47,18 @@
             <div class="list-category-slider owl-carousel owl-theme">
                 <div class="list-items2 btn-anim">
                     <div class="icon-box">
-                        <i class="flaticon-find"></i>
+                        <i class="flaticon-team"></i>
                     </div>
                     <h5 class="mb-0 mt-3">
-                        <a href="#">destination</a>
+                        <a href="#">Meeting Room</a>
                     </h5>
                 </div>
                 <div class="list-items2 btn-anim">
                     <div class="icon-box">
-                        <i class="flaticon-spa"></i>
+                        <i class="flaticon-appointment"></i>
                     </div>
                     <h5 class="mb-0 mt-3">
-                        <a href="#">beauty & spa</a>
-                    </h5>
-                </div>
-                <div class="list-items2 btn-anim">
-                    <div class="icon-box">
-                        <i class="flaticon-cheers"></i>
-                    </div>
-                    <h5 class="mb-0 mt-3">
-                        <a href="#">nightlife</a>
-                    </h5>
-                </div>
-                <div class="list-items2 btn-anim">
-                    <div class="icon-box">
-                        <i class="flaticon-hotel"></i>
-                    </div>
-                    <h5 class="mb-0 mt-3">
-                        <a href="#">hotels</a>
-                    </h5>
-                </div>
-                <div class="list-items2 btn-anim">
-                    <div class="icon-box">
-                        <i class="flaticon-cutlery"></i>
-                    </div>
-                    <h5 class="mb-0 mt-3">
-                        <a href="#">restaurants</a>
+                        <a href="#">Coworkng Space</a>
                     </h5>
                 </div>
                 <div class="list-items2 btn-anim">
@@ -90,17 +66,34 @@
                         <i class="flaticon-shop"></i>
                     </div>
                     <h5 class="mb-0 mt-3">
-                        <a href="#">shopping</a>
+                        <a href="#">Private Office</a>
                     </h5>
                 </div>
                 <div class="list-items2 btn-anim">
                     <div class="icon-box">
-                        <i class="flaticon-drama"></i>
+                        <i class="flaticon-hotel"></i>
                     </div>
                     <h5 class="mb-0 mt-3">
-                        <a href="#">events</a>
+                        <a href="#">Training Room</a>
                     </h5>
                 </div>
+                <div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-team"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">Business Center</a>
+                    </h5>
+                </div>
+                <div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-shop"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">Coworking Cafes</a>
+                    </h5>
+                </div>
+                
             </div>
             
         </div>
