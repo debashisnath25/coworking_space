@@ -23,7 +23,7 @@
     <!-- Header end -->
     <!-- banner start -->
     <div class="main-banner">
-      <div class="banner-image" style="background-image:url('img/Panoramic-Beauty-of-Taj-Mahal-Tour-My-India--1024x489.jpg')">
+      <div class="banner-image" style="background-image:url('img/home_banner.jpg')">
         <div class="container">
           <div class="banner-content">
             <div class="row" style="margin-top:-50px;">
@@ -34,10 +34,10 @@
             </div>
             <form action="#" class="banner-form mt-2">
               <div class="row justify-content-md-center">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" style="padding:3px! important;">
                   <input type="text" class="form-control mb-lg-0" placeholder="Enter city or Locality name">
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" style="padding:3px! important;">
                   <select class="form-control mb-lg-0 custom-select" id="service2">
                     <option>all categories
                     </option>
@@ -55,7 +55,7 @@
                     </option>
                   </select>
                 </div>
-                <div class="col-lg-2 col-md-4">
+                <div class="col-lg-2 col-md-4" style="padding:3px! important;">
                   <button type="submit" class="btn btn-one btn-anim w-100">
                     <i class="fa fa-search">
                     </i> search
