@@ -83,13 +83,32 @@
                     <a href="index.php" class="nav-link current">Home
                     </a>
                   </li>
-				   <li class="nav-item">
-                    <a class="nav-link" href="listing.php">Our Workspaces
-                    </a>
-                  </li>
-				  
+									<li class="nav-item dropdown">
+									<a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">our workspaces</a>
+                       <ul class="dropdown-menu">
+                           <li class="dropdown-item">
+                               <a href="listing.html">Meeting room</a>
+                           </li>
+                           <li class="dropdown-item">
+                               <a href="listing-sidebar.html">Coworking space</a>
+                           </li>
+                           <li class="dropdown-item">
+                               <a href="listing-with-map.html">Private office</a>
+                           </li>
+                           <li class="dropdown-item">
+                               <a href="listing-detail.html">Training room</a>
+                           </li>
+													 <li class="dropdown-item">
+                               <a href="listing-detail.html">business center</a>
+                           </li>
+													 <li class="dropdown-item">
+                               <a href="listing-detail.html">Coworking cafes</a>
+                           </li>
+                       </ul>
+			            </li>
+
                   <li class="nav-item">
-                    <a class="nav-link" href="about_us.php">About Us
+                    <a class="nav-link" href="about_us.php">Enquiry
                     </a>
                   </li>
 				  <li class="nav-item">
