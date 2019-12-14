@@ -64,7 +64,7 @@
               </div>
             </form>
           </div>
-          <div class="list-category" style="margin-top:-100px;padding-bottom:50px;">
+          <!-- <div class="list-category" style="margin-top:-100px;padding-bottom:50px;">
             <div class="row">
               <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                 <div class="list-items mb-30 btn-anim">
@@ -133,7 +133,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

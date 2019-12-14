@@ -41,11 +41,12 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- listings start-->
-
-	<section class="bg-w" style="padding-top:100px;">
-        <div class="container">
-            <div class="list-category-slider owl-carousel owl-theme">
-                <div class="list-items2 btn-anim">
+    <section class="bg-w" style="padding-top:100px;">
+      <div class="container">
+	    <h4 class="title-sep3 mb-20 mt-30">Home > <span style="color:#FF3A54;">Coworking Spaces</span> </h4>
+	  	<div class="row mb-30">
+			<div class="col-md-2 col-sm-6 col-12">
+				<div class="list-items2 btn-anim">
                     <div class="icon-box">
                         <i class="flaticon-team"></i>
                     </div>
@@ -53,7 +54,9 @@
                         <a href="#">Meeting Room</a>
                     </h5>
                 </div>
-                <div class="list-items2 btn-anim">
+			</div>
+			<div class="col-md-2 col-sm-6 col-12">
+				 <div class="list-items2 btn-anim">
                     <div class="icon-box">
                         <i class="flaticon-appointment"></i>
                     </div>
@@ -61,7 +64,9 @@
                         <a href="#">Coworkng Space</a>
                     </h5>
                 </div>
-                <div class="list-items2 btn-anim">
+			</div>
+			<div class="col-md-2 col-sm-6 col-12">
+				<div class="list-items2 btn-anim">
                     <div class="icon-box">
                         <i class="flaticon-shop"></i>
                     </div>
@@ -69,7 +74,9 @@
                         <a href="#">Private Office</a>
                     </h5>
                 </div>
-                <div class="list-items2 btn-anim">
+			</div>
+			<div class="col-md-2 col-sm-6 col-12">
+				<div class="list-items2 btn-anim">
                     <div class="icon-box">
                         <i class="flaticon-hotel"></i>
                     </div>
@@ -77,7 +84,9 @@
                         <a href="#">Training Room</a>
                     </h5>
                 </div>
-                <div class="list-items2 btn-anim">
+			</div>
+			<div class="col-md-2 col-sm-6 col-12">
+				<div class="list-items2 btn-anim">
                     <div class="icon-box">
                         <i class="flaticon-team"></i>
                     </div>
@@ -85,7 +94,9 @@
                         <a href="#">Business Center</a>
                     </h5>
                 </div>
-                <div class="list-items2 btn-anim">
+			</div>
+			<div class="col-md-2 col-sm-6 col-12">
+				<div class="list-items2 btn-anim">
                     <div class="icon-box">
                         <i class="flaticon-shop"></i>
                     </div>
@@ -93,36 +104,8 @@
                         <a href="#">Coworking Cafes</a>
                     </h5>
                 </div>
-                
-            </div>
-            
-        </div>
-    </section>
-
-    <div class="bg-w" style="padding-top:20px;">
-      <div class="container">
-	  <div class="row">
-          <div class=" col-12">
-            <ul class="banner-link ">
-              <li>
-                <a href="index.php">Home
-                </a>
-              </li>
-			  <li>
-                <a href="listing.php">Maharashtra
-                </a>
-              </li>
-			  <li>
-                <a href="listing.php">Nagpur
-                </a>
-              </li>
-			  <li>
-                <span class="active">Co-working Space
-                </span>
-              </li>
-            </ul>
-          </div>
-        </div>
+			</div>
+		</div>
         <div class="row ">
           <!-- Sidebar Starts -->
           <div class="col-lg-4 col-12 ">
@@ -165,8 +148,7 @@
                     <div class="row">
                       <div class="col-12">
                         <h5 class="mb-15">Price:
-                          <i class="fas fa-rupee-sign">
-                          </i> 
+                          &#8377;
                           <span class="range-value">1000
                           </span>
                         </h5>
@@ -336,6 +318,39 @@
                   </div>
                 </div>
               </div>
+			  <div class="widget">
+                            <h4 class="title-sep2 mb-30">about author</h4>
+                            <div class="widget-author">
+                                <div class="author-top text-right mb-4">
+                                    <div class="img-holder">
+                                        <img src="assets/img/blog/aut-big.png" alt="#">
+                                    </div>
+                                    <div class="author-info">
+                                        <h5 class="c-white">Julia Holmes</h5>
+                                        <span>co manager</span>
+                                    </div>
+                                </div>
+                                <p class="bor-b pb-3">Excepteur enim aute dolor culpa aliqua nulla. Non labore est irure ipsum cupidatat amet fugiat
+                                    quis voluptate cillum velit qui.</p>
+                                <div class="socials">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
             </aside>
           </div>
           <!-- Sidebar Ends -->
@@ -368,13 +383,16 @@
 			<!-- grid-view-start -->
             <div class="listing-list-view show-list" >
 					<div class="row mb-3">
+					<?php
+					for($i=0;$i <=6; $i++){
+					?>
 						<div class="col-12 mb-15">
 							<div class="listing-item p-2">
 								<div class="img-list">
 									<div class="img-holder">
 										<span class="offer">save 49%
 										</span>
-										<a href="listing_details.php"><img src="img/l-1.png" alt="list"></a>
+										<a href="listing_details.php"><img src="img/l-2.png" alt="list"></a>
 										<div class="rate-like centering justify-content-between">
 											<div class="rating">
 												<i class="fa fa-star"></i>
@@ -392,272 +410,40 @@
 								<div class="list-content">
 									<ul class="ctg-info py-2 mb-3">
 										<li>
-											<a href="#">
-												<i class="flaticon-team mr-2"></i>Coworkinfg Space</a>
+											<a href="#"><i class="flaticon-team mr-2"></i>Coworkinfg Space</a>
 										</li>
 										<li>
-											<span class="c-theme"> open now</span>
+											<a href="#"><i class="fa fa-map-marker-alt mr-2"></i>Dwarka,New Delhi</a>
 										</li>
 									</ul>
 									<h5 class="mb-2">
 										<a href="listing_details.php">Private office</a>
 									</h5>
-									<p>Landmark :  Near Hope Appartments</p>
-									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
-										<li class="mt-1">
-											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>Dwarka,New Delhi</a>
-										</li>
-										<!-- <li class="mt-1">
-											<a href="#">
-												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li> -->
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-12  mb-15">
-							<div class="listing-item p-2">
-								<div class="img-list">
-									<div class="img-holder">
-										<span class="offer">save 30%
-										</span>
-										<a href="listing_details.php"><img src="img/l-2.png" alt="list"></a>
-										<div class="rate-like centering justify-content-between">
-											<div class="rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="far fa-star"></i>
-												<i class="far fa-star"></i>
-												<i class="far fa-star"></i>
+									<div class="row minus-pad">
+										<div class="col-xl-6 col-sm-6 col-12">
+											<div class="aminities">
+												<span style="font-size:15px;">Capacity: </span>
+												<span style="font-size:15px;"><i class="fa fa-users c-theme"></i>15</span>
 											</div>
-											<!-- <a class="likes" href="#">
-												<i class="far fa-heart"></i>33
-											</a> -->
+										</div>
+										<div class="col-xl-6 col-sm-6 col-12">
+											<div class="aminities">
+												<span style="font-size:15px;">Price: </span>
+												<span style="font-size:15px;"><i class="fa fa-rupee-sign c-theme"></i>4999/Month</span>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div class="list-content">
-									<ul class="ctg-info py-2 mb-3">
-										<li>
-											<a href="#">
-												<i class="flaticon-shop mr-2"></i>Business Centre</a>
-										</li>
-										<li>
-											<span class="c-theme"> open now</span>
-										</li>
-									</ul>
-									<h5 class="mb-2">
-										<a href="listing_details.php">Workstations</a>
-									</h5>
-									<p>Landmark :  Opp to Punj Loyd</p>
 									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
-										<li class="mt-1">
-											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>Chitpur,Noida</a>
-										</li>
-										<!-- <li class="mt-1">
-											<a href="#">
-												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li> -->
+										<button type="submit" class="btn btn-one btn-anim w-100" id="submit2" name="submit2">Book Now</button>
 									</ul>
 								</div>
 							</div>
 						</div>
-						<div class="col-12  mb-15">
-							<div class="listing-item p-2">
-								<div class="img-list">
-									<div class="img-holder">
-										<span class="offer">save 19%
-										</span>
-										<a href="listing_details.php"><img src="img/l-3.png" alt="list"></a>
-										<div class="rate-like centering justify-content-between">
-											<div class="rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="far fa-star"></i>
-											</div>
-											<a class="likes" href="#">
-												<i class="far fa-heart"></i>55
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="list-content">
-									<ul class="ctg-info py-2 mb-3">
-										<li>
-											<a href="#">
-												<i class="flaticon-appointment mr-2"></i>Training Room</a>
-										</li>
-										<li>
-											<span class="c-theme"> open now</span>
-										</li>
-									</ul>
-									<h5 class="mb-2">
-										<a href="listing_details.php">Meeting Room</a>
-									</h5>
-									<p>Landmark :  Medanta Hospital</p>
-									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
-										<li class="mt-1">
-											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>Vasant kunj,New Delhi</a>
-										</li>
-										<!-- <li class="mt-1">
-											<a href="#">
-												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li> -->
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-12  mb-15">
-							<div class="listing-item p-2">
-								<div class="img-list">
-									<div class="img-holder">
-										<span class="offer">save 59%
-										</span>
-										<a href="listing_details.php"><img src="img/l-1.png" alt="list"></a>
-										<div class="rate-like centering justify-content-between">
-											<div class="rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="far fa-star"></i>
-												<i class="far fa-star"></i>
-												<i class="far fa-star"></i>
-											</div>
-											<!-- <a class="likes" href="#">
-												<i class="far fa-heart"></i>24
-											</a> -->
-										</div>
-									</div>
-								</div>
-								<div class="list-content">
-									<ul class="ctg-info py-2 mb-3">
-										<li>
-											<a href="#">
-												<i class="flaticon-spa mr-2"></i>Coworking Space</a>
-										</li>
-										<li>
-											<span class="c-theme"> open now</span>
-										</li>
-									</ul>
-									<h5 class="mb-2">
-										<a href="listing_details.php">Private office</a>
-									</h5>
-									<p>Landmark :  Near Hope Appartments</p>
-									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
-										<li class="mt-1">
-											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>Chattisnagar,New Delhi</a>
-										</li>
-										<!-- <li class="mt-1">
-											<a href="#">
-												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li> -->
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-12  mb-15">
-							<div class="listing-item p-2">
-								<div class="img-list">
-									<div class="img-holder">
-										<span class="offer">save 20%
-										</span>
-										<a href="listing_details.php"><img src="img/l-2.png" alt="list"></a>
-										<div class="rate-like centering justify-content-between">
-											<div class="rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-											</div>
-											<!-- <a class="likes" href="#">
-												<i class="far fa-heart"></i>36
-											</a> -->
-										</div>
-									</div>
-								</div>
-								<div class="list-content">
-									<ul class="ctg-info py-2 mb-3">
-										<li>
-											<a href="#">
-												<i class="flaticon-find mr-2"></i>Coworking Space</a>
-										</li>
-										<li>
-											<span class="c-theme"> open now</span>
-										</li>
-									</ul>
-									<h5 class="mb-2">
-										<a href="listing_details.php">Workstation</a>
-									</h5>
-									<p>Landmark :  Medanta Hospital</p>
-									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
-										<li class="mt-1">
-											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>Noida,Delhi</a>
-										</li>
-										<!-- <li class="mt-1">
-											<a href="#">
-												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li> -->
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-12  mb-15">
-							<div class="listing-item p-2">
-								<div class="img-list">
-									<div class="img-holder">
-										<span class="offer">save 26%
-										</span>
-										<a href="listing_details.php"><img src="img/l-3.png" alt="list"></a>
-										<div class="rate-like centering justify-content-between">
-											<div class="rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="far fa-star"></i>
-											</div>
-											<!-- <a class="likes" href="#">
-												<i class="far fa-heart"></i>84
-											</a> -->
-										</div>
-									</div>
-								</div>
-								<div class="list-content">
-									<ul class="ctg-info py-2 mb-3">
-										<li>
-											<a href="#">
-												<i class="flaticon-hotel mr-2"></i>Coworking Space</a>
-										</li>
-										<li>
-											<span class="c-theme"> open now</span>
-										</li>
-									</ul>
-									<h5 class="mb-2">
-										<a href="listing_details.php">Meeting Room</a>
-									</h5>
-									<p>Opp to Punj Loyd</p>
-									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
-										<li class="mt-1">
-											<a href="#">
-												<i class="fa fa-map-marker-alt mr-2"></i>Dwarka,New Delhi</a>
-										</li>
-										<!-- <li class="mt-1">
-											<a href="#">
-												<i class="fa fa-phone mr-2"></i>0123-456-789</a>
-										</li> -->
-									</ul>
-								</div>
-							</div>
-						</div>
+					<?php
+					}
+					?>
 						<div class="col-12 text-center">
-						<div class="pagination mt-30 mb-15">
+							<div class="pagination mt-30 mb-20">
 								<span class="sep">
 									<a href="#" class="page-numbers prev mr-sm-5 mr-3">
 										<i class="fa fa-angle-left"></i>
@@ -679,7 +465,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- listings end -->
     <!-- footer starts -->
     <?php include 'common/footer.php';?>

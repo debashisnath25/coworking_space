@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -18,7 +17,7 @@
     <!-- contact start-->
     <section class="bg-w" style="padding-top:100px;">
       <div class="container">
-	  	<div class="row">
+	  	<!-- <div class="row">
           <div class=" col-12">
             <ul class="banner-link ">
               <li>
@@ -31,13 +30,14 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div> -->
+		<h4 class="title-sep3 mb-20 mt-30">Home > <span style="color:#FF3A54;">Contact Us</span> </h4>
             <div class="row">
                 <div class="col-12">
                     <div class="contact-box mb-30">
                         <div class="d-block d-xl-flex">
                             <div class="contact-left">
-                                <h4 class="mb-4">get in touch</h4>
+                                <h4 class="title-sep3 mb-4">get in touch</h4>
                                 <form class="custom-form" action="#">
                                     <div class="row">
                                         <div class="col-md-12 col-12">
@@ -64,18 +64,18 @@
                                 </form>
                             </div>
                             <div class="contact-right">
-                                <h4 class="mb-4">contact info</h4>
-                                <p>Lorem ipsum dolor sit amet, consec tetu adip et cin elit. Aenean commodo ligula eget dol.
+                                <h4 class="mb-4 title-sep3">Contact info</h4>
+								<p>Lorem ipsum dolor sit amet, consec tetu adip et cin elit. Aenean commodo ligula eget dol.
                                     Aenu sociis natoque partu nte nasc etur onec quam felis. Deserunt minim incididunt in
                                      magna enim.</p>
                                 <ul class="contact-info mt-4">
                                     <li>
                                         <i class="fa fa-phone"></i>
-                                        123-456-7890, 0123-456-789
+                                        +91 9876543210
                                     </li>
                                     <li>
                                         <i class="fa fa-envelope"></i>
-                                        Support@company.com
+                                        support@bundesk.com
                                     </li>
                                     <li>
                                         <i class="fa fa-map-marker-alt"></i>
