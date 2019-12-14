@@ -40,29 +40,25 @@
                                 <h4 class="mb-4">get in touch</h4>
                                 <form class="custom-form" action="#">
                                     <div class="row">
-                                        <div class="col-md-6 col-12">
+                                        <div class="col-md-12 col-12">
                                             <span class="fa fa-user"></span>
-                                            <input type="text" id="name" class="form-control" placeholder="Enter Name">
+                                            <input type="text" id="name" class="form-control" placeholder="Enter Fullname">
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <span class="fa fa-phone"></span>
+                                            <input type="text" id="phn" class="form-control" placeholder="Enter Number">
                                         </div>
                                         <div class="col-md-6 col-12">
                                             <span class="fa fa-envelope"></span>
                                             <input type="email" class="form-control" placeholder="Enter Email" name="Ented email" id="email">
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <span class="fa fa-phone"></span>
-                                            <input type="text" id="phn" class="form-control" placeholder="Enter Name">
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <span class="fa fa-edit"></span>
-                                            <input type="email" class="form-control" placeholder="Enter Email" name="Ented email" id="subject">
                                         </div>
                                         <div class="col-12">
                                             <span class="fa fa-edit"></span>
                                             <textarea rows="5" name="comment" class="form-control" placeholder="Your Message" id="comment"></textarea>
                                         </div>
                                         <div class="col-12">
-                                            <button type="submit" class="btn btn-one btn-anim" id="submit" name="submit">
-                                                send message</button>
+                                            <button type="submit" class="btn btn-one btn-anim w-100" id="submit2" name="submit2">
+                                            Send Message</button>
                                         </div>
                                     </div>
                                 </form>
@@ -83,27 +79,24 @@
                                     </li>
                                     <li>
                                         <i class="fa fa-map-marker-alt"></i>
-                                        Consectetur 241, sed Ac-1252, UK
+                                        Hauz Khas New Delhi, Delhi 110016 
                                     </li>
                                 </ul>
-                                <div class="socials contact-social">
+                                <div class="socials contact-social text-center">
                                     <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-facebook-f" style="font-size:24px;"></i>
                                     </a>
                                     <a href="#">
-                                        <i class="fab fa-google-plus-g"></i>
+                                        <i class="fab fa-google-plus-g" style="font-size:24px;"></i>
                                     </a>
                                     <a href="#">
-                                        <i class="fab fa-instagram"></i>
+                                        <i class="fab fa-instagram" style="font-size:24px;"></i>
                                     </a>
                                     <a href="#">
-                                        <i class="fab fa-linkedin-in"></i>
+                                        <i class="fab fa-linkedin-in" style="font-size:24px;"></i>
                                     </a>
                                     <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-vine"></i>
+                                        <i class="fab fa-twitter" style="font-size:24px;"></i>
                                     </a>
                                 </div>
                             </div>
@@ -118,7 +111,7 @@
     <!-- footer starts -->
 	<?php include 'common/footer.php';?>
     <!-- footer end -->
-	
+
 </body>
 
 </html>
