@@ -4,7 +4,10 @@
       <div class="row">
         <div class="col-xl-4 col-lg-12 col-12 mb-60">
           <div class="company-details">
-            <img src="img/logo.png" class="foot-logo mb-4" alt="lister">
+             <a href="index.php" style="color: #fff;font-size:20px;">
+                <!-- <img src="img/logo.png" alt="logo"> -->
+				BUNDESK
+              </a>
             <p class="pb-2">
 				With Co-workingspace, get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent!
             </p>

@@ -1,7 +1,6 @@
 <style>
 .nav-item a{
-	font-family: Arial;
-	text-transform: uppercase !important;
+	
 }
 </style>
 <header class="header">
@@ -58,8 +57,9 @@
         <div class="col-lg-3 col-md-12">
           <div class="logo-one logo-wrap">
             <div class="logo my-1">
-              <a href="index.php">
-                <img src="img/logo.png" alt="logo">
+              <a href="index.php" style="color: #fff;">
+                <!-- <img src="img/logo.png" alt="logo"> -->
+				BUNDESK
               </a>
             </div>
           </div>

@@ -13,20 +13,7 @@
     <!-- faq start-->
     <section class="bg-w" style="padding-top:100px;">
       <div class="container">
-	  	<div class="row">
-          <div class=" col-12">
-            <ul class="banner-link ">
-              <li>
-                <a href="index.php">Home
-                </a>
-              </li>
-			  <li>
-                <span class="active">About Us
-                </span>
-              </li>
-            </ul>
-          </div>
-        </div>
+	  	<h4 class="title-sep3 mb-20 mt-30">Home > <span class="c-theme">Enquiry</span> </h4>
         <div class="row">
           <div class="col-lg-4">
             <ul class="nav faq-tabs mb-lg-0 mb-5" role="tablist">

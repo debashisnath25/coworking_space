@@ -15,6 +15,12 @@
 		.sticky-menu{
 			background-color:#1e1e1e !important;
 		}
+		.all-title{
+			margin: 30px 0px;
+		}
+		.big_icon {
+			font-size:50px;
+		}
 	</style>
   </head>
   <body>
@@ -23,7 +29,7 @@
     <!-- Header end -->
     <!-- banner start -->
     <div class="main-banner">
-      <div class="banner-image" style="background-image:url('img/home_banner.jpg')">
+      <div class="banner-image" style="background-image:url('img/home_banner.jpg');height: 800px;">
         <div class="container">
           <div class="banner-content">
             <div class="row" style="margin-top:-50px;">
@@ -64,87 +70,82 @@
               </div>
             </form>
           </div>
-          <!-- <div class="list-category" style="margin-top:-100px;padding-bottom:50px;">
-            <div class="row">
-              <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                <div class="list-items mb-30 btn-anim">
-                  <div class="icon-box">
-                    <i class="flaticon-team"></i>
-                  </div>
-                  <h5 class="mb-0">
-                    <a href="#">Meeting Room
-                    </a>
-                  </h5>
+          <div class="list-category" style="margin-top:-100px;padding-bottom:50px;">
+            <div class="row mb-30">
+			<div class="col-md-2 col-sm-6 col-12">
+				<div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-team"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">Meeting Room</a>
+                    </h5>
                 </div>
-              </div>
-              <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                <div class="list-items mb-30 btn-anim">
-                  <div class="icon-box">
-                    <i class="flaticon-appointment"></i>
-                  </div>
-                  <h5 class="mb-0">
-                    <a href="#">Coworking Space
-                    </a>
-                  </h5>
+			</div>
+			<div class="col-md-2 col-sm-6 col-12">
+				 <div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-appointment"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">Coworkng Space</a>
+                    </h5>
                 </div>
-              </div>
-              <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                <div class="list-items mb-30 btn-anim">
-                  <div class="icon-box">
-                    <i class="flaticon-shop"></i>
-                  </div>
-                  <h5 class="mb-0">
-                    <a href="#">Private Office
-                    </a>
-                  </h5>
+			</div>
+			<div class="col-md-2 col-sm-6 col-12">
+				<div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-shop"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">Private Office</a>
+                    </h5>
                 </div>
-              </div>
-              <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                <div class="list-items mb-30 btn-anim">
-                  <div class="icon-box">
-                    <i class="flaticon-hotel"></i>
-                  </div>
-                  <h5 class="mb-0">
-                    <a href="#">Training Room
-                    </a>
-                  </h5>
+			</div>
+			<div class="col-md-2 col-sm-6 col-12">
+				<div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-hotel"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">Training Room</a>
+                    </h5>
                 </div>
-              </div>
-              <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                <div class="list-items mb-30 btn-anim">
-                  <div class="icon-box">
-                    <i class="flaticon-team"></i>
-                  </div>
-                  <h5 class="mb-0">
-                    <a href="#">Business Center
-                    </a>
-                  </h5>
+			</div>
+			<div class="col-md-2 col-sm-6 col-12">
+				<div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-team"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">Business Center</a>
+                    </h5>
                 </div>
-              </div>
-              <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                <div class="list-items mb-30 btn-anim">
-                  <div class="icon-box">
-                    <i class="flaticon-shop"></i>
-                  </div>
-                  <h5 class="mb-0">
-                    <a href="#">Coworking Cafes
-                    </a>
-                  </h5>
+			</div>
+			<div class="col-md-2 col-sm-6 col-12">
+				<div class="list-items2 btn-anim">
+                    <div class="icon-box">
+                        <i class="flaticon-shop"></i>
+                    </div>
+                    <h5 class="mb-0 mt-3">
+                        <a href="#">Coworking Cafes</a>
+                    </h5>
                 </div>
-              </div>
-            </div>
-          </div> -->
+			</div>
+		</div>
+          </div>
         </div>
       </div>
     </div>
     <!-- banner end -->
+	
 	<section class="sp-100 bg-w">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="all-title">
                         <h3 class="sec-title">
-                            Location
+                            Popular Locations
                         </h3>
                         <svg class="title-sep">
                             <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
@@ -153,6 +154,7 @@
                     </div>
                 </div>
             </div>
+			
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
                     <div class="blog-item blog-1" style="background-image:url('img/b-1.png')">
@@ -274,6 +276,7 @@
             </div>
         </div>
     </section>
+	
     <!-- blog end -->
 	    <!-- cta-one start-->
     <section class="cta-one tri-bg-w text-lg-left text-center">
@@ -291,7 +294,7 @@
             </div>
           </div>
           <div class="col-lg-6 d-lg-block d-none">
-            <div class="cta-img mt-4">
+            <div class="mt-4">
               <img src="img/cta-bg.png" alt="image">
             </div>
           </div>
@@ -300,6 +303,64 @@
     </section>
     <!-- cta-one end -->
     <!-- popular list start-->
+	<section class= "sp-100 bg-w">
+      <div class="container">
+	  <div class="row" >
+          <div class="col-12">
+            <div class="all-title">
+              <h3 class="sec-title">
+               Our Promise & Features
+              </h3>
+              <svg class="title-sep">
+                <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
+                      />
+              </svg>
+              
+            </div>
+          </div>
+        </div>
+        <div class="row" >
+			<div class="col-xl-2 col-sm-6 col-12 text-center">
+				<div class="aminities">
+					<p><i class="flaticon-map-marker big_icon"></i></p>
+					<span>Prime Location</span>
+				</div>
+			</div>
+			<div class="col-xl-2 col-sm-6 col-12 text-center">
+				<div class="aminities">
+					<p><i class="flaticon-computer-screen big_icon"></i></p>
+					<span>Projector</span>
+				</div>
+			</div>
+			<div class="col-xl-2 col-sm-6 col-12 text-center">
+				<div class="aminities">
+					<p><i class="flaticon-dish big_icon"></i></p>
+					<span>Cafeteria</span>
+				</div>
+			</div>
+			<div class="col-xl-2 col-sm-6 col-12 text-center">
+				<div class="aminities">
+					<p><i class="flaticon-air-conditioner big_icon"></i></p>
+					<span>Air Condition</span>
+				</div>
+			</div>
+			<div class="col-xl-2 col-sm-6 col-12 text-center">
+				<div class="aminities">
+					<p><i class="flaticon-wifi big_icon"></i></p>
+					<span>Free Wifi</span>
+				</div>
+			</div>
+			<div class="col-xl-2 col-sm-6 col-12 text-center">
+				<div class="aminities">
+					<p><i class="flaticon-bathtub big_icon"></i></p>
+					<span>Restroom</span>
+				</div>
+			</div>
+		</div>
+      </div>
+    </section>
+	
+
     <section class="popular-list sp-100 bg-w">
       <div class="container">
         <div class="row">
@@ -319,6 +380,10 @@
         <div class="row">
           <div class="col-12">
             <div class="popular-list-slider mb-0">
+			<?php
+			for($i=0;$i<=5;$i++)
+			{
+			?>
               <div class="listing-item p-2">
                 <div class="img-holder">
 					<span class="offer">save 49%
@@ -360,187 +425,96 @@
                   </ul>
                 </div>
               </div>
-              <div class="listing-item p-2">
-                <div class="img-holder">
-				<span class="offer">save 49%
-									</span>
-
-                  <img src="img/l-2.png" alt="list">
-				  <div class="rate-like centering justify-content-between">
-					<div class="rating">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-					<a class="likes" href="#">
-						<i class="far fa-heart"></i> 4
-					</a>
-				</div>
-            
-                </div>
-                <div class="list-content p-2">
-             
-                  <h5 class="mb-2">
-                    <a href="listing_details.php">Work with us
-                    </a>
-                  </h5>
-                  <p>Co-working space
-                  </p>
-                  <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
-                    <li class="mt-1">
-                      <a href="#">
-                        <i class="fa fa-map-marker-alt mr-2">
-                        </i>noida,Delhi
-                      </a>
-                    </li>
-                    <li class="mt-1">
-                      <a href="#">
-                        <i class="fa fa-phone mr-2">
-                        </i>0123-456-789
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="listing-item p-2">
-                <div class="img-holder">
-				<span class="offer">save 49%
-									</span>
-
-                  <img src="img/l-3.png" alt="list">
-				  <div class="rate-like centering justify-content-between">
-					<div class="rating">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-					<a class="likes" href="#">
-						<i class="far fa-heart"></i> 4
-					</a>
-				</div>
-
-                </div>
-                <div class="list-content p-2">
-
-                  <h5 class="mb-2">
-                    <a href="listing_details.php">Execube
-                    </a>
-                  </h5>
-                  <p>Co-working space
-                  </p>
-                  <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
-                    <li class="mt-1">
-                      <a href="#">
-                        <i class="fa fa-map-marker-alt mr-2">
-                        </i>Chattisnagar,New Delhi
-                      </a>
-                    </li>
-                    <li class="mt-1">
-                      <a href="#">
-                        <i class="fa fa-phone mr-2">
-                        </i>0123-456-789
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="listing-item p-2">
-                <div class="img-holder">
-				<span class="offer">save 49%
-									</span>
-
-                  <img src="img/l-1.png" alt="list">
-				  <div class="rate-like centering justify-content-between">
-					<div class="rating">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-					<a class="likes" href="#">
-						<i class="far fa-heart"></i> 4
-					</a>
-				</div>
-                 
-                </div>
-                <div class="list-content p-2">
-
-                  <h5 class="mb-2">
-                    <a href="listing_details.php">Boulder box
-                    </a>
-                  </h5>
-                  <p>Co-working Space
-                  </p>
-                  <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
-                    <li class="mt-1">
-                      <a href="#">
-                        <i class="fa fa-map-marker-alt mr-2">
-                        </i>Vasant kunj,New Delhi
-                      </a>
-                    </li>
-                    <li class="mt-1">
-                      <a href="#">
-                        <i class="fa fa-phone mr-2">
-                        </i>0123-456-789
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="listing-item p-2">
-                <div class="img-holder">
-				<span class="offer">save 49%
-									</span>
-
-                  <img src="img/l-2.png" alt="list">
-				  <div class="rate-like centering justify-content-between">
-					<div class="rating">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-					<a class="likes" href="#">
-						<i class="far fa-heart"></i> 4
-					</a>
-				</div>
-                 
-                </div>
-                <div class="list-content p-2">
-
-                  <h5 class="mb-2">
-                    <a href="listing_details.php">Cafe more life
-                    </a>
-                  </h5>
-                  <p>Work Cafe
-                  </p>
-                  <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
-                    <li class="mt-1">
-                      <a href="#">
-                        <i class="fa fa-map-marker-alt mr-2">
-                        </i>Chitpur,Noida
-                      </a>
-                    </li>
-                    <li class="mt-1">
-                      <a href="#">
-                        <i class="fa fa-phone mr-2">
-                        </i>0123-456-789
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+			 <?php
+			 }
+			 ?>
             </div>
           </div>
         </div>
       </div>
     </section>
+	<section class="popular-list sp-100 bg-w">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="all-title">
+              <h3 class="sec-title">
+               Our Reviews
+              </h3>
+              <svg class="title-sep">
+                <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
+                      />
+              </svg>
+              
+            </div>
+          </div>
+        </div>
+        <div class="row">
+		<?php
+		for($i=0;$i<=3;$i++){
+		?>
+          <div class="col-3">
+		  	<div class="widget-author">
+				<div class="author-top text-right mb-4">
+					<div class="img-holder">
+						<img src="img/aut-big.png" alt="#">
+					</div>
+					<div class="author-info">
+						<h5 class="c-white">Priyanka Singh</h5>
+						<span>ABC Limited</span>
+					</div>
+				</div>
+				<p class="" style="font-family: 'Josefin Sans', sans-serif;"><q><i>Excepteur enim aute dolor culpa aliqua nulla. Non labore est irure ipsum cupidatat amet fugiat quis voluptate cillum velit qui.</i></q></p>
+			</div>
+          </div>
+		  <?php
+			}
+		  ?>
+        </div>
+      </div>
+    </section>
+	<!-- partner start-->
+    <div class="partner-one bg-red py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="partner-slider owl-carousel owl-theme">
+                        <div class="partner-slide">
+                            <img src="img/partner1.png" alt="partner">
+                        </div>
+                        <div class="partner-slide">
+                            <img src="img/partner2.png" alt="partner">
+                        </div>
+                        <div class="partner-slide">
+                            <img src="img/partner3.png" alt="partner">
+                        </div>
+                        <div class="partner-slide">
+                            <img src="img/partner4.png" alt="partner">
+                        </div>
+                        <div class="partner-slide">
+                            <img src="img/partner5.png" alt="partner">
+                        </div>
+                        <div class="partner-slide">
+                            <img src="img/partner1.png" alt="partner">
+                        </div>
+                        <div class="partner-slide">
+                            <img src="img/partner2.png" alt="partner">
+                        </div>
+                        <div class="partner-slide">
+                            <img src="img/partner3.png" alt="partner">
+                        </div>
+                        <div class="partner-slide">
+                            <img src="img/partner4.png" alt="partner">
+                        </div>
+                        <div class="partner-slide">
+                            <img src="img/partner5.png" alt="partner">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partner end-->
     <!-- popular list end -->
 
 
