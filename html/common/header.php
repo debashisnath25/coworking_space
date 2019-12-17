@@ -85,23 +85,23 @@
                     </a>
                   </li>
 				  <li class="nav-item dropdown">
-                    <a href="index.php" class="nav-link current">Delhi
+                    <a href="listing.php" class="nav-link current">Delhi
                     </a>
                   </li>
 				  <li class="nav-item dropdown">
-                    <a href="index.php" class="nav-link current">Gurgaon
+                    <a href="listing.php" class="nav-link current">Gurgaon
                     </a>
                   </li>
 				  <li class="nav-item dropdown">
-                    <a href="index.php" class="nav-link current">Noida
+                    <a href="listing.php" class="nav-link current">Noida
                     </a>
                   </li>
 				  <li class="nav-item dropdown">
-                    <a href="index.php" class="nav-link current">Mumbai
+                    <a href="listing.php" class="nav-link current">Mumbai
                     </a>
                   </li>
 				  <li class="nav-item dropdown">
-                    <a href="index.php" class="nav-link current">Bangalore
+                    <a href="listing.php" class="nav-link current">Bangalore
                     </a>
                   </li>
 				  <li class="nav-item dropdown">

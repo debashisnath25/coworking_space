@@ -402,9 +402,6 @@
 											<a href="#">
 												<i class="flaticon-team mr-2"></i> Coworkinfg Space</a>
 										</li>
-										<li>
-											<span class="c-theme"> open now</span>
-										</li>
 									</ul>
 									<h5 class="mb-2">
 										<a href="listing_details.php">Private office</a>
