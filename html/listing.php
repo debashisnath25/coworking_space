@@ -38,6 +38,9 @@
 			border-top: 5px solid #009e9e;
 			border-radius:5px;
 		}
+		.cl_white {
+			color:#fff;
+		}
 	</style>
   </head>
   <body>
@@ -54,9 +57,9 @@
                     <div class="icon-box">
                         <i class="flaticon-team"></i>
                     </div>
-                    <h5 class="mb-0 mt-3">
+                    <h6 class="mb-0 mt-3 cl_white">
                         <a href="#">Meeting Room</a>
-                    </h5>
+                    </h6>
                 </div>
 			</div>
 			<div class="col-md-2 col-sm-6 col-12">
@@ -64,9 +67,9 @@
                     <div class="icon-box">
                         <i class="flaticon-appointment"></i>
                     </div>
-                    <h5 class="mb-0 mt-3">
+                    <h6 class="mb-0 mt-3 cl_white">
                         <a href="#">Coworkng Space</a>
-                    </h5>
+                    </h6>
                 </div>
 			</div>
 			<div class="col-md-2 col-sm-6 col-12">
@@ -74,9 +77,9 @@
                     <div class="icon-box">
                         <i class="flaticon-shop"></i>
                     </div>
-                    <h5 class="mb-0 mt-3">
+                    <h6 class="mb-0 mt-3 cl_white">
                         <a href="#">Private Office</a>
-                    </h5>
+                    </h6>
                 </div>
 			</div>
 			<div class="col-md-2 col-sm-6 col-12">
@@ -84,9 +87,9 @@
                     <div class="icon-box">
                         <i class="flaticon-hotel"></i>
                     </div>
-                    <h5 class="mb-0 mt-3">
+                    <h6 class="mb-0 mt-3 cl_white">
                         <a href="#">Training Room</a>
-                    </h5>
+                    </h6>
                 </div>
 			</div>
 			<div class="col-md-2 col-sm-6 col-12">
@@ -94,9 +97,9 @@
                     <div class="icon-box">
                         <i class="flaticon-team"></i>
                     </div>
-                    <h5 class="mb-0 mt-3">
+                    <h6 class="mb-0 mt-3 cl_white">
                         <a href="#">Business Center</a>
-                    </h5>
+                    </h6>
                 </div>
 			</div>
 			<div class="col-md-2 col-sm-6 col-12">
@@ -104,9 +107,9 @@
                     <div class="icon-box">
                         <i class="flaticon-shop"></i>
                     </div>
-                    <h5 class="mb-0 mt-3">
+                    <h6 class="mb-0 mt-3 cl_white">
                         <a href="#">Coworking Cafes</a>
-                    </h5>
+                    </h6>
                 </div>
 			</div>
 		</div>
@@ -323,15 +326,15 @@
                 </div>
               </div>
             </aside>
-			<aside class="sidebar mt-3">
+			<aside class="sidebar mt-3 mb-4">
               <div class="widget-listing abt-listing bd_top" >
                 <div class="filter-box">
                   <form action="#" method="post">
                     <div class="row">
 					  <div class="col-12 text-center">
 						<h4 class="mb-2">Can't decide?</h4>
-						<h6 class="mb-2">Allow our bundesk - Chat to assist you</h6>
-						<h6 class="mb-2"><i class="fa fa-phone" style="font-size: 13px;"></i>&nbsp;+91 8800255593</h6>
+						<p class="mb-2">Get customized workspace for your need</p>
+						<a href="enquiry.php" class="btn btn-one btn-anim w-100" style="color:#fff;">Enquiry</a>
 					  </div>
                     </div>
                   </form>
