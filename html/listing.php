@@ -34,6 +34,20 @@
 		.mt-20{
 		    margin-top: 15px;
 		}
+		}
+		.jio{
+		    border: 4px solid #009e9e;
+            width:350px;
+		}
+		
+		.space{
+		    background-color:white;
+			width:350px;
+			border-radius: 10px;
+			color:black;
+			text-align:center !important;
+			font-size:25px;
+		}
 	</style>
   </head>
   <body>
@@ -318,39 +332,21 @@
                   </div>
                 </div>
               </div>
-			  <div class="widget">
-                            <h4 class="title-sep2 mb-30">about author</h4>
-                            <div class="widget-author">
-                                <div class="author-top text-right mb-4">
-                                    <div class="img-holder">
-                                        <img src="assets/img/blog/aut-big.png" alt="#">
-                                    </div>
-                                    <div class="author-info">
-                                        <h5 class="c-white">Julia Holmes</h5>
-                                        <span>co manager</span>
-                                    </div>
-                                </div>
-                                <p class="bor-b pb-3">Excepteur enim aute dolor culpa aliqua nulla. Non labore est irure ipsum cupidatat amet fugiat
-                                    quis voluptate cillum velit qui.</p>
-                                <div class="socials">
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-google-plus-g"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+            </aside>
+			<aside class="sidebar mt-3">
+              <div class="widget-listing abt-listing" >
+                <div class="filter-box">
+                  <form action="#" method="post">
+                    <div class="row">
+					  <div class="col-12 text-center">
+						<h4 class="mb-2">Can't decide?</h4>
+						<h6 class="mb-2">Allow our bundesk - Chat to assist you</h6>
+						<h6 class="mb-2"><i class="fa fa-phone" style="font-size: 13px;"></i>&nbsp;+91 8800255593</h6>
+					  </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </aside>
           </div>
           <!-- Sidebar Ends -->
