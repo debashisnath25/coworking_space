@@ -231,7 +231,7 @@
           </div>
           <div class="col-lg-6 d-lg-block d-none">
             <div class="mt-4">
-              <img src="img/cta-bg.png" alt="image">
+              <img src="img/cta-bg2.png" alt="image">
             </div>
           </div>
         </div>
@@ -385,24 +385,23 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="testi-slider1 owl-carousel owl-theme">
 		<?php
-		for($i=0;$i<=3;$i++){
+		for($i=0;$i<=5;$i++){
 		?>
-          <div class="col-3">
-		  	<div class="widget-author">
-				<div class="author-top text-right mb-4">
-					<div class="img-holder">
-						<img src="img/aut-big.png" alt="#">
-					</div>
-					<div class="author-info">
-						<h5 class="c-white">Priyanka Singh</h5>
-						<span>ABC Limited</span>
-					</div>
+          <div class="slide-item">
+			<div class="testi-item mb-30">
+				<div class="img-holder">
+					<img src="img/testi4.png" alt="lister">
 				</div>
-				<p class="" style="font-family: 'Josefin Sans', sans-serif;"><q><i>Excepteur enim aute dolor culpa aliqua nulla. Non labore est irure ipsum cupidatat amet fugiat quis voluptate cillum velit qui.</i></q></p>
+				<div class="testi-content">
+					<h5 class="mb-1">Paul Anderson</h5>
+					<span class="c-theme mb-3 d-block">Web Designer</span>
+					<p class="mb-0">Lorem ipsum donec pede justo, fringilla vel, aliqu et nectei vulp utate eget fg arcu. In enim
+						justo, rhcusut imp erdiet venenatis vitae.</p>
+				</div>
 			</div>
-          </div>
+		</div>
 		  <?php
 			}
 		  ?>
@@ -410,40 +409,40 @@
       </div>
     </section>
 	<!-- partner start-->
-    <div class="partner-one bg-red py-5">
+    <div class="partner-one bg-red py-5" style="background-color: rgba(1, 137, 117, 0.36);">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="partner-slider owl-carousel owl-theme">
                         <div class="partner-slide">
-                            <img src="img/partner1.png" alt="partner">
+                            <img src="img/logo_1.png" alt="partner">
                         </div>
                         <div class="partner-slide">
-                            <img src="img/partner2.png" alt="partner">
+                            <img src="img/logo_2.png" alt="partner">
                         </div>
                         <div class="partner-slide">
-                            <img src="img/partner3.png" alt="partner">
+                            <img src="img/logo_3.png" alt="partner">
                         </div>
                         <div class="partner-slide">
-                            <img src="img/partner4.png" alt="partner">
+                            <img src="img/logo_4.png" alt="partner">
                         </div>
                         <div class="partner-slide">
-                            <img src="img/partner5.png" alt="partner">
+                            <img src="img/logo_5.png" alt="partner">
                         </div>
                         <div class="partner-slide">
-                            <img src="img/partner1.png" alt="partner">
+                            <img src="img/logo_6.png" alt="partner">
                         </div>
                         <div class="partner-slide">
-                            <img src="img/partner2.png" alt="partner">
+                            <img src="img/logo_7.png" alt="partner">
                         </div>
                         <div class="partner-slide">
-                            <img src="img/partner3.png" alt="partner">
+                            <img src="img/logo_8.png" alt="partner">
                         </div>
                         <div class="partner-slide">
-                            <img src="img/partner4.png" alt="partner">
+                            <img src="img/logo_1.png" alt="partner">
                         </div>
                         <div class="partner-slide">
-                            <img src="img/partner5.png" alt="partner">
+                            <img src="img/logo_2.png" alt="partner">
                         </div>
                     </div>
                 </div>

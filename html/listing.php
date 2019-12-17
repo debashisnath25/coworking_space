@@ -34,19 +34,9 @@
 		.mt-20{
 		    margin-top: 15px;
 		}
-		}
-		.jio{
-		    border: 4px solid #009e9e;
-            width:350px;
-		}
-		
-		.space{
-		    background-color:white;
-			width:350px;
-			border-radius: 10px;
-			color:black;
-			text-align:center !important;
-			font-size:25px;
+		.bd_top {
+			border-top: 5px solid #009e9e;
+			border-radius:5px;
 		}
 	</style>
   </head>
@@ -126,7 +116,7 @@
             <aside class="sidebar">
               <h4 class="title-sep2 mb-30">search filters
               </h4>
-              <div class="widget-listing abt-listing" >
+              <div class="widget-listing abt-listing bd_top" >
                 <div class="filter-box mb-30">
                   <form action="#" method="post">
                     <div class="row">
@@ -334,7 +324,7 @@
               </div>
             </aside>
 			<aside class="sidebar mt-3">
-              <div class="widget-listing abt-listing" >
+              <div class="widget-listing abt-listing bd_top" >
                 <div class="filter-box">
                   <form action="#" method="post">
                     <div class="row">
@@ -388,7 +378,7 @@
 									<div class="img-holder">
 										<span class="offer">save 49%
 										</span>
-										<a href="listing_details.php"><img src="img/l-2.png" alt="list"></a>
+										<img src="img/l-2.png" alt="list">
 										<div class="rate-like centering justify-content-between">
 											<div class="rating">
 												<i class="fa fa-star"></i>
@@ -397,40 +387,34 @@
 												<i class="far fa-star"></i>
 												<i class="far fa-star"></i>
 											</div>
-											<!-- <a class="likes" href="#">
-												<i class="far fa-heart"></i>25
-											</a> -->
+											<a class="likes" href="#">
+												<i class="fa fa-users"></i>24
+											</a>
 										</div>
 									</div>
 								</div>
 								<div class="list-content">
 									<ul class="ctg-info py-2 mb-3">
 										<li>
-											<a href="#"><i class="flaticon-team mr-2"></i>Coworkinfg Space</a>
+											<a href="#">
+												<i class="flaticon-team mr-2"></i> Coworkinfg Space</a>
 										</li>
 										<li>
-											<a href="#"><i class="fa fa-map-marker-alt mr-2"></i>Dwarka,New Delhi</a>
+											<span class="c-theme"> open now</span>
 										</li>
 									</ul>
 									<h5 class="mb-2">
-										<a href="listing_details.php">Private office</a>
+										<a href="listing-detail.html">Private office</a>
 									</h5>
-									<div class="row minus-pad">
-										<div class="col-xl-6 col-sm-6 col-12">
-											<div class="aminities">
-												<span style="font-size:15px;">Capacity: </span>
-												<span style="font-size:15px;"><i class="fa fa-users c-theme"></i>15</span>
-											</div>
-										</div>
-										<div class="col-xl-6 col-sm-6 col-12">
-											<div class="aminities">
-												<span style="font-size:15px;">Price: </span>
-												<span style="font-size:15px;"><i class="fa fa-rupee-sign c-theme"></i>4999/Month</span>
-											</div>
-										</div>
-									</div>
+									<p>Donec pede justo, fringilla vel, aliquet nectior</p>
 									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
-										<button type="submit" class="btn btn-one btn-anim w-100" id="submit2" name="submit2">Book Now</button>
+										<li class="mt-1">
+											<a href="#">
+												<i class="fa fa-map-marker-alt mr-2"></i>Delhi</a>
+										</li>
+										<li class="mt-1">
+											<a href="#" class="btn btn-one btn-anim w-100" style="color:#fff;">Book Now</a>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -439,7 +423,7 @@
 					}
 					?>
 						<div class="col-12 text-center">
-							<div class="pagination mt-30 mb-20">
+							<div class="pagination mt-10 mb-40">
 								<span class="sep">
 									<a href="#" class="page-numbers prev mr-sm-5 mr-3">
 										<i class="fa fa-angle-left"></i>
