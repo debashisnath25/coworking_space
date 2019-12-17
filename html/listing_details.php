@@ -16,8 +16,12 @@
 			border-radius:5px;
 		}
 		.btn-two{
-			border:1px solid #ff3a54;
-			background-color: #f2f2f2;
+			background-color: #009e9e;
+			color:#fff;
+		}
+		.btn-two:hover {
+			background-color: #009e9e;
+			color:#fff;
 		}
 		.btn-three{
 			border:1px solid #ff3a54;
