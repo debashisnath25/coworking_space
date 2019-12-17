@@ -381,7 +381,7 @@
 									<div class="img-holder">
 										<span class="offer">save 49%
 										</span>
-										<img src="img/l-2.png" alt="list">
+										<img src="img/list_img.jpg" alt="list">
 										<div class="rate-like centering justify-content-between">
 											<div class="rating">
 												<i class="fa fa-star"></i>

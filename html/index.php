@@ -392,11 +392,11 @@
           <div class="slide-item">
 			<div class="testi-item mb-30">
 				<div class="img-holder">
-					<img src="img/testi4.png" alt="lister">
+					<img src="img/testi2.png" alt="lister">
 				</div>
 				<div class="testi-content">
-					<h5 class="mb-1">Paul Anderson</h5>
-					<span class="c-theme mb-3 d-block">Web Designer</span>
+					<h5 class="mb-1">Priyanka singh</h5>
+					<span class="c-theme mb-3 d-block">ABC limited</span>
 					<p class="mb-0">Lorem ipsum donec pede justo, fringilla vel, aliqu et nectei vulp utate eget fg arcu. In enim
 						justo, rhcusut imp erdiet venenatis vitae.</p>
 				</div>
