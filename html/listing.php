@@ -47,7 +47,7 @@
     <!-- listings start-->
     <section class="bg-w" style="padding-top:100px;">
       <div class="container">
-	    <h4 class="title-sep3 mb-20 mt-30">Home > <span style="color:#FF3A54;">Coworking Spaces</span> </h4>
+	    <h4 class="title-sep3 mb-20 mt-30">Home > <span class="c-theme">Coworking Spaces</span> </h4>
 	  	<div class="row mb-30">
 			<div class="col-md-2 col-sm-6 col-12">
 				<div class="list-items2 btn-anim">
@@ -404,7 +404,7 @@
 										</li>
 									</ul>
 									<h5 class="mb-2">
-										<a href="listing-detail.html">Private office</a>
+										<a href="listing_details.php">Private office</a>
 									</h5>
 									<p>Donec pede justo, fringilla vel, aliquet nectior</p>
 									<ul class="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
@@ -413,7 +413,7 @@
 												<i class="fa fa-map-marker-alt mr-2"></i>Delhi</a>
 										</li>
 										<li class="mt-1">
-											<a href="#" class="btn btn-one btn-anim w-100" style="color:#fff;">Book Now</a>
+											<a href="listing_details.php" class="btn btn-one btn-anim w-100" style="color:#fff;">Book Now</a>
 										</li>
 									</ul>
 								</div>
