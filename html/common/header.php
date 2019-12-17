@@ -1,6 +1,7 @@
 <style>
 .nav-item a{
-	
+	font-family: Open Sans,sans-serif;
+	font-weight: 500 !important;
 }
 </style>
 <header class="header">
@@ -84,7 +85,27 @@
                     </a>
                   </li>
 				  <li class="nav-item dropdown">
-					<a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">our workspaces</a>
+                    <a href="index.php" class="nav-link current">Delhi
+                    </a>
+                  </li>
+				  <li class="nav-item dropdown">
+                    <a href="index.php" class="nav-link current">Gurgaon
+                    </a>
+                  </li>
+				  <li class="nav-item dropdown">
+                    <a href="index.php" class="nav-link current">Noida
+                    </a>
+                  </li>
+				  <li class="nav-item dropdown">
+                    <a href="index.php" class="nav-link current">Mumbai
+                    </a>
+                  </li>
+				  <li class="nav-item dropdown">
+                    <a href="index.php" class="nav-link current">Bangalore
+                    </a>
+                  </li>
+				  <li class="nav-item dropdown">
+					<a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">Workspaces</a>
 				   <ul class="dropdown-menu">
 					   <li class="dropdown-item">
 						   <a href="listing.php">Meeting room</a>

@@ -28,14 +28,14 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- banner start -->
-    <div class="main-banner">
-      <div class="banner-image" style="background-image:url('img/home_banner.jpg');height: 800px;">
+    <div class="main-banner" style="height:300px;">
+      <div class="banner-image" style="background-image:url('img/home_banner.jpg');">
         <div class="container">
-          <div class="banner-content">
+          <div class="banner-content" style="padding-top:180px;">
             <div class="row" style="margin-top:-50px;">
               <div class="col-12">
-                <h2>Find The Best Office Place In Your City
-                </h2>
+                <h3 style="color:#fff;">Find The Best Office Place In Your City
+                </h3>
               </div>
             </div>
             <form action="#" class="banner-form mt-2">
@@ -69,70 +69,6 @@
                 </div>
               </div>
             </form>
-          </div>
-          <div class="list-category" style="margin-top:-100px;padding-bottom:50px;">
-            <div class="row mb-30">
-			<div class="col-md-2 col-sm-6 col-12">
-				<div class="list-items2 btn-anim">
-                    <div class="icon-box">
-                        <i class="flaticon-team"></i>
-                    </div>
-                    <h5 class="mb-0 mt-3">
-                        <a href="#">Meeting Room</a>
-                    </h5>
-                </div>
-			</div>
-			<div class="col-md-2 col-sm-6 col-12">
-				 <div class="list-items2 btn-anim">
-                    <div class="icon-box">
-                        <i class="flaticon-appointment"></i>
-                    </div>
-                    <h5 class="mb-0 mt-3">
-                        <a href="#">Coworkng Space</a>
-                    </h5>
-                </div>
-			</div>
-			<div class="col-md-2 col-sm-6 col-12">
-				<div class="list-items2 btn-anim">
-                    <div class="icon-box">
-                        <i class="flaticon-shop"></i>
-                    </div>
-                    <h5 class="mb-0 mt-3">
-                        <a href="#">Private Office</a>
-                    </h5>
-                </div>
-			</div>
-			<div class="col-md-2 col-sm-6 col-12">
-				<div class="list-items2 btn-anim">
-                    <div class="icon-box">
-                        <i class="flaticon-hotel"></i>
-                    </div>
-                    <h5 class="mb-0 mt-3">
-                        <a href="#">Training Room</a>
-                    </h5>
-                </div>
-			</div>
-			<div class="col-md-2 col-sm-6 col-12">
-				<div class="list-items2 btn-anim">
-                    <div class="icon-box">
-                        <i class="flaticon-team"></i>
-                    </div>
-                    <h5 class="mb-0 mt-3">
-                        <a href="#">Business Center</a>
-                    </h5>
-                </div>
-			</div>
-			<div class="col-md-2 col-sm-6 col-12">
-				<div class="list-items2 btn-anim">
-                    <div class="icon-box">
-                        <i class="flaticon-shop"></i>
-                    </div>
-                    <h5 class="mb-0 mt-3">
-                        <a href="#">Coworking Cafes</a>
-                    </h5>
-                </div>
-			</div>
-		</div>
           </div>
         </div>
       </div>
