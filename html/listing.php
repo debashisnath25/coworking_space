@@ -68,7 +68,7 @@
                         <i class="flaticon-appointment"></i>
                     </div>
                     <h6 class="mb-0 mt-3 cl_white">
-                        <a href="#">Coworkng Space</a>
+                        <a href="#">Coworking Space</a>
                     </h6>
                 </div>
 			</div>
