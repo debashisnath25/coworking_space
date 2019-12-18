@@ -99,7 +99,7 @@
                 </a>
               </li>
               <li>
-                <a href="pricing.php;">Contact Us
+                <a href="contact_us.php;">Contact Us
                 </a>
               </li>
             </ul>

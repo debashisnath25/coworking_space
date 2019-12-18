@@ -328,18 +328,18 @@
             </div>
             <div class=" abt-listing">
               <h5 class="title-sep3">
-                3 Reviews
+                2 Reviews
               </h5>
               <div class="row">
                 <div class="col-12">
                   <div class="review-box">
                     <div class="image-holder">
-                      <img src="img/com-1.jpg" alt="author">
+                      <img src="img/com-3.png" alt="author">
                     </div>
                     <div class="review-content">
-                      <div class="centering justify-content-between mb-3">
+                      <div class="centering justify-content-between mb-1">
                         <div>
-                          <h6 class="mb-0">Tom Perrins
+                          <h6 class="mb-0">Kabir Singh
                           </h6>
                           <p class="c-theme mb-0">26 april 2019
                           </p>
@@ -362,21 +362,20 @@
                           </div>
                         </div>
                       </div>
-                      <p class="mb-0">Mollit aute dolore nisi sint tempor veniam ut magna aute. Et officia elit eu eu adipisicing
-                        consectetur cillum elit eiusmod dolore est culpa..
+                      <p class="mb-0">Really great place for offices. Highly focused and motivating environment.Supporting Management..
                       </p>
                     </div>
                   </div>
                 </div>
-                <div class="col-12">
+                <div class="col-12 mt-3">
                   <div class="review-box">
                     <div class="image-holder">
-                      <img src="img/com-2.jpg" alt="author">
+                      <img src="img/com-2.png" alt="author">
                     </div>
                     <div class="review-content">
-                      <div class="centering justify-content-between mb-3">
+                      <div class="centering justify-content-between mb-1">
                         <div>
-                          <h6 class="mb-0">Kathy Brown
+                          <h6 class="mb-0">Prity Singh
                           </h6>
                           <p class="c-theme mb-0">30 april 2019
                           </p>
@@ -399,8 +398,7 @@
                           </div>
                         </div>
                       </div>
-                      <p class="mb-0">Mollit aute dolore nisi sint tempor veniam ut magna aute. Et officia elit eu eu adipisicing
-                        consectetur cillum elit eiusmod dolore est culpa..
+                      <p class="mb-0">Really great place for offices. Highly focused and motivating environment. Supporting Management..
                       </p>
                     </div>
                   </div>
@@ -443,7 +441,7 @@
                 <div class="booking-form">
                   <div class="row">
                     <div class="col-12">
-					  <a href="javascript:void(0);" class="btn btn-two btn-anim w-100">Book Now</a>
+					  <a href="javascript:void(0);" class="btn btn-one btn-anim w-100">Book Now</a>
                       <a href="post_requirement.php" class="btn btn-one btn-anim w-100 mt-2">Request a Callback</a>
 					  
                     </div>
