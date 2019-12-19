@@ -31,7 +31,7 @@
             </ul>
           </div>
         </div> -->
-		<h4 class="title-sep3 mb-20 mt-30">Home<span class="c-theme">Contact Us</span> </h4>
+		<h4 class="title-sep3 mb-20 mt-30">Home > <span class="c-theme">Contact Us</span></h4>
             <div class="row">
                 <div class="col-12">
                     <div class="contact-box mb-30">

@@ -138,7 +138,7 @@
     <div style="background:#f8f8f8;">
       <div class="container">
 	  	<div class="row">
-          <div class="mt-3 col-12">
+          <h4 class="mb-20 mt-30">
             <ul class="banner-link ">
               <li>
                 <a href="index.php">Home
@@ -161,7 +161,7 @@
                 </span> 
               </li>
             </ul>
-          </div>
+          </h4>
         </div>
         <div class="row">
           <div class="col-lg-8 col-12">
@@ -339,7 +339,7 @@
                     <div class="review-content">
                       <div class="centering justify-content-between mb-1">
                         <div>
-                          <h6 class="mb-0">Kabir Singh
+                          <h6 class="mb-0">Rohan Singh
                           </h6>
                           <p class="c-theme mb-0">26 april 2019
                           </p>
@@ -480,27 +480,23 @@
                   </div>
                   <div>
                     <a href="#">
-                      <i class="fab fa-facebook-f">
+                      <i class="fab fa-facebook-f" style="font-size:24px;">
                       </i>
                     </a>
                     <a href="#">
-                      <i class="fab fa-google-plus-g">
+                      <i class="fab fa-google-plus-g" style="font-size:24px;">
                       </i>
                     </a>
                     <a href="#">
-                      <i class="fab fa-instagram">
+                      <i class="fab fa-instagram" style="font-size:24px;">
                       </i>
                     </a>
                     <a href="#">
-                      <i class="fab fa-linkedin-in">
+                      <i class="fab fa-linkedin-in" style="font-size:24px;">
                       </i>
                     </a>
                     <a href="#">
-                      <i class="fab fa-twitter">
-                      </i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-vine">
+                      <i class="fab fa-twitter" style="font-size:24px;">
                       </i>
                     </a>
                   </div>
