@@ -31,22 +31,21 @@
     <!-- Header end -->
 
     <!-- login start-->
-    <div class="bg-w sp-200" style="padding-top:40px;">
+    <div class="bg-w sp-200" style="padding-top:40px; padding-bottom:30px;">
 		  <div class="container">
-			<div class="row mt-3">
-				<div class="col-lg-12 text-center mt-5">
-					<img src="img/mapi.png" alt="#">
-				</div>
+			<div class="row mt-4">
+			 <div class="col-12 text-center mt-5">
+				<ul class="nav d-flex log-tab" role="tablist">
+					<li class="nav-item text-center" style="font-size:35px; color:#009e9e">
+					<b>Login</b>
+					</li>
+				</ul>
+			</div>
 		   </div>
-			<ul class="nav d-flex log-tab mb-6" role="tablist">
-				<li class="nav-item text-center" style="font-size:25px; padding-top:15px;">
-					Signin your details
-				</li>
-			</ul>
             <div class="row justify-content-end">
 				<div class="col-lg-3">
 				</div>
-                <div class="col-lg-6 mt-3 custompadding100" style="border: 1px solid #ccc; height:209px; background-color:#fff; padding-bottom:10px;">                  
+                <div class="col-lg-6 mt-4 custompadding100" style="border: 1px solid #ccc; height:209px; background-color:#fff; padding-bottom:10px;">                  
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active show" id="login">
