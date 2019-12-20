@@ -59,9 +59,6 @@
                                         <button type="submit" class="btn btn-one btn-anim w-100" id="submit-login" name="submit-login">
                                         Reset</button>
                                     </div>
-									<div class="col-8 text-right mt-2">
-                                        <a href="login.php" class="paswd">| signin</a>
-                                    </div>
                                 </div>
                             </form>
                         </div>

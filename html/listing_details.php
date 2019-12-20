@@ -135,34 +135,9 @@
     
     <!-- listing slider end -->
     <!-- listing detail start-->
-    <div style="background:#f8f8f8;">
+    <div style="background:#f8f8f8;padding-top: 1px;">
       <div class="container">
-	  	<div class="row">
-          <h4 class="mb-20 mt-30">
-            <ul class="banner-link ">
-              <li>
-                <a href="index.php">Home
-                </a>
-              </li>
-			  <li>
-                <a href="listing.php">Maharashtra
-                </a>
-              </li>
-			  <li>
-                <a href="listing.php">Nagpur
-                </a>
-              </li>
-			  <li>
-                <a href="listing.php">Co-working Space
-                </a>
-              </li>
-              <li>
-                <span class="active">24X7 Luxurious and Premium 24 Seater Meeting Room in Mumbai
-                </span> 
-              </li>
-            </ul>
-          </h4>
-        </div>
+	  <h4 class="title-sep3 mb-20 mt-30">Home > Co-working Space ><span class="c-theme"> Details Page</span> </h4>
         <div class="row">
           <div class="col-lg-8 col-12">
             <div class="listing-detail abt-listing">
@@ -441,9 +416,8 @@
                 <div class="booking-form">
                   <div class="row">
                     <div class="col-12">
-					  <a href="javascript:void(0);" class="btn btn-one btn-anim w-100">Book Now</a>
+					  <!-- <a href="javascript:void(0);" class="btn btn-one btn-anim w-100">Book Now</a> -->
                       <a href="post_requirement.php" class="btn btn-one btn-anim w-100 mt-2">Request a Callback</a>
-					  
                     </div>
                   </div>
                 </div>
@@ -465,49 +439,33 @@
                   <li>
                     <i class="fa fa-map-marker-alt">
                     </i>
-                    Consectetur 241, sed Ac-1252, UK
-                  </li>
-                  <li>
-                    <i class="fa fa-globe-asia">
-                    </i>
-                    www.websiteaname.com
+                    23/A Sahapur colony, New Alipore, India
                   </li>
                 </ul>
-                <div class="socials sidebar-socials mt-2">
-                  <div class="side-icon">
-                    <i class="fa fa-share-alt">
-                    </i>
-                  </div>
-                  <div>
-                    <a href="#">
-                      <i class="fab fa-facebook-f" style="font-size:24px;">
-                      </i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-google-plus-g" style="font-size:24px;">
-                      </i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-instagram" style="font-size:24px;">
-                      </i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-linkedin-in" style="font-size:24px;">
-                      </i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-twitter" style="font-size:24px;">
-                      </i>
-                    </a>
-                  </div>
-                </div>
-              </div>
+				<div class="socials contact-social text-center">
+					<a href="#">
+						<i class="fab fa-facebook-f" style="font-size:24px;"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-google-plus-g" style="font-size:24px;"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-instagram" style="font-size:24px;"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-linkedin-in" style="font-size:24px;"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-twitter" style="font-size:24px;"></i>
+					</a>
+				</div>
+			  </div>
 			  <div class="widget abt-listing">
 			  	<div class="map map-sidebar">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7440.846173287218!2d79.04235307465463!3d21.175345443676612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c1b120bcbf1d%3A0x78b11644658dbff9!2sKT%20Nagar%2C%20Nagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1573468308141!5m2!1sen!2sin" width="auto" height="auto" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 				</div>
 			  </div>
-              <div class="widget abt-listing">
+              <!--<div class="widget abt-listing">
                 <h5 class="title-sep2">Opening Hours
                 </h5>
                 <div class="centering opening-hours justify-content-between">
@@ -516,7 +474,7 @@
                   <span class="c-theme">Open 24/7
                   </span>
                 </div>
-              </div>
+              </div> -->
               <div class="widget abt-listing">
                 <h5 class="title-sep2">Recently Added
                 </h5>

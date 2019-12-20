@@ -65,9 +65,10 @@
                                     </div>
                                     <div class="col-4 text-right mt-2">
                                         <a href="password.php" class="paswd"> forgot password ?</a>
+										<span class="ml-3">|</span>
                                     </div>
-									<div class="col-4 text-left mt-2">
-                                        <a href="register.php" class="paswd">| Create your account</a>
+									<div class="col-4 mt-2" style="padding-left: 3px;">
+                                        <a href="register.php" class="paswd"> Create your account</a>
                                     </div>
                                 </div>
                             </form>

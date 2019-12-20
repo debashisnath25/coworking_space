@@ -51,11 +51,12 @@
 							<button type="submit" class="btn btn-one btn-anim w-100" id="submit-login" name="submit-login">
 							Register</button>
 						</div>
-						<div class="col-6 text-right mt-2">
+						<div class="col-5 text-right mt-2">
 							Already have account ?
 						</div>
+						<span class="ml-1 mt-2">|</span>
 						<div class="col-2 text-left mt-2">
-							<a href="login.php" class="paswd">| Signin</a>
+							<a href="login.php" class="paswd"> Signin</a>
 						</div>
 					</div>
                 </form>
