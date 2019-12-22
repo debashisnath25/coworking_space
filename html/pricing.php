@@ -32,14 +32,7 @@
 	  	<div class="row">
           <div class=" col-12">
             <ul class="banner-link ">
-              <li>
-                <a href="index.php">Home
-                </a>
-              </li>
-			  <li>
-                <span class="active">Pricing
-                </span>
-              </li>
+              <h4 class="title-sep3 mb-20 mt-30">Home > <span class="c-theme">pricing</span> </h4>
             </ul>
           </div>
         </div>
