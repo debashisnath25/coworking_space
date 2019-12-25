@@ -334,7 +334,7 @@
 					  <div class="col-12 text-center">
 						<h4 class="mb-2">Can't decide?</h4>
 						<p class="mb-2">Get customized workspace for your need</p>
-						<a href="enquiry.php" class="btn btn-one btn-anim w-100" style="color:#fff;">Enquiry</a>
+						<a href="enquiry_basic.php" class="btn btn-one btn-anim w-100" style="color:#fff;">Enquiry</a>
 					  </div>
                     </div>
                   </form>

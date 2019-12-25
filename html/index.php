@@ -224,7 +224,7 @@
               </h3>
               <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
               </p>
-              <a href="enquiry.php" class="btn btn-two btn-anim mt-2">
+              <a href="enquiry_basic.php" class="btn btn-two btn-anim mt-2">
                 Enquiry Now
               </a>
             </div>
