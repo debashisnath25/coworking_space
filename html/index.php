@@ -93,11 +93,10 @@
 			
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/b-1.png')">
-                        <div class="blog-date p-2" style="color:#fff">
-                            GURGOAN
-                        </div>
+					<a href="listing.php">
+                    <div class="blog-item blog-1" style="background-image:url('img/ko.png')">
                         <div class="blog-content">
+							
                             <h5>
                                &nbsp;
                             </h5>
@@ -110,12 +109,11 @@
                             </ul>
                         </div>
                     </div>
+					</a>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/b-2.png')">
-                        <div class="blog-date p-2" style="color:#fff">
-                            DELHI
-                        </div>
+					<a href="listing.php">
+                    <div class="blog-item blog-1" style="background-image:url('img/de.png')">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -129,12 +127,11 @@
                             </ul>
                         </div>
                     </div>
+					</a>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/b-3.png')">
-                        <div class="blog-date p-2" style="color:#fff">
-                            NOIDA
-                        </div>
+				<a href="listing.php">
+                    <div class="blog-item blog-1" style="background-image:url('img/hy.png')">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -148,12 +145,11 @@
                             </ul>
                         </div>
                     </div>
+					</a>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/b-4.png')">
-                        <div class="blog-date p-2" style="color:#fff">
-                            MUMBAI
-                        </div>
+					<a href="listing.php">
+                    <div class="blog-item blog-1" style="background-image:url('img/mu.png')">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -167,12 +163,11 @@
                             </ul>
                         </div>
                     </div>
+					</a>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/b-5.png')">
-                        <div class="blog-date p-2" style="color:#fff">
-                            BANGLALURU
-                        </div>
+					<a href="listing.php">
+                    <div class="blog-item blog-1" style="background-image:url('img/ba.png')">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -186,12 +181,11 @@
                             </ul>
                         </div>
                     </div>
+					</a>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-12">
-                    <div class="blog-item blog-1" style="background-image:url('img/b-6.png')">
-                        <div class="blog-date p-2" style="color:#fff">
-                            CHENNAI
-                        </div>
+					<a href="listing.php">
+                    <div class="blog-item blog-1" style="background-image:url('img/ch.png')">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -205,6 +199,7 @@
                             </ul>
                         </div>
                     </div>
+					</a>
                 </div>
                 <div class="col-12 text-center mt-30">
                     <a href="#" class="btn btn-one btn-anim">view all</a>
