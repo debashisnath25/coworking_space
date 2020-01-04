@@ -28,17 +28,17 @@
     <?php include 'common/header.php';?>
     <!-- Header end -->
     <!-- banner start -->
-    <div class="main-banner" style="height:300px;">
+    <div class="main-banner">
       <div class="banner-image" style="background-image:url('img/home_banner.jpg');">
         <div class="container">
           <div class="banner-content" style="padding-top:180px;">
-            <div class="row" style="margin-top:-50px;">
-              <div class="col-12">
+            <div class="row">
+              <div class="col-12 mt-4">
                 <h3 style="color:#fff;">Find The Best Office Place In Your City
                 </h3>
               </div>
             </div>
-            <form action="#" class="banner-form mt-2">
+            <form action="#" class="banner-form mt-4">
               <div class="row justify-content-md-center">
                 <div class="col-lg-3 col-md-6" style="padding:3px! important;">
                   <input type="text" class="form-control mb-lg-0" placeholder="Enter city or Locality name">
@@ -69,11 +69,150 @@
                 </div>
               </div>
             </form>
+			
           </div>
+		  <div class="list-category mb-4">
+				<div class="row">
+					<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+						<div class="list-items mb-30 btn-anim">
+							<div class="icon-box">
+								<i class="flaticon-team"></i>
+							</div>
+							<h5 class="mb-0">
+								<a href="#">Meeting Room</a>
+							</h5>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+						<div class="list-items mb-30 btn-anim">
+							<div class="icon-box">
+								<i class="flaticon-appointment"></i>
+							</div>
+							<h5 class="mb-0">
+								<a href="#">Coworking Space</a>
+							</h5>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+						<div class="list-items mb-30 btn-anim">
+							<div class="icon-box">
+								<i class="flaticon-shop"></i>
+							</div>
+							<h5 class="mb-0">
+								<a href="#">Private Office</a>
+							</h5>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+						<div class="list-items mb-30 btn-anim">
+							<div class="icon-box">
+								<i class="flaticon-hotel"></i>
+							</div>
+							<h5 class="mb-0">
+								<a href="#">Training Room</a>
+							</h5>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+						<div class="list-items mb-30 btn-anim">
+							<div class="icon-box">
+								<i class="flaticon-team"></i>
+							</div>
+							<h5 class="mb-0">
+								<a href="#">Business Center</a>
+							</h5>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+						<div class="list-items mb-30 btn-anim">
+							<div class="icon-box">
+								<i class="flaticon-shop"></i>
+							</div>
+							<h5 class="mb-0">
+								<a href="#">Coworking Cafes</a>
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
         </div>
       </div>
     </div>
     <!-- banner end -->
+
+
+	    <section class="popular-list sp-100 bg-w">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="all-title">
+              <h3 class="sec-title">
+               Choose Your Needs
+              </h3>
+              <svg class="title-sep">
+                <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
+                      />
+              </svg>
+              
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="popular-list-slider mb-0">
+			<?php
+			for($i=0;$i<=5;$i++)
+			{
+			?>
+              <div class="listing-item p-2">
+                <div class="img-holder">
+					<span class="offer">save 49%
+									</span>
+                  <img src="img/l-1.png" alt="list">
+				  <div class="rate-like centering justify-content-between">
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="far fa-star"></i>
+						<i class="far fa-star"></i>
+					</div>
+					<a class="likes" href="#">
+						<i class="far fa-heart"></i> 4
+					</a>
+				</div>
+                </div>
+                <div class="list-content p-2">
+                  <h5 class="mb-2">
+                    <a href="listing_details.php">Work with us
+                    </a>
+                  </h5>
+                  <p>Work Cafe
+                  </p>
+                  <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
+                    <li class="mt-1">
+                      <a href="#">
+                        <i class="fa fa-map-marker-alt mr-2">
+                        </i>Dwarka,New Delhi
+                      </a>
+                    </li>
+                    <li class="mt-1">
+                      <a href="#">
+                        <i class="fa fa-phone mr-2">
+                        </i>0123-456-789
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+			 <?php
+			 }
+			 ?>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 	
 	<section class="sp-100 bg-w">
         <div class="container">
@@ -234,7 +373,7 @@
     </section>
     <!-- cta-one end -->
     <!-- popular list start-->
-	<section class= "sp-100 bg-w">
+	<!-- <section class= "sp-100 bg-w">
       <div class="container">
 	  <div class="row" >
           <div class="col-12">
@@ -289,81 +428,168 @@
 			</div>
 		</div>
       </div>
-    </section>
-	
-
-    <section class="popular-list sp-100 bg-w">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="all-title">
-              <h3 class="sec-title">
-               Choose Your Needs
-              </h3>
-              <svg class="title-sep">
-                <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
-                      />
-              </svg>
-              
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="popular-list-slider mb-0">
-			<?php
-			for($i=0;$i<=5;$i++)
-			{
-			?>
-              <div class="listing-item p-2">
-                <div class="img-holder">
-					<span class="offer">save 49%
-									</span>
-                  <img src="img/l-1.png" alt="list">
-				  <div class="rate-like centering justify-content-between">
-					<div class="rating">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
+    </section> -->
+	<!-- why choose us start -->
+	<section class="features sp-100 bg-w">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="all-title">
+						<h3 class="sec-title">
+							Why We Are Best
+						</h3>
+						<svg class="title-sep">
+							<path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"></path>
+						</svg>
 					</div>
-					<a class="likes" href="#">
-						<i class="far fa-heart"></i> 4
-					</a>
 				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12 mb-30">
+					<div class="feature-item">
+						<div class="icon-box">
+							<i class="flaticon-rising"></i>
+						</div>
+						<h5>our vision</h5>
+						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+							ipsf.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12 mb-30">
+					<div class="feature-item">
+						<div class="icon-box">
+							<i class="flaticon-list"></i>
+						</div>
+						<h5>missions</h5>
+						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+							ipsf.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12 mb-30">
+					<div class="feature-item">
+						<div class="icon-box">
+							<i class="flaticon-medal"></i>
+						</div>
+						<h5>our value</h5>
+						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+							ipsf.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12 mb-30">
+					<div class="feature-item">
+						<div class="icon-box">
+							<i class="flaticon-find-1"></i>
+						</div>
+						<h5>find your listing</h5>
+						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+							ipsf.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12 mb-30">
+					<div class="feature-item">
+						<div class="icon-box">
+							<i class="flaticon-map"></i>
+						</div>
+						<h5>find the way</h5>
+						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+							ipsf.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12 mb-30">
+					<div class="feature-item">
+						<div class="icon-box">
+							<i class="flaticon-support"></i>
+						</div>
+						<h5>24/7 support</h5>
+						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
+							ipsf.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!-- why choose us end -->
+<!-- peoples favorite start-->
+
+	<section class="categories sp-100 bg-dull">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="all-title">
+                        <h3 class="sec-title">
+                            People's Favourite
+                        </h3>
+                        <svg class="title-sep">
+                            <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"></path>
+                        </svg>
+                    </div>
                 </div>
-                <div class="list-content p-2">
-                  <h5 class="mb-2">
-                    <a href="listing_details.php">Work with us
-                    </a>
-                  </h5>
-                  <p>Work Cafe
-                  </p>
-                  <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
-                    <li class="mt-1">
-                      <a href="#">
-                        <i class="fa fa-map-marker-alt mr-2">
-                        </i>Dwarka,New Delhi
-                      </a>
-                    </li>
-                    <li class="mt-1">
-                      <a href="#">
-                        <i class="fa fa-phone mr-2">
-                        </i>0123-456-789
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-			 <?php
-			 }
-			 ?>
             </div>
-          </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-20">
+                    <div class="ctg-item">
+                        <div class="icon-box" style="background-image:url('img/l-1.png')">
+                            <i class="flaticon-map"></i>
+                        </div>
+                        <div class="content-box p-4">
+                            <h5 class="mb-1">
+                                <a href="listing.html">destination</a>
+                            </h5>
+                            <p class="mb-0">35 Listing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-20">
+                    <div class="ctg-item">
+                        <div class="icon-box" style="background-image:url('img/l-2.png')">
+                            <i class="flaticon-cutlery"></i>
+                        </div>
+                        <div class="content-box p-4">
+                            <h5 class="mb-1">
+                                <a href="listing.html">restaurants</a>
+                            </h5>
+                            <p class="mb-0">20 Listing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-20">
+                    <div class="ctg-item">
+                        <div class="icon-box" style="background-image:url('img/l-3.png')">
+                            <i class="flaticon-shop"></i>
+                        </div>
+                        <div class="content-box p-4">
+                            <h5 class="mb-1">
+                                <a href="listing.html"> shopping</a>
+                            </h5>
+                            <p class="mb-0">15 Listing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-20">
+                    <div class="ctg-item">
+                        <div class="icon-box" style="background-image:url('img/l-1.png')">
+                            <i class="flaticon-hotel"></i>
+                        </div>
+                        <div class="content-box p-4">
+                            <h5 class="mb-1">
+                                <a href="listing.html"> hotels</a>
+                            </h5>
+                            <p class="mb-0">12 Listing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
+	<!-- peoples favourite end -->
+
 
 	<section class="popular-list sp-100 bg-w">
       <div class="container">

@@ -2176,7 +2176,7 @@ li.list-rating i {
 
 .feature-item .icon-box i {
     color: #009e9e;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 /* =====================
@@ -3473,7 +3473,7 @@ ol.comment-list {
     height: 220px;
     border-top-right-radius: 220px;
     border-bottom-right-radius: 220px;
-    background-color: #333;
+    background-color: #009e9e;
     bottom: 0;
     z-index: -1;
 }
