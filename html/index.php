@@ -727,7 +727,7 @@
       </div>
     </section>
 	<!-- partner start-->
-    <div class="partner-one bg-red py-5" style="background-color: rgba(1, 137, 117, 0.36);">
+    <div class="partner-one bg-red py-5" style="background-color:#009E9E;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
