@@ -73,7 +73,7 @@
           </div>
 		  <div class="list-category">
 		  		<div class="row">
-					<div class="col-12 mt-4">
+					<div class="col-12 mb-4">
 					<h3 style="color:#fff;">What Can You Book?
 					</h3>
 					</div>
@@ -354,6 +354,44 @@
     </section>
 	
     <!-- blog end -->
+	<!-- why choose us start -->
+	<div class="about-1 o-hide bg-w sp-100">
+        <div class="container">
+		   <div class="row">
+                <div class="col-12">
+                    <div class="all-title">
+                        <h3 class="sec-title">
+                            Why Choose Us
+                        </h3>
+                        <svg class="title-sep">
+                            <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 align-self-end">
+                    <div class="abt-img">
+                        <img src="img/abt-mockup.png" alt="mockup">
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-5">
+                    <h4>New Day, New Workspace</h4>
+                    <p>Over 100+ locations and still counting; this is a quest to bring you a work space closer to wherever you are.
+                    </p>
+					<h4>Work more, Pay less</h4>
+                    <p>With super-flexi Bundesk subscription, enjoy the freedom of no monthly rental, no deposit, no lock-in, no expiry.
+                    </p>
+					<h4>Meet People, Seize Opportunities</h4>
+                    <p>Connect with over 10000+ like-minded individuals. Get professional help, find your next client or perhaps, a buddy for life!
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+	<!-- why choose us end -->
 	
     <!-- popular list start-->
 	<!-- <section class= "sp-100 bg-w">
