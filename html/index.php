@@ -360,17 +360,17 @@
         <div class="row align-items-center">
           <div class="col-lg-6 my-lg-0 my-5 py-lg-0 py-5">
             <div class="cta-content">
-              <h4 style="font-size:35px; color:white;">Search, Explore, Book, Manage
+              <h4 style="font-size:35px; color:white;">New Day, New Workspace
               </h4>
-              <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
+              <p>Over 100+ locations and still counting; this is a quest to bring you a work space closer to wherever you are.
               </p>
-			  <h4 style="font-size:35px; color:white;">Search, Explore, Book, Manage
+			  <h4 style="font-size:35px; color:white;">Work more, Pay less
               </h4>
-              <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
+              <p>With super-flexi Bundesk subscription, enjoy the freedom of no monthly rental, no deposit, no lock-in, no expiry. 
               </p>
-			  <h4 style="font-size:35px; color:white;">Search, Explore, Book, Manage
+			  <h4 style="font-size:35px; color:white;">Meet People, Seize Opportunities
               </h4>
-              <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
+              <p>Connect with over 10000+ like-minded individuals. Get professional help, find your next client or perhaps, a buddy for life!
               </p>
             </div>
           </div>
