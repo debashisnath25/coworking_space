@@ -429,97 +429,11 @@
 		</div>
       </div>
     </section> -->
-	<!-- why choose us start -->
-	<section class="features sp-100 bg-w">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="all-title">
-						<h3 class="sec-title">
-							Why We Are Best
-						</h3>
-						<svg class="title-sep">
-							<path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"></path>
-						</svg>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6 col-12 mb-30">
-					<div class="feature-item">
-						<div class="icon-box">
-							<i class="flaticon-rising"></i>
-						</div>
-						<h5>our vision</h5>
-						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-							ipsf.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-12 mb-30">
-					<div class="feature-item">
-						<div class="icon-box">
-							<i class="flaticon-list"></i>
-						</div>
-						<h5>missions</h5>
-						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-							ipsf.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-12 mb-30">
-					<div class="feature-item">
-						<div class="icon-box">
-							<i class="flaticon-medal"></i>
-						</div>
-						<h5>our value</h5>
-						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-							ipsf.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-12 mb-30">
-					<div class="feature-item">
-						<div class="icon-box">
-							<i class="flaticon-find-1"></i>
-						</div>
-						<h5>find your listing</h5>
-						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-							ipsf.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-12 mb-30">
-					<div class="feature-item">
-						<div class="icon-box">
-							<i class="flaticon-map"></i>
-						</div>
-						<h5>find the way</h5>
-						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-							ipsf.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-12 mb-30">
-					<div class="feature-item">
-						<div class="icon-box">
-							<i class="flaticon-support"></i>
-						</div>
-						<h5>24/7 support</h5>
-						<p>Lorem ipsum dolor sit ame conse castei efte tuerg scn kt iscedring elit ende cd magum socadaiis nato
-							ipsf.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-<!-- why choose us end -->
+
 <!-- peoples favorite start-->
 
-	<section class="categories sp-100 bg-dull">
-        <div class="container">
+	<section class="bg-dull sp-100">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <div class="all-title">
@@ -532,63 +446,219 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-20">
-                    <div class="ctg-item">
-                        <div class="icon-box" style="background-image:url('img/l-1.png')">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 mb-30">
+                    <div class="team-item">
+                        <img src="img/l-1.png" alt="lister">
+						<div class="rate-like centering justify-content-between">
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>
+							<a class="likes" href="#">
+								<i class="far fa-heart"></i> 4
+							</a>
+						</div>
+                    </div>
+					<div class="list-content p-2">
+					  <h5 class="mb-2">
+						<a href="listing_details.php">Work with us
+						</a>
+					  </h5>
+					  <p>Work Cafe
+					  </p>
+					  <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
+						<li class="mt-1">
+						  <a href="#">
+							<i class="fa fa-map-marker-alt mr-2">
+							</i>Dwarka,New Delhi
+						  </a>
+						</li>
+						<li class="mt-1">
+						  <a href="#">
+							<i class="fa fa-phone mr-2">
+							</i>0123-456-789
+						  </a>
+						</li>
+					  </ul>
+					</div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-30">
+                    <div class="team-item">
+                        <img src="img/l-2.png" alt="lister">
+						<div class="rate-like centering justify-content-between">
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>
+							<a class="likes" href="#">
+								<i class="far fa-heart"></i> 4
+							</a>
+						</div>
+                    </div>
+					<div class="list-content p-2">
+					  <h5 class="mb-2">
+						<a href="listing_details.php">Work with us
+						</a>
+					  </h5>
+					  <p>Work Cafe
+					  </p>
+					  <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
+						<li class="mt-1">
+						  <a href="#">
+							<i class="fa fa-map-marker-alt mr-2">
+							</i>Dwarka,New Delhi
+						  </a>
+						</li>
+						<li class="mt-1">
+						  <a href="#">
+							<i class="fa fa-phone mr-2">
+							</i>0123-456-789
+						  </a>
+						</li>
+					  </ul>
+					</div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-30">
+                    <div class="team-item">
+                        <img src="img/l-3.png" alt="lister">
+						<div class="rate-like centering justify-content-between">
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>
+							<a class="likes" href="#">
+								<i class="far fa-heart"></i> 4
+							</a>
+						</div>
+                    </div>
+					<div class="list-content p-2">
+					  <h5 class="mb-2">
+						<a href="listing_details.php">Work with us
+						</a>
+					  </h5>
+					  <p>Work Cafe
+					  </p>
+					  <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
+						<li class="mt-1">
+						  <a href="#">
+							<i class="fa fa-map-marker-alt mr-2">
+							</i>Dwarka,New Delhi
+						  </a>
+						</li>
+						<li class="mt-1">
+						  <a href="#">
+							<i class="fa fa-phone mr-2">
+							</i>0123-456-789
+						  </a>
+						</li>
+					  </ul>
+					</div>
+                </div>
+				<div class="col-lg-3 col-md-6 col-12 mb-30">
+					<div class="team-item">
+						<img src="img/l-2.png" alt="lister">
+						<div class="rate-like centering justify-content-between">
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>
+							<a class="likes" href="#">
+								<i class="far fa-heart"></i> 4
+							</a>
+						</div>
+					</div>
+					<div class="list-content p-2">
+					  <h5 class="mb-2">
+						<a href="listing_details.php">Work with us
+						</a>
+					  </h5>
+					  <p>Work Cafe
+					  </p>
+					  <ul class="ctg-info2 pt-2 mt-3 centering justify-content-between">
+						<li class="mt-1">
+						  <a href="#">
+							<i class="fa fa-map-marker-alt mr-2">
+							</i>Dwarka,New Delhi
+						  </a>
+						</li>
+						<li class="mt-1">
+						  <a href="#">
+							<i class="fa fa-phone mr-2">
+							</i>0123-456-789
+						  </a>
+						</li>
+					  </ul>
+					</div>
+            </div>
+        </div>
+		<br>
+    </section>
+	
+	<!-- peoples favourite end -->
+
+	<section class="steps-section sp-100 bg-dull tri-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="all-title">
+                        <h3 class="sec-title">
+                            fitness programs
+                        </h3>
+                        <svg class="title-sep">
+                            <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"></path>
+                        </svg>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor penatibus
+                            ean massa. Cum sociis natoqu penatibus et magnis dis parturient montes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row steps-wrap justify-content-center">
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="steps">
+                        <div class="icon-box mb-3">
+                            <i class="flaticon-layers"></i>
+                        </div>
+                        <h5>
+                            <span class="c-theme">1. </span> Choose a Category</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consec rcqui adipiscing elit socada como ligaui.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="steps">
+                        <div class="icon-box mb-3">
                             <i class="flaticon-map"></i>
                         </div>
-                        <div class="content-box p-4">
-                            <h5 class="mb-1">
-                                <a href="listing.html">destination</a>
-                            </h5>
-                            <p class="mb-0">35 Listing</p>
-                        </div>
+                        <h5>
+                            <span class="c-theme">2. </span> Find What You Want</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consec rcqui adipiscing elit socada como ligaui.</p>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-20">
-                    <div class="ctg-item">
-                        <div class="icon-box" style="background-image:url('img/l-2.png')">
-                            <i class="flaticon-cutlery"></i>
-                        </div>
-                        <div class="content-box p-4">
-                            <h5 class="mb-1">
-                                <a href="listing.html">restaurants</a>
-                            </h5>
-                            <p class="mb-0">20 Listing</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-20">
-                    <div class="ctg-item">
-                        <div class="icon-box" style="background-image:url('img/l-3.png')">
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="steps">
+                        <div class="icon-box mb-3">
                             <i class="flaticon-shop"></i>
                         </div>
-                        <div class="content-box p-4">
-                            <h5 class="mb-1">
-                                <a href="listing.html"> shopping</a>
-                            </h5>
-                            <p class="mb-0">15 Listing</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-20">
-                    <div class="ctg-item">
-                        <div class="icon-box" style="background-image:url('img/l-1.png')">
-                            <i class="flaticon-hotel"></i>
-                        </div>
-                        <div class="content-box p-4">
-                            <h5 class="mb-1">
-                                <a href="listing.html"> hotels</a>
-                            </h5>
-                            <p class="mb-0">12 Listing</p>
-                        </div>
+                        <h5>
+                            <span class="c-theme">3. </span> go Out &amp; Explore</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consec rcqui adipiscing elit socada como ligaui.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-	<!-- peoples favourite end -->
 
 
 	<section class="popular-list sp-100 bg-w">
