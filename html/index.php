@@ -354,48 +354,7 @@
     </section>
 	
     <!-- blog end -->
-	    <!-- cta-one start-->
-		<div class="row">
-			<div class="col-12">
-				<div class="all-title">
-					<h3 class="sec-title">
-						Why Choose Us?
-					</h3>
-					<svg class="title-sep">
-						<path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
-						/>
-					</svg>
-				</div>
-			</div>
-		</div>
-    <section class="cta-one tri-bg-w text-lg-left text-center">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 my-lg-0 my-5 py-lg-0 py-5">
-            <div class="cta-content">
-              <h4 style="font-size:30px; color:white;">New Day, New Workspace
-              </h4>
-              <p style="color:black;">Over 100+ locations and still counting; this is a quest to bring you a work space closer to wherever you are.
-              </p>
-			  <h4 style="font-size:30px; color:white;">Work more, Pay less
-              </h4>
-              <p style="color:black;">With super-flexi Bundesk subscription, enjoy the freedom of no monthly rental, no deposit, no lock-in, no expiry. 
-              </p>
-			  <h4 style="font-size:30px; color:white;">Meet People, Seize Opportunities
-              </h4>
-              <p style="color:black;">Connect with over 10000+ like-minded individuals. Get professional help, find your next client or perhaps, a buddy for life!
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6 d-lg-block d-none">
-            <div class="mt-4">
-              <img src="img/cta-bg2.png" alt="image">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- cta-one end -->
+	
     <!-- popular list start-->
 	<!-- <section class= "sp-100 bg-w">
       <div class="container">
@@ -633,6 +592,7 @@
 	
 	<!-- peoples favourite end -->
 
+	<!-- How it works Start-->
 	<section class="steps-section sp-100 bg-dull tri-bg">
         <div class="container">
             <div class="row">
@@ -681,6 +641,50 @@
             </div>
         </div>
     </section>
+	<!-- How it works end-->
+
+	<!-- cta-one start-->
+	<div class="row">
+		<div class="col-12">
+			<div class="all-title">
+				<h3 class="sec-title">
+					Why Choose Us?
+				</h3>
+				<svg class="title-sep">
+					<path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
+					/>
+				</svg>
+			</div>
+		</div>
+	</div>
+    <section class="cta-one tri-bg-w text-lg-left text-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 my-lg-0 my-5 py-lg-0 py-5">
+            <div class="cta-content">
+              <h4 style="font-size:30px; color:white;">New Day, New Workspace
+              </h4>
+              <p style="color:black;">Over 100+ locations and still counting; this is a quest to bring you a work space closer to wherever you are.
+              </p>
+			  <h4 style="font-size:30px; color:white;">Work more, Pay less
+              </h4>
+              <p style="color:black;">With super-flexi Bundesk subscription, enjoy the freedom of no monthly rental, no deposit, no lock-in, no expiry. 
+              </p>
+			  <h4 style="font-size:30px; color:white;">Meet People, Seize Opportunities
+              </h4>
+              <p style="color:black;">Connect with over 10000+ like-minded individuals. Get professional help, find your next client or perhaps, a buddy for life!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 d-lg-block d-none">
+            <div class="mt-4">
+              <img src="img/cta-bg2.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cta-one end -->
 
 
 	<section class="popular-list sp-100 bg-w">
