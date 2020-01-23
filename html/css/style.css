@@ -2359,7 +2359,7 @@ li.list-rating i {
     top: 0;
     content: "";
     background: #000;
-    opacity: .3;
+    opacity: 0;
     z-index: -1;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;

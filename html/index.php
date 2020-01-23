@@ -239,7 +239,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
 					<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/ko.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/ko.png');border: 1px solid #009e9e;">
                         <div class="blog-content">
 							
                             <h5>
@@ -258,7 +258,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
 					<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/de.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/de.png');border: 1px solid #009e9e;">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -276,7 +276,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
 				<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/hy.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/hy.png');border: 1px solid #009e9e;">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -294,7 +294,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-12">
 					<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/mu.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/mu.png');border: 1px solid #009e9e;">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -312,7 +312,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-12">
 					<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/ba.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/ba.png');border: 1px solid #009e9e;">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -330,7 +330,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-12">
 					<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/ch.png')">
+                    <div class="blog-item blog-1" style="background-image:url('img/ch.png');border: 1px solid #009e9e;">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
