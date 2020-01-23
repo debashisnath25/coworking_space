@@ -31,7 +31,7 @@
     <div class="main-banner">
       <div class="banner-image" style="background-image:url('img/home_banner.jpg');">
         <div class="container">
-          <div class="banner-content" style="padding-top:180px;">
+          <div class="banner-content" style="padding-top:100px;">
             <div class="row">
               <div class="col-12 mt-4">
                 <h3 style="color:#fff;">Find The Best Office Place In Your City
@@ -72,6 +72,12 @@
 			
           </div>
 		  <div class="list-category mb-4">
+		  		<div class="row">
+					<div class="col-12 mt-4">
+					<h3 style="color:#fff;">What Can You Book?
+					</h3>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-lg-2 col-md-4 col-sm-6 col-12">
 						<div class="list-items mb-30 btn-anim">
@@ -147,7 +153,7 @@
           <div class="col-12">
             <div class="all-title">
               <h3 class="sec-title">
-               Choose Your Needs
+               Top Spaces
               </h3>
               <svg class="title-sep">
                 <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
@@ -354,13 +360,18 @@
         <div class="row align-items-center">
           <div class="col-lg-6 my-lg-0 my-5 py-lg-0 py-5">
             <div class="cta-content">
-              <h3>Search, Explore, Book, Manage
-              </h3>
+              <h4 style="font-size:35px; color:white;">Search, Explore, Book, Manage
+              </h4>
               <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
               </p>
-              <a href="enquiry_basic.php" class="btn btn-two btn-anim mt-2">
-                Enquiry Now
-              </a>
+			  <h4 style="font-size:35px; color:white;">Search, Explore, Book, Manage
+              </h4>
+              <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
+              </p>
+			  <h4 style="font-size:35px; color:white;">Search, Explore, Book, Manage
+              </h4>
+              <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&B - without any rent! 
+              </p>
             </div>
           </div>
           <div class="col-lg-6 d-lg-block d-none">
