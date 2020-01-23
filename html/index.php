@@ -71,7 +71,7 @@
             </form>
 			
           </div>
-		  <div class="list-category mb-4">
+		  <div class="list-category">
 		  		<div class="row">
 					<div class="col-12 mt-4">
 					<h3 style="color:#fff;">What Can You Book?
@@ -644,19 +644,7 @@
 	<!-- How it works end-->
 
 	<!-- cta-one start-->
-	<div class="row">
-		<div class="col-12">
-			<div class="all-title">
-				<h3 class="sec-title">
-					Why Choose Us?
-				</h3>
-				<svg class="title-sep">
-					<path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"
-					/>
-				</svg>
-			</div>
-		</div>
-	</div>
+
     <section class="cta-one tri-bg-w text-lg-left text-center">
       <div class="container">
         <div class="row align-items-center">
