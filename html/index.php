@@ -220,7 +220,7 @@
       </div>
     </section>
 	
-	<section class="sp-100 bg-w">
+	<section class="sp-100 bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -239,7 +239,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
 					<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/ko.png');border: 1px solid #009e9e;">
+                    <div class="blog-item blog-1" style="background-image:url('img/ko.png');border: 1px solid #3e55ff;height:200px;">
                         <div class="blog-content">
 							
                             <h5>
@@ -258,7 +258,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
 					<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/de.png');border: 1px solid #009e9e;">
+                    <div class="blog-item blog-1" style="background-image:url('img/de.png');border: 1px solid #3e55ff;height:200px;">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -276,7 +276,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-12">
 				<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/hy.png');border: 1px solid #009e9e;">
+                    <div class="blog-item blog-1" style="background-image:url('img/hy.png');border: 1px solid #3e55ff;height:200px;">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -294,7 +294,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-12">
 					<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/mu.png');border: 1px solid #009e9e;">
+                    <div class="blog-item blog-1" style="background-image:url('img/mu.png');border: 1px solid #3e55ff;height:200px;">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -312,7 +312,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-12">
 					<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/ba.png');border: 1px solid #009e9e;">
+                    <div class="blog-item blog-1" style="background-image:url('img/ba.png');border: 1px solid #3e55ff;height:200px;">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -330,7 +330,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-12">
 					<a href="listing.php">
-                    <div class="blog-item blog-1" style="background-image:url('img/ch.png');border: 1px solid #009e9e;">
+                    <div class="blog-item blog-1" style="background-image:url('img/ch.png');border: 1px solid #3e55ff;height:200px;">
                         <div class="blog-content">
                             <h5>
                                &nbsp;
@@ -453,7 +453,7 @@
 
 <!-- peoples favorite start-->
 
-	<section class="bg-dull sp-100">
+	<section class="bg-white sp-100">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
@@ -636,7 +636,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="all-title">
-                        <h3 class="sec-title">
+                        <h3 class="sec-title" style="color:white;">
                             How It Works
                         </h3>
                         <svg class="title-sep">
@@ -688,11 +688,11 @@
         <div class="row align-items-center">
           <div class="col-lg-6 my-lg-0 my-5 py-lg-0 py-5">
             <div class="cta-content">
-              <h3>Search, Explore
+              <h3>Discover India's largest and most loved coworking network
               </h3>
               <p>Over 100+ locations and still counting; this is a quest to bring you a work space closer to wherever you are.
               </p>
-			  <a href="login.html" class="btn btn-two btn-anim mt-2">
+			  <a href="enquiry_basic.php" class="btn btn-two btn-anim mt-2">
 				  Enquiry now
 			  </a>
             </div>
