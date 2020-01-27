@@ -123,7 +123,7 @@ class Location extends Component{
                             </div>
                         </div>
                         <div className="col-12 text-center mt-30">
-                            <a href="#" className="btn btn-one btn-anim">view all</a>
+                            <a href="#/" className="btn btn-one btn-anim">view all</a>
                         </div>
                         </div>
                     </div>

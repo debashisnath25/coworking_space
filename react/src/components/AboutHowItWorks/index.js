@@ -10,7 +10,7 @@ class AboutHowItWorks extends Component{
                         <div className=" col-12">
                             <ul className="banner-link ">
                             <li>
-                                <a href="index.php">Home
+                                <a href="#/">Home
                                 </a>
                             </li>
                             <li>
@@ -24,19 +24,19 @@ class AboutHowItWorks extends Component{
                         <div className="col-lg-4">
                             <ul className="nav faq-tabs mb-lg-0 mb-5" role="tablist">
                             <li className="nav-item">
-                                <a className="nav-link active" href="#faq1" role="tab" data-toggle="tab">FREE TRIAL
+                                <a className="nav-link active" href="#/" role="tab" data-toggle="tab">FREE TRIAL
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#faq2" role="tab" data-toggle="tab">REDEEMABLE CREDITS
+                                <a className="nav-link" href="#/" role="tab" data-toggle="tab">REDEEMABLE CREDITS
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#faq3" role="tab" data-toggle="tab">SUBSCRIPTION PLAN
+                                <a className="nav-link" href="#/" role="tab" data-toggle="tab">SUBSCRIPTION PLAN
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#faq4" role="tab" data-toggle="tab">SERVICES/AMENITIES
+                                <a className="nav-link" href="#/" role="tab" data-toggle="tab">SERVICES/AMENITIES
                                 </a>
                             </li>
                             </ul>

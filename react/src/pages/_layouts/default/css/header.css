@@ -20,7 +20,7 @@
 }
 .navbar {
     padding: 0;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: Open Sans,sans-serif;
 }
 .main-menu {
     position: relative;
@@ -47,7 +47,7 @@
 }
 
 .navbar-nav .nav-item:hover .nav-link{
-    color: #ff3a54;
+    color: #009e9e;
 }
 .navbar-nav .dropdown-item a {
     padding: 13px 0px;
@@ -95,7 +95,7 @@
     transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-    background-color: #ff3a54;
+    background-color: #009e9e;
     -webkit-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
     -moz-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
     -ms-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
@@ -292,7 +292,7 @@ bar3 {
         left: 0;
         width:0;
         height:2px;
-        background-color: #ff3a54;
+        background-color: #009e9e;
     }
     .dropdown-item:hover>a::before {
         width: 100%;
@@ -303,7 +303,7 @@ bar3 {
         -o-transition: all 0.4s cubic-bezier(0.815, 1.650, 0.400, 0.680);
     }
     .navbar-nav .dropdown-menu .dropdown-item:hover>a {
-        color: #ff3a54;
+        color: #009e9e;
     }
     .dropdown-item {
         background-color: #fff

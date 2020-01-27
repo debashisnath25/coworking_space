@@ -19,19 +19,19 @@ class ListingDetails extends Component{
                 <div className="mt-3 col-12">
                     <ul className="banner-link ">
                     <li>
-                        <a href="index.php">Home
+                        <a href="#/">Home
                         </a>
                     </li>
                     <li>
-                        <a href="listing.php">Maharashtra
+                        <a href="#/">Maharashtra
                         </a>
                     </li>
                     <li>
-                        <a href="listing.php">Nagpur
+                        <a href="#/">Nagpur
                         </a>
                     </li>
                     <li>
-                        <a href="listing.php">Co-working Space
+                        <a href="#/">Co-working Space
                         </a>
                     </li>
                     <li>
@@ -48,13 +48,13 @@ class ListingDetails extends Component{
                     </h4>
                     <ul className="ctg-info centering justify-content-start">
                         <li>
-                        <a href="#">
+                        <a href="#/">
                             <i className="fa fa-map-marker-alt mr-2">
                             </i>KT Nagar, Nagpur, Maharashtra
                         </a>
                         </li>
                         <li className="my-1">
-                        <a href="#">
+                        <a href="#/">
                             <i className="fa fa-phone mr-2">
                             </i> 0123-456-789
                         </a>
@@ -146,7 +146,7 @@ class ListingDetails extends Component{
                             </h6>
                         </div>
                         <div className="rating-btn-down">
-                            <a href="#" className="btn w-100 review-btn btn-anim">3 Reviews
+                            <a href="#/" className="btn w-100 review-btn btn-anim">3 Reviews
                             </a>
                         </div>
                         </div>
@@ -318,8 +318,8 @@ class ListingDetails extends Component{
                         <div className="booking-form">
                         <div className="row">
                             <div className="col-12">
-                            <a href="javascript:void(0);" className="btn btn-two btn-anim w-100">Book Now</a>
-                            <a href="post_requirement.php" className="btn btn-one btn-anim w-100 mt-2">Request a Callback</a>
+                            <a href="#/" className="btn btn-two btn-anim w-100">Book Now</a>
+                            <a href="#/" className="btn btn-one btn-anim w-100 mt-2">Request a Callback</a>
                             </div>
                         </div>
                         </div>
@@ -355,27 +355,27 @@ class ListingDetails extends Component{
                             </i>
                         </div>
                         <div>
-                            <a href="#">
+                            <a href="#/">
                             <i className="fab fa-facebook-f">
                             </i>
                             </a>
-                            <a href="#">
+                            <a href="#/">
                             <i className="fab fa-google-plus-g">
                             </i>
                             </a>
-                            <a href="#">
+                            <a href="#/">
                             <i className="fab fa-instagram">
                             </i>
                             </a>
-                            <a href="#">
+                            <a href="#/">
                             <i className="fab fa-linkedin-in">
                             </i>
                             </a>
-                            <a href="#">
+                            <a href="#/">
                             <i className="fab fa-twitter">
                             </i>
                             </a>
-                            <a href="#">
+                            <a href="#/">
                             <i className="fab fa-vine">
                             </i>
                             </a>
@@ -384,7 +384,7 @@ class ListingDetails extends Component{
                     </div>
                     <div className="widget abt-listing">
                         <div className="map map-sidebar">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7440.846173287218!2d79.04235307465463!3d21.175345443676612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c1b120bcbf1d%3A0x78b11644658dbff9!2sKT%20Nagar%2C%20Nagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1573468308141!5m2!1sen!2sin" style={{border: 0}} allowFullScreen width="auto" height="auto" frameBorder={0} />
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7440.846173287218!2d79.04235307465463!3d21.175345443676612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c1b120bcbf1d%3A0x78b11644658dbff9!2sKT%20Nagar%2C%20Nagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1573468308141!5m2!1sen!2sin" style={{border: 0}} allowFullScreen width="auto" height="auto" title="location" frameBorder={0} />
                         </div>
                     </div>
                     <div className="widget abt-listing">
@@ -437,18 +437,18 @@ class ListingDetails extends Component{
                             </div>
                             <div className="list-content p-2">
                             <h5 className="mt-3 mb-2">
-                                <a href="listing_details.php">Co-working Space
+                                <a href="#/">Co-working Space
                                 </a>
                             </h5>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                                 <li className="mt-1">
-                                <a href="listing_details.php">
+                                <a href="#/">
                                     <i className="fa fa-map-marker-alt mr-2">
                                     </i>Delhi
                                 </a>
                                 </li>
                                 <li className="mt-1">
-                                <a href="listing_details.php">
+                                <a href="#/">
                                     <i className="fa fa-phone mr-2">
                                     </i>0123-456-789
                                 </a>
@@ -462,18 +462,18 @@ class ListingDetails extends Component{
                             </div>
                             <div className="list-content p-2">
                             <h5 className="mt-3 mb-2">
-                                <a href="listing_details.php">Co-working Space
+                                <a href="#/">Co-working Space
                                 </a>
                             </h5>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                                 <li className="mt-1">
-                                <a href="listing_details.php">
+                                <a href="#/">
                                     <i className="fa fa-map-marker-alt mr-2">
                                     </i>Mumbai
                                 </a>
                                 </li>
                                 <li className="mt-1">
-                                <a href="listing_details.php">
+                                <a href="#/">
                                     <i className="fa fa-phone mr-2">
                                     </i>0123-456-789
                                 </a>
@@ -487,18 +487,18 @@ class ListingDetails extends Component{
                             </div>
                             <div className="list-content p-2">
                             <h5 className="mt-3 mb-2">
-                                <a href="listing_details.php">Co-working Space
+                                <a href="#/">Co-working Space
                                 </a>
                             </h5>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                                 <li className="mt-1">
-                                <a href="listing_details.php">
+                                <a href="#/">
                                     <i className="fa fa-map-marker-alt mr-2">
                                     </i>Kolkata
                                 </a>
                                 </li>
                                 <li className="mt-1">
-                                <a href="listing_details.php">
+                                <a href="#/">
                                     <i className="fa fa-phone mr-2">
                                     </i>0123-456-789
                                 </a>

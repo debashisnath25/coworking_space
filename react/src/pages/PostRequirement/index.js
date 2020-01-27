@@ -1,9 +1,6 @@
 import React,{Component} from 'react';
 import './post.css';
 
-import { HomeBanner,Location,SigninBanner,PopularList } from './../../components';
-
-
 class PostRequirement extends Component{
     render(){
       return(
@@ -14,15 +11,15 @@ class PostRequirement extends Component{
                 <div className=" col-12">
                 <ul className="banner-link ">
                     <li>
-                    <a href="index.php">Home
+                    <a href="#/">Home
                     </a>
                     </li>
                     <li>
-                    <a href="listing.php">Maharashtra
+                    <a href="#/">Maharashtra
                     </a>
                     </li>
                     <li>
-                    <a href="listing.php">Nagpur
+                    <a href="#/">Nagpur
                     </a>
                     </li>
                     <li>
@@ -256,17 +253,17 @@ class PostRequirement extends Component{
                     <div className="col-md-3 col-6 mb-30">
                         <div className="sort-filter">
                         <div className="sort-dropdown">
-                            <a href="#" className="dropdown-toggle text-capitalize" data-toggle="dropdown">
+                            <a href="#/" className="dropdown-toggle text-capitalize" data-toggle="dropdown">
                             Popularity
                             </a>
                             <div className="dropdown-menu">
-                            <a className="dropdown-item" href="#">low to high
+                            <a className="dropdown-item" href="#/">low to high
                             </a>
-                            <a className="dropdown-item" href="#">hight to low
+                            <a className="dropdown-item" href="#/">hight to low
                             </a>
-                            <a className="dropdown-item" href="#">relevance
+                            <a className="dropdown-item" href="#/">relevance
                             </a>
-                            <a className="dropdown-item" href="#">discount
+                            <a className="dropdown-item" href="#/">discount
                             </a>
                             </div>
                         </div>
@@ -283,7 +280,7 @@ class PostRequirement extends Component{
                             <div className="img-holder">
                             <span className="offer">save 49%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-1.png" alt="list" /></a>
+                            <a href="#/"><img src="img/l-1.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -292,7 +289,7 @@ class PostRequirement extends Component{
                                 <i className="far fa-star" />
                                 <i className="far fa-star" />
                                 </div>
-                                <a className="likes" href="#">
+                                <a className="likes" href="#/">
                                 <i className="far fa-heart" />25
                                 </a>
                             </div>
@@ -301,7 +298,7 @@ class PostRequirement extends Component{
                         <div className="list-content">
                             <ul className="ctg-info py-2 mb-3">
                             <li>
-                                <a href="#">
+                                <a href="#/">
                                 <i className="flaticon-team mr-2" />Coworkinfg Space</a>
                             </li>
                             <li>
@@ -309,16 +306,16 @@ class PostRequirement extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Private office</a>
+                            <a href="#/">Private office</a>
                             </h5>
                             <p>Landmark :  Near Hope Appartments</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-map-marker-alt mr-2" />Dwarka,New Delhi</a>
                             </li>
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-phone mr-2" />0123-456-789</a>
                             </li>
                             </ul>
@@ -331,7 +328,7 @@ class PostRequirement extends Component{
                             <div className="img-holder">
                             <span className="offer">save 30%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-2.png" alt="list" /></a>
+                            <a href="#/"><img src="img/l-2.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -340,7 +337,7 @@ class PostRequirement extends Component{
                                 <i className="far fa-star" />
                                 <i className="far fa-star" />
                                 </div>
-                                <a className="likes" href="#">
+                                <a className="likes" href="#/">
                                 <i className="far fa-heart" />33
                                 </a>
                             </div>
@@ -349,7 +346,7 @@ class PostRequirement extends Component{
                         <div className="list-content">
                             <ul className="ctg-info py-2 mb-3">
                             <li>
-                                <a href="#">
+                                <a href="#/">
                                 <i className="flaticon-shop mr-2" />Business Centre</a>
                             </li>
                             <li>
@@ -357,16 +354,16 @@ class PostRequirement extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Workstations</a>
+                            <a href="#/">Workstations</a>
                             </h5>
                             <p>Landmark :  Opp to Punj Loyd</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-map-marker-alt mr-2" />Chitpur,Noida</a>
                             </li>
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-phone mr-2" />0123-456-789</a>
                             </li>
                             </ul>
@@ -379,7 +376,7 @@ class PostRequirement extends Component{
                             <div className="img-holder">
                             <span className="offer">save 19%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-3.png" alt="list" /></a>
+                            <a href="#/"><img src="img/l-3.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -388,7 +385,7 @@ class PostRequirement extends Component{
                                 <i className="fa fa-star" />
                                 <i className="far fa-star" />
                                 </div>
-                                <a className="likes" href="#">
+                                <a className="likes" href="#/">
                                 <i className="far fa-heart" />55
                                 </a>
                             </div>
@@ -397,7 +394,7 @@ class PostRequirement extends Component{
                         <div className="list-content">
                             <ul className="ctg-info py-2 mb-3">
                             <li>
-                                <a href="#">
+                                <a href="#/">
                                 <i className="flaticon-appointment mr-2" />Training Room</a>
                             </li>
                             <li>
@@ -405,16 +402,16 @@ class PostRequirement extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Meeting Room</a>
+                            <a href="#/">Meeting Room</a>
                             </h5>
                             <p>Landmark :  Medanta Hospital</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-map-marker-alt mr-2" />Vasant kunj,New Delhi</a>
                             </li>
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-phone mr-2" />0123-456-789</a>
                             </li>
                             </ul>
@@ -427,7 +424,7 @@ class PostRequirement extends Component{
                             <div className="img-holder">
                             <span className="offer">save 59%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-1.png" alt="list" /></a>
+                            <a href="#/"><img src="img/l-1.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -436,7 +433,7 @@ class PostRequirement extends Component{
                                 <i className="far fa-star" />
                                 <i className="far fa-star" />
                                 </div>
-                                <a className="likes" href="#">
+                                <a className="likes" href="#/">
                                 <i className="far fa-heart" />24
                                 </a>
                             </div>
@@ -445,7 +442,7 @@ class PostRequirement extends Component{
                         <div className="list-content">
                             <ul className="ctg-info py-2 mb-3">
                             <li>
-                                <a href="#">
+                                <a href="#/">
                                 <i className="flaticon-spa mr-2" />Coworking Space</a>
                             </li>
                             <li>
@@ -453,16 +450,16 @@ class PostRequirement extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Private office</a>
+                            <a href="#/">Private office</a>
                             </h5>
                             <p>Landmark :  Near Hope Appartments</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-map-marker-alt mr-2" />Chattisnagar,New Delhi</a>
                             </li>
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-phone mr-2" />0123-456-789</a>
                             </li>
                             </ul>
@@ -475,7 +472,7 @@ class PostRequirement extends Component{
                             <div className="img-holder">
                             <span className="offer">save 20%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-2.png" alt="list" /></a>
+                            <a href="#/"><img src="img/l-2.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -484,7 +481,7 @@ class PostRequirement extends Component{
                                 <i className="fa fa-star" />
                                 <i className="fa fa-star" />
                                 </div>
-                                <a className="likes" href="#">
+                                <a className="likes" href="#/">
                                 <i className="far fa-heart" />36
                                 </a>
                             </div>
@@ -493,7 +490,7 @@ class PostRequirement extends Component{
                         <div className="list-content">
                             <ul className="ctg-info py-2 mb-3">
                             <li>
-                                <a href="#">
+                                <a href="#/">
                                 <i className="flaticon-find mr-2" />Coworking Space</a>
                             </li>
                             <li>
@@ -501,16 +498,16 @@ class PostRequirement extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Workstation</a>
+                            <a href="#/">Workstation</a>
                             </h5>
                             <p>Landmark :  Medanta Hospital</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-map-marker-alt mr-2" />Noida,Delhi</a>
                             </li>
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-phone mr-2" />0123-456-789</a>
                             </li>
                             </ul>
@@ -523,7 +520,7 @@ class PostRequirement extends Component{
                             <div className="img-holder">
                             <span className="offer">save 26%
                             </span>
-                            <a href="listing_details.php"><img src="img/l-3.png" alt="list" /></a>
+                            <a href="#/"><img src="img/l-3.png" alt="list" /></a>
                             <div className="rate-like centering justify-content-between">
                                 <div className="rating">
                                 <i className="fa fa-star" />
@@ -532,7 +529,7 @@ class PostRequirement extends Component{
                                 <i className="fa fa-star" />
                                 <i className="far fa-star" />
                                 </div>
-                                <a className="likes" href="#">
+                                <a className="likes" href="#/">
                                 <i className="far fa-heart" />84
                                 </a>
                             </div>
@@ -541,7 +538,7 @@ class PostRequirement extends Component{
                         <div className="list-content">
                             <ul className="ctg-info py-2 mb-3">
                             <li>
-                                <a href="#">
+                                <a href="#/">
                                 <i className="flaticon-hotel mr-2" />Coworking Space</a>
                             </li>
                             <li>
@@ -549,16 +546,16 @@ class PostRequirement extends Component{
                             </li>
                             </ul>
                             <h5 className="mb-2">
-                            <a href="listing_details.php">Meeting Room</a>
+                            <a href="#/">Meeting Room</a>
                             </h5>
                             <p>Opp to Punj Loyd</p>
                             <ul className="ctg-info2 pt-2 mt-3 d-flex justify-content-between flex-wrap">
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-map-marker-alt mr-2" />Dwarka,New Delhi</a>
                             </li>
                             <li className="mt-1">
-                                <a href="#">
+                                <a href="#/">
                                 <i className="fa fa-phone mr-2" />0123-456-789</a>
                             </li>
                             </ul>
@@ -566,7 +563,7 @@ class PostRequirement extends Component{
                         </div>
                     </div>
                     <div className="col-12 text-center mt-20">
-                        <a href="#" className="btn btn-one btn-anim">load more</a>
+                        <a href="#/" className="btn btn-one btn-anim">load more</a>
                     </div>
                     </div>
                 </div>

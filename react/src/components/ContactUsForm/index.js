@@ -10,7 +10,7 @@ class ContactUsForm extends Component{
                         <div className=" col-12">
                         <ul className="banner-link ">
                             <li>
-                            <a href="index.php">Home
+                            <a href="#/">Home
                             </a>
                             </li>
                             <li>
@@ -75,22 +75,22 @@ class ContactUsForm extends Component{
                                 </li>
                                 </ul>
                                 <div className="socials contact-social">
-                                <a href="#">
+                                <a href="#/">
                                     <i className="fab fa-facebook-f" />
                                 </a>
-                                <a href="#">
+                                <a href="#/">
                                     <i className="fab fa-google-plus-g" />
                                 </a>
-                                <a href="#">
+                                <a href="#/">
                                     <i className="fab fa-instagram" />
                                 </a>
-                                <a href="#">
+                                <a href="#/">
                                     <i className="fab fa-linkedin-in" />
                                 </a>
-                                <a href="#">
+                                <a href="#/">
                                     <i className="fab fa-twitter" />
                                 </a>
-                                <a href="#">
+                                <a href="#/">
                                     <i className="fab fa-vine" />
                                 </a>
                                 </div>

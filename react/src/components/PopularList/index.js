@@ -63,7 +63,7 @@ class PopularList extends Component{
                                       <i className="far fa-star" />
                                       <i className="far fa-star" />
                                     </div>
-                                    <a className="likes" href="#">
+                                    <a className="likes" href="#/">
                                       <i className="far fa-heart" /> 4
                                     </a>
                                   </div>
@@ -77,13 +77,13 @@ class PopularList extends Component{
                                   </p>
                                   <ul className="ctg-info2 pt-2 mt-3 centering justify-content-between">
                                     <li className="mt-1">
-                                      <a href="#">
+                                      <a href="#/">
                                         <i className="fa fa-map-marker-alt mr-2">
                                         </i>Dwarka,New Delhi
                                       </a>
                                     </li>
                                     <li className="mt-1">
-                                      <a href="#">
+                                      <a href="#/">
                                         <i className="fa fa-phone mr-2">
                                         </i>0123-456-789
                                       </a>
@@ -104,7 +104,7 @@ class PopularList extends Component{
                                       <i className="far fa-star" />
                                       <i className="far fa-star" />
                                     </div>
-                                    <a className="likes" href="#">
+                                    <a className="likes" href="#/">
                                       <i className="far fa-heart" /> 4
                                     </a>
                                   </div>
@@ -118,13 +118,13 @@ class PopularList extends Component{
                                   </p>
                                   <ul className="ctg-info2 pt-2 mt-3 centering justify-content-between">
                                     <li className="mt-1">
-                                      <a href="#">
+                                      <a href="#/">
                                         <i className="fa fa-map-marker-alt mr-2">
                                         </i>noida,Delhi
                                       </a>
                                     </li>
                                     <li className="mt-1">
-                                      <a href="#">
+                                      <a href="#/">
                                         <i className="fa fa-phone mr-2">
                                         </i>0123-456-789
                                       </a>
@@ -145,7 +145,7 @@ class PopularList extends Component{
                                       <i className="far fa-star" />
                                       <i className="far fa-star" />
                                     </div>
-                                    <a className="likes" href="#">
+                                    <a className="likes" href="#/">
                                       <i className="far fa-heart" /> 4
                                     </a>
                                   </div>
@@ -159,13 +159,13 @@ class PopularList extends Component{
                                   </p>
                                   <ul className="ctg-info2 pt-2 mt-3 centering justify-content-between">
                                     <li className="mt-1">
-                                      <a href="#">
+                                      <a href="#/">
                                         <i className="fa fa-map-marker-alt mr-2">
                                         </i>Chattisnagar,New Delhi
                                       </a>
                                     </li>
                                     <li className="mt-1">
-                                      <a href="#">
+                                      <a href="#/">
                                         <i className="fa fa-phone mr-2">
                                         </i>0123-456-789
                                       </a>
@@ -186,7 +186,7 @@ class PopularList extends Component{
                                       <i className="far fa-star" />
                                       <i className="far fa-star" />
                                     </div>
-                                    <a className="likes" href="#">
+                                    <a className="likes" href="#/">
                                       <i className="far fa-heart" /> 4
                                     </a>
                                   </div>
@@ -200,13 +200,13 @@ class PopularList extends Component{
                                   </p>
                                   <ul className="ctg-info2 pt-2 mt-3 centering justify-content-between">
                                     <li className="mt-1">
-                                      <a href="#">
+                                      <a href="#/">
                                         <i className="fa fa-map-marker-alt mr-2">
                                         </i>Vasant kunj,New Delhi
                                       </a>
                                     </li>
                                     <li className="mt-1">
-                                      <a href="#">
+                                      <a href="#/">
                                         <i className="fa fa-phone mr-2">
                                         </i>0123-456-789
                                       </a>
@@ -227,7 +227,7 @@ class PopularList extends Component{
                                       <i className="far fa-star" />
                                       <i className="far fa-star" />
                                     </div>
-                                    <a className="likes" href="#">
+                                    <a className="likes" href="#/">
                                       <i className="far fa-heart" /> 4
                                     </a>
                                   </div>
@@ -241,13 +241,13 @@ class PopularList extends Component{
                                   </p>
                                   <ul className="ctg-info2 pt-2 mt-3 centering justify-content-between">
                                     <li className="mt-1">
-                                      <a href="#">
+                                      <a href="#/">
                                         <i className="fa fa-map-marker-alt mr-2">
                                         </i>Chitpur,Noida
                                       </a>
                                     </li>
                                     <li className="mt-1">
-                                      <a href="#">
+                                      <a href="#/">
                                         <i className="fa fa-phone mr-2">
                                         </i>0123-456-789
                                       </a>
