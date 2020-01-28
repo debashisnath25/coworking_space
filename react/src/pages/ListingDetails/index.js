@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './style.css';
-import InfiniteCarousel from 'react-leaf-carousel';
 import SilderPage from './Slider';
 import ListingTitilePage from './ListingTitle';
 import ListingDescriptionPage from './ListingDescription';
@@ -17,12 +16,12 @@ export default class ListingDetails extends Component {
     render() {
         return (
             <>
-            <SilderPage />
             <div style={{ background: '#f8f8f8', paddingTop: 1 }}>
                 <div className="container">
-                    <h4 className="title-sep3 mb-20 mt-30">Home &gt; Co-working Space &gt;<span className="c-theme"> Details Page</span> </h4>
+                    <h4 className="title-sep3 mb-20" style={{marginTop: "101px"}}>Home &gt; Co-working Space &gt;<span className="c-theme"> Details Page</span> </h4>
                     <div className="row">
                         <div className="col-lg-8 col-12">
+                            <SilderPage />
                             <ListingTitilePage />
                             <ListingDescriptionPage />
                             <FacilityPage />
@@ -32,7 +31,7 @@ export default class ListingDetails extends Component {
                         </div>
                         <div className="col-lg-4 col-12">
                             <aside className="sidebar">
-                                <div className="widget">
+                                <div className="widget" style={{marginBottom: "10px"}}>
                                     <div className="booking-form">
                                         <div className="row">
                                         <div className="col-12">
