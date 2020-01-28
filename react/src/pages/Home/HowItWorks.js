@@ -5,7 +5,7 @@ import './home.css';
 export default class HowItWorks extends Component {
     render() {
         return (
-            <section className="steps-section bg-dull tri-bg" style={{paddingTop : "50px"}}>
+            <section className="steps-section bg-dull tri-bg" style={{paddingTop : "50px", marginTop: "30px"}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

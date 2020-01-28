@@ -5,7 +5,7 @@ import './home.css';
 export default class Company extends Component {
     render() {
         return (
-            <div className="partner-one bg-red py-5" style={{ backgroundColor: '#009E9E' }}>
+            <div className="partner-one bg-red py-5" style={{ backgroundColor: '#009E9E', marginTop: "30px" }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">

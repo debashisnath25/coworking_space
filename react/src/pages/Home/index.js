@@ -19,9 +19,9 @@ export default class Home extends Component{
           <HomebannerPage/>
           <TopSpacePage/>
           <LocationPage/>
+          <HowItWorksPage />
           <WhyChooseUsPage />
           <PeopleFavPage />
-          <HowItWorksPage />
           <EnquirysPage />
           <ReviewPage />
           <CompanyPage />

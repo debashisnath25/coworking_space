@@ -1,0 +1,9 @@
+.hide_koro {
+    display: none;
+}
+.show_koro {
+    display: block;
+}
+.main_hide {
+    display: none;
+}

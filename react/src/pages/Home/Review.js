@@ -22,8 +22,56 @@ export default class Review extends Component {
                     <div className="testi-slider1 owl-carousel owl-theme">
                         <div className="slide-item">
                             <div className="testi-item mb-30">
-                                <div className="img-holder">
-                                    <img src="img/testi2.png" alt="lister" />
+                                <div className="img-holder" >
+                                    <img src="img/testi2.png" alt="lister" style={{height:"150px"}}/>
+                                </div>
+                                <div className="testi-content">
+                                    <h5 className="mb-1">Priyanka singh</h5>
+                                    <span className="c-theme mb-3 d-block">ABC limited</span>
+                                    <p className="mb-0">Lorem ipsum donec pede justo, fringilla vel, aliqu et nectei vulp utate eget fg arcu. In enim justo, rhcusut imp erdiet venenatis vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="slide-item">
+                            <div className="testi-item mb-30">
+                                <div className="img-holder" >
+                                    <img src="img/testi2.png" alt="lister" style={{height:"150px"}}/>
+                                </div>
+                                <div className="testi-content">
+                                    <h5 className="mb-1">Priyanka singh</h5>
+                                    <span className="c-theme mb-3 d-block">ABC limited</span>
+                                    <p className="mb-0">Lorem ipsum donec pede justo, fringilla vel, aliqu et nectei vulp utate eget fg arcu. In enim justo, rhcusut imp erdiet venenatis vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="slide-item">
+                            <div className="testi-item mb-30">
+                                <div className="img-holder" >
+                                    <img src="img/testi2.png" alt="lister" style={{height:"150px"}}/>
+                                </div>
+                                <div className="testi-content">
+                                    <h5 className="mb-1">Priyanka singh</h5>
+                                    <span className="c-theme mb-3 d-block">ABC limited</span>
+                                    <p className="mb-0">Lorem ipsum donec pede justo, fringilla vel, aliqu et nectei vulp utate eget fg arcu. In enim justo, rhcusut imp erdiet venenatis vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="slide-item">
+                            <div className="testi-item mb-30">
+                                <div className="img-holder" >
+                                    <img src="img/testi2.png" alt="lister" style={{height:"150px"}}/>
+                                </div>
+                                <div className="testi-content">
+                                    <h5 className="mb-1">Priyanka singh</h5>
+                                    <span className="c-theme mb-3 d-block">ABC limited</span>
+                                    <p className="mb-0">Lorem ipsum donec pede justo, fringilla vel, aliqu et nectei vulp utate eget fg arcu. In enim justo, rhcusut imp erdiet venenatis vitae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="slide-item">
+                            <div className="testi-item mb-30">
+                                <div className="img-holder" >
+                                    <img src="img/testi2.png" alt="lister" style={{height:"150px"}}/>
                                 </div>
                                 <div className="testi-content">
                                     <h5 className="mb-1">Priyanka singh</h5>

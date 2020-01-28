@@ -32,7 +32,7 @@ export default function Routes() {
       <Route path="/PostRequirement" exact component={PostRequirement} />
       <Route path="/login" component={Login} />
       <Route path="/register" component={Register} />
-      <Route path="/forgetpassword" component={ForgetPassword} />
+      <Route path="/forget_password" component={ForgetPassword} />
 
       <Route path="/dashboard" component={Dashboard} isPrivate />
       <Route path="/profile" component={Profile} isPrivate />
