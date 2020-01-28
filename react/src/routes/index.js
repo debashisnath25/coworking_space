@@ -22,7 +22,7 @@ export default function Routes() {
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/listing" exact component={Listing} />
-      <Route path="/listingDetails" exact component={ListingDetails} />
+      <Route path="/listing_details" exact component={ListingDetails} />
       <Route path="/AboutUs" exact component={AboutUs} />
       <Route path="/Pricing" exact component={Pricing} />
       
