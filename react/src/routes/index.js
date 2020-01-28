@@ -13,6 +13,7 @@ import PostRequirement from '../pages/PostRequirement'
 
 import Login from "../pages/Login";
 import Register from "../pages/Register";
+import ForgetPassword from "../pages/ForgetPassword";
 
 import Dashboard from "../pages/Dashboard";
 import Profile from "../pages/Profile";
@@ -31,6 +32,7 @@ export default function Routes() {
       <Route path="/PostRequirement" exact component={PostRequirement} />
       <Route path="/login" component={Login} />
       <Route path="/register" component={Register} />
+      <Route path="/forgetpassword" component={ForgetPassword} />
 
       <Route path="/dashboard" component={Dashboard} isPrivate />
       <Route path="/profile" component={Profile} isPrivate />
