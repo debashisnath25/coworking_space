@@ -51,7 +51,7 @@
                 </a>
               </li>
               <li>
-                <a href="login.php">register
+                <a href="register.php">register
                 </a>
               </li>
               <li>
@@ -95,11 +95,11 @@
             </div>
             <ul class="quick-link">
               <li>
-                <a href="about_us.php">About Us
+                <a href="#">About Us
                 </a>
               </li>
               <li>
-                <a href="contact_us.php;">Contact Us
+                <a href="contact_us.php">Contact Us
                 </a>
               </li>
             </ul>

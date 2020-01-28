@@ -354,6 +354,56 @@
     </section>
 	
     <!-- blog end -->
+	<!-- How it works Start-->
+	<section class="steps-section sp-100 bg-dull tri-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="all-title">
+                        <h3 class="sec-title" style="color:white;">
+                            How It Works
+                        </h3>
+                        <svg class="title-sep">
+                            <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="row steps-wrap justify-content-center">
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="steps">
+                        <div class="icon-box mb-3">
+                            <i class="flaticon-layers"></i>
+                        </div>
+                        <h5>
+                            <span class="c-theme">1. </span> Choose a Category</h5>
+                        <p class="mb-0">Search the market, shortlist options and request viewing and confirm viewing</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="steps">
+                        <div class="icon-box mb-3">
+                            <i class="flaticon-map"></i>
+                        </div>
+                        <h5>
+                            <span class="c-theme">2. </span> Find What You Want</h5>
+                        <p class="mb-0">Choose your perfect and we'll help negotiate the best deal on anything from start to finish</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="steps">
+                        <div class="icon-box mb-3">
+                            <i class="flaticon-shop"></i>
+                        </div>
+                        <h5>
+                            <span class="c-theme">3. </span> go Out &amp; Explore</h5>
+                        <p class="mb-0">Flexible to change the workspace as your growth on demand.we're there to advise</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!-- How it works end-->
 	<!-- why choose us start -->
 	<div class="about-1 o-hide bg-w sp-100">
         <div class="container">
@@ -630,56 +680,7 @@
 	
 	<!-- peoples favourite end -->
 
-	<!-- How it works Start-->
-	<section class="steps-section sp-100 bg-dull tri-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="all-title">
-                        <h3 class="sec-title" style="color:white;">
-                            How It Works
-                        </h3>
-                        <svg class="title-sep">
-                            <path fill-rule="evenodd" d="M32.000,13.000 L32.000,7.000 L35.000,7.000 L35.000,13.000 L32.000,13.000 ZM24.000,4.000 L27.000,4.000 L27.000,16.000 L24.000,16.000 L24.000,4.000 ZM16.000,-0.000 L19.000,-0.000 L19.000,20.000 L16.000,20.000 L16.000,-0.000 ZM8.000,4.000 L11.000,4.000 L11.000,16.000 L8.000,16.000 L8.000,4.000 ZM-0.000,7.000 L3.000,7.000 L3.000,13.000 L-0.000,13.000 L-0.000,7.000 Z"></path>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <div class="row steps-wrap justify-content-center">
-                <div class="col-lg-4 col-md-6 col-12 mb-30">
-                    <div class="steps">
-                        <div class="icon-box mb-3">
-                            <i class="flaticon-layers"></i>
-                        </div>
-                        <h5>
-                            <span class="c-theme">1. </span> Choose a Category</h5>
-                        <p class="mb-0">Search the market, shortlist options and request viewing and confirm viewing</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 mb-30">
-                    <div class="steps">
-                        <div class="icon-box mb-3">
-                            <i class="flaticon-map"></i>
-                        </div>
-                        <h5>
-                            <span class="c-theme">2. </span> Find What You Want</h5>
-                        <p class="mb-0">Choose your perfect and we'll help negotiate the best deal on anything from start to finish</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 mb-30">
-                    <div class="steps">
-                        <div class="icon-box mb-3">
-                            <i class="flaticon-shop"></i>
-                        </div>
-                        <h5>
-                            <span class="c-theme">3. </span> go Out &amp; Explore</h5>
-                        <p class="mb-0">Flexible to change the workspace as your growth on demand.we're there to advise</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-	<!-- How it works end-->
+	
 
 	<!-- cta-one start-->
 
@@ -748,7 +749,7 @@
       </div>
     </section>
 	<!-- partner start-->
-    <div class="partner-one bg-red py-5" style="background-color:#009E9E;">
+    <!-- <div class="partner-one bg-red py-5" style="background-color:#009E9E;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -787,7 +788,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- partner end-->
     <!-- popular list end -->
 
