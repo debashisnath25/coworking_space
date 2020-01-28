@@ -6,11 +6,13 @@ import Listing from '../pages/Listing';
 import ListingDetails from '../pages/ListingDetails';
 import AboutUs from '../pages/AboutUs';
 import Pricing from '../pages/Pricing';
+
+import Enquiry from '../pages/Enquiry'
 import ContactUs from '../pages/ContactUs'
 import PostRequirement from '../pages/PostRequirement'
 
-import SignIn from "../pages/SignIn";
-import SignUp from "../pages/SignUp";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
 
 import Dashboard from "../pages/Dashboard";
 import Profile from "../pages/Profile";
@@ -19,15 +21,16 @@ export default function Routes() {
   return (
     <Switch>
       <Route path="/" exact component={Home} />
-      <Route path="/signin" exact component={SignIn} />
       <Route path="/listing" exact component={Listing} />
       <Route path="/listingDetails" exact component={ListingDetails} />
       <Route path="/AboutUs" exact component={AboutUs} />
       <Route path="/Pricing" exact component={Pricing} />
-      <Route path="/ContactUs" exact component={ContactUs} />
+      
+      <Route path="/enquiry" exact component={Enquiry} />
+      <Route path="/contact_us" exact component={ContactUs} />
       <Route path="/PostRequirement" exact component={PostRequirement} />
-      <Route path="/SignIn" component={SignIn} />
-      <Route path="/register" component={SignUp} />
+      <Route path="/login" component={Login} />
+      <Route path="/register" component={Register} />
 
       <Route path="/dashboard" component={Dashboard} isPrivate />
       <Route path="/profile" component={Profile} isPrivate />

@@ -18,7 +18,7 @@ class BannerCategory extends Component{
                         <i className="flaticon-team" />
                       </div>
                       <h5 className="mb-0">
-                        <a href="#">Meeting Room
+                        <a href="#/">Meeting Room
                         </a>
                       </h5>
                     </div>
@@ -29,7 +29,7 @@ class BannerCategory extends Component{
                         <i className="flaticon-appointment" />
                       </div>
                       <h5 className="mb-0">
-                        <a href="#">Coworking Space
+                        <a href="#/">Coworking Space
                         </a>
                       </h5>
                     </div>
@@ -40,7 +40,7 @@ class BannerCategory extends Component{
                         <i className="flaticon-shop" />
                       </div>
                       <h5 className="mb-0">
-                        <a href="#">Private Office
+                        <a href="#/">Private Office
                         </a>
                       </h5>
                     </div>
@@ -51,7 +51,7 @@ class BannerCategory extends Component{
                         <i className="flaticon-hotel" />
                       </div>
                       <h5 className="mb-0">
-                        <a href="#">Training Room
+                        <a href="#/">Training Room
                         </a>
                       </h5>
                     </div>
@@ -62,7 +62,7 @@ class BannerCategory extends Component{
                         <i className="flaticon-team" />
                       </div>
                       <h5 className="mb-0">
-                        <a href="#">Business Center
+                        <a href="#/">Business Center
                         </a>
                       </h5>
                     </div>
@@ -73,7 +73,7 @@ class BannerCategory extends Component{
                         <i className="flaticon-shop" />
                       </div>
                       <h5 className="mb-0">
-                        <a href="#">Coworking Cafes
+                        <a href="#/">Coworking Cafes
                         </a>
                       </h5>
                     </div>

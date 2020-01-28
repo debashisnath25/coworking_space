@@ -1,6 +1,4 @@
 import React,{Component} from 'react';
-import { HomeBanner,Location,SigninBanner,PopularList } from './../../components';
-
 
 class Pricing extends Component{
     render(){
@@ -14,7 +12,7 @@ class Pricing extends Component{
               <div className=" col-12">
                 <ul className="banner-link ">
                   <li>
-                    <a href="index.php">Home
+                    <a href="#/">Home
                     </a>
                   </li>
                   <li>
@@ -54,7 +52,7 @@ class Pricing extends Component{
                     </div>
                   </div>
                   <div className="price-bottom">
-                    <a href="#" className="btn btn-anim btn-two mt-30">choose plan</a>
+                    <a href="#/" className="btn btn-anim btn-two mt-30">choose plan</a>
                   </div>
                 </div>
               </div>
@@ -87,7 +85,7 @@ class Pricing extends Component{
                     </div>
                   </div>
                   <div className="price-bottom">
-                    <a href="#" className="btn btn-anim btn-two mt-30">Selected</a>
+                    <a href="#/" className="btn btn-anim btn-two mt-30">Selected</a>
                   </div>
                 </div>
               </div>
@@ -120,7 +118,7 @@ class Pricing extends Component{
                     </div>
                   </div>
                   <div className="price-bottom">
-                    <a href="#" className="btn btn-anim btn-two mt-30">choose plan</a>
+                    <a href="#/" className="btn btn-anim btn-two mt-30">choose plan</a>
                   </div>
                 </div>
               </div>
@@ -136,14 +134,14 @@ class Pricing extends Component{
                 <div className="cta-content">
                   <h3>Sign Up To Get Special Offers Every Day</h3>
                   <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&amp;B - without any rent!</p>
-                  <a href="login.php" className="btn btn-two btn-anim mt-2">
+                  <a href="#/" className="btn btn-two btn-anim mt-2">
                     sign up
                   </a>
                 </div>
               </div>
               <div className="col-lg-6 d-lg-block d-none">
                 <div className="cta-img mt-4">
-                  <img src="img/cta-bg.png" alt="image" />
+                  <img src="img/cta-bg.png" alt="category" />
                 </div>
               </div>
             </div>

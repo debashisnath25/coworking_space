@@ -1,30 +1,32 @@
 import React,{Component} from 'react';
 import './home.css';
-import { HomeBanner,Location,SigninBanner,PopularList } from './../../components';
+import HomebannerPage from './HomeBanner';
+import TopSpacePage from './TopSpace';
+import LocationPage from './Location';
+import WhyChooseUsPage from './WhyChooseUs';
+import PeopleFavPage from './PeopleFav';
+import HowItWorksPage from './HowItWorks';
+import EnquirysPage from './Enquiry';
+import ReviewPage from './Review';
+import CompanyPage from './Company';
 
 
-class Home extends Component{
+export default class Home extends Component{
     render(){
       return(
         <>
         <div>
-        {/* banner start */}
-           <HomeBanner/>
-        {/* banner end */}
-        {/* location start */}
-           <Location/>
-        {/* location end */}
-        {/* cta-one start*/}
-            <SigninBanner/>
-        {/* cta-one end */}
-        {/* popular list start*/}
-            <PopularList/>
-        {/* popular list start*/}
-        
+          <HomebannerPage/>
+          <TopSpacePage/>
+          <LocationPage/>
+          <WhyChooseUsPage />
+          <PeopleFavPage />
+          <HowItWorksPage />
+          <EnquirysPage />
+          <ReviewPage />
+          <CompanyPage />
         </div>
         </>
       );
     }
 }
-
-export default Home;

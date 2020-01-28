@@ -14,14 +14,14 @@ class SigninBanner extends Component{
                             </h3>
                             <p>Get access to inspiring work cafes and coworking spaces. We are here to provide you with work optimised spaces, high-speed reliable internet, discounted F&amp;B - without any rent! 
                             </p>
-                            <a href="post_requirement.php" className="btn btn-two btn-anim mt-2">
+                            <a href="#/" className="btn btn-two btn-anim mt-2">
                                 Enquiry Now
                             </a>
                             </div>
                         </div>
                         <div className="col-lg-6 d-lg-block d-none">
                             <div className="cta-img mt-4">
-                            <img src="img/cta-bg.png" alt="image" />
+                            <img src="img/cta-bg.png" alt="category" />
                             </div>
                         </div>
                         </div>
