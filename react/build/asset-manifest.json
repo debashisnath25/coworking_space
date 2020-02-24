@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d5be040a.chunk.css",
+    "main.js": "/static/js/main.3d95b603.chunk.js",
+    "main.js.map": "/static/js/main.3d95b603.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.3eb15963.chunk.css": "/static/css/2.3eb15963.chunk.css",
+    "static/js/2.cf307b3f.chunk.js": "/static/js/2.cf307b3f.chunk.js",
+    "static/js/2.cf307b3f.chunk.js.map": "/static/js/2.cf307b3f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f189f35306846af42f874534b6081eda.js": "/precache-manifest.f189f35306846af42f874534b6081eda.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3eb15963.chunk.css.map": "/static/css/2.3eb15963.chunk.css.map",
+    "static/css/main.d5be040a.chunk.css.map": "/static/css/main.d5be040a.chunk.css.map",
+    "static/media/flaticon.css": "/static/media/flaticon.21fb8c7f.svg",
+    "static/media/style.css": "/static/media/triangle-bg2.fcd5c5b6.png",
+    "static/media/fontawesome.css": "/static/media/fa-solid-900.fbe0b4a6.svg",
+    "static/media/index.css": "/static/media/josefin-sans-latin-700italic.3527ad43.woff",
+    "static/media/responsive.css": "/static/media/login.2c0986cf.png"
+  }
+}
