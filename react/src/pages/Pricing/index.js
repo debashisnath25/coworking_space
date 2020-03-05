@@ -6,9 +6,9 @@ class Pricing extends Component{
         <>
          <div>
             {/* price start*/}
-        <section className="bg-w sp-100" style={{paddingTop: '100px'}}>
+        <section className="bg-w sp-100" style={{paddingTop: '5px'}}>
           <div className="container">
-            <div className="row">
+            <div className="row mb-2" >
               <div className=" col-12">
                 <ul className="banner-link ">
                   <li>

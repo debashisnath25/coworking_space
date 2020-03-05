@@ -1,9 +1,10 @@
 .icon-height{
     height:170px;
 }
-.theme-header-one{
-    background-color: rgba(0, 0, 0, 0.5) !important;
-}
-.sticky-menu{
-    background-color:#1e1e1e !important;
+.textc{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
 }

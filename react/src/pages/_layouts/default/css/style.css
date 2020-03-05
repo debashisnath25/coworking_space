@@ -170,7 +170,7 @@ option:hover {
 
 .form-control:focus,
 .form-control:hover {
-    border-color: #009e9e !important;
+    border-color: #3fca89 !important;
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -421,13 +421,13 @@ h6 {
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: #009e9e;
+    background: #3fca89;
 }
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #009e9e;
+    background: #3fca89;
 }
 
 /*=======================
@@ -459,14 +459,14 @@ h6 {
 
 .btn-one,
 .btn-one:hover {
-    background-color: #009e9e;
+    background-color: #3FCA89;
     color: #fff;
 }
 
 .btn-two,
 .btn-two:hover {
     background-color: #fff;
-    color: #009e9e;
+    color: #3FCA89;
 }
 
 .br-0 {
@@ -499,7 +499,7 @@ h6 {
     content: '';
     width: 0;
     height: 0;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(63, 202, 137, 0.3);
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -507,7 +507,7 @@ h6 {
 }
 
 .btn-two.btn-anim::before {
-    background: rgba(255, 58, 84, 0.3);
+    background: rgba(63, 202, 137, 0.3)
 }
 
 .btn-anim:hover::before {
@@ -565,7 +565,7 @@ h6 {
 ======================= */
 
 .c-theme {
-    color: #009e9e
+    color: #3fca89;
 }
 
 .c-white {
@@ -644,7 +644,7 @@ h6 {
 }
 
 .all-title .title-sep {
-    fill: #009e9e;
+    fill: #3FCA89;
 }
 
 .title-sep2 {
@@ -659,7 +659,7 @@ h6 {
 
 .title-sep2::after {
     position: absolute;
-    background-color: #009e9e;
+    background-color: #3fca89;
     height: 2px;
     width: 60px;
     content: '';
@@ -787,14 +787,14 @@ h6 {
         opcatiy: 1;
         border-left: 2px solid transparent;
         border-right: 2px solid transparent;
-        border-bottom: 4px solid #009e9e;
+        border-bottom: 4px solid #3fca89;
         margin-top: 0px;
     }
     to {
         opacity: 0;
         border-left: 30px solid transparent;
         border-right: 30px solid transparent;
-        border-bottom: 60px solid #009e9e;
+        border-bottom: 60px solid #3fca89;
         margin-top: -60px;
     }
 }
@@ -804,14 +804,14 @@ h6 {
         opcatiy: 1;
         border-left: 2px solid transparent;
         border-right: 2px solid transparent;
-        border-bottom: 4px solid #009e9e;
+        border-bottom: 4px solid#3fca89;
         margin-top: 0px;
     }
     to {
         opacity: 0;
         border-left: 30px solid transparent;
         border-right: 30px solid transparent;
-        border-bottom: 60px solid #009e9e;
+        border-bottom: 60px solid #3fca89;
         margin-top: -60px;
     }
 }
@@ -821,14 +821,14 @@ h6 {
         opcatiy: 1;
         border-left: 2px solid transparent;
         border-right: 2px solid transparent;
-        border-bottom: 4px solid #009e9e;
+        border-bottom: 4px solid #3fca89;
         margin-top: -4px;
     }
     to {
         opacity: 0;
         border-left: 30px solid transparent;
         border-right: 30px solid transparent;
-        border-bottom: 60px solid #009e9e;
+        border-bottom: 60px solid #3fca89;
         margin-top: -60px;
     }
 }
@@ -838,14 +838,14 @@ h6 {
         opcatiy: 1;
         border-left: 2px solid transparent;
         border-right: 2px solid transparent;
-        border-bottom: 4px solid #009e9e;
+        border-bottom: 4px solid #3fca89;
         margin-top: -4px;
     }
     to {
         opacity: 0;
         border-left: 30px solid transparent;
         border-right: 30px solid transparent;
-        border-bottom: 60px solid #009e9e;
+        border-bottom: 60px solid #3fca89;
         margin-top: -60px;
     }
 }
@@ -855,14 +855,14 @@ h6 {
         opcatiy: 1;
         border-left: 2px solid transparent;
         border-right: 2px solid transparent;
-        border-bottom: 4px solid #009e9e;
+        border-bottom: 4px solid #3fca89;
         margin-top: -4px;
     }
     to {
         opacity: 0;
         border-left: 30px solid transparent;
         border-right: 30px solid transparent;
-        border-bottom: 60px solid #009e9e;
+        border-bottom: 60px solid #3fca89;
         margin-top: -60px;
     }
 }
@@ -872,14 +872,14 @@ h6 {
         opcatiy: 1;
         border-left: 2px solid transparent;
         border-right: 2px solid transparent;
-        border-bottom: 4px solid #009e9e;
+        border-bottom: 4px solid #3fca89;
         margin-top: -4px;
     }
     to {
         opacity: 0;
         border-left: 30px solid transparent;
         border-right: 30px solid transparent;
-        border-bottom: 60px solid #009e9e;
+        border-bottom: 60px solid #3fca89;
         margin-top: -60px;
     }
 }
@@ -891,7 +891,7 @@ h6 {
 .preloader {
     width: 100%;
     height: 100%;
-    background-color: #009e9e;
+    background-color: #3fca89;
     position: fixed;
     left: 0;
     top: 0;
@@ -943,6 +943,7 @@ h6 {
     transform-origin: center right;
     -webkit-animation: spin3 2s linear infinite;
     animation: spin3 2s linear infinite;
+    
     -webkit-animation-delay: .2s;
     animation-delay: .2s;
 }
@@ -1186,8 +1187,6 @@ h6 {
     left: 0;
     top: 0;
     content: "";
-    background: #000;
-    opacity: .4;
     z-index: -1;
 }
 
@@ -1329,10 +1328,10 @@ h6 {
     background-position: 0 0;
     background-repeat: repeat-x;
     z-index: -1;
-    -webkit-animation: bgslide 40s linear infinite;
+    
 }
 
-@-webkit-keyframes bgslide {
+@keyframes bgslide {
     from {
         background-position: 0 0;
     }
@@ -1534,7 +1533,6 @@ h6 {
     z-index: 1;
     width: 100%;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .theme-header-two {
@@ -1845,7 +1843,7 @@ h6 {
     position: absolute;
     top: 15px;
     right: 15px;
-    background-color: #009e9e;
+    background-color: #3fca89;
     color: #fff;
     padding: 1px 5px 0 0;
     font-size: 14px;
@@ -1865,7 +1863,7 @@ h6 {
     height: 100%;
     left: -20px;
     border: 10px solid transparent;
-    border-right: 10px solid #009e9e;
+    border-right: 10px solid #3fca89;
     z-index: 1;
 }
 
@@ -1910,7 +1908,7 @@ h6 {
 }
 
 .ctg-info li i {
-    color: #009e9e;
+    color: #3fca89;
     font-size: 20px;
     vertical-align: middle;
 }
@@ -1954,7 +1952,7 @@ li.list-rating i {
 }
 
 .ctg-info2 i {
-    color: #009e9e;
+    color: #3fca89;
     font-size: 12px;
 }
 
@@ -2032,8 +2030,9 @@ li.list-rating i {
 }
 
 .tri-bg-w {
-    background-image: url('../img/triangle-bg2.png');
-    background-attachment: fixed;
+    background-image: url('../img/ban.png');
+    
+    color:#3FCA89;
 }
 
 .steps-section {
@@ -2082,8 +2081,11 @@ li.list-rating i {
 }
 
 .cta-one {
-    background-color: #009e9e;
-    position: relative;
+    
+    position: center center;
+    background-repeat: no-repeat;
+    color:#3fca89;
+
 }
 
 .cta-content h3,
@@ -2162,8 +2164,8 @@ li.list-rating i {
 }
 
 .feature-item:hover {
-    -webkit-box-shadow: 9.397px 3.42px 40px 0px rgba(39, 39, 39, 0.1);
-    box-shadow: 9.397px 3.42px 40px 0px rgba(39, 39, 39, 0.1);
+    -webkit-box-shadow: 9.397px 3.42px 40px 0px rgba(70, 228, 154, 0.1);
+    box-shadow: 9.397px 3.42px 40px 0px rgba(63, 202, 137, 0.1);
     -webkit-transition-delay: 0.3s;
     -o-transition-delay: 0.3s;
     transition-delay: 0.3s;
@@ -2175,7 +2177,7 @@ li.list-rating i {
 }
 
 .feature-item .icon-box i {
-    color: #009e9e;
+    color: #3fca89;
     font-size: 40px;
 }
 
@@ -2283,11 +2285,11 @@ li.list-rating i {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -ms-touch-action: pan-Y;
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -moz-backface-visibility: hidden;
+    
 }
 
 .owl-carousel .partner-slide img {
@@ -2798,7 +2800,7 @@ ol.comment-list {
     font-size: 14px;
     position: absolute;
     z-index: 1;
-    color: #009e9e;
+    color: #3fca89;
     padding-top: 13px;
     padding-left: 15px;
 }
@@ -2846,8 +2848,8 @@ ol.comment-list {
 
 .page-numbers:hover,
 .page-numbers.active {
-    background-color: #009e9e;
-    border-color: #009e9e;
+    background-color:#3fca89;
+    border-color: #3fca89;
     color: #fff;
 }
 
@@ -2857,8 +2859,8 @@ ol.comment-list {
 }
 
 .page-numbers:hover {
-    background-color: #009e9e;
-    border-color: #009e9e;
+    background-color: #3fca89;
+    border-color: #3fca89;
     color: #fff;
 }
 
@@ -2994,7 +2996,7 @@ ol.comment-list {
 	color:#000;
 }
 .socials a:hover {
-	color:#009e9e;
+	color:#3fca89;
 }
 .author-info span {
     color: #000;
@@ -3348,8 +3350,8 @@ ol.comment-list {
     border: 1px solid #e1e1e1;
     border-radius: 50%;
     padding-top: 8px;
-    color: #009e9e;
-    border-color: #009e9e;
+    color: #3fca89;
+    border-color: #3fca89;
     margin-right: 10px;
 }
 
@@ -3446,7 +3448,7 @@ ol.comment-list {
 }
 
 .banner-link li span {
-    color: #009e9e;
+    color: #3fca89;
     text-transform: uppercase;
 }
 
@@ -3498,7 +3500,7 @@ ol.comment-list {
 
 .team-item {
     position: relative;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
 }
 
@@ -3718,9 +3720,9 @@ ol.comment-list {
 
 .faq-tabs .nav-link:hover,
 .faq-tabs .nav-link.active {
-    background-color: #009e9e;
+    background-color: #3fca89;
     color: #fff;
-    border-color: #009e9e;
+    border-color: #3fca89;
 }
 
 .acc-link {
@@ -3815,7 +3817,7 @@ ol.comment-list {
     font-size: 14px;
     position: absolute;
     z-index: 1;
-    color: #009e9e;
+    color: #3fca89;
     padding-top: 13px;
     padding-left: 22px;
 }
@@ -3830,7 +3832,7 @@ ol.comment-list {
 }
 
 .paswd:hover {
-    color: #009e9e;
+    color: #3fca89;
 }
 
 .seprator {
@@ -3906,7 +3908,7 @@ ol.comment-list {
 }
 
 .price-item.active {
-    background-color: #009e9e;
+    background-color: #3fca89;
 }
 
 .price-top {
@@ -4101,7 +4103,7 @@ ol.comment-list {
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    background: #009e9e;
+    background: #3fca89;
     cursor: pointer;
     -webkit-transition: background .15s ease-in-out;
     -o-transition: background .15s ease-in-out;
@@ -4111,14 +4113,14 @@ ol.comment-list {
 }
 
 .range-value {
-    color: #009e9e;
+    color:#3fca89;
 }
 
 .fill {
     z-index: 1;
     height: 2px;
     position: relative;
-    background-color: #009e9e;
+    background-color: #3fca89;
     margin-top: -4.6px;
 }
 
@@ -4233,6 +4235,7 @@ ol.comment-list {
     right: 15px;
     position: absolute;
     content: "\f0d7";
+    color: #3fca89;
 }
 
 .sort-dropdown .dropdown-menu.show {
@@ -4257,7 +4260,7 @@ ol.comment-list {
 }
 
 .footer .foot-top {
-    padding: 100px 0 40px;
+    padding: 50px 0 0px;
     background-image: url('../img/foot-bg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -4276,7 +4279,7 @@ ol.comment-list {
 }
 
 .footer-one .socials a:hover i {
-    color: #009e9e;
+    color: #3fca89;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -4297,7 +4300,7 @@ ol.comment-list {
 
 .foot-title h4::after {
     position: absolute;
-    background-color: #009e9e;
+    background-color: #3fca89;
     height: 2px;
     width: 40px;
     content: '';
@@ -4325,7 +4328,7 @@ ol.comment-list {
 }
 
 .quick-link li a:hover {
-    color: #009e9e;
+    color: #3FCA89;
 }
 
 .quick-link li a:after {
@@ -4348,7 +4351,7 @@ ol.comment-list {
     -webkit-transform: translateX(5px);
     -ms-transform: translateX(5px);
     transform: translateX(5px);
-    color: #009e9e;
+    color:#3FCA89;
 }
 
 .foot-bottom {
@@ -4411,7 +4414,7 @@ ol.comment-list {
 [type="checkbox"]:checked+label:after {
     content: '\f00c';
     position: absolute;
-    background: #009e9e;
+    background: #3fca89;
     font-size: 0.7em;
     line-height: 1em;
     border-radius: 3px;
@@ -4639,7 +4642,7 @@ ol.comment-list {
 }
 
 .rating-big-box {
-    background-color: #009e9e;
+    background-color: #3fca89;
     color: #fff;
     text-align: center;
     padding: 20px 10px;
@@ -4682,7 +4685,7 @@ ol.comment-list {
     position: absolute;
     top: 0;
     height: 100%;
-    background-color: #009e9e;
+    background-color: #3fca89;
     content: "";
 }
 
@@ -4704,7 +4707,7 @@ ol.comment-list {
 }
 
 .rate-bg {
-    background-color: #009e9e;
+    background-color: #3fca89;
     color: #fff;
     border-radius: 30px;
     width: 50px;

@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 export default class Login extends Component {
   render() {
     return (
-      <div className="bg-w sp-200" style={{ paddingTop: 40, paddingBottom: 30 }}>
+      <div className="bg-w" style={{ paddingTop: 10, paddingBottom: 30 }}>
         <div className="container">
           <div className="row mt-4">
             <div className="col-12 text-center mt-5">
               <ul className="nav d-flex log-tab" role="tablist">
-                <li className="nav-item text-center" style={{ fontSize: 35, color: '#009e9e' }}>
+                <li className="nav-item text-center" style={{ fontSize: 35, color: '#3fca89' }}>
                   <b>Login</b>
                 </li>
               </ul>

@@ -6,7 +6,6 @@
     right: 0;
     width: auto;
     z-index: 9999;
-    background-color: #1e1e1e;
     -webkit-animation: slideInDown;
     animation: slideInDown;
     -webkit-animation-duration: 0.6s;
@@ -38,7 +37,7 @@
     color: inherit;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-    color: #fff;
+    color: #555555;
     font-size: 16px;
 }
 
@@ -47,7 +46,7 @@
 }
 
 .navbar-nav .nav-item:hover .nav-link{
-    color: #009e9e;
+    color: #3FCA89;
 }
 .navbar-nav .dropdown-item a {
     padding: 13px 0px;

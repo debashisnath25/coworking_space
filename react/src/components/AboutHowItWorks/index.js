@@ -4,10 +4,10 @@ class AboutHowItWorks extends Component{
     render(){
         return(
             <>
-                <section className="bg-w" style={{paddingTop: '100px'}}>
+                <section className="bg-w" style={{paddingTop: '5px'}}>
                     <div className="container">
                         <div className="row">
-                        <div className=" col-12">
+                        <div className=" col-12 mb-2">
                             <ul className="banner-link ">
                             <li>
                                 <a href="#/">Home

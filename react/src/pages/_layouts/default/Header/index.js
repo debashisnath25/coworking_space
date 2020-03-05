@@ -7,61 +7,15 @@ class Header extends Component {
     return (
       <>
         <header className="header">
-          <div className="head-top head-top-one d-none d-lg-block">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-lg-3">
-                  <div className="socials socials-header text-lg-left text-center">
-                    <a href="#/">
-                      <i className="fab fa-facebook-f">
-                      </i>
-                    </a>
-                    <a href="#/">
-                      <i className="fab fa-google-plus-g">
-                      </i>
-                    </a>
-                    <a href="#/">
-                      <i className="fab fa-instagram">
-                      </i>
-                    </a>
-                    <a href="#/">
-                      <i className="fab fa-linkedin-in">
-                      </i>
-                    </a>
-                    <a href="#/">
-                      <i className="fab fa-twitter">
-                      </i>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-9">
-                  <ul className="head-contact text-lg-right text-center">
-                    <li>
-                      <a href="/login">Login</a>
-                    </li>
-                    <li>
-                      <a href="/register">register</a>
-                    </li>
-                    <li className="ad-list">
-                      <a href="#/" className="btn btn-one btn-anim w-100">
-                        <i className="fa fa-plus-circle">
-                        </i> add workspace
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="theme-header-one affix">
+          <div className=" affix hdstyle" style={{backgroundColor: "#EEF2F5"}}>
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-lg-3 col-md-12">
                   <div className="logo-one logo-wrap">
                     <div className="logo my-1">
-                      <a href="/" style={{ color: '#fff' }}>
+                      <a href="/" style={{ color: '#3fca89',fontSize: '35px',fontFamily:'Arial'}}>
                         {/* <img src="img/logo.png" alt="logo"> */}
-                        BUNDESK
+                        <b>BUNDESK</b>
                       </a>
                     </div>
                   </div>
@@ -80,61 +34,22 @@ class Header extends Component {
                       {/* Links */}
                       <div className="main-menu collapse navbar-collapse" id="nav-content">
                         <ul className="navbar-nav ml-auto">
-                          <li className="nav-item dropdown">
-                            <a href="/" className="nav-link current">Home
+                          <li className="nav-item dropdown" style={{fontFamily:'Arial',color:'#555555'}}>
+                            <a href="/" className="nav-link current"><i ClassName="forum"/><i className="far fa-address-book" style={{marginRight:'5px'}}></i>Contact Us
                             </a>
                           </li>
-                          <li className="nav-item dropdown">
-                            <a href="/listing" className="nav-link current">Delhi
+                          <li className="nav-item dropdown" style={{fontFamily:'Arial',color:'#555555'}}>
+                            <a href="/listing" className="nav-link current"><i className="far fa-comment-dots" style={{marginRight:'5px'}}></i>Enquiry
                             </a>
                           </li>
-                          <li className="nav-item dropdown">
-                            <a href="/listing" className="nav-link current">Gurgaon
+                          <li className="nav-item dropdown" style={{fontFamily:'Arial',color:'#555555'}}>
+                            <a href="/listing" className="nav-link current"><i className="fas fa-globe" style={{marginRight:'5px'}}></i>Language
                             </a>
                           </li>
-                          <li className="nav-item dropdown">
-                            <a href="/listing" className="nav-link current">Noida
+                          <li className="nav-item dropdown" style={{fontFamily:'Arial',color:'#555555'}}> 
+                            <a href="/listing" className="nav-link current"><i className="far fa-user-circle" style={{marginRight:'5px'}}></i>Login
                             </a>
-                          </li>
-                          <li className="nav-item dropdown">
-                            <a href="/listing" className="nav-link current">Mumbai
-                            </a>
-                          </li>
-                          <li className="nav-item dropdown">
-                            <a href="/listing" className="nav-link current">Bangalore
-                            </a>
-                          </li>
-                          <li className="nav-item dropdown">
-                            <a href="#/" className="nav-link dropdown-toggle" data-toggle="dropdown">Workspaces</a>
-                            <ul className="dropdown-menu">
-                              <li className="dropdown-item">
-                                <a href="/listing">Meeting room</a>
-                              </li>
-                              <li className="dropdown-item">
-                                <a href="/listing">Coworking space</a>
-                              </li>
-                              <li className="dropdown-item">
-                                <a href="/listing">Private office</a>
-                              </li>
-                              <li className="dropdown-item">
-                                <a href="/listing">Training room</a>
-                              </li>
-                              <li className="dropdown-item">
-                                <a href="/listing">business center</a>
-                              </li>
-                              <li className="dropdown-item">
-                                <a href="/listing">Coworking cafes</a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li className="nav-item">
-                            <a className="nav-link" href="/enquiry">Enquiry
-                            </a>
-                          </li>
-                          <li className="nav-item">
-                            <a className="nav-link" href="/contact_us">Contact Us
-                            </a>
-                          </li>
+                          </li> 
                         </ul>
                       </div>
                     </nav>

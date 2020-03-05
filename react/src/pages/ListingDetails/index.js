@@ -18,7 +18,7 @@ export default class ListingDetails extends Component {
             <>
             <div style={{ background: '#f8f8f8', paddingTop: 1 }}>
                 <div className="container">
-                    <h4 className="title-sep3 mb-20" style={{marginTop: "101px"}}>Home &gt; Co-working Space &gt;<span className="c-theme"> Details Page</span> </h4>
+                    <h4 className="title-sep3 mb-20" style={{marginTop: "10px"}}>Home &gt; Co-working Space &gt;<span className="c-theme"> Details Page</span> </h4>
                     <div className="row">
                         <div className="col-lg-8 col-12">
                             <SilderPage />

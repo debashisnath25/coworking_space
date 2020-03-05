@@ -52,7 +52,7 @@ export default class List extends Component {
                                     <ul className="ctg-info py-2 mb-3">
                                         <li>
                                             <a href="#/">
-                                                <i className="flaticon-team mr-2" /> Coworkinfg Space</a>
+                                                <i className="flaticon-team mr-2" /> Coworking Space</a>
                                         </li>
                                     </ul>
                                     <h5 className="mb-2">
@@ -95,7 +95,7 @@ export default class List extends Component {
                                     <ul className="ctg-info py-2 mb-3">
                                         <li>
                                             <a href="#/">
-                                                <i className="flaticon-team mr-2" /> Coworkinfg Space</a>
+                                                <i className="flaticon-team mr-2" /> Coworking Space</a>
                                         </li>
                                     </ul>
                                     <h5 className="mb-2">
@@ -138,7 +138,7 @@ export default class List extends Component {
                                     <ul className="ctg-info py-2 mb-3">
                                         <li>
                                             <a href="#/">
-                                                <i className="flaticon-team mr-2" /> Coworkinfg Space</a>
+                                                <i className="flaticon-team mr-2" /> Coworking Space</a>
                                         </li>
                                     </ul>
                                     <h5 className="mb-2">
@@ -181,7 +181,7 @@ export default class List extends Component {
                                     <ul className="ctg-info py-2 mb-3">
                                         <li>
                                             <a href="#/">
-                                                <i className="flaticon-team mr-2" /> Coworkinfg Space</a>
+                                                <i className="flaticon-team mr-2" /> Coworking Space</a>
                                         </li>
                                     </ul>
                                     <h5 className="mb-2">
@@ -224,7 +224,7 @@ export default class List extends Component {
                                     <ul className="ctg-info py-2 mb-3">
                                         <li>
                                             <a href="#/">
-                                                <i className="flaticon-team mr-2" /> Coworkinfg Space</a>
+                                                <i className="flaticon-team mr-2" /> Coworking Space</a>
                                         </li>
                                     </ul>
                                     <h5 className="mb-2">
@@ -267,7 +267,7 @@ export default class List extends Component {
                                     <ul className="ctg-info py-2 mb-3">
                                         <li>
                                             <a href="#/">
-                                                <i className="flaticon-team mr-2" /> Coworkinfg Space</a>
+                                                <i className="flaticon-team mr-2" /> Coworking Space</a>
                                         </li>
                                     </ul>
                                     <h5 className="mb-2">

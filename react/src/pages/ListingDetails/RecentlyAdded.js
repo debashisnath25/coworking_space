@@ -1,11 +1,32 @@
 import React, { Component } from 'react';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 export default class RecentlyAdded extends Component {
     render() {
-        return (
+
+        const responsive = {
+            desktop: {
+              breakpoint: { max: 3000, min: 1024 },
+              items: 1,
+              slidesToSlide: 1, // optional, default to 1.
+            },
+            tablet: {
+              breakpoint: { max: 1024, min: 464 },
+              items: 2,
+              slidesToSlide: 2, // optional, default to 1.
+            },
+            mobile: {
+              breakpoint: { max: 464, min: 0 },
+              items: 1,
+              slidesToSlide: 1, // optional, default to 1.
+            },
+          };
+        return ( 
             <div className="widget abt-listing">
                 <h5 className="title-sep2">Recently Added</h5>
-                <div className="sidebar-listing-slider owl-carousel owl-theme" style={{ backgroundColor: 'none' }}>
+                <Carousel  responsive={responsive} >
+                    
                     <div className="listing-item p-2">
                         <div className="img-holder">
                             <img src="img/l-3.png" alt="list" />
@@ -42,7 +63,7 @@ export default class RecentlyAdded extends Component {
                                 <li className="mt-1">
                                     <a href="#/">
                                         <i className="fa fa-map-marker-alt mr-2">
-                                        </i>Mumbai
+                                        </i>Delhi
                                     </a>
                                 </li>
                                 <li className="mt-1">
@@ -66,7 +87,7 @@ export default class RecentlyAdded extends Component {
                                 <li className="mt-1">
                                     <a href="#/">
                                         <i className="fa fa-map-marker-alt mr-2">
-                                        </i>Kolkata
+                                        </i>Delhi
                                     </a>
                                 </li>
                                 <li className="mt-1">
@@ -78,8 +99,9 @@ export default class RecentlyAdded extends Component {
                             </ul>
                         </div>
                     </div>
-                </div>
-            </div>
+                </Carousel>
+        </div>
+            
 
         );
     }

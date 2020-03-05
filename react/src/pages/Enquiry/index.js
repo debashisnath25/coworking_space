@@ -9,7 +9,7 @@ export default class Enquiry extends Component {
     render() {
         return (
             <>
-                <section className="bg-w" style={{ paddingTop: '100px' }}>
+                <section className="bg-w" style={{ paddingTop: '5px' }}>
                     <div className="container">
                         <h4 className="title-sep3 mb-20 mt-30">Home &gt; <span className="c-theme">Enquiry</span></h4>
                         <div className="row">

@@ -5,7 +5,7 @@ class PostRequirement extends Component{
     render(){
       return(
         <>
-         <div className="bg-w" style={{paddingTop: '100px'}}>
+         <div className="bg-w" style={{paddingTop: '5px'}}>
             <div className="container">
             <div className="row">
                 <div className=" col-12">
