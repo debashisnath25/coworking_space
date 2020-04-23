@@ -1,0 +1,25 @@
+	.extr{
+		 margin-top:-10px;
+	}
+	.extr:hover > a >.extra_cls{
+		background:none;
+		color:#fff;
+	}
+	.extra_cls{
+		color:#9974a5;
+	}
+	.extra_cls:hover{
+		color:#fff;
+	}
+	.mm-activesada a span{
+		color: #d4d4d4 !important;
+		text-decoration:underline;
+	}
+	.media{
+		width: 100% !important;
+		height: 100px !important;
+		margin-right: 0px !important;
+	}
+	.table-bordered td, .table-bordered th{
+		border: 1px solid #dee2e6 !important;
+	}

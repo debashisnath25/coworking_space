@@ -1,0 +1,52 @@
+.dt-buttons {
+    padding-bottom: 15px;
+    margin-bottom: -50px;
+  }
+  .order_div{
+    background: #F2F3FA;
+  }
+  .mt-37{
+    margin-top: 18px;
+    padding:2px !important;
+  }
+  .font-10{
+  font-size:12px;
+  }
+  #payment_pending, #payment_due,#payment_settled,#wanted7_subscription,#application_pending,#application_unapproved,#application_resubmitted,#application_mall_allocation{
+    height:200px !important;
+    margin:20px 0px;
+  }
+  .detailed, .btn-link{
+    color:#000;
+    font-size:12px;
+    padding:2px;
+  }
+  .btn-link:hover{
+    text-decoration:underline !important;
+  }
+  .apexcharts-toolbar{
+    display:none !important;
+  }
+  .trans{
+    font-family:Arial !important;color:#000 !important;font-weight:bold !important;text-decoration:underline !important;
+  }
+  .amt{
+    font-family:Arial !important;color:#000 !important;
+  }
+  .font12{
+    font-size:12px !important;
+  }
+  
+  .font13{
+    font-size:13px !important;
+  }
+  .odr{
+    font-family:Arial !important;color:#000 !important;text-decoration:underline !important;
+  }
+  .media_dashboard{
+    width:100% !important;
+  
+    margin-right:15px !important;
+  }
+  
+  

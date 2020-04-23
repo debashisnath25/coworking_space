@@ -103,7 +103,7 @@
 				<div class="row">
 					<div class="col-9">
 					</div>
-					<div class="col-3">
+					<div class="col-3 mb-3">
 						<a href="step1.php" class="btn btn-primary btn-block"><span class="btn-icon"><i class="ft-plus"></i>Add Office Space</span></a>
 					</div>
 				</div>
